@@ -1343,8 +1343,8 @@
 		<Metadata name="CommonModule.УправлениеПечатьюMSWordКлиент.Module" id="8c7c2a80-3e05-420c-ad3c-0e2676ec1ce9.0" configVersion="3bb885851797f223921f20e62a60e609f01c2105"/>
 		<Metadata name="CommonModule.УправлениеПечатьюУТКлиент" id="360931f3-2fee-46c3-b838-d909e1eeef98" configVersion="1e77d18131f184aecf90f5fa6673660e0b116aef"/>
 		<Metadata name="CommonModule.УправлениеПечатьюУТКлиент.Module" id="360931f3-2fee-46c3-b838-d909e1eeef98.0" configVersion="94a3b3beb6dcb2af47d3d41bee554b1c61368cfa"/>
-		<Metadata name="CommonModule.Ценообразование" id="7fcd0be8-ccd1-42b1-ac7e-5420697455e8" configVersion="2b8b03ddc7d65e7cd3a19c75749b381273deafd4"/>
-		<Metadata name="CommonModule.Ценообразование.Module" id="7fcd0be8-ccd1-42b1-ac7e-5420697455e8.0" configVersion="95bbbfe3802f6bc6af0147bd4118849e63082990"/>
+		<Metadata name="CommonModule.Ценообразование" id="7fcd0be8-ccd1-42b1-ac7e-5420697455e8" configVersion="27afdbdd3f28cdc7f4635ee16d08e45190181614"/>
+		<Metadata name="CommonModule.Ценообразование.Module" id="7fcd0be8-ccd1-42b1-ac7e-5420697455e8.0" configVersion="8da53fa3bd722071785db66048878c9782da03ad"/>
 		<Metadata name="CommonModule.ЭтапыОплатыСервер" id="33e8d9cd-617c-4fb0-b8e6-2cf320fcc09c" configVersion="69dce963a7632f2fc6d2eb6d29fb8bb37798adb5"/>
 		<Metadata name="CommonModule.ЭтапыОплатыСервер.Module" id="33e8d9cd-617c-4fb0-b8e6-2cf320fcc09c.0" configVersion="d3489e241f791a961e98d8ffe231f0ec41d86695"/>
 		<Metadata name="CommonModule.гиг_РасчетИзделий" id="8f2df0cf-9abb-4722-b7d4-d405945b8fa5" configVersion="0f3e6449708e7a5548fd7f38a1baea98e6b8a0b0"/>
