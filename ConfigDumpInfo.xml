@@ -1247,8 +1247,8 @@
 		<Metadata name="CommonForm.ЭтапыОплатыКлиентом.Form" id="686fa68f-77eb-4370-ab5b-d267fd9f4f8d.0" configVersion="fb3b2ff39331ddf9c46aac844e3cca8447ed21e7"/>
 		<Metadata name="CommonModule.ВариантыОтчетовПереопределяемый" id="c52d4569-2cc3-4973-af3e-82933e778fc6" configVersion="8595b491e79f251b818af1efd9cf85757ecf5ded"/>
 		<Metadata name="CommonModule.ВариантыОтчетовПереопределяемый.Module" id="c52d4569-2cc3-4973-af3e-82933e778fc6.0" configVersion="456732e254ebddb97e06bedf4096f20e2ca661da"/>
-		<Metadata name="CommonModule.ВзаиморасчетыСервер" id="df585f34-47ae-40f1-97d6-a3b6a0cfeea0" configVersion="5d059d65c4ef1d057d00234e740fa4d4b98b613c"/>
-		<Metadata name="CommonModule.ВзаиморасчетыСервер.Module" id="df585f34-47ae-40f1-97d6-a3b6a0cfeea0.0" configVersion="3ed49b0b2a48d65fb3abe1335d8e128789fb31de"/>
+		<Metadata name="CommonModule.ВзаиморасчетыСервер" id="df585f34-47ae-40f1-97d6-a3b6a0cfeea0" configVersion="f5aaea1809326c2da51c42d5d8804bc4db7eb36f"/>
+		<Metadata name="CommonModule.ВзаиморасчетыСервер.Module" id="df585f34-47ae-40f1-97d6-a3b6a0cfeea0.0" configVersion="661558528c8e1822645fbfaf9a86d6fa5a1390b9"/>
 		<Metadata name="CommonModule.ГИГ_КонтрольПороговОграничения" id="f0cf1bac-e7bd-4f28-bb58-a12321caac5a" configVersion="c27bfdfa6ce2ed678cfa2e225afeb6eadd8edde7"/>
 		<Metadata name="CommonModule.ГИГ_КонтрольПороговОграничения.Module" id="f0cf1bac-e7bd-4f28-bb58-a12321caac5a.0" configVersion="e7318a41afef548009edc51164f348e2d4c7e0b8"/>
 		<Metadata name="CommonModule.ГИГ_КратностьПартииВызовСервера" id="a566ac21-ff64-4405-ab7d-d9666384019b" configVersion="f111e4d46cb6bda356ac180ba557a587d6048173"/>
