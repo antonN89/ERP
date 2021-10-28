@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.10">
+	<InformationRegister uuid="a1b90a2c-1168-484c-863f-8e6cab133d58">
+		<InternalInfo>
+			<xr:GeneratedType name="InformationRegisterRecord.ГИГ_РезервыКПересчету" category="Record">
+				<xr:TypeId>f4e9eb34-5f4b-4617-b305-7f4aef61c197</xr:TypeId>
+				<xr:ValueId>591fd3a8-bc94-4c8f-ad84-cc1cd39124ea</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterManager.ГИГ_РезервыКПересчету" category="Manager">
+				<xr:TypeId>c77b739d-075f-4469-a696-c604ad1e324e</xr:TypeId>
+				<xr:ValueId>b05d3531-3b65-43c3-974a-690e4f19a8d5</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterSelection.ГИГ_РезервыКПересчету" category="Selection">
+				<xr:TypeId>ea1b0772-943e-4586-baab-37a188d3bbe1</xr:TypeId>
+				<xr:ValueId>1330577c-ec4d-4b54-8064-4353f9936756</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterList.ГИГ_РезервыКПересчету" category="List">
+				<xr:TypeId>bea796e4-5ef3-4c76-b745-43669db91b39</xr:TypeId>
+				<xr:ValueId>c9a91095-927f-4266-9e50-d8a2e46dfcda</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordSet.ГИГ_РезервыКПересчету" category="RecordSet">
+				<xr:TypeId>3ab3a5de-b100-442a-afc7-8cd3e642a064</xr:TypeId>
+				<xr:ValueId>005eea0c-9cc1-4737-92b2-fba96f3db56f</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordKey.ГИГ_РезервыКПересчету" category="RecordKey">
+				<xr:TypeId>1729b9ce-7a0c-4468-a480-2d1180249ae3</xr:TypeId>
+				<xr:ValueId>7bad1d14-5e03-4848-98e6-0c9f328f0927</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordManager.ГИГ_РезервыКПересчету" category="RecordManager">
+				<xr:TypeId>7d64a579-1a57-40c6-a318-58e77fc8cb28</xr:TypeId>
+				<xr:ValueId>e6a55295-f658-4e65-8e72-b222d888ea5d</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ГИГ_РезервыКПересчету</Name>
+			<Comment/>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<ExtendedConfigurationObject>fae8e316-47d6-474d-af21-45b6fed3a317</ExtendedConfigurationObject>
+			<InformationRegisterPeriodicity>Nonperiodical</InformationRegisterPeriodicity>
+			<WriteMode>Independent</WriteMode>
+		</Properties>
+		<ChildObjects/>
+	</InformationRegister>
+</MetaDataObject>

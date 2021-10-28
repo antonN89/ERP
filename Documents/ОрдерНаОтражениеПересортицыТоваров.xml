@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.10">
+	<Document uuid="6dc9df20-9606-4e05-b3a2-3201cbbf5c0d">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.ОрдерНаОтражениеПересортицыТоваров" category="Object">
+				<xr:TypeId>dfc263cf-79e8-4a19-a7ee-62d0eabc9e90</xr:TypeId>
+				<xr:ValueId>9d1dc8a7-961a-47a8-ae85-2a2226dad92d</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.ОрдерНаОтражениеПересортицыТоваров" category="Ref">
+				<xr:TypeId>ebbbfaa3-33ca-49f0-a723-c1247dcd710b</xr:TypeId>
+				<xr:ValueId>d3c4443d-c9b2-420c-a90d-2ac073063c43</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.ОрдерНаОтражениеПересортицыТоваров" category="Selection">
+				<xr:TypeId>d76905a5-9801-40f2-b817-61ac4f6b0c88</xr:TypeId>
+				<xr:ValueId>f31e0dc7-3455-4c21-83ff-8251e112ce72</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.ОрдерНаОтражениеПересортицыТоваров" category="List">
+				<xr:TypeId>3cfd50db-f19d-45a9-a375-c7188f49e088</xr:TypeId>
+				<xr:ValueId>9aec08fa-fdca-4b78-b5a5-f3f4198f8c09</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.ОрдерНаОтражениеПересортицыТоваров" category="Manager">
+				<xr:TypeId>2f354f43-34f1-46f0-a622-8e1633b3d49d</xr:TypeId>
+				<xr:ValueId>f3e5813d-f6e6-4953-b0d6-8ddfebb8231d</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ОрдерНаОтражениеПересортицыТоваров</Name>
+			<Comment/>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<ExtendedConfigurationObject>3cf0d951-577f-431b-87df-61de69f88c89</ExtendedConfigurationObject>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects/>
+	</Document>
+</MetaDataObject>

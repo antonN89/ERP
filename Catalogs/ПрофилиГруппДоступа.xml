@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.10">
+	<Catalog uuid="e659be6d-8331-4b64-a770-e4cab1b219fb">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.ПрофилиГруппДоступа" category="Object">
+				<xr:TypeId>a1168c17-2caa-4ed8-965f-40fc345f6625</xr:TypeId>
+				<xr:ValueId>ef948bf4-47fb-4a6c-a9b7-530085deb172</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.ПрофилиГруппДоступа" category="Ref">
+				<xr:TypeId>07cfa7ea-dac3-4242-9876-624bc9f5ab3a</xr:TypeId>
+				<xr:ValueId>14f07d29-2345-485a-b95f-f3db7cc3e675</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.ПрофилиГруппДоступа" category="Selection">
+				<xr:TypeId>f0244df4-ffd8-40c1-bca7-ca3096a2e2d2</xr:TypeId>
+				<xr:ValueId>96b4a1de-918f-44ab-b927-bd5722ca4d8f</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.ПрофилиГруппДоступа" category="List">
+				<xr:TypeId>07c745ba-0797-4786-946b-9a0d19d5832e</xr:TypeId>
+				<xr:ValueId>dc8959bc-04f8-4699-a437-f350b2a369aa</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.ПрофилиГруппДоступа" category="Manager">
+				<xr:TypeId>ecd373dc-4df8-4ef9-9a27-ebb1649118e3</xr:TypeId>
+				<xr:ValueId>c9dac488-e305-45ff-804d-c8f7215445e2</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ПрофилиГруппДоступа</Name>
+			<Comment/>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects>
+			<TabularSection uuid="b37f4f61-6f89-4d05-b11b-c21751cb39ea">
+				<InternalInfo>
+					<xr:GeneratedType name="CatalogTabularSection.ПрофилиГруппДоступа.Роли" category="TabularSection">
+						<xr:TypeId>2c658310-cbfd-4ca9-bb6e-05074d71fe88</xr:TypeId>
+						<xr:ValueId>243c46ae-4460-475f-aa4d-8c4e0139660c</xr:ValueId>
+					</xr:GeneratedType>
+					<xr:GeneratedType name="CatalogTabularSectionRow.ПрофилиГруппДоступа.Роли" category="TabularSectionRow">
+						<xr:TypeId>979d0ac6-8123-4118-9740-54152e252a7b</xr:TypeId>
+						<xr:ValueId>fb2dd5c2-ce57-48d6-a4d3-5afaf4d7f266</xr:ValueId>
+					</xr:GeneratedType>
+				</InternalInfo>
+				<Properties>
+					<Name>Роли</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+				<ChildObjects/>
+			</TabularSection>
+			<Form>ФормаЭлемента</Form>
+		</ChildObjects>
+	</Catalog>
+</MetaDataObject>

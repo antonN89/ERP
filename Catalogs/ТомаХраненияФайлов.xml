@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.10">
+	<Catalog uuid="f321de08-bdd3-4844-8989-d34230bab2d2">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.ТомаХраненияФайлов" category="Object">
+				<xr:TypeId>219d67db-e2c3-48c6-baa5-8bfa736c81ff</xr:TypeId>
+				<xr:ValueId>8db5ec19-77fd-4877-831e-ac2d0ae9fd9f</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.ТомаХраненияФайлов" category="Ref">
+				<xr:TypeId>71ce13cc-4c70-4d9a-8ee0-09f03fd6e98f</xr:TypeId>
+				<xr:ValueId>191d06d1-bfcb-46ca-ad9f-723264cb6f22</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.ТомаХраненияФайлов" category="Selection">
+				<xr:TypeId>3afefb7b-0584-4cd3-b3f2-184412abc136</xr:TypeId>
+				<xr:ValueId>e1ea03f0-f8d0-45f7-a346-ca5b854b06a0</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.ТомаХраненияФайлов" category="List">
+				<xr:TypeId>4374e5ed-e095-48f2-bac8-0957eacbd04b</xr:TypeId>
+				<xr:ValueId>819d7236-345f-4210-8fb7-df30d4064976</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.ТомаХраненияФайлов" category="Manager">
+				<xr:TypeId>46d32ae1-77e9-4e88-bcea-9fa0ab2ea390</xr:TypeId>
+				<xr:ValueId>7ce3de47-6664-43d4-9925-4193f714de28</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ТомаХраненияФайлов</Name>
+			<Comment/>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects/>
+	</Catalog>
+</MetaDataObject>

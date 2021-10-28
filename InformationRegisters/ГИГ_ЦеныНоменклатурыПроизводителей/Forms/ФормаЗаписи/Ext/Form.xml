@@ -1,0 +1,122 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.10">
+	<WindowOpeningMode>LockOwnerWindow</WindowOpeningMode>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
+	<ChildItems>
+		<InputField name="Период" id="1">
+			<DataPath>Запись.Period</DataPath>
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Дата начала действия тарифа</v8:content>
+				</v8:item>
+			</Title>
+			<ContextMenu name="ПериодКонтекстноеМеню" id="2"/>
+			<ExtendedTooltip name="ПериодРасширеннаяПодсказка" id="3"/>
+		</InputField>
+		<InputField name="НоменклатураПроизводителя" id="4">
+			<DataPath>Запись.НоменклатураПроизводителя</DataPath>
+			<DropListButton>false</DropListButton>
+			<ChoiceButton>true</ChoiceButton>
+			<ChoiceButtonRepresentation>ShowInInputField</ChoiceButtonRepresentation>
+			<ContextMenu name="НоменклатураПроизводителяКонтекстноеМеню" id="5"/>
+			<ExtendedTooltip name="НоменклатураПроизводителяРасширеннаяПодсказка" id="6"/>
+		</InputField>
+		<UsualGroup name="ГруппаСНДС" id="25">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа с НДС</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа СНДС</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Width>60</Width>
+			<Group>Horizontal</Group>
+			<ChildrenAlign>ItemsRightTitlesLeft</ChildrenAlign>
+			<Representation>None</Representation>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="ГруппаСНДСРасширеннаяПодсказка" id="26"/>
+			<ChildItems>
+				<InputField name="ТарифСНДС" id="7">
+					<DataPath>Запись.ТарифСНДС</DataPath>
+					<ClearButton>true</ClearButton>
+					<ContextMenu name="ТарифСНДСКонтекстноеМеню" id="8"/>
+					<ExtendedTooltip name="ТарифСНДСРасширеннаяПодсказка" id="9"/>
+				</InputField>
+				<InputField name="МРЦСНДС" id="19">
+					<DataPath>Запись.МРЦСНДС</DataPath>
+					<ContextMenu name="МРЦСНДСКонтекстноеМеню" id="20"/>
+					<ExtendedTooltip name="МРЦСНДСРасширеннаяПодсказка" id="21"/>
+				</InputField>
+			</ChildItems>
+		</UsualGroup>
+		<UsualGroup name="ГруппаБезНДС" id="27">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа без НДС</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа без НДС</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Width>50</Width>
+			<Group>Horizontal</Group>
+			<ChildrenAlign>ItemsRightTitlesLeft</ChildrenAlign>
+			<Representation>None</Representation>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="ГруппаБезНДСРасширеннаяПодсказка" id="28"/>
+			<ChildItems>
+				<InputField name="ТарифБезНДС" id="10">
+					<DataPath>Запись.ТарифБезНДС</DataPath>
+					<ClearButton>true</ClearButton>
+					<ContextMenu name="ТарифБезНДСКонтекстноеМеню" id="11"/>
+					<ExtendedTooltip name="ТарифБезНДСРасширеннаяПодсказка" id="12"/>
+				</InputField>
+				<InputField name="МРЦБезНДС" id="22">
+					<DataPath>Запись.МРЦБезНДС</DataPath>
+					<ContextMenu name="МРЦБезНДСКонтекстноеМеню" id="23"/>
+					<ExtendedTooltip name="МРЦБезНДСРасширеннаяПодсказка" id="24"/>
+				</InputField>
+			</ChildItems>
+		</UsualGroup>
+		<InputField name="ДатаЗагрузки" id="13">
+			<DataPath>Запись.ДатаЗагрузки</DataPath>
+			<ContextMenu name="ДатаЗагрузкиКонтекстноеМеню" id="14"/>
+			<ExtendedTooltip name="ДатаЗагрузкиРасширеннаяПодсказка" id="15"/>
+		</InputField>
+		<InputField name="ДатаТарифа" id="16">
+			<DataPath>Запись.ДатаТарифа</DataPath>
+			<ContextMenu name="ДатаТарифаКонтекстноеМеню" id="17"/>
+			<ExtendedTooltip name="ДатаТарифаРасширеннаяПодсказка" id="18"/>
+		</InputField>
+		<InputField name="ВалютаТарифа" id="29">
+			<DataPath>Запись.ВалютаТарифа</DataPath>
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>ВалютаТарифа</v8:content>
+				</v8:item>
+			</Title>
+			<ContextMenu name="ВалютаТарифаКонтекстноеМеню" id="30"/>
+			<ExtendedTooltip name="ВалютаТарифаРасширеннаяПодсказка" id="31"/>
+		</InputField>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Запись" id="1">
+			<Type>
+				<v8:Type>cfg:InformationRegisterRecordManager.ГИГ_ЦеныНоменклатурыПроизводителей</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+			<SavedData>true</SavedData>
+		</Attribute>
+	</Attributes>
+</Form>

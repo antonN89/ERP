@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.10">
+	<Enum uuid="a47821d2-e74c-4dd1-b268-35937abf12af">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.ВариантыСовместногоПримененияСкидокНаценок" category="Ref">
+				<xr:TypeId>2c760997-53c7-4d99-9e5f-4d744ce0107f</xr:TypeId>
+				<xr:ValueId>990b10cb-b541-4369-bd73-1685949a9fb1</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.ВариантыСовместногоПримененияСкидокНаценок" category="Manager">
+				<xr:TypeId>e592c9b8-ccfb-41ea-8bb8-3f05cf590ff6</xr:TypeId>
+				<xr:ValueId>4244a728-0fd6-4f7f-a307-ff756eb30a51</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.ВариантыСовместногоПримененияСкидокНаценок" category="List">
+				<xr:TypeId>8b18f4fa-2453-4cb6-926b-33455febfd55</xr:TypeId>
+				<xr:ValueId>e27b4947-6124-452e-8fb7-263cdca5093c</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ВариантыСовместногоПримененияСкидокНаценок</Name>
+			<Comment/>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<ExtendedConfigurationObject>8cc91cb7-0210-4fc4-8e82-6ca0e5fcae72</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects>
+			<EnumValue uuid="bc573218-c2ee-4c56-ba2f-792789204080">
+				<InternalInfo/>
+				<Properties>
+					<Name>Минимум</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<ExtendedConfigurationObject>ecc9beab-0700-4d61-9a96-5a08369f1920</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="66df03da-c6d5-4eac-a924-7033886e9db8">
+				<InternalInfo/>
+				<Properties>
+					<Name>Максимум</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<ExtendedConfigurationObject>023c9161-aac9-424f-8ee3-8566eebd1926</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="22b165b5-a3df-4afe-84d6-55ebf25a3070">
+				<InternalInfo/>
+				<Properties>
+					<Name>Сложение</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<ExtendedConfigurationObject>e5b08c34-6800-4922-b1a7-587bf736fbab</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="534a4c13-e6fa-4bc6-8905-5d57edeb6143">
+				<InternalInfo/>
+				<Properties>
+					<Name>Умножение</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<ExtendedConfigurationObject>20362b80-093c-44c2-8618-f01fb46f5ef3</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="139c9414-de47-4546-a3a8-1d8337efa9b2">
+				<InternalInfo/>
+				<Properties>
+					<Name>Вытеснение</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<ExtendedConfigurationObject>58eba48b-ec4a-47b6-8a3e-6ddbc63ffd22</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+		</ChildObjects>
+	</Enum>
+</MetaDataObject>

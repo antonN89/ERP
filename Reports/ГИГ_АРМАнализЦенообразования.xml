@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.10">
+	<Report uuid="d23de132-7d61-4780-a48e-8ead943a6beb">
+		<InternalInfo>
+			<xr:GeneratedType name="ReportObject.ГИГ_АРМАнализЦенообразования" category="Object">
+				<xr:TypeId>e33604dd-7381-49bb-ab3a-c86f8d9f952e</xr:TypeId>
+				<xr:ValueId>d7a144fb-9cf3-4976-8a62-146b87ca860f</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="ReportManager.ГИГ_АРМАнализЦенообразования" category="Manager">
+				<xr:TypeId>25bfcd45-d6d4-4601-a98f-9d360ce48198</xr:TypeId>
+				<xr:ValueId>70f42b9c-cd57-4f54-8fd9-07588d4951dd</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ГИГ_АРМАнализЦенообразования</Name>
+			<Synonym>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Менеджер индивидуальных скидок (наценок) (РИНЭКО)</v8:content>
+				</v8:item>
+			</Synonym>
+			<Comment>Менеджер индивидуальных скидок(наценок) для редактирования индивидуальных скидок/наценок</Comment>
+			<UseStandardCommands>true</UseStandardCommands>
+			<DefaultForm>Report.ГИГ_АРМАнализЦенообразования.Form.ФормаОтчетаАРМАнализЦенообразования</DefaultForm>
+			<AuxiliaryForm/>
+			<MainDataCompositionSchema>Report.ГИГ_АРМАнализЦенообразования.Template.МакетВыводаДанныхПоСоглашению_Деактивированные</MainDataCompositionSchema>
+			<DefaultSettingsForm>Report.ГИГ_АРМАнализЦенообразования.Form.ФормаНастроекАРМАнализЦенообразования</DefaultSettingsForm>
+			<AuxiliarySettingsForm/>
+			<DefaultVariantForm/>
+			<VariantsStorage/>
+			<SettingsStorage/>
+			<IncludeHelpInContents>false</IncludeHelpInContents>
+			<ExtendedPresentation/>
+			<Explanation/>
+		</Properties>
+		<ChildObjects>
+			<Form>ФормаОтчетаАРМАнализЦенообразования</Form>
+			<Form>ФормаНастроекАРМАнализЦенообразования</Form>
+			<Template>ОсновнаяСхемаКомпоновкиДанных</Template>
+			<Template>МакетВыводаДанныхПоСоглашению_Деактивированные</Template>
+		</ChildObjects>
+	</Report>
+</MetaDataObject>

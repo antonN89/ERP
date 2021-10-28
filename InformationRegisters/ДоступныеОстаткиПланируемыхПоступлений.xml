@@ -1,0 +1,107 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.10">
+	<InformationRegister uuid="f7eb8fb5-7b78-4c27-822c-cb0bbe25ca59">
+		<InternalInfo>
+			<xr:GeneratedType name="InformationRegisterRecord.ДоступныеОстаткиПланируемыхПоступлений" category="Record">
+				<xr:TypeId>eb4731ae-66b1-4c4e-96ea-4dfbe5af38ef</xr:TypeId>
+				<xr:ValueId>5628b8c8-d2db-4ace-9a64-afaa3ede726f</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterManager.ДоступныеОстаткиПланируемыхПоступлений" category="Manager">
+				<xr:TypeId>416bc24b-f53a-4e7c-933c-fddbe128c471</xr:TypeId>
+				<xr:ValueId>e4fa8b00-f337-42b4-b5cb-b852bc8037c8</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterSelection.ДоступныеОстаткиПланируемыхПоступлений" category="Selection">
+				<xr:TypeId>c2d9d792-1cda-475f-9306-affd5e75c847</xr:TypeId>
+				<xr:ValueId>4f085510-6525-48f0-a791-3421519a7091</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterList.ДоступныеОстаткиПланируемыхПоступлений" category="List">
+				<xr:TypeId>4bf84859-50ea-4835-9f56-f8f0b8aac016</xr:TypeId>
+				<xr:ValueId>3212e4b6-b18c-4933-9713-c5b7a01e4b18</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordSet.ДоступныеОстаткиПланируемыхПоступлений" category="RecordSet">
+				<xr:TypeId>a7ab788d-9e91-4692-99fd-82c93e08e95d</xr:TypeId>
+				<xr:ValueId>3b45abf3-22b1-4eb9-a916-0b65e929cbb3</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordKey.ДоступныеОстаткиПланируемыхПоступлений" category="RecordKey">
+				<xr:TypeId>c75feb00-8bad-41f0-92da-b5d00e9b4787</xr:TypeId>
+				<xr:ValueId>116656ff-96c2-45f0-82ba-aadb60975f5f</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordManager.ДоступныеОстаткиПланируемыхПоступлений" category="RecordManager">
+				<xr:TypeId>6d986275-7b4a-47ac-aafe-cc37231d898d</xr:TypeId>
+				<xr:ValueId>4ab6ba61-a545-44c3-a17a-fb1c1e320a81</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ДоступныеОстаткиПланируемыхПоступлений</Name>
+			<Comment/>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<InformationRegisterPeriodicity>Nonperiodical</InformationRegisterPeriodicity>
+			<WriteMode>Independent</WriteMode>
+		</Properties>
+		<ChildObjects>
+			<Resource uuid="2e2f23a6-d92c-434a-a95a-a3097086c108">
+				<InternalInfo/>
+				<Properties>
+					<Name>Количество</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>15</v8:Digits>
+							<v8:FractionDigits>3</v8:FractionDigits>
+							<v8:AllowedSign>Any</v8:AllowedSign>
+						</v8:NumberQualifiers>
+					</Type>
+				</Properties>
+			</Resource>
+			<Dimension uuid="0919240b-18e4-46c1-8c68-17bc306cc025">
+				<InternalInfo/>
+				<Properties>
+					<Name>Номенклатура</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Номенклатура</v8:Type>
+					</Type>
+				</Properties>
+			</Dimension>
+			<Dimension uuid="77a0266b-aada-42c9-ba92-45e969c3e719">
+				<InternalInfo/>
+				<Properties>
+					<Name>Характеристика</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.ХарактеристикиНоменклатуры</v8:Type>
+					</Type>
+				</Properties>
+			</Dimension>
+			<Dimension uuid="6f17a186-c3c9-45aa-8013-498924280afb">
+				<InternalInfo/>
+				<Properties>
+					<Name>Склад</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Склады</v8:Type>
+					</Type>
+				</Properties>
+			</Dimension>
+			<Dimension uuid="cd846753-c407-4e94-9422-ca7abc4a17d1">
+				<InternalInfo/>
+				<Properties>
+					<Name>ДатаДоступности</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:dateTime</v8:Type>
+						<v8:DateQualifiers>
+							<v8:DateFractions>Date</v8:DateFractions>
+						</v8:DateQualifiers>
+					</Type>
+				</Properties>
+			</Dimension>
+		</ChildObjects>
+	</InformationRegister>
+</MetaDataObject>

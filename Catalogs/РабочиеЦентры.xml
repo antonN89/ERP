@@ -1,0 +1,125 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.10">
+	<Catalog uuid="162ebecd-e545-4f6c-b315-06a64cb27dfc">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.РабочиеЦентры" category="Object">
+				<xr:TypeId>26c1d260-c026-4a77-8583-2130a01c2b2d</xr:TypeId>
+				<xr:ValueId>66bb0c18-437f-4c42-be78-183b5f0ff20d</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.РабочиеЦентры" category="Ref">
+				<xr:TypeId>9dba77db-3a34-4670-bca1-cfc8dccce5c0</xr:TypeId>
+				<xr:ValueId>0ce92654-3d9e-467e-ab3e-3209a919d27f</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.РабочиеЦентры" category="Selection">
+				<xr:TypeId>9c9c09f3-1e68-414a-afb3-6455b8b30275</xr:TypeId>
+				<xr:ValueId>bf3d32b0-7578-4297-8852-f544fa6b895a</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.РабочиеЦентры" category="List">
+				<xr:TypeId>066c7b6e-9ca3-4077-be7e-7d795c9fd1c3</xr:TypeId>
+				<xr:ValueId>1d3bbc6c-e4fc-421f-85de-62506ce24aaa</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.РабочиеЦентры" category="Manager">
+				<xr:TypeId>9a2b80bb-a394-410d-a5b2-7ad0073fcc03</xr:TypeId>
+				<xr:ValueId>9fba3dff-218a-4df2-a6fd-42e10b274a21</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>РабочиеЦентры</Name>
+			<Comment/>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<ExtendedConfigurationObject>60cb790c-6343-42b4-a5c8-7dde6ca9ae85</ExtendedConfigurationObject>
+			<Hierarchical>true</Hierarchical>
+			<HierarchyType>HierarchyFoldersAndItems</HierarchyType>
+			<DescriptionLength>150</DescriptionLength>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="0f45c8a7-1257-402e-be82-1d23477e1f0f">
+				<InternalInfo/>
+				<Properties>
+					<Name>Календарь</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<ExtendedConfigurationObject>bb2acc56-1fbd-46d2-a0de-20470397b176</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Календари</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="316cf348-6274-4a2a-8c01-ac94947edea0">
+				<InternalInfo/>
+				<Properties>
+					<Name>МаксимальнаяЗагрузка</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<ExtendedConfigurationObject>4942dba6-64e8-4302-86cc-ae0c3fe4e8ff</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>15</v8:Digits>
+							<v8:FractionDigits>3</v8:FractionDigits>
+							<v8:AllowedSign>Nonnegative</v8:AllowedSign>
+						</v8:NumberQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="341e4967-d5e3-4191-9b22-08a287258a72">
+				<InternalInfo/>
+				<Properties>
+					<Name>Участок</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<ExtendedConfigurationObject>a9b406cc-f85e-4226-8c7e-850c5cc1c381</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.ПроизводственныеУчастки</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="bad9c0b1-8449-45f8-8c28-6775d82e83f0">
+				<InternalInfo/>
+				<Properties>
+					<Name>ВидРабочегоЦентра</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<ExtendedConfigurationObject>47102428-2a51-4e67-8da2-177c93bbf571</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.ВидыРабочихЦентров</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="581fd875-c481-4899-91ad-c795e8138c51">
+				<InternalInfo/>
+				<Properties>
+					<Name>Описание</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<ExtendedConfigurationObject>2ce5fea7-f585-44e8-8398-be5e8d3190dc</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>0</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="301d3285-bf2c-448e-bce4-1ac01df954a9">
+				<InternalInfo/>
+				<Properties>
+					<Name>КоэффициентВремениРаботы</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<ExtendedConfigurationObject>3ccdb453-bfea-4a27-a436-505b668a88dd</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>5</v8:Digits>
+							<v8:FractionDigits>2</v8:FractionDigits>
+							<v8:AllowedSign>Nonnegative</v8:AllowedSign>
+						</v8:NumberQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Form>СтруктураРабочихЦентров</Form>
+		</ChildObjects>
+	</Catalog>
+</MetaDataObject>

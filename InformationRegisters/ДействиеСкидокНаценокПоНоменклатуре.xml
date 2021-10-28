@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.10">
+	<InformationRegister uuid="50136889-c401-464b-8bc8-385b9ad1964b">
+		<InternalInfo>
+			<xr:GeneratedType name="InformationRegisterRecord.ДействиеСкидокНаценокПоНоменклатуре" category="Record">
+				<xr:TypeId>c0fd6ffa-9b62-4a4e-8236-36795dc6242a</xr:TypeId>
+				<xr:ValueId>eb8b5595-8dee-4561-8458-7ca9738d001d</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterManager.ДействиеСкидокНаценокПоНоменклатуре" category="Manager">
+				<xr:TypeId>b5924243-e536-4871-ab6d-4467227a258e</xr:TypeId>
+				<xr:ValueId>a5e855d7-4e57-445d-b840-85b3f8e6c9da</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterSelection.ДействиеСкидокНаценокПоНоменклатуре" category="Selection">
+				<xr:TypeId>ea36a9dd-8b25-444c-8e06-0e117f654029</xr:TypeId>
+				<xr:ValueId>9668003c-44b6-4c1f-8792-9dd0242dcc3f</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterList.ДействиеСкидокНаценокПоНоменклатуре" category="List">
+				<xr:TypeId>aef68cad-23d9-4eba-a198-cee4eae146d6</xr:TypeId>
+				<xr:ValueId>833bd538-bf4e-4599-a123-e3945e2a9000</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordSet.ДействиеСкидокНаценокПоНоменклатуре" category="RecordSet">
+				<xr:TypeId>e2514ac7-f3a8-4d76-91f0-c8bdca57d172</xr:TypeId>
+				<xr:ValueId>f52664e1-04e2-41d0-b6da-347379046e18</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordKey.ДействиеСкидокНаценокПоНоменклатуре" category="RecordKey">
+				<xr:TypeId>794f146b-a96f-4c91-834b-52ffe33aead3</xr:TypeId>
+				<xr:ValueId>b24f5fbb-4640-43c0-878c-fe11ab99ff42</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordManager.ДействиеСкидокНаценокПоНоменклатуре" category="RecordManager">
+				<xr:TypeId>ee3aa7bb-2cfa-48af-8fae-e7ca1be7051d</xr:TypeId>
+				<xr:ValueId>c9e6dc4c-e14f-4e2d-8767-33b1847498d6</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ДействиеСкидокНаценокПоНоменклатуре</Name>
+			<Comment/>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<InformationRegisterPeriodicity>Day</InformationRegisterPeriodicity>
+			<WriteMode>Independent</WriteMode>
+		</Properties>
+		<ChildObjects>
+			<Form>СписокНоменклатуры</Form>
+		</ChildObjects>
+	</InformationRegister>
+</MetaDataObject>

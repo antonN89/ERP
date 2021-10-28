@@ -1,0 +1,101 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.10">
+	<InformationRegister uuid="6564e5b2-f34c-40d4-8b84-caddab735d78">
+		<InternalInfo>
+			<xr:GeneratedType name="InformationRegisterRecord.ГрафикиРаботыПоВидамВремени" category="Record">
+				<xr:TypeId>059b2402-3a6c-4563-b721-af50c51d2b16</xr:TypeId>
+				<xr:ValueId>9e58988f-8fa6-49ee-9e5c-2e41f9bdd357</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterManager.ГрафикиРаботыПоВидамВремени" category="Manager">
+				<xr:TypeId>9ffdfc32-3497-4cb5-afc6-db6dca207581</xr:TypeId>
+				<xr:ValueId>73778465-4416-41bb-b84a-86eb40f0a2cb</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterSelection.ГрафикиРаботыПоВидамВремени" category="Selection">
+				<xr:TypeId>0d71349c-3a7c-4bc0-8d4d-1fa5ec08382b</xr:TypeId>
+				<xr:ValueId>2dc6e2e8-b250-4847-8fb9-9f7bd77af410</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterList.ГрафикиРаботыПоВидамВремени" category="List">
+				<xr:TypeId>461edd3f-5277-4580-97da-3c0ccfa0e8e8</xr:TypeId>
+				<xr:ValueId>3652735e-40cb-4b7c-9cb8-5adef080f546</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordSet.ГрафикиРаботыПоВидамВремени" category="RecordSet">
+				<xr:TypeId>9201e24b-ac38-470d-982e-a182fd8c0241</xr:TypeId>
+				<xr:ValueId>0e0d412d-3389-4491-9fec-f4077f0b3ca1</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordKey.ГрафикиРаботыПоВидамВремени" category="RecordKey">
+				<xr:TypeId>438b4fe8-6809-4bf3-94c3-25771b1ac4df</xr:TypeId>
+				<xr:ValueId>9c726f3f-b3bc-412e-abc7-c0c363f48dc1</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordManager.ГрафикиРаботыПоВидамВремени" category="RecordManager">
+				<xr:TypeId>4e140d3d-9773-4e3e-84c9-ed3ff14abc65</xr:TypeId>
+				<xr:ValueId>67cb8d8b-6516-4b82-bd0e-c6d92770e044</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ГрафикиРаботыПоВидамВремени</Name>
+			<Comment/>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<ExtendedConfigurationObject>4bff9338-e555-488e-b8a7-8bf9084e046d</ExtendedConfigurationObject>
+			<InformationRegisterPeriodicity>Nonperiodical</InformationRegisterPeriodicity>
+			<WriteMode>Independent</WriteMode>
+		</Properties>
+		<ChildObjects>
+			<Resource uuid="0ec48e22-db2c-494b-88bf-6221e6b75969">
+				<InternalInfo/>
+				<Properties>
+					<Name>ДополнительноеЗначение</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<ExtendedConfigurationObject>ac25725e-2d44-47dc-88ab-9f8f0a76cd79</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>5</v8:Digits>
+							<v8:FractionDigits>2</v8:FractionDigits>
+							<v8:AllowedSign>Any</v8:AllowedSign>
+						</v8:NumberQualifiers>
+					</Type>
+				</Properties>
+			</Resource>
+			<Dimension uuid="9b4406e1-a4e9-4b21-95ea-30b75797d272">
+				<InternalInfo/>
+				<Properties>
+					<Name>ГрафикРаботы</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<ExtendedConfigurationObject>42ffb24a-7aee-43c3-8e81-2dd0f43bdaee</ExtendedConfigurationObject>
+					<Type>
+						<v8:TypeSet>cfg:AnyRef</v8:TypeSet>
+					</Type>
+				</Properties>
+			</Dimension>
+			<Dimension uuid="0016a1e2-7008-4c42-a3cd-e2dff50bcac6">
+				<InternalInfo/>
+				<Properties>
+					<Name>Дата</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<ExtendedConfigurationObject>fc3df1ba-66f1-4cd8-9590-ab85553d114d</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:dateTime</v8:Type>
+						<v8:DateQualifiers>
+							<v8:DateFractions>Date</v8:DateFractions>
+						</v8:DateQualifiers>
+					</Type>
+				</Properties>
+			</Dimension>
+			<Dimension uuid="35e18e95-96d5-414b-bd7b-00287c1f5930">
+				<InternalInfo/>
+				<Properties>
+					<Name>ВидУчетаВремени</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<ExtendedConfigurationObject>2190930e-ea53-45b5-b221-8c97bd294ce8</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.ВидыИспользованияРабочегоВремени</v8:Type>
+					</Type>
+				</Properties>
+			</Dimension>
+		</ChildObjects>
+	</InformationRegister>
+</MetaDataObject>

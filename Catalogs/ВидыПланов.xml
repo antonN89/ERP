@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.10">
+	<Catalog uuid="0c9ba441-0718-4c41-b98a-501128fd2cd6">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.ВидыПланов" category="Object">
+				<xr:TypeId>e582b898-bd76-4922-be06-c775df33eed2</xr:TypeId>
+				<xr:ValueId>4098a18d-e7e2-4d80-bf05-187f3d92db88</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.ВидыПланов" category="Ref">
+				<xr:TypeId>a6493747-7497-45ee-845b-85d87811c66e</xr:TypeId>
+				<xr:ValueId>824a144f-cad5-4c6d-939a-ccf9761057bb</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.ВидыПланов" category="Selection">
+				<xr:TypeId>b39a644f-1faa-4805-939b-f9d74805c68b</xr:TypeId>
+				<xr:ValueId>7427bdeb-6abc-4cec-9970-3370bbf48be5</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.ВидыПланов" category="List">
+				<xr:TypeId>3de67e2d-1559-4b2f-bb63-b683a09f3921</xr:TypeId>
+				<xr:ValueId>05d70b6c-cfec-4c43-b0ab-11b59d81e315</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.ВидыПланов" category="Manager">
+				<xr:TypeId>738583cb-30c6-4db4-9d76-01f26f66b02c</xr:TypeId>
+				<xr:ValueId>a11f4b50-47bf-4993-b445-928b38ac26e7</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ВидыПланов</Name>
+			<Comment/>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects/>
+	</Catalog>
+</MetaDataObject>

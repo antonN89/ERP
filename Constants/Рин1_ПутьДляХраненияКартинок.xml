@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.10">
+	<Constant uuid="1f50ce57-46bc-4fca-9a5e-5dab5c17d09e">
+		<InternalInfo>
+			<xr:GeneratedType name="ConstantManager.Рин1_ПутьДляХраненияКартинок" category="Manager">
+				<xr:TypeId>0da9bc2c-791c-4ea9-8624-3d7cada6386b</xr:TypeId>
+				<xr:ValueId>56fe3b3d-6476-422e-857c-3a055114c6a7</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="ConstantValueManager.Рин1_ПутьДляХраненияКартинок" category="ValueManager">
+				<xr:TypeId>c5377ee4-0ab7-44a4-b5ce-d51bc3853bc9</xr:TypeId>
+				<xr:ValueId>2b460357-2539-4c92-b1af-d5629f58f4d3</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="ConstantValueKey.Рин1_ПутьДляХраненияКартинок" category="ValueKey">
+				<xr:TypeId>37841611-ef11-4939-9fd7-b0d8c4ad682f</xr:TypeId>
+				<xr:ValueId>026f1f12-275e-4ba5-9130-702a21cdfd46</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>Рин1_ПутьДляХраненияКартинок</Name>
+			<Comment/>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>1000</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Properties>
+	</Constant>
+</MetaDataObject>

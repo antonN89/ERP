@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.10">
+	<Catalog uuid="ef4229ed-9d20-4a79-b61a-af7fe2c02103">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.Рин1_Оборудование" category="Object">
+				<xr:TypeId>65846a58-471a-48d4-b688-e99d3b9abda0</xr:TypeId>
+				<xr:ValueId>e2e0df07-7aff-4bb4-ae38-31a252e66d70</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.Рин1_Оборудование" category="Ref">
+				<xr:TypeId>347d9d45-adb9-4b15-95f1-8eaae258cd8f</xr:TypeId>
+				<xr:ValueId>946b0d56-bad8-4f43-bea2-4298283b557c</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.Рин1_Оборудование" category="Selection">
+				<xr:TypeId>d960594d-43fd-41f1-9036-097ecb219367</xr:TypeId>
+				<xr:ValueId>c1d0a8a9-e5cd-44a2-949b-c764a856bf0a</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.Рин1_Оборудование" category="List">
+				<xr:TypeId>e1707b3b-5f5e-431b-a838-891d20974810</xr:TypeId>
+				<xr:ValueId>8e41c827-f1a7-4eea-bf30-88f57f218839</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.Рин1_Оборудование" category="Manager">
+				<xr:TypeId>919e39b3-ad21-472d-8c0a-3ee94a5294b6</xr:TypeId>
+				<xr:ValueId>be9cdbb9-b946-405c-a10a-d57160b1cc0c</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>Рин1_Оборудование</Name>
+			<Comment/>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<ExtendedConfigurationObject>5059d30f-7e0c-4af1-b905-cf12d8cc0813</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects/>
+	</Catalog>
+</MetaDataObject>

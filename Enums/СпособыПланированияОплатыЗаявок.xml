@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.10">
+	<Enum uuid="81cc13cf-686f-42f7-960c-a84e99c12f62">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.СпособыПланированияОплатыЗаявок" category="Ref">
+				<xr:TypeId>dbf99718-417e-47bc-83b7-076a54cbc0ed</xr:TypeId>
+				<xr:ValueId>d7ded0f5-d7a2-49dd-aabe-1a822c525388</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.СпособыПланированияОплатыЗаявок" category="Manager">
+				<xr:TypeId>3f587de3-9a87-444b-941d-1802eca4fd53</xr:TypeId>
+				<xr:ValueId>9b0bf1ff-0938-4550-b99f-ebbc6bbc45c7</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.СпособыПланированияОплатыЗаявок" category="List">
+				<xr:TypeId>8512c63e-63ed-417a-abc1-8dfbed60373f</xr:TypeId>
+				<xr:ValueId>a0459094-fddc-456e-9ce7-415c5f853422</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>СпособыПланированияОплатыЗаявок</Name>
+			<Comment/>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<ExtendedConfigurationObject>88f078c3-60df-4432-9fdd-317c148b0bed</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects/>
+	</Enum>
+</MetaDataObject>

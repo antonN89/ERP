@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.10">
+	<Enum uuid="dc9b1878-f005-4249-914d-302ab53fcdf8">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.ТипыПлатежейПоЛизингу" category="Ref">
+				<xr:TypeId>112d2b1c-e88f-4d76-8c9b-46f5ce43d153</xr:TypeId>
+				<xr:ValueId>1863c8af-2a66-44f7-8093-c81c618a814f</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.ТипыПлатежейПоЛизингу" category="Manager">
+				<xr:TypeId>ddf6bf6c-13ca-47e8-a9a0-83a569c092d7</xr:TypeId>
+				<xr:ValueId>9b9ef46c-4c81-44f5-8eab-4fcea915ad50</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.ТипыПлатежейПоЛизингу" category="List">
+				<xr:TypeId>79eca56d-4346-4f58-803d-3fcc654e8fca</xr:TypeId>
+				<xr:ValueId>2b065ed9-fe76-4094-94b8-180556e13c7e</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ТипыПлатежейПоЛизингу</Name>
+			<Comment/>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<ExtendedConfigurationObject>0f417b95-e06d-41ac-a525-57cec6908b78</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects>
+			<EnumValue uuid="61686af2-3d8b-4947-8bc4-0a8d46bd305e">
+				<InternalInfo/>
+				<Properties>
+					<Name>ЛизинговыйПлатеж</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<ExtendedConfigurationObject>89a1d19c-7cee-4fe1-9230-282f056eb63c</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+		</ChildObjects>
+	</Enum>
+</MetaDataObject>

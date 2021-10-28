@@ -1,0 +1,106 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.10">
+	<Enum uuid="af02fac8-53b8-4ce6-aaa3-6ba0ce47141f">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.ТипыИзмеряемыхВеличин" category="Ref">
+				<xr:TypeId>c8b7c35e-1c19-4c25-9391-9d8b3521b223</xr:TypeId>
+				<xr:ValueId>d96dab95-a091-42fd-b68b-24ccafa0d70e</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.ТипыИзмеряемыхВеличин" category="Manager">
+				<xr:TypeId>8bf8dabf-8d51-4eba-8238-627ed3df6fee</xr:TypeId>
+				<xr:ValueId>dc45541b-6ffd-47fc-bca4-76c6c2b232e3</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.ТипыИзмеряемыхВеличин" category="List">
+				<xr:TypeId>db75c55b-1706-4f9d-a862-f5d968485036</xr:TypeId>
+				<xr:ValueId>b2866365-7d9d-4718-9331-78b23cf17c6b</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ТипыИзмеряемыхВеличин</Name>
+			<Comment/>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects>
+			<EnumValue uuid="bff1a84b-521f-4357-b7a3-309bcc5ac883">
+				<InternalInfo/>
+				<Properties>
+					<Name>Вес</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="a0be8891-af7e-44dd-a30b-de067ca0baf1">
+				<InternalInfo/>
+				<Properties>
+					<Name>Объем</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="16ff89fb-56e4-4dc5-b222-36a7fe0c60ca">
+				<InternalInfo/>
+				<Properties>
+					<Name>Площадь</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="fa660bcc-2f2c-48d0-8860-5814f858b85a">
+				<InternalInfo/>
+				<Properties>
+					<Name>Длина</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="1a4b3c28-84ab-4f08-b970-9e65cc9ae70c">
+				<InternalInfo/>
+				<Properties>
+					<Name>КоличествоШтук</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="967df136-d587-4d74-8ee3-71dc13dfbb76">
+				<InternalInfo/>
+				<Properties>
+					<Name>Упаковка</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="e59f3064-5bfa-4132-acf3-f2fc35572abb">
+				<InternalInfo/>
+				<Properties>
+					<Name>Мощность</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="1218e355-1ff5-4ede-a74a-851620a4711c">
+				<InternalInfo/>
+				<Properties>
+					<Name>Энергия</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="53d44314-7ba6-42b2-bea5-b66eff9dee88">
+				<InternalInfo/>
+				<Properties>
+					<Name>ЭлектрическийЗаряд</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="23e9515d-cf23-45d6-b35e-ff62ffde9cf2">
+				<InternalInfo/>
+				<Properties>
+					<Name>Время</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</EnumValue>
+		</ChildObjects>
+	</Enum>
+</MetaDataObject>

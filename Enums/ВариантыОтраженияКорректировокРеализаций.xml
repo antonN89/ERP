@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.10">
+	<Enum uuid="acc5ffa8-316c-4787-8f2d-73bdf1a6c532">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.ВариантыОтраженияКорректировокРеализаций" category="Ref">
+				<xr:TypeId>6e2492b6-df56-41b6-ab5a-8be861145a83</xr:TypeId>
+				<xr:ValueId>1c0e05e1-e79c-4d45-a9a6-e6dde451a0f3</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.ВариантыОтраженияКорректировокРеализаций" category="Manager">
+				<xr:TypeId>6f50b247-5016-4eb0-a4d3-59072c55ce10</xr:TypeId>
+				<xr:ValueId>a880fb50-3241-4ce5-ac70-1c5071b2e364</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.ВариантыОтраженияКорректировокРеализаций" category="List">
+				<xr:TypeId>961c1a5f-0116-4522-9b76-d42b340fb768</xr:TypeId>
+				<xr:ValueId>8bcfc4cf-8f51-4f88-afd5-79ed987b5008</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ВариантыОтраженияКорректировокРеализаций</Name>
+			<Comment/>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<ExtendedConfigurationObject>fbd2eb12-5cd2-462b-9465-55e9578b4473</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects>
+			<EnumValue uuid="6b1ba4f9-10dd-446f-82c9-9f3e4d096551">
+				<InternalInfo/>
+				<Properties>
+					<Name>УменьшитьРеализациюУчестьПриИнвентаризации</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<ExtendedConfigurationObject>77bb115d-efa5-4504-b9fb-5e4d33c4bc3f</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="d239dd8f-cf4d-497e-886c-4c75176ff614">
+				<InternalInfo/>
+				<Properties>
+					<Name>УвеличитьРеализациюУчестьПриИнвентаризации</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<ExtendedConfigurationObject>09fc582f-e99d-4f64-b67b-a9b36ecb870d</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+		</ChildObjects>
+	</Enum>
+</MetaDataObject>

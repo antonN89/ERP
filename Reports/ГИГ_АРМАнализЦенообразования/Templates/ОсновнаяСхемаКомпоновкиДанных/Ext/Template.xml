@@ -1,0 +1,512 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<DataCompositionSchema xmlns="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcscom="http://v8.1c.ru/8.1/data-composition-system/common" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<dataSource>
+		<name>ИсточникДанных1</name>
+		<dataSourceType>Local</dataSourceType>
+	</dataSource>
+	<dataSet xsi:type="DataSetQuery">
+		<name>НаборДанных1</name>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ЗначениеПоказателя</dataPath>
+			<field>ЗначениеПоказателя</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Значение показателя</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Производитель</dataPath>
+			<field>Производитель</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ЗначениеСкидки</dataPath>
+			<field>ЗначениеСкидки</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Значение скидки</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ПризнакИзменения</dataPath>
+			<field>ПризнакИзменения</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Признак изменения</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ПризнакКолонок</dataPath>
+			<field>ПризнакКолонок</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Признак колонок</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ПорогОграничения</dataPath>
+			<field>ПорогОграничения</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ЦеноваяГруппа</dataPath>
+			<field>ЦеноваяГруппа</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Партнер</dataPath>
+			<field>Партнер</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ЭтоСоглашение</dataPath>
+			<field>ЭтоСоглашение</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Это соглашение</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Порог_Скидка</dataPath>
+			<field>Порог_Скидка</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Порог скидка</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Менеджер</dataPath>
+			<field>Менеджер</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Менеджер</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ИтоговаяСкидка</dataPath>
+			<field>ИтоговаяСкидка</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Итоговая скидка</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Ссылка</dataPath>
+			<field>Ссылка</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Деактивирован</dataPath>
+			<field>Деактивирован</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ПричинаДеактивации</dataPath>
+			<field>ПричинаДеактивации</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Причина деактивации</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ИерархияЦеновойГруппы</dataPath>
+			<field>ИерархияЦеновойГруппы</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Иерархия ценовой группы</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Соглашение</dataPath>
+			<field>Соглашение</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ЭтоПорог</dataPath>
+			<field>ЭтоПорог</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Это порог</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<dataSource>ИсточникДанных1</dataSource>
+		<query>ВЫБРАТЬ
+	СоглашенияСКлиентами.Партнер КАК Партнер,
+	СоглашенияСКлиентами.Ссылка КАК Соглашение,
+	ПартнерыСегмента.Сегмент КАК Сегмент
+ПОМЕСТИТЬ ВТ_СоглашенияПартнерыСегмент
+ИЗ
+	Справочник.СоглашенияСКлиентами КАК СоглашенияСКлиентами
+		ЛЕВОЕ СОЕДИНЕНИЕ РегистрСведений.ПартнерыСегмента КАК ПартнерыСегмента
+		ПО СоглашенияСКлиентами.Партнер = ПартнерыСегмента.Партнер
+ГДЕ
+	СоглашенияСКлиентами.Типовое = ЛОЖЬ
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ
+	ВТ_СоглашенияПартнерыСегмент.Партнер КАК Партнер,
+	ВТ_СоглашенияПартнерыСегмент.Соглашение КАК Соглашение,
+	ВТ_СоглашенияПартнерыСегмент.Сегмент КАК Сегмент,
+	СкидкиНаценкиУсловияПредоставления.Ссылка КАК СкидкаСегмента
+ПОМЕСТИТЬ ВТ_СкидкиПоСементу
+ИЗ
+	Справочник.СкидкиНаценки.УсловияПредоставления КАК СкидкиНаценкиУсловияПредоставления
+		ЛЕВОЕ СОЕДИНЕНИЕ ВТ_СоглашенияПартнерыСегмент КАК ВТ_СоглашенияПартнерыСегмент
+		ПО СкидкиНаценкиУсловияПредоставления.УсловиеПредоставления.СегментПартнеров = ВТ_СоглашенияПартнерыСегмент.Сегмент
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ
+	СоглашенияСКлиентамиЦеновыеГруппы.ЦеноваяГруппа КАК ЦеноваяГруппа,
+	СоглашенияСКлиентамиЦеновыеГруппы.Ссылка КАК Соглашение,
+	СоглашенияСКлиентамиЦеновыеГруппы.Деактивирован КАК Деактивирован,
+	ГИГ_ИсторияИзмененияЗначенийСкидок_НаценокИндивидуальныхСоглашенийСрезПоследних.Причина КАК Причина
+ПОМЕСТИТЬ ВТ_ДеактивированныеЦГ
+ИЗ
+	Справочник.СоглашенияСКлиентами.ЦеновыеГруппы КАК СоглашенияСКлиентамиЦеновыеГруппы
+		ЛЕВОЕ СОЕДИНЕНИЕ РегистрСведений.ГИГ_ИсторияИзмененияЗначенийСкидок_НаценокИндивидуальныхСоглашений.СрезПоследних(&amp;ДатаОкончания, ) КАК ГИГ_ИсторияИзмененияЗначенийСкидок_НаценокИндивидуальныхСоглашенийСрезПоследних
+		ПО СоглашенияСКлиентамиЦеновыеГруппы.Ссылка = ГИГ_ИсторияИзмененияЗначенийСкидок_НаценокИндивидуальныхСоглашенийСрезПоследних.Соглашение
+			И СоглашенияСКлиентамиЦеновыеГруппы.ЦеноваяГруппа = ГИГ_ИсторияИзмененияЗначенийСкидок_НаценокИндивидуальныхСоглашенийСрезПоследних.ЦеноваяГруппа
+ГДЕ
+	СоглашенияСКлиентамиЦеновыеГруппы.Деактивирован = ИСТИНА
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ
+	ВТ_СкидкиПоСементу.Партнер КАК Партнер,
+	ВТ_СкидкиПоСементу.Соглашение КАК Соглашение,
+	ЦеновыеГруппы.Производитель КАК Производитель,
+	ЦеновыеГруппы.Иерархия КАК ИерархияЦеновойГруппы,
+	ЦеновыеГруппы.Ссылка КАК ЦеноваяГруппа,
+	ГИГ_ПорогиОграничений.Ссылка КАК Порог_Скидка,
+	ИСТИНА КАК ЭтоПорог,
+	ЛОЖЬ КАК ЭтоСоглашение
+ПОМЕСТИТЬ ВТТабл
+ИЗ
+	Справочник.ЦеновыеГруппы КАК ЦеновыеГруппы
+		ЛЕВОЕ СОЕДИНЕНИЕ Справочник.ГИГ_ПорогиОграничений КАК ГИГ_ПорогиОграничений
+		ПО (ИСТИНА)
+		ЛЕВОЕ СОЕДИНЕНИЕ ВТ_СкидкиПоСементу КАК ВТ_СкидкиПоСементу
+		ПО (ИСТИНА)
+ГДЕ
+	ГИГ_ПорогиОграничений.ПометкаУдаления &lt;&gt; &amp;ПометкаУдаления
+	И ЦеновыеГруппы.ПометкаУдаления &lt;&gt; &amp;ПометкаУдаления
+
+ОБЪЕДИНИТЬ ВСЕ
+
+ВЫБРАТЬ
+	ВТ_СкидкиПоСементу.Партнер,
+	ВТ_СкидкиПоСементу.Соглашение,
+	ЦеновыеГруппы.Производитель,
+	ЦеновыеГруппы.Иерархия,
+	ЦеновыеГруппы.Ссылка,
+	ВТ_СкидкиПоСементу.СкидкаСегмента,
+	ЛОЖЬ,
+	ЛОЖЬ
+ИЗ
+	Справочник.ЦеновыеГруппы КАК ЦеновыеГруппы
+		ЛЕВОЕ СОЕДИНЕНИЕ ВТ_СкидкиПоСементу КАК ВТ_СкидкиПоСементу
+		ПО (ИСТИНА)
+ГДЕ
+	ЦеновыеГруппы.ПометкаУдаления &lt;&gt; &amp;ПометкаУдаления
+
+ОБЪЕДИНИТЬ ВСЕ
+
+ВЫБРАТЬ
+	ВТ_СкидкиПоСементу.Партнер,
+	ВТ_СкидкиПоСементу.Соглашение,
+	ЦеновыеГруппыСпр.Производитель,
+	ЦеновыеГруппыСпр.Иерархия,
+	ЦеновыеГруппыСпр.Ссылка,
+	ВТ_СкидкиПоСементу.Соглашение,
+	ИСТИНА,
+	ИСТИНА
+ИЗ
+	Справочник.ЦеновыеГруппы КАК ЦеновыеГруппыСпр
+		ЛЕВОЕ СОЕДИНЕНИЕ ВТ_СкидкиПоСементу КАК ВТ_СкидкиПоСементу
+		ПО (ИСТИНА)
+ГДЕ
+	ЦеновыеГруппыСпр.ПометкаУдаления &lt;&gt; &amp;ПометкаУдаления
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ
+	ВТТабл.Партнер КАК Партнер,
+	ВТТабл.Соглашение КАК Соглашение,
+	ВТТабл.Производитель КАК Производитель,
+	ВТТабл.ИерархияЦеновойГруппы КАК ИерархияЦеновойГруппы,
+	ВТТабл.ЦеноваяГруппа КАК ЦеноваяГруппа,
+	ВТТабл.Порог_Скидка КАК Порог_Скидка,
+	ЕСТЬNULL(ГИГ_ЗначенияПороговОграниченийСрезПоследних.Значение, 0) КАК ЗначениеПоказателя,
+	ВТТабл.ЭтоПорог КАК ЭтоПорог,
+	ЛОЖЬ КАК ПризнакИзменения,
+	ВТТабл.ЭтоСоглашение КАК ЭтоСоглашение,
+	ЛОЖЬ КАК ИтоговаяСкидка,
+	ВТ_ДеактивированныеЦГ.Деактивирован КАК Деактивирован,
+	1 КАК ПризнакКолонок,
+	ВТТабл.Партнер.ОсновнойМенеджер КАК Менеджер,
+	ВЫБОР
+		КОГДА ВТ_ДеактивированныеЦГ.Причина = ВТТабл.Порог_Скидка
+			ТОГДА ИСТИНА
+		ИНАЧЕ ЛОЖЬ
+	КОНЕЦ КАК ПричинаДеактивации
+ИЗ
+	ВТТабл КАК ВТТабл
+		ЛЕВОЕ СОЕДИНЕНИЕ ВТ_ДеактивированныеЦГ КАК ВТ_ДеактивированныеЦГ
+		ПО ВТТабл.ЦеноваяГруппа = ВТ_ДеактивированныеЦГ.ЦеноваяГруппа
+			И ВТТабл.Соглашение = ВТ_ДеактивированныеЦГ.Соглашение
+		ЛЕВОЕ СОЕДИНЕНИЕ РегистрСведений.ГИГ_ЗначенияПороговОграничений.СрезПоследних(&amp;ДатаОкончания, ) КАК ГИГ_ЗначенияПороговОграниченийСрезПоследних
+		ПО ВТТабл.ЦеноваяГруппа = ГИГ_ЗначенияПороговОграниченийСрезПоследних.ЦеноваяГруппа
+			И ВТТабл.Порог_Скидка = ГИГ_ЗначенияПороговОграниченийСрезПоследних.ПорогОграничения
+ГДЕ
+	ВТТабл.ЭтоПорог
+	И НЕ ВТТабл.ЭтоСоглашение
+
+СГРУППИРОВАТЬ ПО
+	ВТТабл.Партнер,
+	ВТТабл.Соглашение,
+	ВТТабл.Производитель,
+	ВТТабл.ИерархияЦеновойГруппы,
+	ВТТабл.ЦеноваяГруппа,
+	ВТТабл.Порог_Скидка,
+	ВТТабл.ЭтоПорог,
+	ВТТабл.ЭтоСоглашение,
+	ВТ_ДеактивированныеЦГ.Деактивирован,
+	ВТТабл.Партнер.ОсновнойМенеджер,
+	ВЫБОР
+		КОГДА ВТ_ДеактивированныеЦГ.Причина = ВТТабл.Порог_Скидка
+			ТОГДА ИСТИНА
+		ИНАЧЕ ЛОЖЬ
+	КОНЕЦ,
+	ЕСТЬNULL(ГИГ_ЗначенияПороговОграниченийСрезПоследних.Значение, 0)
+
+ОБЪЕДИНИТЬ ВСЕ
+
+ВЫБРАТЬ
+	ВТТабл.Партнер,
+	ВТТабл.Соглашение,
+	ВТТабл.Производитель,
+	ВТТабл.ИерархияЦеновойГруппы,
+	ВТТабл.ЦеноваяГруппа,
+	ВТТабл.Порог_Скидка,
+	СУММА(ЕСТЬNULL(ДействующиеСкидки.ЗначениеСкидки, 0)),
+	ВТТабл.ЭтоПорог,
+	ЛОЖЬ,
+	ВТТабл.ЭтоСоглашение,
+	ИСТИНА,
+	ВТ_ДеактивированныеЦГ.Деактивирован,
+	2,
+	ВТТабл.Партнер.ОсновнойМенеджер,
+	ВЫБОР
+		КОГДА ВТ_ДеактивированныеЦГ.Причина = ВТТабл.Порог_Скидка
+			ТОГДА ИСТИНА
+		ИНАЧЕ ЛОЖЬ
+	КОНЕЦ
+ИЗ
+	ВТТабл КАК ВТТабл
+		ЛЕВОЕ СОЕДИНЕНИЕ (ВЫБРАТЬ РАЗЛИЧНЫЕ
+			СкидкиНаценкиЦеновыеГруппы.ЦеноваяГруппа КАК ЦеноваяГруппа,
+			СкидкиНаценкиЦеновыеГруппы.ЗначениеСкидкиНаценки КАК ЗначениеСкидки,
+			СкидкиНаценкиЦеновыеГруппы.Ссылка КАК Ссылка
+		ИЗ
+			ВТ_СкидкиПоСементу КАК ВТ_СкидкиПоСементу
+				ЛЕВОЕ СОЕДИНЕНИЕ Справочник.СкидкиНаценки.ЦеновыеГруппы КАК СкидкиНаценкиЦеновыеГруппы
+				ПО ВТ_СкидкиПоСементу.СкидкаСегмента = СкидкиНаценкиЦеновыеГруппы.Ссылка) КАК ДействующиеСкидки
+		ПО ВТТабл.ЦеноваяГруппа = ДействующиеСкидки.ЦеноваяГруппа
+			И ВТТабл.Порог_Скидка = ДействующиеСкидки.Ссылка
+		ЛЕВОЕ СОЕДИНЕНИЕ ВТ_ДеактивированныеЦГ КАК ВТ_ДеактивированныеЦГ
+		ПО ВТТабл.ЦеноваяГруппа = ВТ_ДеактивированныеЦГ.ЦеноваяГруппа
+			И ВТТабл.Соглашение = ВТ_ДеактивированныеЦГ.Соглашение
+ГДЕ
+	НЕ ВТТабл.ЭтоПорог
+	И НЕ ВТТабл.ЭтоСоглашение
+
+СГРУППИРОВАТЬ ПО
+	ВТТабл.ЦеноваяГруппа,
+	ВТТабл.Порог_Скидка,
+	ВТТабл.Производитель,
+	ВТТабл.ИерархияЦеновойГруппы,
+	ВТТабл.ЭтоПорог,
+	ВТТабл.ЭтоСоглашение,
+	ВТТабл.Партнер,
+	ВТТабл.Соглашение,
+	ВТТабл.Партнер.ОсновнойМенеджер,
+	ВЫБОР
+		КОГДА ВТ_ДеактивированныеЦГ.Причина = ВТТабл.Порог_Скидка
+			ТОГДА ИСТИНА
+		ИНАЧЕ ЛОЖЬ
+	КОНЕЦ,
+	ВТ_ДеактивированныеЦГ.Деактивирован
+
+ОБЪЕДИНИТЬ ВСЕ
+
+ВЫБРАТЬ
+	ВТТабл.Партнер,
+	ВТТабл.Соглашение,
+	ВТТабл.Производитель,
+	ВТТабл.ИерархияЦеновойГруппы,
+	ВТТабл.ЦеноваяГруппа,
+	"СоглашениеПартнера",
+	СУММА(ЕСТЬNULL(СоглашенияСКлиентамиЦеновыеГруппы.ПроцентИндивидуальнойСкидкиНаценки, 0)),
+	ВТТабл.ЭтоПорог,
+	ЛОЖЬ,
+	ВТТабл.ЭтоСоглашение,
+	ВЫБОР
+		КОГДА СоглашенияСКлиентамиЦеновыеГруппы.Деактивирован
+			ТОГДА ЛОЖЬ
+		ИНАЧЕ ИСТИНА
+	КОНЕЦ,
+	СоглашенияСКлиентамиЦеновыеГруппы.Деактивирован,
+	3,
+	ВТТабл.Партнер.ОсновнойМенеджер,
+	ЛОЖЬ
+ИЗ
+	ВТТабл КАК ВТТабл
+		ЛЕВОЕ СОЕДИНЕНИЕ Справочник.СоглашенияСКлиентами.ЦеновыеГруппы КАК СоглашенияСКлиентамиЦеновыеГруппы
+		ПО ВТТабл.ЦеноваяГруппа = СоглашенияСКлиентамиЦеновыеГруппы.ЦеноваяГруппа
+			И ВТТабл.Соглашение = СоглашенияСКлиентамиЦеновыеГруппы.Ссылка
+ГДЕ
+	ВТТабл.ЭтоСоглашение
+
+СГРУППИРОВАТЬ ПО
+	ВТТабл.ЦеноваяГруппа,
+	ВТТабл.Производитель,
+	ВТТабл.ИерархияЦеновойГруппы,
+	ВТТабл.ЭтоПорог,
+	ВТТабл.ЭтоСоглашение,
+	ВТТабл.Партнер,
+	ВТТабл.Соглашение,
+	СоглашенияСКлиентамиЦеновыеГруппы.Деактивирован,
+	ВТТабл.Партнер.ОсновнойМенеджер
+
+УПОРЯДОЧИТЬ ПО
+	Производитель,
+	ИерархияЦеновойГруппы,
+	ЦеноваяГруппа</query>
+	</dataSet>
+	<parameter>
+		<name>Период</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Период</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type>xs:dateTime</v8:Type>
+			<v8:DateQualifiers>
+				<v8:DateFractions>DateTime</v8:DateFractions>
+			</v8:DateQualifiers>
+		</valueType>
+		<value xsi:type="xs:dateTime">0001-01-01T00:00:00</value>
+		<useRestriction>false</useRestriction>
+	</parameter>
+	<parameter>
+		<name>ДатаОкончания</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Дата окончания</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type>xs:dateTime</v8:Type>
+			<v8:DateQualifiers>
+				<v8:DateFractions>DateTime</v8:DateFractions>
+			</v8:DateQualifiers>
+		</valueType>
+		<value xsi:type="xs:dateTime">0001-01-01T00:00:00</value>
+		<useRestriction>true</useRestriction>
+	</parameter>
+	<parameter>
+		<name>ПометкаУдаления</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Пометка удаления</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type>xs:boolean</v8:Type>
+		</valueType>
+		<value xsi:type="xs:boolean">false</value>
+		<useRestriction>true</useRestriction>
+	</parameter>
+	<settingsVariant>
+		<dcsset:name>Основной</dcsset:name>
+		<dcsset:presentation xsi:type="xs:string">Основной</dcsset:presentation>
+		<dcsset:settings xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows">
+			<dcsset:selection>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Деактивирован</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ЗначениеПоказателя</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ИерархияЦеновойГруппы</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ИтоговаяСкидка</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Менеджер</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Партнер</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Порог_Скидка</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ПризнакИзменения</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ПризнакКолонок</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ПричинаДеактивации</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Производитель</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Соглашение</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ЦеноваяГруппа</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ЭтоПорог</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ЭтоСоглашение</dcsset:field>
+				</dcsset:item>
+			</dcsset:selection>
+			<dcsset:item xsi:type="dcsset:StructureItemGroup">
+				<dcsset:order>
+					<dcsset:item xsi:type="dcsset:OrderItemAuto"/>
+				</dcsset:order>
+				<dcsset:selection>
+					<dcsset:item xsi:type="dcsset:SelectedItemAuto"/>
+				</dcsset:selection>
+			</dcsset:item>
+		</dcsset:settings>
+	</settingsVariant>
+</DataCompositionSchema>

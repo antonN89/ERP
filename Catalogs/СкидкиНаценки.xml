@@ -1,0 +1,139 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.10">
+	<Catalog uuid="92ea03c4-0732-4711-90e7-d14fffadea3c">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.СкидкиНаценки" category="Object">
+				<xr:TypeId>4b86e5a5-45a8-4f03-a52b-f9ca9d18a40c</xr:TypeId>
+				<xr:ValueId>e4461415-5e18-4b3d-b493-3f0a9db6ba36</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.СкидкиНаценки" category="Ref">
+				<xr:TypeId>b6bd706a-43f4-4022-9f32-248f66eaedff</xr:TypeId>
+				<xr:ValueId>e1bfc253-c46a-4038-b064-6aaf90c44ad4</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.СкидкиНаценки" category="Selection">
+				<xr:TypeId>e2698ccd-9285-46c0-beba-d4c015fcc7f4</xr:TypeId>
+				<xr:ValueId>e1f8fd96-46ae-47c4-8998-91d4045cfd90</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.СкидкиНаценки" category="List">
+				<xr:TypeId>4dc8aaef-8a96-46bb-b02a-ea75109b27d5</xr:TypeId>
+				<xr:ValueId>9d9f34bd-f78c-42d1-94ff-30556b9c9f02</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.СкидкиНаценки" category="Manager">
+				<xr:TypeId>ed74655b-16bd-4642-b7cb-9f839287b7c0</xr:TypeId>
+				<xr:ValueId>54e3ac19-848f-4307-a127-473e21b9b29b</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>СкидкиНаценки</Name>
+			<Comment/>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Hierarchical>true</Hierarchical>
+			<DefaultFolderForm/>
+			<DefaultFolderChoiceForm/>
+			<AuxiliaryFolderForm/>
+			<AuxiliaryFolderChoiceForm/>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="1e4b6aa2-8e0b-43ad-a023-7721c8a86723">
+				<InternalInfo/>
+				<Properties>
+					<Name>ВариантСовместногоПрименения</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<ExtendedConfigurationObject>2ae3b2e5-4cc1-4c21-8e5d-c5361c7decd2</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:EnumRef.ВариантыСовместногоПримененияСкидокНаценок</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="bdc62645-637d-41ba-862f-9da14f2f6e48">
+				<InternalInfo/>
+				<Properties>
+					<Name>ЗначениеСкидкиНаценки</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<ExtendedConfigurationObject>accc1785-41b4-4838-91c8-3b7163156175</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>15</v8:Digits>
+							<v8:FractionDigits>2</v8:FractionDigits>
+							<v8:AllowedSign>Any</v8:AllowedSign>
+						</v8:NumberQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<TabularSection uuid="241e049b-8961-40cc-8e61-bc2452b4540b">
+				<InternalInfo>
+					<xr:GeneratedType name="CatalogTabularSection.СкидкиНаценки.ЦеновыеГруппы" category="TabularSection">
+						<xr:TypeId>8c6b2128-032f-4756-9c70-65084164422a</xr:TypeId>
+						<xr:ValueId>4ff1509c-af1c-49d4-8264-1feb2eeecbb1</xr:ValueId>
+					</xr:GeneratedType>
+					<xr:GeneratedType name="CatalogTabularSectionRow.СкидкиНаценки.ЦеновыеГруппы" category="TabularSectionRow">
+						<xr:TypeId>ed7abb68-c9fb-4c88-92a7-9d666749cd88</xr:TypeId>
+						<xr:ValueId>5e15c4dd-ec99-4b79-a2a1-81847c5aec63</xr:ValueId>
+					</xr:GeneratedType>
+				</InternalInfo>
+				<Properties>
+					<Name>ЦеновыеГруппы</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+				<ChildObjects>
+					<Attribute uuid="d5816b57-79d7-4cd2-9405-8a20cfb1883a">
+						<InternalInfo/>
+						<Properties>
+							<Name>ЦеноваяГруппа</Name>
+							<Comment/>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>cfg:CatalogRef.ЦеновыеГруппы</v8:Type>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="41e822d0-4c8f-437b-b7fa-821654332727">
+						<InternalInfo/>
+						<Properties>
+							<Name>ЗначениеСкидкиНаценки</Name>
+							<Comment/>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:TypeSet>cfg:DefinedType.ДенежнаяСуммаЛюбогоЗнака</v8:TypeSet>
+							</Type>
+						</Properties>
+					</Attribute>
+				</ChildObjects>
+			</TabularSection>
+			<TabularSection uuid="4ac08723-7888-440e-962a-33910eaffb0d">
+				<InternalInfo>
+					<xr:GeneratedType name="CatalogTabularSection.СкидкиНаценки.УсловияПредоставления" category="TabularSection">
+						<xr:TypeId>3972fe77-b1ac-4e03-8151-4d5d83aba766</xr:TypeId>
+						<xr:ValueId>289f3227-a262-49ac-8c5d-255264b08642</xr:ValueId>
+					</xr:GeneratedType>
+					<xr:GeneratedType name="CatalogTabularSectionRow.СкидкиНаценки.УсловияПредоставления" category="TabularSectionRow">
+						<xr:TypeId>8acfe4cc-1524-46c4-95eb-fb5b0797195a</xr:TypeId>
+						<xr:ValueId>0600b0f0-004d-4639-bd20-765e9d0e608a</xr:ValueId>
+					</xr:GeneratedType>
+				</InternalInfo>
+				<Properties>
+					<Name>УсловияПредоставления</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+				<ChildObjects>
+					<Attribute uuid="ec6c3229-1415-470c-aab9-1b9fc79edf2c">
+						<InternalInfo/>
+						<Properties>
+							<Name>УсловиеПредоставления</Name>
+							<Comment/>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>cfg:CatalogRef.УсловияПредоставленияСкидокНаценок</v8:Type>
+							</Type>
+						</Properties>
+					</Attribute>
+				</ChildObjects>
+			</TabularSection>
+		</ChildObjects>
+	</Catalog>
+</MetaDataObject>

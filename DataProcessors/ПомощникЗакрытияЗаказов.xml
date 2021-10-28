@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.10">
+	<DataProcessor uuid="7fb25f25-a69a-45df-bbbd-9585c9672b8d">
+		<InternalInfo>
+			<xr:GeneratedType name="DataProcessorObject.ПомощникЗакрытияЗаказов" category="Object">
+				<xr:TypeId>90e62dce-d02a-40af-bd8d-a43b5ec7df74</xr:TypeId>
+				<xr:ValueId>4bf35732-5454-49ff-b123-b64aa2ab8cba</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DataProcessorManager.ПомощникЗакрытияЗаказов" category="Manager">
+				<xr:TypeId>497a9c49-90ef-4fc1-a880-5f689790f580</xr:TypeId>
+				<xr:ValueId>6b1b6e57-af7d-4742-ac85-be0a6ecc9c32</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ПомощникЗакрытияЗаказов</Name>
+			<Comment/>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<ExtendedConfigurationObject>16263a6c-33f5-4723-85b9-3315c175bae2</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects>
+			<Form>ФормаЗакрытия</Form>
+		</ChildObjects>
+	</DataProcessor>
+</MetaDataObject>

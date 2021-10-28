@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.10">
+	<Enum uuid="322e4ea5-2b1e-4d08-8780-979b81e6ee81">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.РасположениеДрагоценныхКамней" category="Ref">
+				<xr:TypeId>f781adcd-4329-450b-a751-33bb4ec5b98f</xr:TypeId>
+				<xr:ValueId>1d1f902b-b394-4ead-9a8a-9a22007bc035</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.РасположениеДрагоценныхКамней" category="Manager">
+				<xr:TypeId>f3f51222-a38f-4e84-9f1b-cd71f9e4216b</xr:TypeId>
+				<xr:ValueId>d5f21eff-0cf6-4f42-9b02-4ace95fdf6f6</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.РасположениеДрагоценныхКамней" category="List">
+				<xr:TypeId>e093ba15-14e7-4dce-aaff-28474aa59578</xr:TypeId>
+				<xr:ValueId>a630c5a3-fdc6-4f9f-9646-b3d4dd0235ab</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>РасположениеДрагоценныхКамней</Name>
+			<Comment/>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects/>
+	</Enum>
+</MetaDataObject>

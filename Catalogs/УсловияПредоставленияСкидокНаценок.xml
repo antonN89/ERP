@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.10">
+	<Catalog uuid="1a6cc3ec-0ef5-48a4-a0fc-e218e63d2346">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.УсловияПредоставленияСкидокНаценок" category="Object">
+				<xr:TypeId>0a6fd0e1-5599-4a6c-bb23-b4126b30f247</xr:TypeId>
+				<xr:ValueId>99796f16-be8c-4d2f-9a08-43a4f1ab4c84</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.УсловияПредоставленияСкидокНаценок" category="Ref">
+				<xr:TypeId>d7b6d201-9689-48f0-a80e-dd4a272834c7</xr:TypeId>
+				<xr:ValueId>4b24b074-6c6e-40d4-8f51-7093657d0b5d</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.УсловияПредоставленияСкидокНаценок" category="Selection">
+				<xr:TypeId>9b80157d-b8a3-4f29-b297-71b4b3f1bda3</xr:TypeId>
+				<xr:ValueId>cf20bc6e-f92d-43e8-8451-e084df917325</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.УсловияПредоставленияСкидокНаценок" category="List">
+				<xr:TypeId>468af951-7333-4acb-8858-fbb3f2465b80</xr:TypeId>
+				<xr:ValueId>d0dd9cf0-5d51-47c9-afd1-f3d021bac67b</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.УсловияПредоставленияСкидокНаценок" category="Manager">
+				<xr:TypeId>a9f9ef42-b4f2-4bbd-9830-5ede8b4610cc</xr:TypeId>
+				<xr:ValueId>219a0acf-0d30-4ab5-9a29-537ff612dc74</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>УсловияПредоставленияСкидокНаценок</Name>
+			<Comment/>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="149d26e9-533a-4a34-ad0b-702c198829de">
+				<InternalInfo/>
+				<Properties>
+					<Name>СегментПартнеров</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.СегментыПартнеров</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+		</ChildObjects>
+	</Catalog>
+</MetaDataObject>

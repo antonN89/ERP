@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.10">
+	<Catalog uuid="e57bbe68-8f56-4921-a814-38d861265e43">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.ПриоритетыОплаты" category="Object">
+				<xr:TypeId>7952a3df-0c74-4baf-b7b6-5a41d03042fe</xr:TypeId>
+				<xr:ValueId>dc57289f-3433-488c-b90f-ef2fbb288ca1</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.ПриоритетыОплаты" category="Ref">
+				<xr:TypeId>1023b1c5-df63-42f9-a78e-9cf16af3485f</xr:TypeId>
+				<xr:ValueId>98b38ac8-2d37-4a88-a2ed-b1723e3a43bb</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.ПриоритетыОплаты" category="Selection">
+				<xr:TypeId>5b2b5b37-6b80-4c68-9119-21846451eb6a</xr:TypeId>
+				<xr:ValueId>24038eba-69c8-4773-874b-4ac6a804ec00</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.ПриоритетыОплаты" category="List">
+				<xr:TypeId>874e0b70-aea7-4959-8614-f9e938f4270d</xr:TypeId>
+				<xr:ValueId>a0b7b497-a9a7-41ce-aebc-e107d3d4453b</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.ПриоритетыОплаты" category="Manager">
+				<xr:TypeId>a2f25aef-24ec-473e-ac4a-274bae7dfdde</xr:TypeId>
+				<xr:ValueId>fe44c139-e77c-421f-96f6-58914c1f7cb9</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ПриоритетыОплаты</Name>
+			<Comment/>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<ExtendedConfigurationObject>cb28d1bb-2674-41bf-bdc2-4dd1877acfb6</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects/>
+	</Catalog>
+</MetaDataObject>

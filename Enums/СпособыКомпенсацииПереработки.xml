@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.10">
+	<Enum uuid="1114d894-c75e-495a-b80f-0b1195571041">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.СпособыКомпенсацииПереработки" category="Ref">
+				<xr:TypeId>b6d7a584-4fdb-4d6d-88b3-6bbe7de748f5</xr:TypeId>
+				<xr:ValueId>f29528ab-3b48-43e5-9c05-c00692ee5e62</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.СпособыКомпенсацииПереработки" category="Manager">
+				<xr:TypeId>b6830fa0-5d9b-4ef2-b796-6776423d0dc9</xr:TypeId>
+				<xr:ValueId>e5420a52-833b-43b5-bf10-9aab1774ed29</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.СпособыКомпенсацииПереработки" category="List">
+				<xr:TypeId>209662fa-51bb-40c7-bc00-b2aea5de76b7</xr:TypeId>
+				<xr:ValueId>05c035df-93e0-4d48-bf3e-8801a7361c30</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>СпособыКомпенсацииПереработки</Name>
+			<Comment/>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects/>
+	</Enum>
+</MetaDataObject>

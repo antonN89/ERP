@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.10">
+	<Catalog uuid="9e1985a3-df61-416a-b49c-2e6273f0606f">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.МаршрутныеКарты" category="Object">
+				<xr:TypeId>1ea60a06-4d1a-4d6c-b75b-3f8badcf538c</xr:TypeId>
+				<xr:ValueId>a22657bd-55a1-4834-91e0-5e1975669a4f</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.МаршрутныеКарты" category="Ref">
+				<xr:TypeId>e210f820-3a0a-450d-ad36-12a1c4d333ce</xr:TypeId>
+				<xr:ValueId>3c893f27-cc58-4107-a563-61f7db2dcb39</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.МаршрутныеКарты" category="Selection">
+				<xr:TypeId>833ea2ef-2345-4bf3-9cbb-6bc811ab64a1</xr:TypeId>
+				<xr:ValueId>42d686ac-edab-4134-bdf6-397854ef1ced</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.МаршрутныеКарты" category="List">
+				<xr:TypeId>850da3ba-bad7-4640-8297-e14158ab02fc</xr:TypeId>
+				<xr:ValueId>fdf036c6-2ec5-4ffc-a46e-8d80b310bf60</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.МаршрутныеКарты" category="Manager">
+				<xr:TypeId>9c2b1f9c-9633-4732-a535-2b811247023a</xr:TypeId>
+				<xr:ValueId>cea2d202-871d-4d92-9bd9-0c8b939519d6</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>МаршрутныеКарты</Name>
+			<Comment/>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<ExtendedConfigurationObject>d7313562-300e-4093-821a-f20cca99e409</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects/>
+	</Catalog>
+</MetaDataObject>

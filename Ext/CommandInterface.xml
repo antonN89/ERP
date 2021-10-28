@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<CommandInterface xmlns="http://v8.1c.ru/8.3/xcf/extrnprops" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.10">
+	<SubsystemsVisibility>
+		<Subsystem name="69eaca83-852a-468d-bc89-84d8533e09d3">
+			<Visibility>
+				<xr:Common>true</xr:Common>
+				<xr:Value name="Role.ПолныеПрава">true</xr:Value>
+			</Visibility>
+		</Subsystem>
+		<Subsystem name="5ec2cca7-3175-4e49-a659-b72ae0740276">
+			<Visibility>
+				<xr:Common>true</xr:Common>
+				<xr:Value name="Role.ПолныеПрава">true</xr:Value>
+			</Visibility>
+		</Subsystem>
+		<Subsystem name="6cc13970-9637-431a-b6a3-802df146c256">
+			<Visibility>
+				<xr:Common>true</xr:Common>
+				<xr:Value name="Role.ПолныеПрава">true</xr:Value>
+			</Visibility>
+		</Subsystem>
+		<Subsystem name="8978b870-eb7e-4702-8a37-42a2d5a0f760">
+			<Visibility>
+				<xr:Common>true</xr:Common>
+				<xr:Value name="Role.ПолныеПрава">true</xr:Value>
+			</Visibility>
+		</Subsystem>
+	</SubsystemsVisibility>
+	<SubsystemsOrder>
+		<Subsystem>69eaca83-852a-468d-bc89-84d8533e09d3</Subsystem>
+		<Subsystem>5ec2cca7-3175-4e49-a659-b72ae0740276</Subsystem>
+		<Subsystem>6cc13970-9637-431a-b6a3-802df146c256</Subsystem>
+		<Subsystem>8978b870-eb7e-4702-8a37-42a2d5a0f760</Subsystem>
+	</SubsystemsOrder>
+</CommandInterface>
