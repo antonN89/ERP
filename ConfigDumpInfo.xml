@@ -1246,7 +1246,7 @@
 		<Metadata name="CommonForm.ЭтапыОплатыКлиентом" id="686fa68f-77eb-4370-ab5b-d267fd9f4f8d" configVersion="90a71bba47028e4528aea8f983fc9ea8af9b9007"/>
 		<Metadata name="CommonForm.ЭтапыОплатыКлиентом.Form" id="686fa68f-77eb-4370-ab5b-d267fd9f4f8d.0" configVersion="fb3b2ff39331ddf9c46aac844e3cca8447ed21e7"/>
 		<Metadata name="CommonModule.ВариантыОтчетовПереопределяемый" id="c52d4569-2cc3-4973-af3e-82933e778fc6" configVersion="8595b491e79f251b818af1efd9cf85757ecf5ded"/>
-		<Metadata name="CommonModule.ВариантыОтчетовПереопределяемый.Module" id="c52d4569-2cc3-4973-af3e-82933e778fc6.0" configVersion="456732e254ebddb97e06bedf4096f20e2ca661da"/>
+		<Metadata name="CommonModule.ВариантыОтчетовПереопределяемый.Module" id="c52d4569-2cc3-4973-af3e-82933e778fc6.0" configVersion="975b6015e4188af2e85ae7e9060d7fff9365e2e1"/>
 		<Metadata name="CommonModule.ВзаиморасчетыСервер" id="df585f34-47ae-40f1-97d6-a3b6a0cfeea0" configVersion="f5aaea1809326c2da51c42d5d8804bc4db7eb36f"/>
 		<Metadata name="CommonModule.ВзаиморасчетыСервер.Module" id="df585f34-47ae-40f1-97d6-a3b6a0cfeea0.0" configVersion="661558528c8e1822645fbfaf9a86d6fa5a1390b9"/>
 		<Metadata name="CommonModule.ГИГ_КонтрольПороговОграничения" id="f0cf1bac-e7bd-4f28-bb58-a12321caac5a" configVersion="c27bfdfa6ce2ed678cfa2e225afeb6eadd8edde7"/>
@@ -1446,7 +1446,7 @@
 		<Metadata name="CommonPicture.ФильтрПоСвойствам" id="e1387d86-4981-4407-8b87-ace7aabb3d64" configVersion="3afe480ab107592bc5555b6739a438df48da647c"/>
 		<Metadata name="CommonPicture.ЭлектронноеПисьмо" id="346eae44-4546-4798-8776-405c3ae68bcb" configVersion="42ec725cbba55ac78f9803fa50b0c62d9267b425"/>
 		<Metadata name="CommonPicture.ЭтапЗадерживаетЗаказ" id="82ae288f-7d00-4ddd-b8ed-896662963fd8" configVersion="630e37a7eaa97f8bc08af40db829b93cf6473c4c"/>
-		<Metadata name="Configuration.Ринэко" id="e863e6a0-1242-4626-bed8-8a3c719cba3f" configVersion="a15ff766e6d6321dfc17c59fc1981f1d5fad36c7"/>
+		<Metadata name="Configuration.Ринэко" id="e863e6a0-1242-4626-bed8-8a3c719cba3f" configVersion="940721c34b86ec5c3fa9aae0c022f7303cfe6513"/>
 		<Metadata name="Configuration.Ринэко.CommandInterface" id="1c801ee0-62a0-4610-aae3-c66b2de25395.a" configVersion="85b35967ccf127895c0de837ae419267ba06851a"/>
 		<Metadata name="Configuration.Ринэко.ManagedApplicationModule" id="1c801ee0-62a0-4610-aae3-c66b2de25395.6" configVersion="f620f455ccf1ee2698fd6ddfa42659103856aa0c"/>
 		<Metadata name="Constant.ГИГ_ЗагружатьПолныеДанныеЦенНоменклатуры" id="5791c4ab-e4db-4fab-ab04-7fd6b4bb8e61" configVersion="3b74b8468a8e5bfcdd1c69c388fc3bd884124d6a"/>
@@ -4121,7 +4121,7 @@
 			<Metadata name="Document.ЭтапПроизводства2_2.Attribute.Подразделение" id="ffcaada9-1fa8-402b-bd83-1010274ea06d"/>
 		</Metadata>
 		<Metadata name="Document.ЭтапПроизводства2_2.Form.ФормаДокумента" id="afadb61d-fd29-4f58-bfa5-fa19133cfc81" configVersion="8822eee4553da9d2a59b9dede6f5edc31e537f3e"/>
-		<Metadata name="Document.ЭтапПроизводства2_2.Form.ФормаДокумента.Form" id="afadb61d-fd29-4f58-bfa5-fa19133cfc81.0" configVersion="fd807b3f94dba99fb59a314f8e108c66806a4c35"/>
+		<Metadata name="Document.ЭтапПроизводства2_2.Form.ФормаДокумента.Form" id="afadb61d-fd29-4f58-bfa5-fa19133cfc81.0" configVersion="d0109362300e669b45f11b3db26c8053a075fb1b"/>
 		<Metadata name="Document.ЭтапПроизводства2_2.ManagerModule" id="79d4df6e-d423-4845-8a17-6d9f831075cf.2" configVersion="b8233f32a2ce2b3cb939ec71102ab3a5739e7248"/>
 		<Metadata name="Document.ЭтапПроизводства2_2.ObjectModule" id="79d4df6e-d423-4845-8a17-6d9f831075cf.0" configVersion="8ad8a92e8753a3bf70136b660912d5498892b7a7"/>
 		<Metadata name="Enum.ВариантыАнализаНоменклатурыПродаваемойСовместно" id="52bb2e35-6333-41da-b7c8-36966a422e87" configVersion="44db679ae90586fb88b14e042ef6e7467d92a351"/>

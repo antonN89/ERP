@@ -247,6 +247,7 @@
 	</AutoCommandBar>
 	<Events>
 		<Event name="ChoiceProcessing" callType="After">Рин1_ОбработкаВыбораПосле</Event>
+		<Event name="BeforeWriteAtServer" callType="After">Рин1_ПередЗаписьюНаСервереПосле</Event>
 		<Event name="OnCreateAtServer" callType="After">Рин1_ПриСозданииНаСервереПосле</Event>
 	</Events>
 	<ChildItems>
