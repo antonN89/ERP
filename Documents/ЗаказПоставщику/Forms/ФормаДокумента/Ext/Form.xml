@@ -302,6 +302,7 @@
 		<Event name="ChoiceProcessing" callType="Override">Рин1_ОбработкаВыбораВместо</Event>
 		<Event name="AfterWriteAtServer" callType="After">Рин1_ПослеЗаписиНаСервереПосле</Event>
 		<Event name="BeforeWrite" callType="Before">Рин1_ПередЗаписьюПеред</Event>
+		<Event name="BeforeWriteAtServer" callType="After">Рин1_ПередЗаписьюНаСервереПосле</Event>
 		<Event name="OnCreateAtServer" callType="After">Рин1_ПриСозданииНаСервереПосле</Event>
 	</Events>
 	<ChildItems>
@@ -1636,6 +1637,9 @@
 															<Wrap>false</Wrap>
 															<ContextMenu name="ТоварыКоличествоУпаковокКонтекстноеМеню" id="43"/>
 															<ExtendedTooltip name="ТоварыКоличествоУпаковокExtendedTooltip" id="657"/>
+															<Events>
+																<Event name="OnChange" callType="Before">Рин1_ТоварыКоличествоУпаковокПриИзмененииПеред</Event>
+															</Events>
 														</InputField>
 														<PictureField name="ТоварыКоличествоИндексКартинки" id="1180">
 															<TitleLocation>None</TitleLocation>

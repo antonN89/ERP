@@ -1320,7 +1320,7 @@
 		<Metadata name="CommonModule.Ринэко_КонтрольУдаленныхПозицийВызовСервера" id="193ff4b5-ecb5-4655-94b2-b7e9d79e401a" configVersion="f562740d4ceefab7dddb383754d17e0cb5bdc90d"/>
 		<Metadata name="CommonModule.Ринэко_КонтрольУдаленныхПозицийВызовСервера.Module" id="193ff4b5-ecb5-4655-94b2-b7e9d79e401a.0" configVersion="912c071e0953c50cff21527b10cdef1feb48d5ed"/>
 		<Metadata name="CommonModule.Ринэко_КонтрольУдаленныхПозицийКлиент" id="e5ca87be-a06e-4f3e-86d7-1739936cfdba" configVersion="e97b6a9404db68760c1ebcc62dd0a8e7215b3103"/>
-		<Metadata name="CommonModule.Ринэко_КонтрольУдаленныхПозицийКлиент.Module" id="e5ca87be-a06e-4f3e-86d7-1739936cfdba.0" configVersion="839bc3f4c0fbcd716b6a7f0725a53271fafe6cf8"/>
+		<Metadata name="CommonModule.Ринэко_КонтрольУдаленныхПозицийКлиент.Module" id="e5ca87be-a06e-4f3e-86d7-1739936cfdba.0" configVersion="a1215cff641d70a848df61b199344807cb98d12c"/>
 		<Metadata name="CommonModule.СегментыВызовСервера" id="7e9e2fd4-c4e1-4a90-8fc1-6c595a1410de" configVersion="a82fc321dfbf62e86f9e61cc7a99a8279f677080"/>
 		<Metadata name="CommonModule.СегментыВызовСервера.Module" id="7e9e2fd4-c4e1-4a90-8fc1-6c595a1410de.0" configVersion="9e5ba030c8f70a52db5e6ba846f45960dc3fd764"/>
 		<Metadata name="CommonModule.СегментыСервер" id="fe81652b-7341-40b1-8479-58e9606167f6" configVersion="a9d91d1649aaeca7b06f59180bac675de5949e20"/>
@@ -1446,7 +1446,7 @@
 		<Metadata name="CommonPicture.ФильтрПоСвойствам" id="e1387d86-4981-4407-8b87-ace7aabb3d64" configVersion="3afe480ab107592bc5555b6739a438df48da647c"/>
 		<Metadata name="CommonPicture.ЭлектронноеПисьмо" id="346eae44-4546-4798-8776-405c3ae68bcb" configVersion="42ec725cbba55ac78f9803fa50b0c62d9267b425"/>
 		<Metadata name="CommonPicture.ЭтапЗадерживаетЗаказ" id="82ae288f-7d00-4ddd-b8ed-896662963fd8" configVersion="630e37a7eaa97f8bc08af40db829b93cf6473c4c"/>
-		<Metadata name="Configuration.Ринэко" id="e863e6a0-1242-4626-bed8-8a3c719cba3f" configVersion="940721c34b86ec5c3fa9aae0c022f7303cfe6513"/>
+		<Metadata name="Configuration.Ринэко" id="e863e6a0-1242-4626-bed8-8a3c719cba3f" configVersion="bf5c1f9120ba603d164b66a8678dd3ffa8462207"/>
 		<Metadata name="Configuration.Ринэко.CommandInterface" id="1c801ee0-62a0-4610-aae3-c66b2de25395.a" configVersion="85b35967ccf127895c0de837ae419267ba06851a"/>
 		<Metadata name="Configuration.Ринэко.ManagedApplicationModule" id="1c801ee0-62a0-4610-aae3-c66b2de25395.6" configVersion="f620f455ccf1ee2698fd6ddfa42659103856aa0c"/>
 		<Metadata name="Constant.ГИГ_ЗагружатьПолныеДанныеЦенНоменклатуры" id="5791c4ab-e4db-4fab-ab04-7fd6b4bb8e61" configVersion="3b74b8468a8e5bfcdd1c69c388fc3bd884124d6a"/>
@@ -3107,7 +3107,7 @@
 		<Metadata name="Document.ЗаказПоставщику.Form.СозданиеЗаказовПоставщикамНаОсновании" id="1eba3f4e-c3e7-4a17-9a04-7cb695ac1bd6" configVersion="549bf3f922acda38e0d493e9f079eb23bdd026a8"/>
 		<Metadata name="Document.ЗаказПоставщику.Form.СозданиеЗаказовПоставщикамНаОсновании.Form" id="1eba3f4e-c3e7-4a17-9a04-7cb695ac1bd6.0" configVersion="dd3f4169d3fb9ee5b07571c7a0c569481ae07292"/>
 		<Metadata name="Document.ЗаказПоставщику.Form.ФормаДокумента" id="90eb93b1-036c-4fff-97fd-7c392867bad2" configVersion="0c435b27085b0bd456feea02f9676b72efc47f9e"/>
-		<Metadata name="Document.ЗаказПоставщику.Form.ФормаДокумента.Form" id="90eb93b1-036c-4fff-97fd-7c392867bad2.0" configVersion="4238f15dcd5a14fd92266577e08bf198889eee7e"/>
+		<Metadata name="Document.ЗаказПоставщику.Form.ФормаДокумента.Form" id="90eb93b1-036c-4fff-97fd-7c392867bad2.0" configVersion="526da1d5336df35dc2c7fc816463960ad9d9b526"/>
 		<Metadata name="Document.ЗаказПоставщику.ManagerModule" id="cdcb35d4-2f71-4639-882c-568420f18a6f.2" configVersion="71011555d815e33acff0852e1d17a06ffb677eff"/>
 		<Metadata name="Document.ЗаказПоставщику.ObjectModule" id="cdcb35d4-2f71-4639-882c-568420f18a6f.0" configVersion="7571b53c44f4384ff65b254dae4db7379e31fa94"/>
 		<Metadata name="Document.ЗаявкаНаВозвратТоваровОтКлиента" id="1aac1a2e-cb2b-40e8-9cda-da27a9acfb24" configVersion="da7db00f0ad562abd91b7c4640ad4ab6d4d3ccbe">
@@ -4897,7 +4897,7 @@
 		<Metadata name="Report.ДеревоСебестоимостиПродукцииРИНЭКО.Form.ФормаНастроекОтчета.Form" id="48f37193-e8c4-4d17-a6bc-8c5b5af051c7.0" configVersion="f4dc00d4aa03efa357a5df7e97b6bd8f4db36e1e"/>
 		<Metadata name="Report.ДеревоСебестоимостиПродукцииРИНЭКО.Form.ФормаНастроекОтчета.Help" id="48f37193-e8c4-4d17-a6bc-8c5b5af051c7.1" configVersion="e6c0e9c766a2a472868e3787739c4cb64d60f1e8"/>
 		<Metadata name="Report.ДеревоСебестоимостиПродукцииРИНЭКО.Form.ФормаОтчета" id="ba617332-adfd-4e9f-bf0e-807557a4c410" configVersion="d7cea8a7419e69cc600cc42f931034973c1e46f8"/>
-		<Metadata name="Report.ДеревоСебестоимостиПродукцииРИНЭКО.Form.ФормаОтчета.Form" id="ba617332-adfd-4e9f-bf0e-807557a4c410.0" configVersion="f1d3a759dd9841489bc14f3814559aa0d547031f"/>
+		<Metadata name="Report.ДеревоСебестоимостиПродукцииРИНЭКО.Form.ФормаОтчета.Form" id="ba617332-adfd-4e9f-bf0e-807557a4c410.0" configVersion="5dc1ed4cd7673b5b7612facad6e58697f5301a21"/>
 		<Metadata name="Report.ДеревоСебестоимостиПродукцииРИНЭКО.Form.ФормаОтчета.Help" id="ba617332-adfd-4e9f-bf0e-807557a4c410.1" configVersion="db0d15a477102b1cf77444bcd20dc25fddf13811"/>
 		<Metadata name="Report.ДеревоСебестоимостиПродукцииРИНЭКО.Help" id="ecc2766a-c3c5-4102-aa6a-c683a6fed712.1" configVersion="481afb6f7787527785eccd07c533c921d0d5c10f"/>
 		<Metadata name="Report.ДеревоСебестоимостиПродукцииРИНЭКО.ManagerModule" id="ecc2766a-c3c5-4102-aa6a-c683a6fed712.2" configVersion="5c998b717ff128c1df099d262c5f7a7c2d4e12c3"/>
@@ -4973,7 +4973,7 @@
 		<Metadata name="Report.гиг_ОбеспечениеМатериаловДляАРМ.Template.ОсновнаяСхемаКомпоновкиДанных" id="ae734809-5c99-4202-9af6-c59da7369570" configVersion="8b8779b81d80d583ef7b5c2a2b2bf5dbbe59a5b2"/>
 		<Metadata name="Report.гиг_ОбеспечениеМатериаловДляАРМ.Template.ОсновнаяСхемаКомпоновкиДанных.Template" id="ae734809-5c99-4202-9af6-c59da7369570.0" configVersion="4b508b14294c40650401c8e45aa9b07fb06c32d9"/>
 		<Metadata name="Role.АдминистраторСистемы" id="091a4bfd-878e-47d6-9a36-8859aeb9b408" configVersion="e4bfc20e2239d0cb56f4892ae6ca8117316702bf"/>
-		<Metadata name="Role.АдминистраторСистемы.Rights" id="091a4bfd-878e-47d6-9a36-8859aeb9b408.0" configVersion="c20fce7f913b6479d66a9672896de9fea99dceec"/>
+		<Metadata name="Role.АдминистраторСистемы.Rights" id="091a4bfd-878e-47d6-9a36-8859aeb9b408.0" configVersion="8c562beae8d16ab906d91c94193c3ce908228a07"/>
 		<Metadata name="Role.БазовыеПраваБСП" id="ad6d4ad9-f4b0-401b-afc2-76f72f293291" configVersion="e15ef1abcfae1c187100f9444959d0b3ff86e8f8"/>
 		<Metadata name="Role.БазовыеПраваБСП.Rights" id="ad6d4ad9-f4b0-401b-afc2-76f72f293291.0" configVersion="e8a73f57556ff6942b597dc93f6b8e0547ded75b"/>
 		<Metadata name="Role.ГИГ_ИзменениеРезервовНаУдаленномСкладе" id="40065203-45e0-46e5-9b9c-1b177bba18db" configVersion="967c5ae6e50805681ebd9a43f489be7f79d92ad8"/>
@@ -5028,7 +5028,7 @@
 		<Metadata name="Role.НастройкаНСИ" id="4b1bdf0a-0c69-4672-b93e-eafb257e62ec" configVersion="cf25cd3a035835d31b5e1ae37d9678419cae1318"/>
 		<Metadata name="Role.ОсновнаяСхемаКомпоновкиДанных" id="d4c299c4-68cc-464c-89c3-b1c0dbcaba44" configVersion="4df4b2e0ceb608d917c9a14a13ab37a5c2d2a256"/>
 		<Metadata name="Role.ПолныеПрава" id="c33778dc-8dd7-4a42-b4f0-54163fc0a351" configVersion="038e38fb99c731cb4e55d345fc2cb5ac119cf2a7"/>
-		<Metadata name="Role.ПолныеПрава.Rights" id="c33778dc-8dd7-4a42-b4f0-54163fc0a351.0" configVersion="05eddf10e2c00ab60cb4a5bd41cb2cb8c9c0c184"/>
+		<Metadata name="Role.ПолныеПрава.Rights" id="c33778dc-8dd7-4a42-b4f0-54163fc0a351.0" configVersion="076c8382a1fa771b7a060c88befedbcfc18fa286"/>
 		<Metadata name="Role.РИНЭКО_ДобавлениеИзменениеСправочникаРИНЭКО_ПланМероприятийПоРаботеСЗД" id="68252b3b-937a-451b-b324-efbd21d80cd7" configVersion="56f6478f1c57255fd4df1fe76c904ddce749a5dc"/>
 		<Metadata name="Role.РИНЭКО_ДобавлениеИзменениеСправочникаРИНЭКО_ПланМероприятийПоРаботеСЗД.Rights" id="68252b3b-937a-451b-b324-efbd21d80cd7.0" configVersion="609cf3aab1bbdb9127c160461b86bd07091056f5"/>
 		<Metadata name="Role.РИНЭКО_УстановкаСтатусаВДоговореКонтрагента" id="e7f50969-311f-44ed-bcfe-5e4feab5d75d" configVersion="103c29f3f5de6da69ef79845d41e7c58db75bf8b"/>
