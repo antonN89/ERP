@@ -4121,7 +4121,7 @@
 			<Metadata name="Document.ЭтапПроизводства2_2.Attribute.Подразделение" id="ffcaada9-1fa8-402b-bd83-1010274ea06d"/>
 		</Metadata>
 		<Metadata name="Document.ЭтапПроизводства2_2.Form.ФормаДокумента" id="afadb61d-fd29-4f58-bfa5-fa19133cfc81" configVersion="8822eee4553da9d2a59b9dede6f5edc31e537f3e"/>
-		<Metadata name="Document.ЭтапПроизводства2_2.Form.ФормаДокумента.Form" id="afadb61d-fd29-4f58-bfa5-fa19133cfc81.0" configVersion="d0109362300e669b45f11b3db26c8053a075fb1b"/>
+		<Metadata name="Document.ЭтапПроизводства2_2.Form.ФормаДокумента.Form" id="afadb61d-fd29-4f58-bfa5-fa19133cfc81.0" configVersion="f95056389f2d19585f63fed079e6b220bdbdee5f"/>
 		<Metadata name="Document.ЭтапПроизводства2_2.ManagerModule" id="79d4df6e-d423-4845-8a17-6d9f831075cf.2" configVersion="b8233f32a2ce2b3cb939ec71102ab3a5739e7248"/>
 		<Metadata name="Document.ЭтапПроизводства2_2.ObjectModule" id="79d4df6e-d423-4845-8a17-6d9f831075cf.0" configVersion="8ad8a92e8753a3bf70136b660912d5498892b7a7"/>
 		<Metadata name="Enum.ВариантыАнализаНоменклатурыПродаваемойСовместно" id="52bb2e35-6333-41da-b7c8-36966a422e87" configVersion="44db679ae90586fb88b14e042ef6e7467d92a351"/>
