@@ -216,6 +216,11 @@
 		<dataSource>ИсточникДанных1</dataSource>
 		<objectName>ТаблицаДанных</objectName>
 	</dataSet>
+	<totalField>
+		<dataPath>ДолгКлиентаПросрочено</dataPath>
+		<expression>Сумма(ДолгКлиентаПросрочено)</expression>
+		<group>Договор</group>
+	</totalField>
 	<parameter>
 		<name>ВыводитьОбсуждения</name>
 		<title xsi:type="v8:LocalStringType">
