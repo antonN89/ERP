@@ -63,6 +63,13 @@
 		</right>
 	</object>
 	<object>
+		<name>CommonForm.ДокументыОбОтгрузкеСчетаФактуры</name>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
 		<name>CommonForm.РИНЕЭКО_ФормаКонтроляУдаленныхПозиций</name>
 		<right>
 			<name>View</name>

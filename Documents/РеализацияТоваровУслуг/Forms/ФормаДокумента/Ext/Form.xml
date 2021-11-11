@@ -300,6 +300,7 @@
 	</AutoCommandBar>
 	<Events>
 		<Event name="AfterWrite" callType="After">Рин1_ПослеЗаписиПосле</Event>
+		<Event name="ChoiceProcessing" callType="After">Рин1_ОбработкаВыбораПосле</Event>
 		<Event name="NotificationProcessing" callType="After">Рин1_ОбработкаОповещенияПосле</Event>
 		<Event name="OnOpen" callType="After">Рин1_ПриОткрытииПосле</Event>
 		<Event name="BeforeWrite" callType="Before">Рин1_ПередЗаписьюПеред</Event>
@@ -3958,6 +3959,34 @@ option</v8:content>
 												</Button>
 											</ChildItems>
 										</UsualGroup>
+										<UsualGroup name="ГруппаДокументыОбОтгрузке" id="1569">
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Группа документы об отгрузке</v8:content>
+												</v8:item>
+											</Title>
+											<ToolTip>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Группа документы об отгрузке</v8:content>
+												</v8:item>
+											</ToolTip>
+											<ShowTitle>false</ShowTitle>
+											<ExtendedTooltip name="ГруппаДокументыОбОтгрузкеРасширеннаяПодсказка" id="1570"/>
+											<ChildItems>
+												<LabelField name="НадписьДокументыОбОтгрузке" id="1571">
+													<DataPath>НадписьДокументыОбОтгрузке</DataPath>
+													<Width>60</Width>
+													<Hiperlink>true</Hiperlink>
+													<ContextMenu name="НадписьДокументыОбОтгрузкеКонтекстноеМеню" id="1572"/>
+													<ExtendedTooltip name="НадписьДокументыОбОтгрузкеРасширеннаяПодсказка" id="1573"/>
+													<Events>
+														<Event name="Click" callType="Override">Рин1_НадписьДокументыОбОтгрузкеНажатиеВместо</Event>
+													</Events>
+												</LabelField>
+											</ChildItems>
+										</UsualGroup>
 										<UsualGroup name="ГруппаДоп" id="1534">
 											<Title>
 												<v8:item>
@@ -4819,6 +4848,21 @@ option</v8:content>
 			</Title>
 			<Type>
 				<v8:Type>cfg:CatalogRef.БанковскиеСчетаОрганизаций</v8:Type>
+			</Type>
+		</Attribute>
+		<Attribute name="НадписьДокументыОбОтгрузке" id="1000003">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Надпись документы об отгрузке</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
 			</Type>
 		</Attribute>
 	</Attributes>

@@ -85,6 +85,13 @@
 		</right>
 	</object>
 	<object>
+		<name>CommonForm.ДокументыОбОтгрузкеСчетаФактуры</name>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
 		<name>Catalog.РИНЭКО_ПланМероприятийПоРаботеСЗД</name>
 		<right>
 			<name>Read</name>

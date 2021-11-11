@@ -433,6 +433,7 @@
 			<CommonForm>ЭтапыОплатыКлиентом</CommonForm>
 			<CommonForm>Рин1_ФормаСопоставления</CommonForm>
 			<CommonForm>РИНЕЭКО_ФормаКонтроляУдаленныхПозиций</CommonForm>
+			<CommonForm>ДокументыОбОтгрузкеСчетаФактуры</CommonForm>
 			<Catalog>БанковскиеСчетаКонтрагентов</Catalog>
 			<Catalog>Валюты</Catalog>
 			<Catalog>БанковскиеСчетаОрганизаций</Catalog>
