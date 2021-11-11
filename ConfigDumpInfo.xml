@@ -4918,7 +4918,7 @@
 		<Metadata name="Report.РИНЭКО_ДебиторскаяЗадолженность" id="592e6b07-e7e0-4f6f-a910-eb963b5bf270" configVersion="9e6582b1770d670215c2574da8456846acb0f1bf"/>
 		<Metadata name="Report.РИНЭКО_ДебиторскаяЗадолженность.ObjectModule" id="592e6b07-e7e0-4f6f-a910-eb963b5bf270.0" configVersion="ae9d1521431748a24f0a1999014cf2c3548f148a"/>
 		<Metadata name="Report.РИНЭКО_ДебиторскаяЗадолженность.Template.ОсновнаяСхемаКомпоновкиДанных" id="ce7b471b-6943-4ba9-9053-aa8d8553568d" configVersion="d40442f37184cdf6c2b6b4a19c05d40e639a3489"/>
-		<Metadata name="Report.РИНЭКО_ДебиторскаяЗадолженность.Template.ОсновнаяСхемаКомпоновкиДанных.Template" id="ce7b471b-6943-4ba9-9053-aa8d8553568d.0" configVersion="8d3284c823ec3341ab112350ea6c05ada2439fd1"/>
+		<Metadata name="Report.РИНЭКО_ДебиторскаяЗадолженность.Template.ОсновнаяСхемаКомпоновкиДанных.Template" id="ce7b471b-6943-4ba9-9053-aa8d8553568d.0" configVersion="e348fcc7072b2afa541e21ef856480d1e9d5c0b5"/>
 		<Metadata name="Report.РИНЭКО_СредняяСебестоимостьТМЦ" id="acd70681-021f-488d-af5a-8e3255e67e4a" configVersion="ca382a1c6a5f6e59f86152e8660488fe5cd77f95">
 			<Metadata name="Report.РИНЭКО_СредняяСебестоимостьТМЦ.Attribute.Документ" id="a537fac3-ce76-4c01-ab5b-97d85bb9b5ea"/>
 		</Metadata>
