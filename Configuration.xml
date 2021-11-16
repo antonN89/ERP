@@ -52,7 +52,7 @@
 			<ScriptVariant>Russian</ScriptVariant>
 			<DefaultRoles/>
 			<Vendor>Rineco</Vendor>
-			<Version>12.11.2021_2_2.4.13.227</Version>
+			<Version>16.11.2021_2_2.4.13.227</Version>
 			<DefaultStyle/>
 			<DefaultLanguage>Language.Русский</DefaultLanguage>
 			<BriefInformation/>
@@ -196,6 +196,7 @@
 			<CommonPicture>Структура</CommonPicture>
 			<CommonPicture>ПустаяКартинка</CommonPicture>
 			<CommonPicture>ВУпаковочныйЛист</CommonPicture>
+			<CommonPicture>СостояниеПроверкиКонтрагента</CommonPicture>
 			<Role>АдминистраторСистемы</Role>
 			<Role>БазовыеПраваБСП</Role>
 			<Role>гиг_ДобавлениеИзменениеРасчетИзделий</Role>
@@ -350,6 +351,7 @@
 			<CommonModule>РИНЭКО_НастройкиВызовСервера</CommonModule>
 			<CommonModule>СтруктураСебестоимости</CommonModule>
 			<CommonModule>СервисДоставки</CommonModule>
+			<CommonModule>РИНЭКО_ПодразделениеПоФизЛицу</CommonModule>
 			<ExchangePlan>СинхронизацияДанныхЧерезУниверсальныйФормат</ExchangePlan>
 			<EventSubscription>Рин1_ПодпискаНаСобытиеОтменаПроведения</EventSubscription>
 			<EventSubscription>Рин1_ПодпискаНаСобытиеПередЗаписью</EventSubscription>
@@ -644,6 +646,9 @@
 			<Document>УпаковочныйЛист</Document>
 			<Document>ЧекККМ</Document>
 			<Document>ЭтапПроизводства2_2</Document>
+			<Document>АвансовыйОтчет</Document>
+			<Document>ПоступлениеДенежныхДокументов</Document>
+			<Document>ПриходныйКассовыйОрдер</Document>
 			<Enum>ВариантыАнализаНоменклатурыПродаваемойСовместно</Enum>
 			<Enum>ВариантыДействийПоРасхождениямВАктеПослеОтгрузки</Enum>
 			<Enum>ВариантыДействийПоРасхождениямВАктеПослеПриемки</Enum>

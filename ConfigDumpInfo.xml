@@ -1313,6 +1313,8 @@
 		<Metadata name="CommonModule.ПродажиСервер.Module" id="e265f0eb-3c60-4eac-b527-3febe311a459.0" configVersion="f0a63624869f2cc2f478c5dcda3aba1721ffaf69"/>
 		<Metadata name="CommonModule.РИНЭКО_НастройкиВызовСервера" id="116333ec-dd47-460a-92ab-0ea9c1abe332" configVersion="82af2b5f1c558952d3ca4d908b4dc92c4a0ed13b"/>
 		<Metadata name="CommonModule.РИНЭКО_НастройкиВызовСервера.Module" id="116333ec-dd47-460a-92ab-0ea9c1abe332.0" configVersion="a63c286248e7962f9f7f0be37925fc489d8fa9e1"/>
+		<Metadata name="CommonModule.РИНЭКО_ПодразделениеПоФизЛицу" id="2e0d33e1-8c71-45a5-9582-f0450590b089" configVersion="34189c4246ceb48b903f3844cdfe0d45f920af66"/>
+		<Metadata name="CommonModule.РИНЭКО_ПодразделениеПоФизЛицу.Module" id="2e0d33e1-8c71-45a5-9582-f0450590b089.0" configVersion="111526b3741b514efc57bdf47be3d5489e610c14"/>
 		<Metadata name="CommonModule.РасхожденияКлиент" id="8cc3fcb6-c85d-4e83-9cff-4aff1ab0400b" configVersion="eada5541d035b4c9b2f40b210dda9373a463e717"/>
 		<Metadata name="CommonModule.РасхожденияКлиент.Module" id="8cc3fcb6-c85d-4e83-9cff-4aff1ab0400b.0" configVersion="2e8caf700e69840b2e9e1856762510952933f00e"/>
 		<Metadata name="CommonModule.РегламентныеЗаданияСлужебный" id="600104f0-bd97-4794-84de-256a2154c480" configVersion="7035355da687bb5b5ef0a13b7548946bc0324dea"/>
@@ -1432,6 +1434,7 @@
 		<Metadata name="CommonPicture.СоответствиеРасходногоОрдераНакладной" id="772479ae-ebd4-4096-8aba-784d74cc96b9" configVersion="d345c8f4056782b994496bb1c17790543605d162"/>
 		<Metadata name="CommonPicture.СостояниеНакладной" id="470d3741-7c51-4257-a57a-4864340ec3fe" configVersion="4c2ab2f25a1fd09782378b50ae5151e67bd8a679"/>
 		<Metadata name="CommonPicture.СостояниеНоменклатурыПродаваемойСовместно" id="82ae988a-1d33-4cca-8628-284cfe61bb16" configVersion="3ac8ef1bb196659320f6554dcaddd904dfc50ae2"/>
+		<Metadata name="CommonPicture.СостояниеПроверкиКонтрагента" id="56b4fafd-0bac-432b-ad7c-38ebb2132568" configVersion="6c251ef2d9b72d034f7616cc475a9fa036748b73"/>
 		<Metadata name="CommonPicture.СостояниеСкидкиНаценки" id="e79361c3-c144-40b3-a1b1-1b7b02276075" configVersion="89726513056324b9396fb5884f88c8cdf8d4fb26"/>
 		<Metadata name="CommonPicture.СостоянияДокумента" id="03543cba-908e-4be8-9e19-31a0b6dc4d2f" configVersion="6d5c75a1ed72a1eab10ddf75e288adeb00bc7c10"/>
 		<Metadata name="CommonPicture.СостоянияСтрок" id="14977f1e-f329-4309-b757-c14374852c95" configVersion="fbf0ec7459653b75e7ecabb114ff8f90e53dd95c"/>
@@ -1448,7 +1451,7 @@
 		<Metadata name="CommonPicture.ФильтрПоСвойствам" id="e1387d86-4981-4407-8b87-ace7aabb3d64" configVersion="3afe480ab107592bc5555b6739a438df48da647c"/>
 		<Metadata name="CommonPicture.ЭлектронноеПисьмо" id="346eae44-4546-4798-8776-405c3ae68bcb" configVersion="42ec725cbba55ac78f9803fa50b0c62d9267b425"/>
 		<Metadata name="CommonPicture.ЭтапЗадерживаетЗаказ" id="82ae288f-7d00-4ddd-b8ed-896662963fd8" configVersion="630e37a7eaa97f8bc08af40db829b93cf6473c4c"/>
-		<Metadata name="Configuration.Ринэко" id="e863e6a0-1242-4626-bed8-8a3c719cba3f" configVersion="6327cea18acb54ade01780c714663ea9396eeb17"/>
+		<Metadata name="Configuration.Ринэко" id="e863e6a0-1242-4626-bed8-8a3c719cba3f" configVersion="b7bd8d67080da2cc5acf6cd3865697920b7fa46e"/>
 		<Metadata name="Configuration.Ринэко.CommandInterface" id="1c801ee0-62a0-4610-aae3-c66b2de25395.a" configVersion="85b35967ccf127895c0de837ae419267ba06851a"/>
 		<Metadata name="Configuration.Ринэко.ManagedApplicationModule" id="1c801ee0-62a0-4610-aae3-c66b2de25395.6" configVersion="f620f455ccf1ee2698fd6ddfa42659103856aa0c"/>
 		<Metadata name="Constant.ГИГ_ЗагружатьПолныеДанныеЦенНоменклатуры" id="5791c4ab-e4db-4fab-ab04-7fd6b4bb8e61" configVersion="3b74b8468a8e5bfcdd1c69c388fc3bd884124d6a"/>
@@ -2507,6 +2510,9 @@
 		<Metadata name="DefinedType.УпаковкаНоменклатурыБЭД" id="f42b1508-9e69-4bcc-93a9-5df280197176" configVersion="8467870ab78219ab71d07761d6a7256c79ca6735"/>
 		<Metadata name="DefinedType.ФизическоеЛицо" id="83f0f268-e576-4f23-805f-3a94e20ce70c" configVersion="c6119b6571d2cf5ff5bea62646a041ab783a12c4"/>
 		<Metadata name="DefinedType.ХарактеристикаНоменклатурыБЭД" id="722b1c8e-ca83-45fc-8bd7-5cb19f0282fa" configVersion="4bf86d060d9770d9dddcbe33e42337e3abbdf62c"/>
+		<Metadata name="Document.АвансовыйОтчет" id="d475077b-6778-4f2c-9047-89074b315ab9" configVersion="9d626ba64a69f5bc6b103b67515ea487f6d2aea8"/>
+		<Metadata name="Document.АвансовыйОтчет.Form.ФормаДокумента" id="e03d1b0f-d925-43ff-9e88-dfe92bf2359c" configVersion="6d4d035982f9ee8b033650c565854bf405dc406f"/>
+		<Metadata name="Document.АвансовыйОтчет.Form.ФормаДокумента.Form" id="e03d1b0f-d925-43ff-9e88-dfe92bf2359c.0" configVersion="c461fe23bea394361733c650c748ff2ec431a6f2"/>
 		<Metadata name="Document.АктВыполненныхРабот" id="dfd3bbd6-4b74-47a1-ad15-2572dafad656" configVersion="0b49e7108727234b484a1e71596380738d6e894d">
 			<Metadata name="Document.АктВыполненныхРабот.TabularSection.Услуги.Attribute.ПроцентАвтоматическойСкидки" id="08fe4748-0a27-4b81-9a7e-2aec8338f102"/>
 			<Metadata name="Document.АктВыполненныхРабот.Attribute.КартаЛояльности" id="0ffa57da-6799-48e9-9f10-69163cc942cf"/>
@@ -3517,6 +3523,9 @@
 		<Metadata name="Document.ПоручениеЭкспедитору.Form.ФормаСписка" id="a3a90e77-05fd-4143-b7e0-0c11241758b6" configVersion="2ff35e8444dcd21c9b89edd6aa2b8eb1831eb2a5"/>
 		<Metadata name="Document.ПоручениеЭкспедитору.Form.ФормаСписка.Form" id="a3a90e77-05fd-4143-b7e0-0c11241758b6.0" configVersion="3876a2149faaf34abf6ad7c2d594a56641f4d226"/>
 		<Metadata name="Document.ПоручениеЭкспедитору.ObjectModule" id="fb7b0dd1-c67e-4a9f-b721-06be427dd068.0" configVersion="9396d0d63e6053e02cf010713e74d038832e4a2d"/>
+		<Metadata name="Document.ПоступлениеДенежныхДокументов" id="8625bea2-8caf-4329-8bd2-d4bbcd6b84c0" configVersion="59532c4f8fae25b03864c8858d3291677cc098f0"/>
+		<Metadata name="Document.ПоступлениеДенежныхДокументов.Form.ФормаДокумента" id="c6e756e6-d417-4d97-afe5-98a6bb58312d" configVersion="0c41f228c525cc2d1050c7257a5f15cbadb42c4a"/>
+		<Metadata name="Document.ПоступлениеДенежныхДокументов.Form.ФормаДокумента.Form" id="c6e756e6-d417-4d97-afe5-98a6bb58312d.0" configVersion="beb935bea15cad74ce96929af6182f8c9c408be4"/>
 		<Metadata name="Document.ПриемНаРаботу" id="fecdb1ee-1516-4ff3-a000-bd9d6f8e3726" configVersion="35ec37d413ad5b11e96e0f697f4e51749f084602">
 			<Metadata name="Document.ПриемНаРаботу.Attribute.Должность" id="1aca0a78-73ae-4584-9bc5-f31a1cd9e1a7"/>
 			<Metadata name="Document.ПриемНаРаботу.Attribute.ДолжностьПоШтатномуРасписанию" id="83598f4a-9446-4206-8478-9755f3d22707"/>
@@ -3619,6 +3628,9 @@
 		<Metadata name="Document.ПриобретениеТоваровУслуг.ObjectModule" id="6b8d098b-abf5-409d-9848-afdb3a343218.0" configVersion="3ecbfabab6401c90f8277384485fa6f41f224e75"/>
 		<Metadata name="Document.ПриобретениеТоваровУслуг.Template.ПФ_MXL_ПоступлениеТоваровСУслугами" id="05c6f0f2-8cf3-40e2-887c-ce763897bc7f" configVersion="e378828e18180d42044a9768d68cfc749f6b2991"/>
 		<Metadata name="Document.ПриобретениеТоваровУслуг.Template.ПФ_MXL_ПоступлениеТоваровСУслугами.Template" id="05c6f0f2-8cf3-40e2-887c-ce763897bc7f.0" configVersion="368b5d076dda9061fa53b0dc1f278644cae0d15a"/>
+		<Metadata name="Document.ПриходныйКассовыйОрдер" id="d3a22dcd-07c0-460f-bb37-8a982384519c" configVersion="b0d8a30a0448c0ae9435ab28c15ae5ceed5b8a4e"/>
+		<Metadata name="Document.ПриходныйКассовыйОрдер.Form.ФормаДокумента" id="7fac79bd-ac97-400f-9ce0-9f5822ef508e" configVersion="30989809249396de016dd7575a98c449e183eed2"/>
+		<Metadata name="Document.ПриходныйКассовыйОрдер.Form.ФормаДокумента.Form" id="7fac79bd-ac97-400f-9ce0-9f5822ef508e.0" configVersion="93e82ba250e8cb6731b8215220225e0d32c468a0"/>
 		<Metadata name="Document.ПриходныйОрдерНаТовары" id="a9ad3ce3-d183-42f7-b15a-7027d23527f4" configVersion="d06b42eca3ae8f727b709beb45fc443e0818eb18"/>
 		<Metadata name="Document.ПриходныйОрдерНаТовары.Form.Рин1_ФормаРезервовКОтмене" id="03de5b3b-ce4e-4295-86af-dc223f585e89" configVersion="48837a6ea3acebd9ea3b8b5970945d6a1e4fe9bf"/>
 		<Metadata name="Document.ПриходныйОрдерНаТовары.Form.Рин1_ФормаРезервовКОтмене.Form" id="03de5b3b-ce4e-4295-86af-dc223f585e89.0" configVersion="b3c84456eb572780d9d18840bc70285868d75b40"/>
@@ -4543,20 +4555,24 @@
 			<Metadata name="Enum.ФормыОплаты.EnumValue.ПлатежнаяКарта" id="295dc30f-3d7b-4a85-bd1f-413f464a9fb4"/>
 			<Metadata name="Enum.ФормыОплаты.EnumValue.Наличная" id="c5ca7896-b781-431e-8ec5-22e3b6edca4c"/>
 		</Metadata>
-		<Metadata name="Enum.ХозяйственныеОперации" id="f138bbc0-83e6-4fd8-bbc4-1f4f9451691f" configVersion="782723beff330bc1cb0c58b46e1cb7dab78e6deb">
+		<Metadata name="Enum.ХозяйственныеОперации" id="f138bbc0-83e6-4fd8-bbc4-1f4f9451691f" configVersion="7d1cfa1756b854e8343184143f5eca4fadc0b02d">
+			<Metadata name="Enum.ХозяйственныеОперации.EnumValue.ПоступлениеДенежныхСредствИзКассыККМ" id="0730cc7e-d273-4e0f-b817-edd67786db08"/>
 			<Metadata name="Enum.ХозяйственныеОперации.EnumValue.ПередачаНаХранениеСПравомПродажи" id="09f3c9f0-4545-4205-a7cc-60774c0c36c2"/>
 			<Metadata name="Enum.ХозяйственныеОперации.EnumValue.ПеречислениеВБюджет" id="0a95f24f-212d-4bbd-a5ea-b1dfcca8ee31"/>
 			<Metadata name="Enum.ХозяйственныеОперации.EnumValue.ОплатаЛизингодателю" id="10527382-eae7-43b5-9b94-62451b0d5bd2"/>
 			<Metadata name="Enum.ХозяйственныеОперации.EnumValue.ЗакупкаУПоставщикаРеглУчет" id="107f9da7-2122-4d05-a37c-dd27eb8e2ac4"/>
 			<Metadata name="Enum.ХозяйственныеОперации.EnumValue.ВозвратТоваровОтКлиента" id="11e63705-cd34-4fa7-80fd-229798224f34"/>
+			<Metadata name="Enum.ХозяйственныеОперации.EnumValue.ПрочееПоступлениеДенежныхСредств" id="163b0eaf-a04b-410a-92f9-389c9eaaae07"/>
 			<Metadata name="Enum.ХозяйственныеОперации.EnumValue.ЗакупкаВСтранахЕАЭСФактуровкаПоставки" id="171b9a9b-470c-49f2-a566-529d9a04a901"/>
 			<Metadata name="Enum.ХозяйственныеОперации.EnumValue.ВыдачаЗаймаСотруднику" id="17c794a4-ea91-492d-86e5-d16f4a671b25"/>
 			<Metadata name="Enum.ХозяйственныеОперации.EnumValue.ЗакупкаПоИмпортуТоварыВПути" id="23b5bfa2-506f-4f25-8c70-1d64669f3e58"/>
+			<Metadata name="Enum.ХозяйственныеОперации.EnumValue.ВозвратДенежныхСредствОтПоставщика" id="24132046-40d7-4262-910a-ea4d388d7022"/>
 			<Metadata name="Enum.ХозяйственныеОперации.EnumValue.СписаниеТоваровПоТребованию" id="30a00664-0d2a-499c-b37d-ee42fdc22170"/>
 			<Metadata name="Enum.ХозяйственныеОперации.EnumValue.ВыплатаЗарплатыЧерезКассу" id="3132987d-96bd-4cc0-b760-d42edac6fbd3"/>
 			<Metadata name="Enum.ХозяйственныеОперации.EnumValue.ЗакупкаУПоставщика" id="36b95c3b-d228-44b8-bdc9-915999601266"/>
 			<Metadata name="Enum.ХозяйственныеОперации.EnumValue.ВыплатаЗарплатыПоЗарплатномуПроекту" id="3be098a5-6753-4d81-aacb-fdb420c5ec98"/>
 			<Metadata name="Enum.ХозяйственныеОперации.EnumValue.СборкаТоваров" id="3fb5fd79-617a-43f0-b1fe-4805f71b5ae6"/>
+			<Metadata name="Enum.ХозяйственныеОперации.EnumValue.ПогашениеЗаймаСотрудником" id="44371559-fe0f-40f3-92c4-44de234b7d57"/>
 			<Metadata name="Enum.ХозяйственныеОперации.EnumValue.ЗакупкаУПоставщикаФактуровкаПоставки" id="46d07f88-be5d-4a70-916a-56fda6ac7fe2"/>
 			<Metadata name="Enum.ХозяйственныеОперации.EnumValue.ВнутренняяПередачаДенежныхСредств" id="4a206e28-8df6-455a-8af1-e806d30a5841"/>
 			<Metadata name="Enum.ХозяйственныеОперации.EnumValue.КонвертацияВалюты" id="6467c75b-2e12-4510-aad0-1b8823b793a8"/>
@@ -4565,9 +4581,12 @@
 			<Metadata name="Enum.ХозяйственныеОперации.EnumValue.ПередачаНаКомиссию" id="690fafa8-549a-4a3a-bc98-7ec421b3b05f"/>
 			<Metadata name="Enum.ХозяйственныеОперации.EnumValue.ВыдачаДенежныхСредствПодотчетнику" id="69d720fb-3361-49ec-8f98-0e82fb8c22f3"/>
 			<Metadata name="Enum.ХозяйственныеОперации.EnumValue.РеализацияКлиенту" id="6bb188e3-5800-44b4-88e5-6edb33ea4627"/>
+			<Metadata name="Enum.ХозяйственныеОперации.EnumValue.ПоступлениеДенежныхСредствИзБанка" id="6d1de675-4067-46b2-aad1-9f279c67003f"/>
 			<Metadata name="Enum.ХозяйственныеОперации.EnumValue.ВыплатаЗарплатыНаЛицевыеСчета" id="7032ead7-816d-4c20-95bd-d93e1ab1be5e"/>
 			<Metadata name="Enum.ХозяйственныеОперации.EnumValue.ПеречислениеТаможне" id="7317b542-1d16-44cc-b541-ccf2b6e6e768"/>
+			<Metadata name="Enum.ХозяйственныеОперации.EnumValue.ПоступлениеДенежныхСредствИзДругойОрганизации" id="733a7c45-1339-4fd2-94a6-551dfd926c32"/>
 			<Metadata name="Enum.ХозяйственныеОперации.EnumValue.ВыплатаЗарплаты" id="74de60c1-3fab-4e2e-b6b8-97627ceb0cdc"/>
+			<Metadata name="Enum.ХозяйственныеОперации.EnumValue.ПоступлениеДенежныхСредствИзДругойКассы" id="77c7f7b2-2a3d-4aec-9d59-ea18413880a7"/>
 			<Metadata name="Enum.ХозяйственныеОперации.EnumValue.ЗакупкаВСтранахЕАЭС" id="79581340-4dac-43a8-9a8d-c7531305d256"/>
 			<Metadata name="Enum.ХозяйственныеОперации.EnumValue.ВозвратТоваровПоставщику" id="7f11da1c-1474-43fe-a164-37ea43ee653a"/>
 			<Metadata name="Enum.ХозяйственныеОперации.EnumValue.КорректировкаПоСогласованиюСторон" id="81183855-94e5-4e6c-922d-4f3285139ac3"/>
@@ -4575,9 +4594,12 @@
 			<Metadata name="Enum.ХозяйственныеОперации.EnumValue.ОплатаДенежныхСредствВДругуюОрганизацию" id="820e8734-e0d8-48c6-a646-06a091b1e44d"/>
 			<Metadata name="Enum.ХозяйственныеОперации.EnumValue.ОплатаПоставщику" id="8694b53f-28fe-4f19-8a8f-5e18a8b20618"/>
 			<Metadata name="Enum.ХозяйственныеОперации.EnumValue.РеализацияБезПереходаПраваСобственности" id="87a9a445-bd66-4537-9e06-6d78cd4c834d"/>
+			<Metadata name="Enum.ХозяйственныеОперации.EnumValue.ПоступлениеДенежныхСредствПоЗаймамВыданным" id="87eb498a-bd58-4039-974b-8ae5f19c6d06"/>
 			<Metadata name="Enum.ХозяйственныеОперации.EnumValue.ВозвратНедопоставленногоТовара" id="941c89cf-08d5-425a-8b9d-3b7a55952931"/>
+			<Metadata name="Enum.ХозяйственныеОперации.EnumValue.ИнкассацияДенежныхСредствИзБанка" id="94bb94d9-50c9-45f3-89bd-706ea09ea80a"/>
 			<Metadata name="Enum.ХозяйственныеОперации.EnumValue.ОплатаПоКредитам" id="95e52362-7e0d-4694-b488-9d7db08e8663"/>
 			<Metadata name="Enum.ХозяйственныеОперации.EnumValue.ВозвратТоваровКомитенту" id="96bf90a0-3300-4a6f-bde8-c24853341b23"/>
+			<Metadata name="Enum.ХозяйственныеОперации.EnumValue.ВозвратДенежныхСредствОтДругойОрганизации" id="9d5e5f8d-4b1d-4527-80a8-a301783e3f7f"/>
 			<Metadata name="Enum.ХозяйственныеОперации.EnumValue.ПеремещениеТоваровМеждуФилиалами" id="9f3f6d29-2d47-44ea-b032-8de9d6a7e2a1"/>
 			<Metadata name="Enum.ХозяйственныеОперации.EnumValue.ПоступлениеОплатыОтКлиента" id="a0c4306d-db1e-4f77-af36-82e9ed040e07"/>
 			<Metadata name="Enum.ХозяйственныеОперации.EnumValue.ПриемНаХранениеСПравомПродажи" id="a34bbed1-f44a-472b-b8f5-59a1419b6aab"/>
@@ -4590,6 +4612,7 @@
 			<Metadata name="Enum.ХозяйственныеОперации.EnumValue.ПрочаяВыдачаДенежныхСредств" id="ce08434a-6f9e-40dd-98d0-dea2f836adc3"/>
 			<Metadata name="Enum.ХозяйственныеОперации.EnumValue.ЗакупкаЧерезПодотчетноеЛицо" id="d128cd70-6a61-4817-b609-23c00be4e7d4"/>
 			<Metadata name="Enum.ХозяйственныеОперации.EnumValue.ВозвратОтРозничногоПокупателя" id="d39d363d-4caa-48a6-b641-18d2542ccaf7"/>
+			<Metadata name="Enum.ХозяйственныеОперации.EnumValue.ПоступлениеДенежныхСредствПоКредитам" id="dd7c23eb-44db-4871-bfa9-982dd20493f9"/>
 			<Metadata name="Enum.ХозяйственныеОперации.EnumValue.РеализацияКлиентуРеглУчет" id="df88f246-1a34-4057-8135-84b072d6466c"/>
 			<Metadata name="Enum.ХозяйственныеОперации.EnumValue.ВыдачаЗаймов" id="dfb6b911-fb33-4b92-9326-6ae3709d2420"/>
 			<Metadata name="Enum.ХозяйственныеОперации.EnumValue.ПеречислениеДенежныхСредствНаДругойСчет" id="e93ed69b-bbf0-412a-bf93-01936b15c26a"/>
@@ -4598,6 +4621,7 @@
 			<Metadata name="Enum.ХозяйственныеОперации.EnumValue.ИсправлениеОшибок" id="f17074ac-15c7-4ad8-9378-91274d1f4ca3"/>
 			<Metadata name="Enum.ХозяйственныеОперации.EnumValue.ПередачаВЭксплуатацию" id="f5b23543-50d4-429d-9fee-a93c750527da"/>
 			<Metadata name="Enum.ХозяйственныеОперации.EnumValue.ВозвратОтХранителя" id="f6536edf-8214-4ee3-adb2-8a9ca52cbd9f"/>
+			<Metadata name="Enum.ХозяйственныеОперации.EnumValue.ВозвратДенежныхСредствОтПодотчетника" id="f814c559-2a1e-4232-a1ae-752ecd0a58d7"/>
 			<Metadata name="Enum.ХозяйственныеОперации.EnumValue.ПеречислениеНаДепозиты" id="f98849d3-4404-4dbf-9dd2-4077695efed3"/>
 		</Metadata>
 		<Metadata name="EventSubscription.Рин1_ПодпискаНаСобытиеОтменаПроведения" id="6d494eef-ff96-46f9-9c68-097b669cb19b" configVersion="24aaa2aee28b956530c477c2c6643ff83ee842f6"/>
