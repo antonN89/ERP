@@ -301,7 +301,7 @@
 		<Metadata name="Catalog.ГруппыДоступаНоменклатуры" id="8aba8b22-f748-48bd-a990-d48f32fd0535" configVersion="e420ffe9ae14c77c7dd68cc7879eb32c58e949cc"/>
 		<Metadata name="Catalog.ГруппыФинансовогоУчетаНоменклатуры" id="e4261a73-d111-46d8-a253-c362594f8194" configVersion="0c102883f74fc4884d26f18875cbf0af8e4ffa9b"/>
 		<Metadata name="Catalog.ГруппыФинансовогоУчетаРасчетов" id="82a2fc00-42ec-4ad7-935c-1fe36f8a0e92" configVersion="821a6aab422505b6111e7e2acac8e6f068a54241"/>
-		<Metadata name="Catalog.ДоговорыКонтрагентов" id="3bbfdb37-8fb0-490f-9092-ad3c8c5442be" configVersion="f043eeea0eac398d22debb11621bfea3059e19fe">
+		<Metadata name="Catalog.ДоговорыКонтрагентов" id="3bbfdb37-8fb0-490f-9092-ad3c8c5442be" configVersion="65ed10b37c9fd22ac3c438a4f112a00dab6de23a">
 			<Metadata name="Catalog.ДоговорыКонтрагентов.Attribute.НалогообложениеНДС" id="07594cab-8099-4077-acc0-fb6ef1b688ef"/>
 			<Metadata name="Catalog.ДоговорыКонтрагентов.Attribute.НаименованиеДляПечати" id="091d5d47-1d1b-4bc9-8700-dcd2a3081601"/>
 			<Metadata name="Catalog.ДоговорыКонтрагентов.Attribute.ДополнительнаяИнформацияПоДоставке" id="0f297b6f-bf5e-4bb1-a469-86e609558af1"/>
@@ -358,6 +358,7 @@
 			<Metadata name="Catalog.ДоговорыКонтрагентов.Attribute.Рин1_ДниКалендарные" id="9f1eb9f7-aba6-4941-ba45-d2e00590c9de"/>
 			<Metadata name="Catalog.ДоговорыКонтрагентов.Attribute.Подразделение" id="a65133a6-755a-420a-8aad-43ff6594e45c"/>
 			<Metadata name="Catalog.ДоговорыКонтрагентов.Attribute.Рин1_ВозможнаРеализацияБезПереходаПраваСобственности" id="a809fb7f-fb71-45fb-bae0-ab660333cae7"/>
+			<Metadata name="Catalog.ДоговорыКонтрагентов.Attribute.РИНЭКО_ДатаПередачиОригиналаВАрхив" id="a887f914-f49b-481b-8dbe-8824f4eb1223"/>
 			<Metadata name="Catalog.ДоговорыКонтрагентов.Attribute.ИдентификаторПлатежа" id="ab00b9be-7379-4bad-9615-65129680b4c3"/>
 			<Metadata name="Catalog.ДоговорыКонтрагентов.TabularSection.ПодтверждающиеДокументы.Attribute.Номер" id="aeb32fae-92f6-4427-bdb4-c06f91125fe6"/>
 			<Metadata name="Catalog.ДоговорыКонтрагентов.Attribute.ГИГ_ОграничиватьСуммуКОбеспечению" id="b0d3a6f2-5f1d-41c3-a084-541b0e7c2b77"/>
@@ -368,6 +369,7 @@
 			<Metadata name="Catalog.ДоговорыКонтрагентов.Attribute.СпособДоставки" id="ba2a8cd7-10c6-4829-98f3-936833c0b5f3"/>
 			<Metadata name="Catalog.ДоговорыКонтрагентов.Attribute.Номер" id="c53b52e1-5034-4040-80ac-4d9a7c9f1ff2"/>
 			<Metadata name="Catalog.ДоговорыКонтрагентов.Attribute.ПорядокРасчетов" id="cb51cb1d-015c-4a16-9525-d6315bd30829"/>
+			<Metadata name="Catalog.ДоговорыКонтрагентов.Attribute.РИНЭКО_ДатаПолученияОригинала" id="d10bd8d3-cf47-4a20-b31e-6d74371ca3a9"/>
 			<Metadata name="Catalog.ДоговорыКонтрагентов.Attribute.Руководитель" id="d2f47959-d9a0-4018-a2dc-17fa5223c193"/>
 			<Metadata name="Catalog.ДоговорыКонтрагентов.Attribute.Менеджер" id="d9e4b146-9e83-4e7e-8df8-c455fb9ded3e"/>
 			<Metadata name="Catalog.ДоговорыКонтрагентов.Attribute.БанковскийСчетГрузополучателя" id="dbaeba3f-4bae-4d71-9417-a8edbe2a9a16"/>
@@ -392,7 +394,7 @@
 		<Metadata name="Catalog.ДоговорыКонтрагентов.Form.ФормаСпискаПродажи" id="6cb2f0b9-6c62-4306-adb5-2797f3bdb8e7" configVersion="98c345d3e245579a1412a20ec0a6eb60dc8ee3d5"/>
 		<Metadata name="Catalog.ДоговорыКонтрагентов.Form.ФормаСпискаПродажи.Form" id="6cb2f0b9-6c62-4306-adb5-2797f3bdb8e7.0" configVersion="c19e4a54b71deacb589785525c2c69617f5f0541"/>
 		<Metadata name="Catalog.ДоговорыКонтрагентов.Form.ФормаЭлемента" id="b377f01e-d042-405e-92a9-68485b719678" configVersion="845394de664a134bd0518c9a62692546cc140ba4"/>
-		<Metadata name="Catalog.ДоговорыКонтрагентов.Form.ФормаЭлемента.Form" id="b377f01e-d042-405e-92a9-68485b719678.0" configVersion="50e20de1a58c8ec4b8db78d0603db345e51f08cd"/>
+		<Metadata name="Catalog.ДоговорыКонтрагентов.Form.ФормаЭлемента.Form" id="b377f01e-d042-405e-92a9-68485b719678.0" configVersion="6f36808ef2c655c46a87eff5c6d5b1ce10edb6bc"/>
 		<Metadata name="Catalog.ДоговорыКонтрагентов.ObjectModule" id="3bbfdb37-8fb0-490f-9092-ad3c8c5442be.0" configVersion="59530023f8df4fb38dcea2671159302d59c2290d"/>
 		<Metadata name="Catalog.ДоговорыКонтрагентовПрисоединенныеФайлы" id="04efea43-2368-4557-9c45-711c9e825ea6" configVersion="0dac907124cb9dc7a669b9a7a8b3f9ba011d532e"/>
 		<Metadata name="Catalog.ДоговорыКредитовИДепозитов" id="8106f6fa-10ee-4feb-8309-2ccd92904d1c" configVersion="b971022c3b20d0d44966905aef459bcc01ea1990"/>
@@ -1314,7 +1316,7 @@
 		<Metadata name="CommonModule.РИНЭКО_НастройкиВызовСервера" id="116333ec-dd47-460a-92ab-0ea9c1abe332" configVersion="82af2b5f1c558952d3ca4d908b4dc92c4a0ed13b"/>
 		<Metadata name="CommonModule.РИНЭКО_НастройкиВызовСервера.Module" id="116333ec-dd47-460a-92ab-0ea9c1abe332.0" configVersion="a63c286248e7962f9f7f0be37925fc489d8fa9e1"/>
 		<Metadata name="CommonModule.РИНЭКО_ПодразделениеПоФизЛицу" id="2e0d33e1-8c71-45a5-9582-f0450590b089" configVersion="34189c4246ceb48b903f3844cdfe0d45f920af66"/>
-		<Metadata name="CommonModule.РИНЭКО_ПодразделениеПоФизЛицу.Module" id="2e0d33e1-8c71-45a5-9582-f0450590b089.0" configVersion="5b1c6a8f62d27a76d9c8c4defde185e2a2c502cf"/>
+		<Metadata name="CommonModule.РИНЭКО_ПодразделениеПоФизЛицу.Module" id="2e0d33e1-8c71-45a5-9582-f0450590b089.0" configVersion="85c1d53a84681e574ac1f80c41fd65434194cc91"/>
 		<Metadata name="CommonModule.РасхожденияКлиент" id="8cc3fcb6-c85d-4e83-9cff-4aff1ab0400b" configVersion="eada5541d035b4c9b2f40b210dda9373a463e717"/>
 		<Metadata name="CommonModule.РасхожденияКлиент.Module" id="8cc3fcb6-c85d-4e83-9cff-4aff1ab0400b.0" configVersion="2e8caf700e69840b2e9e1856762510952933f00e"/>
 		<Metadata name="CommonModule.РегламентныеЗаданияСлужебный" id="600104f0-bd97-4794-84de-256a2154c480" configVersion="7035355da687bb5b5ef0a13b7548946bc0324dea"/>
@@ -1451,7 +1453,7 @@
 		<Metadata name="CommonPicture.ФильтрПоСвойствам" id="e1387d86-4981-4407-8b87-ace7aabb3d64" configVersion="3afe480ab107592bc5555b6739a438df48da647c"/>
 		<Metadata name="CommonPicture.ЭлектронноеПисьмо" id="346eae44-4546-4798-8776-405c3ae68bcb" configVersion="42ec725cbba55ac78f9803fa50b0c62d9267b425"/>
 		<Metadata name="CommonPicture.ЭтапЗадерживаетЗаказ" id="82ae288f-7d00-4ddd-b8ed-896662963fd8" configVersion="630e37a7eaa97f8bc08af40db829b93cf6473c4c"/>
-		<Metadata name="Configuration.Ринэко" id="e863e6a0-1242-4626-bed8-8a3c719cba3f" configVersion="b7bd8d67080da2cc5acf6cd3865697920b7fa46e"/>
+		<Metadata name="Configuration.Ринэко" id="e863e6a0-1242-4626-bed8-8a3c719cba3f" configVersion="529f62fc7b1d2c8793b0f4735c80b1469b171cf3"/>
 		<Metadata name="Configuration.Ринэко.CommandInterface" id="1c801ee0-62a0-4610-aae3-c66b2de25395.a" configVersion="85b35967ccf127895c0de837ae419267ba06851a"/>
 		<Metadata name="Configuration.Ринэко.ManagedApplicationModule" id="1c801ee0-62a0-4610-aae3-c66b2de25395.6" configVersion="f620f455ccf1ee2698fd6ddfa42659103856aa0c"/>
 		<Metadata name="Constant.ГИГ_ЗагружатьПолныеДанныеЦенНоменклатуры" id="5791c4ab-e4db-4fab-ab04-7fd6b4bb8e61" configVersion="3b74b8468a8e5bfcdd1c69c388fc3bd884124d6a"/>
@@ -3525,7 +3527,7 @@
 		<Metadata name="Document.ПоручениеЭкспедитору.ObjectModule" id="fb7b0dd1-c67e-4a9f-b721-06be427dd068.0" configVersion="9396d0d63e6053e02cf010713e74d038832e4a2d"/>
 		<Metadata name="Document.ПоступлениеДенежныхДокументов" id="8625bea2-8caf-4329-8bd2-d4bbcd6b84c0" configVersion="59532c4f8fae25b03864c8858d3291677cc098f0"/>
 		<Metadata name="Document.ПоступлениеДенежныхДокументов.Form.ФормаДокумента" id="c6e756e6-d417-4d97-afe5-98a6bb58312d" configVersion="0c41f228c525cc2d1050c7257a5f15cbadb42c4a"/>
-		<Metadata name="Document.ПоступлениеДенежныхДокументов.Form.ФормаДокумента.Form" id="c6e756e6-d417-4d97-afe5-98a6bb58312d.0" configVersion="97527fbc10752c09ccad684ab99b59c4711d5781"/>
+		<Metadata name="Document.ПоступлениеДенежныхДокументов.Form.ФормаДокумента.Form" id="c6e756e6-d417-4d97-afe5-98a6bb58312d.0" configVersion="cee5cb1c00f7c3b44985d11716341129fd63e2fc"/>
 		<Metadata name="Document.ПриемНаРаботу" id="fecdb1ee-1516-4ff3-a000-bd9d6f8e3726" configVersion="35ec37d413ad5b11e96e0f697f4e51749f084602">
 			<Metadata name="Document.ПриемНаРаботу.Attribute.Должность" id="1aca0a78-73ae-4584-9bc5-f31a1cd9e1a7"/>
 			<Metadata name="Document.ПриемНаРаботу.Attribute.ДолжностьПоШтатномуРасписанию" id="83598f4a-9446-4206-8478-9755f3d22707"/>
