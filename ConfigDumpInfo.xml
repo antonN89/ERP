@@ -3632,7 +3632,7 @@
 		<Metadata name="Document.ПриобретениеТоваровУслуг.Template.ПФ_MXL_ПоступлениеТоваровСУслугами.Template" id="05c6f0f2-8cf3-40e2-887c-ce763897bc7f.0" configVersion="368b5d076dda9061fa53b0dc1f278644cae0d15a"/>
 		<Metadata name="Document.ПриходныйКассовыйОрдер" id="d3a22dcd-07c0-460f-bb37-8a982384519c" configVersion="b0d8a30a0448c0ae9435ab28c15ae5ceed5b8a4e"/>
 		<Metadata name="Document.ПриходныйКассовыйОрдер.Form.ФормаДокумента" id="7fac79bd-ac97-400f-9ce0-9f5822ef508e" configVersion="30989809249396de016dd7575a98c449e183eed2"/>
-		<Metadata name="Document.ПриходныйКассовыйОрдер.Form.ФормаДокумента.Form" id="7fac79bd-ac97-400f-9ce0-9f5822ef508e.0" configVersion="4b051b36a6647965ec6bd4a08e9e689d12130b67"/>
+		<Metadata name="Document.ПриходныйКассовыйОрдер.Form.ФормаДокумента.Form" id="7fac79bd-ac97-400f-9ce0-9f5822ef508e.0" configVersion="dbfb9a8043aba1728d9ab8d1af9689b8cb151942"/>
 		<Metadata name="Document.ПриходныйОрдерНаТовары" id="a9ad3ce3-d183-42f7-b15a-7027d23527f4" configVersion="d06b42eca3ae8f727b709beb45fc443e0818eb18"/>
 		<Metadata name="Document.ПриходныйОрдерНаТовары.Form.Рин1_ФормаРезервовКОтмене" id="03de5b3b-ce4e-4295-86af-dc223f585e89" configVersion="48837a6ea3acebd9ea3b8b5970945d6a1e4fe9bf"/>
 		<Metadata name="Document.ПриходныйОрдерНаТовары.Form.Рин1_ФормаРезервовКОтмене.Form" id="03de5b3b-ce4e-4295-86af-dc223f585e89.0" configVersion="b3c84456eb572780d9d18840bc70285868d75b40"/>
