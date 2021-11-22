@@ -216,6 +216,26 @@
 		<dataSource>ИсточникДанных1</dataSource>
 		<objectName>ТаблицаДанных</objectName>
 	</dataSet>
+	<totalField>
+		<dataPath>ДолгКлиента</dataPath>
+		<expression>Сумма(ДолгКлиента)</expression>
+		<group>Договор</group>
+	</totalField>
+	<totalField>
+		<dataPath>ДолгКлиентаПросрочено</dataPath>
+		<expression>Сумма(ДолгКлиентаПросрочено)</expression>
+		<group>Договор</group>
+	</totalField>
+	<totalField>
+		<dataPath>КоличествоДней</dataPath>
+		<expression>Сумма(КоличествоДней)</expression>
+		<group>Договор</group>
+	</totalField>
+	<totalField>
+		<dataPath>НашДолг</dataPath>
+		<expression>Сумма(НашДолг)</expression>
+		<group>Договор</group>
+	</totalField>
 	<parameter>
 		<name>ВыводитьОбсуждения</name>
 		<title xsi:type="v8:LocalStringType">
@@ -235,7 +255,7 @@
 		<dcsset:presentation xsi:type="v8:LocalStringType">
 			<v8:item>
 				<v8:lang>ru</v8:lang>
-				<v8:content>Дебиторская задолженност (РИНЭКО)</v8:content>
+				<v8:content>Дебиторская задолженность (РИНЭКО)</v8:content>
 			</v8:item>
 		</dcsset:presentation>
 		<dcsset:settings xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows">
@@ -323,13 +343,6 @@
 					<dcsset:userSettingID>3a5b396d-9926-4ff8-a739-e27310c6e8d0</dcsset:userSettingID>
 				</dcscor:item>
 			</dcsset:dataParameters>
-			<dcsset:conditionalAppearance>
-				<dcsset:item>
-					<dcsset:selection/>
-					<dcsset:filter/>
-					<dcsset:appearance/>
-				</dcsset:item>
-			</dcsset:conditionalAppearance>
 			<dcsset:outputParameters>
 				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
 					<dcscor:parameter>ВыводитьПараметрыДанных</dcscor:parameter>
@@ -375,7 +388,7 @@
 					<dcsset:item xsi:type="dcsset:StructureItemGroup">
 						<dcsset:groupItems>
 							<dcsset:item xsi:type="dcsset:GroupItemField">
-								<dcsset:field>Партнер</dcsset:field>
+								<dcsset:field>Валюта</dcsset:field>
 								<dcsset:groupType>Items</dcsset:groupType>
 								<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
 								<dcsset:periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionBegin>
@@ -391,7 +404,7 @@
 						<dcsset:item xsi:type="dcsset:StructureItemGroup">
 							<dcsset:groupItems>
 								<dcsset:item xsi:type="dcsset:GroupItemField">
-									<dcsset:field>Контрагент</dcsset:field>
+									<dcsset:field>Партнер</dcsset:field>
 									<dcsset:groupType>Items</dcsset:groupType>
 									<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
 									<dcsset:periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionBegin>
@@ -407,7 +420,7 @@
 							<dcsset:item xsi:type="dcsset:StructureItemGroup">
 								<dcsset:groupItems>
 									<dcsset:item xsi:type="dcsset:GroupItemField">
-										<dcsset:field>ДоговорРИНЭКО_СтатусДЗ</dcsset:field>
+										<dcsset:field>Контрагент</dcsset:field>
 										<dcsset:groupType>Items</dcsset:groupType>
 										<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
 										<dcsset:periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionBegin>
@@ -420,59 +433,10 @@
 								<dcsset:selection>
 									<dcsset:item xsi:type="dcsset:SelectedItemAuto"/>
 								</dcsset:selection>
-								<dcsset:conditionalAppearance>
-									<dcsset:item>
-										<dcsset:selection>
-											<dcsset:item>
-												<dcsset:field>ДоговорРИНЭКО_СтатусДЗ</dcsset:field>
-											</dcsset:item>
-										</dcsset:selection>
-										<dcsset:filter>
-											<dcsset:item xsi:type="dcsset:FilterItemComparison">
-												<dcsset:left xsi:type="dcscor:Field">ДоговорРИНЭКО_СтатусДЗ</dcsset:left>
-												<dcsset:comparisonType>Equal</dcsset:comparisonType>
-												<dcsset:right xsi:type="dcscor:DesignTimeValue">Перечисление.СтатусДЗ.Добросовестная</dcsset:right>
-											</dcsset:item>
-										</dcsset:filter>
-										<dcsset:appearance>
-											<dcscor:item xsi:type="dcsset:SettingsParameterValue">
-												<dcscor:parameter>ЦветФона</dcscor:parameter>
-												<dcscor:value xsi:type="v8ui:Color">style:ДобавленныйРеквизитФон</dcscor:value>
-											</dcscor:item>
-										</dcsset:appearance>
-									</dcsset:item>
-									<dcsset:item>
-										<dcsset:selection>
-											<dcsset:item>
-												<dcsset:field>ДоговорРИНЭКО_СтатусДЗ</dcsset:field>
-											</dcsset:item>
-										</dcsset:selection>
-										<dcsset:filter>
-											<dcsset:item xsi:type="dcsset:FilterItemComparison">
-												<dcsset:left xsi:type="dcscor:Field">ДоговорРИНЭКО_СтатусДЗ</dcsset:left>
-												<dcsset:comparisonType>NotEqual</dcsset:comparisonType>
-												<dcsset:right xsi:type="dcscor:DesignTimeValue">Перечисление.СтатусДЗ.Добросовестная</dcsset:right>
-											</dcsset:item>
-										</dcsset:filter>
-										<dcsset:appearance>
-											<dcscor:item xsi:type="dcsset:SettingsParameterValue">
-												<dcscor:parameter>ЦветФона</dcscor:parameter>
-												<dcscor:value xsi:type="v8ui:Color">style:ПолеСОшибкойФон</dcscor:value>
-											</dcscor:item>
-										</dcsset:appearance>
-									</dcsset:item>
-								</dcsset:conditionalAppearance>
 								<dcsset:item xsi:type="dcsset:StructureItemGroup">
 									<dcsset:groupItems>
 										<dcsset:item xsi:type="dcsset:GroupItemField">
-											<dcsset:field>Договор</dcsset:field>
-											<dcsset:groupType>Items</dcsset:groupType>
-											<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
-											<dcsset:periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionBegin>
-											<dcsset:periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionEnd>
-										</dcsset:item>
-										<dcsset:item xsi:type="dcsset:GroupItemField">
-											<dcsset:field>Обсуждения</dcsset:field>
+											<dcsset:field>ДоговорРИНЭКО_СтатусДЗ</dcsset:field>
 											<dcsset:groupType>Items</dcsset:groupType>
 											<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
 											<dcsset:periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionBegin>
@@ -485,10 +449,59 @@
 									<dcsset:selection>
 										<dcsset:item xsi:type="dcsset:SelectedItemAuto"/>
 									</dcsset:selection>
+									<dcsset:conditionalAppearance>
+										<dcsset:item>
+											<dcsset:selection>
+												<dcsset:item>
+													<dcsset:field>ДоговорРИНЭКО_СтатусДЗ</dcsset:field>
+												</dcsset:item>
+											</dcsset:selection>
+											<dcsset:filter>
+												<dcsset:item xsi:type="dcsset:FilterItemComparison">
+													<dcsset:left xsi:type="dcscor:Field">ДоговорРИНЭКО_СтатусДЗ</dcsset:left>
+													<dcsset:comparisonType>Equal</dcsset:comparisonType>
+													<dcsset:right xsi:type="dcscor:DesignTimeValue">Перечисление.СтатусДЗ.Добросовестная</dcsset:right>
+												</dcsset:item>
+											</dcsset:filter>
+											<dcsset:appearance>
+												<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+													<dcscor:parameter>ЦветФона</dcscor:parameter>
+													<dcscor:value xsi:type="v8ui:Color">style:ДобавленныйРеквизитФон</dcscor:value>
+												</dcscor:item>
+											</dcsset:appearance>
+										</dcsset:item>
+										<dcsset:item>
+											<dcsset:selection>
+												<dcsset:item>
+													<dcsset:field>ДоговорРИНЭКО_СтатусДЗ</dcsset:field>
+												</dcsset:item>
+											</dcsset:selection>
+											<dcsset:filter>
+												<dcsset:item xsi:type="dcsset:FilterItemComparison">
+													<dcsset:left xsi:type="dcscor:Field">ДоговорРИНЭКО_СтатусДЗ</dcsset:left>
+													<dcsset:comparisonType>NotEqual</dcsset:comparisonType>
+													<dcsset:right xsi:type="dcscor:DesignTimeValue">Перечисление.СтатусДЗ.Добросовестная</dcsset:right>
+												</dcsset:item>
+											</dcsset:filter>
+											<dcsset:appearance>
+												<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+													<dcscor:parameter>ЦветФона</dcscor:parameter>
+													<dcscor:value xsi:type="v8ui:Color">style:ПолеСОшибкойФон</dcscor:value>
+												</dcscor:item>
+											</dcsset:appearance>
+										</dcsset:item>
+									</dcsset:conditionalAppearance>
 									<dcsset:item xsi:type="dcsset:StructureItemGroup">
 										<dcsset:groupItems>
 											<dcsset:item xsi:type="dcsset:GroupItemField">
-												<dcsset:field>ОбъектРасчетов</dcsset:field>
+												<dcsset:field>Договор</dcsset:field>
+												<dcsset:groupType>Items</dcsset:groupType>
+												<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
+												<dcsset:periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionBegin>
+												<dcsset:periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionEnd>
+											</dcsset:item>
+											<dcsset:item xsi:type="dcsset:GroupItemField">
+												<dcsset:field>Обсуждения</dcsset:field>
 												<dcsset:groupType>Items</dcsset:groupType>
 												<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
 												<dcsset:periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionBegin>
@@ -501,13 +514,96 @@
 										<dcsset:selection>
 											<dcsset:item xsi:type="dcsset:SelectedItemAuto"/>
 										</dcsset:selection>
+										<dcsset:conditionalAppearance>
+											<dcsset:item>
+												<dcsset:selection>
+													<dcsset:item>
+														<dcsset:field>ДолгКлиента</dcsset:field>
+													</dcsset:item>
+													<dcsset:item>
+														<dcsset:field>ДолгКлиентаПросрочено</dcsset:field>
+													</dcsset:item>
+													<dcsset:item>
+														<dcsset:field>НашДолг</dcsset:field>
+													</dcsset:item>
+													<dcsset:item>
+														<dcsset:field>КоличествоДней</dcsset:field>
+													</dcsset:item>
+												</dcsset:selection>
+												<dcsset:filter/>
+												<dcsset:appearance>
+													<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+														<dcscor:parameter>Шрифт</dcscor:parameter>
+														<dcscor:value xsi:type="v8ui:Font" ref="sys:DefaultGUIFont" bold="true" italic="false" underline="false" strikeout="false" kind="WindowsFont"/>
+													</dcscor:item>
+												</dcsset:appearance>
+												<dcsset:useInHierarchicalGroup>DontUse</dcsset:useInHierarchicalGroup>
+												<dcsset:useInOverall>DontUse</dcsset:useInOverall>
+												<dcsset:useInFieldsHeader>DontUse</dcsset:useInFieldsHeader>
+												<dcsset:useInHeader>DontUse</dcsset:useInHeader>
+												<dcsset:useInParameters>DontUse</dcsset:useInParameters>
+												<dcsset:useInFilter>DontUse</dcsset:useInFilter>
+											</dcsset:item>
+										</dcsset:conditionalAppearance>
 										<dcsset:item xsi:type="dcsset:StructureItemGroup">
+											<dcsset:groupItems>
+												<dcsset:item xsi:type="dcsset:GroupItemField">
+													<dcsset:field>ОбъектРасчетов</dcsset:field>
+													<dcsset:groupType>Items</dcsset:groupType>
+													<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
+													<dcsset:periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionBegin>
+													<dcsset:periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionEnd>
+												</dcsset:item>
+											</dcsset:groupItems>
 											<dcsset:order>
 												<dcsset:item xsi:type="dcsset:OrderItemAuto"/>
 											</dcsset:order>
 											<dcsset:selection>
 												<dcsset:item xsi:type="dcsset:SelectedItemAuto"/>
 											</dcsset:selection>
+											<dcsset:conditionalAppearance>
+												<dcsset:item>
+													<dcsset:selection>
+														<dcsset:item>
+															<dcsset:field>ДолгКлиента</dcsset:field>
+														</dcsset:item>
+														<dcsset:item>
+															<dcsset:field>ДолгКлиентаПросрочено</dcsset:field>
+														</dcsset:item>
+														<dcsset:item>
+															<dcsset:field>КоличествоДней</dcsset:field>
+														</dcsset:item>
+														<dcsset:item>
+															<dcsset:field>НашДолг</dcsset:field>
+														</dcsset:item>
+													</dcsset:selection>
+													<dcsset:filter/>
+													<dcsset:appearance>
+														<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+															<dcscor:parameter>ЦветТекста</dcscor:parameter>
+															<dcscor:value xsi:type="v8ui:Color">style:ТекстЗапрещеннойЯчейкиЦвет</dcscor:value>
+														</dcscor:item>
+														<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+															<dcscor:parameter>Шрифт</dcscor:parameter>
+															<dcscor:value xsi:type="v8ui:Font" ref="sys:DefaultGUIFont" bold="true" italic="false" underline="false" strikeout="false" kind="WindowsFont"/>
+														</dcscor:item>
+													</dcsset:appearance>
+													<dcsset:useInHierarchicalGroup>DontUse</dcsset:useInHierarchicalGroup>
+													<dcsset:useInOverall>DontUse</dcsset:useInOverall>
+													<dcsset:useInFieldsHeader>DontUse</dcsset:useInFieldsHeader>
+													<dcsset:useInHeader>DontUse</dcsset:useInHeader>
+													<dcsset:useInParameters>DontUse</dcsset:useInParameters>
+													<dcsset:useInFilter>DontUse</dcsset:useInFilter>
+												</dcsset:item>
+											</dcsset:conditionalAppearance>
+											<dcsset:item xsi:type="dcsset:StructureItemGroup">
+												<dcsset:order>
+													<dcsset:item xsi:type="dcsset:OrderItemAuto"/>
+												</dcsset:order>
+												<dcsset:selection>
+													<dcsset:item xsi:type="dcsset:SelectedItemAuto"/>
+												</dcsset:selection>
+											</dcsset:item>
 										</dcsset:item>
 									</dcsset:item>
 								</dcsset:item>
