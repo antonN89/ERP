@@ -219,22 +219,18 @@
 	<totalField>
 		<dataPath>ДолгКлиента</dataPath>
 		<expression>Сумма(ДолгКлиента)</expression>
-		<group>Договор</group>
 	</totalField>
 	<totalField>
 		<dataPath>ДолгКлиентаПросрочено</dataPath>
 		<expression>Сумма(ДолгКлиентаПросрочено)</expression>
-		<group>Договор</group>
 	</totalField>
 	<totalField>
 		<dataPath>КоличествоДней</dataPath>
 		<expression>Сумма(КоличествоДней)</expression>
-		<group>Договор</group>
 	</totalField>
 	<totalField>
 		<dataPath>НашДолг</dataPath>
 		<expression>Сумма(НашДолг)</expression>
-		<group>Договор</group>
 	</totalField>
 	<parameter>
 		<name>ВыводитьОбсуждения</name>
