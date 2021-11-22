@@ -709,7 +709,7 @@
 		<Metadata name="Catalog.ПрофилиГруппДоступа.Form.ФормаЭлемента" id="d241b4f9-c155-489c-9802-b6a98c77e2c3" configVersion="36ae8d86cf43b7e5608f0acffcd8b9495337c923"/>
 		<Metadata name="Catalog.ПрофилиГруппДоступа.Form.ФормаЭлемента.Form" id="d241b4f9-c155-489c-9802-b6a98c77e2c3.0" configVersion="0dea5cfc2e20959166db8e4ff70de12b85d183fa"/>
 		<Metadata name="Catalog.ПрофилиГруппДоступа.ObjectModule" id="e659be6d-8331-4b64-a770-e4cab1b219fb.0" configVersion="9de9ffe85b4b424a767685a792bde0ad9da64f7f"/>
-		<Metadata name="Catalog.РИНЭКО_ПланМероприятийПоРаботеСЗД" id="34a7f507-7190-42b7-bec9-bc299caea068" configVersion="092b060fdec3e260135b0873256b2b3b83c0a0e1"/>
+		<Metadata name="Catalog.РИНЭКО_ПланМероприятийПоРаботеСЗД" id="34a7f507-7190-42b7-bec9-bc299caea068" configVersion="47b49f2a3f91072ab18e7cc610b5de66187b07fe"/>
 		<Metadata name="Catalog.РабочиеЦентры" id="162ebecd-e545-4f6c-b315-06a64cb27dfc" configVersion="e0ffaf1295642fde1cd7a12c0c545f674f798201">
 			<Metadata name="Catalog.РабочиеЦентры.Attribute.Календарь" id="0f45c8a7-1257-402e-be82-1d23477e1f0f"/>
 			<Metadata name="Catalog.РабочиеЦентры.Attribute.КоэффициентВремениРаботы" id="301d3285-bf2c-448e-bce4-1ac01df954a9"/>
