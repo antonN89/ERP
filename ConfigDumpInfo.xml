@@ -3152,7 +3152,7 @@
 		<Metadata name="Document.ЗаказПоставщику.Form.СозданиеЗаказовПоставщикамНаОсновании" id="1eba3f4e-c3e7-4a17-9a04-7cb695ac1bd6" configVersion="549bf3f922acda38e0d493e9f079eb23bdd026a8"/>
 		<Metadata name="Document.ЗаказПоставщику.Form.СозданиеЗаказовПоставщикамНаОсновании.Form" id="1eba3f4e-c3e7-4a17-9a04-7cb695ac1bd6.0" configVersion="dd3f4169d3fb9ee5b07571c7a0c569481ae07292"/>
 		<Metadata name="Document.ЗаказПоставщику.Form.ФормаДокумента" id="90eb93b1-036c-4fff-97fd-7c392867bad2" configVersion="0c435b27085b0bd456feea02f9676b72efc47f9e"/>
-		<Metadata name="Document.ЗаказПоставщику.Form.ФормаДокумента.Form" id="90eb93b1-036c-4fff-97fd-7c392867bad2.0" configVersion="526da1d5336df35dc2c7fc816463960ad9d9b526"/>
+		<Metadata name="Document.ЗаказПоставщику.Form.ФормаДокумента.Form" id="90eb93b1-036c-4fff-97fd-7c392867bad2.0" configVersion="c514e9fffa2ec0c8a84e646979dbbbc4cbef93ba"/>
 		<Metadata name="Document.ЗаказПоставщику.ManagerModule" id="cdcb35d4-2f71-4639-882c-568420f18a6f.2" configVersion="71011555d815e33acff0852e1d17a06ffb677eff"/>
 		<Metadata name="Document.ЗаказПоставщику.ObjectModule" id="cdcb35d4-2f71-4639-882c-568420f18a6f.0" configVersion="7571b53c44f4384ff65b254dae4db7379e31fa94"/>
 		<Metadata name="Document.ЗаявкаНаВозвратТоваровОтКлиента" id="1aac1a2e-cb2b-40e8-9cda-da27a9acfb24" configVersion="da7db00f0ad562abd91b7c4640ad4ab6d4d3ccbe">
@@ -3658,7 +3658,7 @@
 			<Metadata name="Document.ПриобретениеТоваровУслуг.Attribute.СуммаДокумента" id="ffc3de97-ce5c-42a8-8c3e-2db581a4b7f1"/>
 		</Metadata>
 		<Metadata name="Document.ПриобретениеТоваровУслуг.Form.ФормаДокумента" id="3a561716-7ea5-4193-9765-3347cc7ec542" configVersion="c158fc582dcc5bf10a7ed43e0c3cde3384ed8cad"/>
-		<Metadata name="Document.ПриобретениеТоваровУслуг.Form.ФормаДокумента.Form" id="3a561716-7ea5-4193-9765-3347cc7ec542.0" configVersion="2d348c98d39c6fbb4de1fd8b742e4a03ed6a9894"/>
+		<Metadata name="Document.ПриобретениеТоваровУслуг.Form.ФормаДокумента.Form" id="3a561716-7ea5-4193-9765-3347cc7ec542.0" configVersion="f412249d2761f23dfcf7ad51a35011d0aed358e6"/>
 		<Metadata name="Document.ПриобретениеТоваровУслуг.Form.ФормаСписка" id="5222dff8-8b24-4f2a-a6ca-5570ccd16d7b" configVersion="d3fcf5297c9f09cf4436e07e4cc41ea60552b0cf"/>
 		<Metadata name="Document.ПриобретениеТоваровУслуг.Form.ФормаСписка.Form" id="5222dff8-8b24-4f2a-a6ca-5570ccd16d7b.0" configVersion="9fc440ac8e77e111754471589d753a03a19c4e4d"/>
 		<Metadata name="Document.ПриобретениеТоваровУслуг.ManagerModule" id="6b8d098b-abf5-409d-9848-afdb3a343218.2" configVersion="7ba7ae31c4b6ab1e45f1a36bad1abbc01e0d6c95"/>
