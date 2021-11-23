@@ -36,11 +36,11 @@
 		<ChildObjects>
 			<Attribute uuid="15a2bb70-d841-4a99-80cc-6e5d14d6e56e">
 				<Properties>
-					<Name>РИНЭКО_НеВыгружать</Name>
+					<Name>РИНЭКО_Выгружать</Name>
 					<Synonym>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Не выгружать</v8:content>
+							<v8:content>Выгружать в БП</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>

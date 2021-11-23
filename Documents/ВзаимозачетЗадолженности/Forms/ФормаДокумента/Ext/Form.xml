@@ -426,18 +426,18 @@
 									<ContextMenu name="ВидОперацииКонтекстноеМеню" id="243"/>
 									<ExtendedTooltip name="ВидОперацииРасширеннаяПодсказка" id="244"/>
 								</InputField>
-								<CheckBoxField name="РИНЭКО_НеВыгружать" id="470">
-									<DataPath>Объект.РИНЭКО_НеВыгружать</DataPath>
+								<CheckBoxField name="РИНЭКО_Выгружать" id="470">
+									<DataPath>Объект.РИНЭКО_Выгружать</DataPath>
 									<ToolTip>
 										<v8:item>
 											<v8:lang>ru</v8:lang>
-											<v8:content>При установке галки данные не передаются в 1С:БП</v8:content>
+											<v8:content>При установке галки данные передаются в 1С:БП</v8:content>
 										</v8:item>
 									</ToolTip>
 									<ToolTipRepresentation>Button</ToolTipRepresentation>
 									<CheckBoxType>Auto</CheckBoxType>
-									<ContextMenu name="РИНЭКО_НеВыгружатьКонтекстноеМеню" id="471"/>
-									<ExtendedTooltip name="РИНЭКО_НеВыгружатьРасширеннаяПодсказка" id="472"/>
+									<ContextMenu name="РИНЭКО_ВыгружатьКонтекстноеМеню" id="471"/>
+									<ExtendedTooltip name="РИНЭКО_ВыгружатьРасширеннаяПодсказка" id="472"/>
 								</CheckBoxField>
 							</ChildItems>
 						</UsualGroup>

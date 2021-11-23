@@ -2674,11 +2674,11 @@
 		<Metadata name="Document.ВедомостьНаВыплатуЗарплатыВКассу" id="564077c4-1c42-4dbd-8316-5c1840e5f9e9" configVersion="3f214379646704411d34ac8529badd07826e5e17"/>
 		<Metadata name="Document.ВедомостьНаВыплатуЗарплатыВКассу.Form.ФормаДокумента" id="e2a67077-5a1b-4163-98d9-faebb27868db" configVersion="fa14b85317372be18c3f041a46542e50ec576ba4"/>
 		<Metadata name="Document.ВедомостьНаВыплатуЗарплатыВКассу.Form.ФормаДокумента.Form" id="e2a67077-5a1b-4163-98d9-faebb27868db.0" configVersion="47729f4fdefde88fa6eae3056b285474a08181d3"/>
-		<Metadata name="Document.ВзаимозачетЗадолженности" id="16c3ade1-7a19-412a-9697-e36eaf61e502" configVersion="89a5c64bd94e04144f4514249f8299b1cc727716">
+		<Metadata name="Document.ВзаимозачетЗадолженности" id="16c3ade1-7a19-412a-9697-e36eaf61e502" configVersion="1129a748ddd34c150029a9ddeaecf85705093db7">
 			<Metadata name="Document.ВзаимозачетЗадолженности.Attribute.ВидОперации" id="0498ca60-84c2-48d4-8ff2-c3ccb671fc6d"/>
 			<Metadata name="Document.ВзаимозачетЗадолженности.TabularSection.КредиторскаяЗадолженность.Attribute.Партнер" id="0a7168ea-a0ca-4f2b-8129-70b3b49a434b"/>
 			<Metadata name="Document.ВзаимозачетЗадолженности.Attribute.Комментарий" id="1499f116-d917-44dc-b9e5-ddf275d45abe"/>
-			<Metadata name="Document.ВзаимозачетЗадолженности.Attribute.РИНЭКО_НеВыгружать" id="15a2bb70-d841-4a99-80cc-6e5d14d6e56e"/>
+			<Metadata name="Document.ВзаимозачетЗадолженности.Attribute.РИНЭКО_Выгружать" id="15a2bb70-d841-4a99-80cc-6e5d14d6e56e"/>
 			<Metadata name="Document.ВзаимозачетЗадолженности.TabularSection.ДебиторскаяЗадолженность.Attribute.Заказ" id="1adde1ec-565f-4b9a-9d82-4667361c7e2d"/>
 			<Metadata name="Document.ВзаимозачетЗадолженности.Attribute.ОрганизацияКредитор" id="2b31d0ad-0e07-4c4a-bde7-62923e80a4fd"/>
 			<Metadata name="Document.ВзаимозачетЗадолженности.TabularSection.ДебиторскаяЗадолженность.Attribute.СуммаУпр" id="3976e74b-89ee-460f-aa3e-d4cd330b237c"/>
@@ -2708,7 +2708,7 @@
 			<Metadata name="Document.ВзаимозачетЗадолженности.Attribute.ОбъектРасчетовИнтеркампани" id="fe2052f3-dddd-4b84-b55d-47c2a63d36fd"/>
 		</Metadata>
 		<Metadata name="Document.ВзаимозачетЗадолженности.Form.ФормаДокумента" id="6f07881e-c1be-40af-9d12-254fb17d09ef" configVersion="b80a87c733349ab120cb44d067e9c39dfe10571b"/>
-		<Metadata name="Document.ВзаимозачетЗадолженности.Form.ФормаДокумента.Form" id="6f07881e-c1be-40af-9d12-254fb17d09ef.0" configVersion="7bc42834ade572cb5cbdf7a8a82e8c3d93fec691"/>
+		<Metadata name="Document.ВзаимозачетЗадолженности.Form.ФормаДокумента.Form" id="6f07881e-c1be-40af-9d12-254fb17d09ef.0" configVersion="10b4f8747b92f8b462b755e284dae7d1e6c1c54b"/>
 		<Metadata name="Document.ВозвратТоваровОтКлиента" id="e07e3117-c192-496a-b9c1-f6d0ba8246a8" configVersion="430ff0e068304580aee06fe03fbae9eca5eb1a92">
 			<Metadata name="Document.ВозвратТоваровОтКлиента.Attribute.ЧекККМ" id="04279011-a7b8-4ebd-8ab0-694bcfa90338"/>
 			<Metadata name="Document.ВозвратТоваровОтКлиента.Attribute.ПредусмотренЗалогЗаТару" id="0c06ac3b-a2cf-4b35-bf15-4e64bd164e42"/>
@@ -4019,7 +4019,7 @@
 		<Metadata name="Document.СписаниеБезналичныхДенежныхСредств.Form.ФормаДокумента" id="7768fb66-54cf-43f2-9044-b600f6c0c8ea" configVersion="68f3e95bb51df3a57b577d72a5013e68df2a6803"/>
 		<Metadata name="Document.СписаниеБезналичныхДенежныхСредств.Form.ФормаДокумента.Form" id="7768fb66-54cf-43f2-9044-b600f6c0c8ea.0" configVersion="116b90f82402e614df0b8fb0ec18d7ef93f90000"/>
 		<Metadata name="Document.СписаниеБезналичныхДенежныхСредств.ObjectModule" id="d44f203e-6759-4266-afdd-4bd2cc3fa75e.0" configVersion="80d1e276089cb23337d90c537d7297d1d4b15b53"/>
-		<Metadata name="Document.СписаниеЗадолженности" id="305a8d66-535e-40dd-b164-a79841c0ad31" configVersion="f640b6602360086f5a742c1e04df2d8905cff1c1">
+		<Metadata name="Document.СписаниеЗадолженности" id="305a8d66-535e-40dd-b164-a79841c0ad31" configVersion="d838907439d465323bd3f80f990400df74711737">
 			<Metadata name="Document.СписаниеЗадолженности.TabularSection.Задолженность.Attribute.ИдентификаторСтроки" id="024a1505-353b-4b47-a96f-b2d0f9e6ed46"/>
 			<Metadata name="Document.СписаниеЗадолженности.Attribute.АналитикаРасходов" id="0d300d1a-54dd-4d2c-9388-5b64c52e4e08"/>
 			<Metadata name="Document.СписаниеЗадолженности.TabularSection.Задолженность.Attribute.ТипРасчетов" id="13cd1555-8df6-4f57-bc73-9e4c1f9f7348"/>
@@ -4034,14 +4034,14 @@
 			<Metadata name="Document.СписаниеЗадолженности.Attribute.АналитикаАктивовПассивов" id="79f79b8a-4c78-405c-97db-46c8b57a2ae3"/>
 			<Metadata name="Document.СписаниеЗадолженности.TabularSection.Задолженность" id="91b06c68-37e5-4907-8e8b-da032c483ce7"/>
 			<Metadata name="Document.СписаниеЗадолженности.TabularSection.Задолженность.Attribute.ВалютаВзаиморасчетов" id="942af7fc-5443-4f6e-8777-13db64c59001"/>
-			<Metadata name="Document.СписаниеЗадолженности.Attribute.РИНЭКО_НеВыгружать" id="a3918e5f-2de8-4566-bc39-3c4d484b6b77"/>
+			<Metadata name="Document.СписаниеЗадолженности.Attribute.РИНЭКО_Выгружать" id="a3918e5f-2de8-4566-bc39-3c4d484b6b77"/>
 			<Metadata name="Document.СписаниеЗадолженности.Attribute.РасчетыМеждуОрганизациями" id="ae5fbdbd-be3d-46cc-bf99-66ab29a60347"/>
 			<Metadata name="Document.СписаниеЗадолженности.Attribute.ХозяйственнаяОперация" id="af01ecd2-3b28-448c-b10f-174be52e4ada"/>
 			<Metadata name="Document.СписаниеЗадолженности.Attribute.СтатьяРасходов" id="cbf176af-04e1-47fb-ab02-15b37ecf28c1"/>
 			<Metadata name="Document.СписаниеЗадолженности.Attribute.Контрагент" id="d43464f5-26b1-4c77-8bee-113f1a9c9105"/>
 		</Metadata>
 		<Metadata name="Document.СписаниеЗадолженности.Form.ФормаДокумента" id="8adc29c4-e443-4e96-b89f-e335455b957b" configVersion="f568886096aa2b061b8e991001ca3ec46fa220a3"/>
-		<Metadata name="Document.СписаниеЗадолженности.Form.ФормаДокумента.Form" id="8adc29c4-e443-4e96-b89f-e335455b957b.0" configVersion="1bfadaac70e186d5c2e0cb5c8582286bf6126b2e"/>
+		<Metadata name="Document.СписаниеЗадолженности.Form.ФормаДокумента.Form" id="8adc29c4-e443-4e96-b89f-e335455b957b.0" configVersion="db9f5a2a1090c80386e27ac1ac44ca324c945c99"/>
 		<Metadata name="Document.СписаниеНедостачТоваров" id="3e87f7a4-cdcf-4d00-a219-9452cd8339f4" configVersion="5edad8428c7604265fe4679fa9a0a2f9c215f882"/>
 		<Metadata name="Document.СчетНаОплатуКлиенту" id="fbd79013-5160-434d-a605-ceaef9c0b69c" configVersion="9ab2b815305045555365061a05c60a687f715840"/>
 		<Metadata name="Document.СчетНаОплатуКлиенту.Form.ФормаДокумента" id="eb73188b-fe7c-4034-b1c6-d505e67cb9a0" configVersion="c0a1cae1cc60c6c399fb72f89c10c975fa5c59c7"/>
