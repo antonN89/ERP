@@ -598,6 +598,24 @@
 					<ExtendedConfigurationObject>8adc8fdb-3180-4f55-b140-3b1c2a8a3a42</ExtendedConfigurationObject>
 				</Properties>
 			</EnumValue>
+			<EnumValue uuid="2a1369d5-c38f-4ec5-9fc0-55086a8edfa5">
+				<InternalInfo/>
+				<Properties>
+					<Name>СписаниеДебиторскойЗадолженности</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<ExtendedConfigurationObject>ae5b97e9-6e3e-40da-af52-695ba210a200</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="9988cac8-415e-478d-990f-16e2cbd4a8f7">
+				<InternalInfo/>
+				<Properties>
+					<Name>СписаниеКредиторскойЗадолженности</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<ExtendedConfigurationObject>733cca42-63ac-4b08-87d9-90abec9c03ec</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
 		</ChildObjects>
 	</Enum>
 </MetaDataObject>
