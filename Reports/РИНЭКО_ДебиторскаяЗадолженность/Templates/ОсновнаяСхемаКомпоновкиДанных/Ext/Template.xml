@@ -232,6 +232,11 @@
 		<dataPath>НашДолг</dataPath>
 		<expression>Сумма(НашДолг)</expression>
 	</totalField>
+	<totalField>
+		<dataPath>Обсуждения</dataPath>
+		<expression>Обсуждения</expression>
+		<group>Договор</group>
+	</totalField>
 	<parameter>
 		<name>ВыводитьОбсуждения</name>
 		<title xsi:type="v8:LocalStringType">
@@ -272,25 +277,25 @@
 					<dcsset:field>РасчетныйДокумент</dcsset:field>
 				</dcsset:item>
 				<dcsset:item xsi:type="dcsset:SelectedItemFolder">
-					<dcsset:item xsi:type="dcsset:SelectedItemField">
-						<dcsset:field>ДолгКлиента</dcsset:field>
-					</dcsset:item>
-					<dcsset:item xsi:type="dcsset:SelectedItemField">
-						<dcsset:field>ДолгКлиентаПросрочено</dcsset:field>
-					</dcsset:item>
-					<dcsset:item xsi:type="dcsset:SelectedItemField">
-						<dcsset:field>Валюта</dcsset:field>
-					</dcsset:item>
-					<dcsset:item xsi:type="dcsset:SelectedItemField">
-						<dcsset:field>НашДолг</dcsset:field>
-					</dcsset:item>
-					<dcsset:item xsi:type="dcsset:SelectedItemField">
-						<dcsset:field>КоличествоДней</dcsset:field>
-					</dcsset:item>
 					<dcsset:placement>Horizontally</dcsset:placement>
 				</dcsset:item>
 				<dcsset:item xsi:type="dcsset:SelectedItemField">
 					<dcsset:field>ОбъектРасчетов</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Валюта</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ДолгКлиента</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ДолгКлиентаПросрочено</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>НашДолг</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>КоличествоДней</dcsset:field>
 				</dcsset:item>
 				<dcsset:item xsi:type="dcsset:SelectedItemFolder">
 					<dcsset:item xsi:type="dcsset:SelectedItemField">
@@ -330,6 +335,12 @@
 							<v8:content>Менеджер</v8:content>
 						</v8:item>
 					</dcsset:userSettingPresentation>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:FilterItemComparison">
+					<dcsset:use>false</dcsset:use>
+					<dcsset:left xsi:type="dcscor:Field">Договор.Менеджер.Подразделение</dcsset:left>
+					<dcsset:comparisonType>Equal</dcsset:comparisonType>
+					<dcsset:userSettingID>f8f46af6-22c4-4de1-ac20-00dc53881a47</dcsset:userSettingID>
 				</dcsset:item>
 			</dcsset:filter>
 			<dcsset:dataParameters>
@@ -496,13 +507,6 @@
 												<dcsset:periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionBegin>
 												<dcsset:periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionEnd>
 											</dcsset:item>
-											<dcsset:item xsi:type="dcsset:GroupItemField">
-												<dcsset:field>Обсуждения</dcsset:field>
-												<dcsset:groupType>Items</dcsset:groupType>
-												<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
-												<dcsset:periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionBegin>
-												<dcsset:periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionEnd>
-											</dcsset:item>
 										</dcsset:groupItems>
 										<dcsset:order>
 											<dcsset:item xsi:type="dcsset:OrderItemAuto"/>
@@ -591,6 +595,26 @@
 													<dcsset:useInParameters>DontUse</dcsset:useInParameters>
 													<dcsset:useInFilter>DontUse</dcsset:useInFilter>
 												</dcsset:item>
+												<dcsset:item>
+													<dcsset:selection>
+														<dcsset:item>
+															<dcsset:field>Обсуждения</dcsset:field>
+														</dcsset:item>
+													</dcsset:selection>
+													<dcsset:filter/>
+													<dcsset:appearance>
+														<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+															<dcscor:parameter>Текст</dcscor:parameter>
+															<dcscor:value xsi:type="xs:string"/>
+														</dcscor:item>
+													</dcsset:appearance>
+													<dcsset:useInHierarchicalGroup>DontUse</dcsset:useInHierarchicalGroup>
+													<dcsset:useInOverall>DontUse</dcsset:useInOverall>
+													<dcsset:useInFieldsHeader>DontUse</dcsset:useInFieldsHeader>
+													<dcsset:useInHeader>DontUse</dcsset:useInHeader>
+													<dcsset:useInParameters>DontUse</dcsset:useInParameters>
+													<dcsset:useInFilter>DontUse</dcsset:useInFilter>
+												</dcsset:item>
 											</dcsset:conditionalAppearance>
 											<dcsset:item xsi:type="dcsset:StructureItemGroup">
 												<dcsset:order>
@@ -599,6 +623,28 @@
 												<dcsset:selection>
 													<dcsset:item xsi:type="dcsset:SelectedItemAuto"/>
 												</dcsset:selection>
+												<dcsset:conditionalAppearance>
+													<dcsset:item>
+														<dcsset:selection>
+															<dcsset:item>
+																<dcsset:field>Обсуждения</dcsset:field>
+															</dcsset:item>
+														</dcsset:selection>
+														<dcsset:filter/>
+														<dcsset:appearance>
+															<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+																<dcscor:parameter>Текст</dcscor:parameter>
+																<dcscor:value xsi:type="xs:string"/>
+															</dcscor:item>
+														</dcsset:appearance>
+														<dcsset:useInHierarchicalGroup>DontUse</dcsset:useInHierarchicalGroup>
+														<dcsset:useInOverall>DontUse</dcsset:useInOverall>
+														<dcsset:useInFieldsHeader>DontUse</dcsset:useInFieldsHeader>
+														<dcsset:useInHeader>DontUse</dcsset:useInHeader>
+														<dcsset:useInParameters>DontUse</dcsset:useInParameters>
+														<dcsset:useInFilter>DontUse</dcsset:useInFilter>
+													</dcsset:item>
+												</dcsset:conditionalAppearance>
 											</dcsset:item>
 										</dcsset:item>
 									</dcsset:item>
