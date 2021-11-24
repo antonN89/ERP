@@ -1453,7 +1453,7 @@
 		<Metadata name="CommonPicture.ФильтрПоСвойствам" id="e1387d86-4981-4407-8b87-ace7aabb3d64" configVersion="3afe480ab107592bc5555b6739a438df48da647c"/>
 		<Metadata name="CommonPicture.ЭлектронноеПисьмо" id="346eae44-4546-4798-8776-405c3ae68bcb" configVersion="42ec725cbba55ac78f9803fa50b0c62d9267b425"/>
 		<Metadata name="CommonPicture.ЭтапЗадерживаетЗаказ" id="82ae288f-7d00-4ddd-b8ed-896662963fd8" configVersion="630e37a7eaa97f8bc08af40db829b93cf6473c4c"/>
-		<Metadata name="Configuration.Ринэко" id="e863e6a0-1242-4626-bed8-8a3c719cba3f" configVersion="cf2bbeef7461cddde2871a6fb6c4a94ff3582c93"/>
+		<Metadata name="Configuration.Ринэко" id="e863e6a0-1242-4626-bed8-8a3c719cba3f" configVersion="0e14be1d1470c081eabed47521e51556ef0da0c8"/>
 		<Metadata name="Configuration.Ринэко.CommandInterface" id="1c801ee0-62a0-4610-aae3-c66b2de25395.a" configVersion="85b35967ccf127895c0de837ae419267ba06851a"/>
 		<Metadata name="Configuration.Ринэко.ManagedApplicationModule" id="1c801ee0-62a0-4610-aae3-c66b2de25395.6" configVersion="f620f455ccf1ee2698fd6ddfa42659103856aa0c"/>
 		<Metadata name="Constant.ГИГ_ЗагружатьПолныеДанныеЦенНоменклатуры" id="5791c4ab-e4db-4fab-ab04-7fd6b4bb8e61" configVersion="3b74b8468a8e5bfcdd1c69c388fc3bd884124d6a"/>
@@ -1824,7 +1824,7 @@
 			<Metadata name="DataProcessor.ГИГ_ЗагрузкаДанныхИзВнешнихФайлов.TabularSection.Товары.Attribute.ТребуетУточнения" id="fba743b7-4d8b-45c8-90cb-f1237e82dbd6"/>
 		</Metadata>
 		<Metadata name="DataProcessor.ГИГ_ЗагрузкаДанныхИзВнешнихФайлов.Form.Форма" id="6e5b11c5-8dfa-432e-83ba-9c0cbf48268f" configVersion="46fb1545d8cd2735add7358106da8d4e0c7bf41e"/>
-		<Metadata name="DataProcessor.ГИГ_ЗагрузкаДанныхИзВнешнихФайлов.Form.Форма.Form" id="6e5b11c5-8dfa-432e-83ba-9c0cbf48268f.0" configVersion="e48e606df9448237fe47bb92f2fbe0c6a7d7fc78"/>
+		<Metadata name="DataProcessor.ГИГ_ЗагрузкаДанныхИзВнешнихФайлов.Form.Форма.Form" id="6e5b11c5-8dfa-432e-83ba-9c0cbf48268f.0" configVersion="e83a83b22e8a7a7ecd2c3e1dfae5a81ffe988a37"/>
 		<Metadata name="DataProcessor.ГИГ_ЗагрузкаДанныхИзВнешнихФайлов.Form.Форма.Help" id="6e5b11c5-8dfa-432e-83ba-9c0cbf48268f.1" configVersion="f8dce220706fa4c0f4142fec70bc6f6566e9da40"/>
 		<Metadata name="DataProcessor.ГИГ_ЗагрузкаДанныхИзВнешнихФайлов.Form.ФормаДляПланов" id="51f166dd-5b0c-441d-852e-6cbef0554d14" configVersion="aa3d046208e9f72ff544672f2a27c7b666d6f357"/>
 		<Metadata name="DataProcessor.ГИГ_ЗагрузкаДанныхИзВнешнихФайлов.Form.ФормаДляПланов.Form" id="51f166dd-5b0c-441d-852e-6cbef0554d14.0" configVersion="6f5f39721c56ecc2e9a5cddca0588fbe72d4b079"/>
@@ -3658,7 +3658,7 @@
 			<Metadata name="Document.ПриобретениеТоваровУслуг.Attribute.СуммаДокумента" id="ffc3de97-ce5c-42a8-8c3e-2db581a4b7f1"/>
 		</Metadata>
 		<Metadata name="Document.ПриобретениеТоваровУслуг.Form.ФормаДокумента" id="3a561716-7ea5-4193-9765-3347cc7ec542" configVersion="c158fc582dcc5bf10a7ed43e0c3cde3384ed8cad"/>
-		<Metadata name="Document.ПриобретениеТоваровУслуг.Form.ФормаДокумента.Form" id="3a561716-7ea5-4193-9765-3347cc7ec542.0" configVersion="f412249d2761f23dfcf7ad51a35011d0aed358e6"/>
+		<Metadata name="Document.ПриобретениеТоваровУслуг.Form.ФормаДокумента.Form" id="3a561716-7ea5-4193-9765-3347cc7ec542.0" configVersion="7696d92dc5f2ea5878d3a34fcd18649fecf8c8eb"/>
 		<Metadata name="Document.ПриобретениеТоваровУслуг.Form.ФормаСписка" id="5222dff8-8b24-4f2a-a6ca-5570ccd16d7b" configVersion="d3fcf5297c9f09cf4436e07e4cc41ea60552b0cf"/>
 		<Metadata name="Document.ПриобретениеТоваровУслуг.Form.ФормаСписка.Form" id="5222dff8-8b24-4f2a-a6ca-5570ccd16d7b.0" configVersion="9fc440ac8e77e111754471589d753a03a19c4e4d"/>
 		<Metadata name="Document.ПриобретениеТоваровУслуг.ManagerModule" id="6b8d098b-abf5-409d-9848-afdb3a343218.2" configVersion="7ba7ae31c4b6ab1e45f1a36bad1abbc01e0d6c95"/>
