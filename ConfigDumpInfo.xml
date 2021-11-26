@@ -3051,7 +3051,7 @@
 			<Metadata name="Document.ЗаказНаПеремещение.TabularSection.Товары.Attribute.ГИГ_СхемаОбеспечения" id="fef199a2-82c1-424c-9f1c-3e682ce889af"/>
 		</Metadata>
 		<Metadata name="Document.ЗаказНаПеремещение.Form.ФормаДокумента" id="f56ab6b9-2088-4012-ad64-29922a82fcd5" configVersion="6212932ef5fe474d5a13814ef999df7e8a74b489"/>
-		<Metadata name="Document.ЗаказНаПеремещение.Form.ФормаДокумента.Form" id="f56ab6b9-2088-4012-ad64-29922a82fcd5.0" configVersion="032e9fce56904697b17881cb373e63a3ce8de9cf"/>
+		<Metadata name="Document.ЗаказНаПеремещение.Form.ФормаДокумента.Form" id="f56ab6b9-2088-4012-ad64-29922a82fcd5.0" configVersion="0460934da771e4c1c41985a4bc9a56b024c7e840"/>
 		<Metadata name="Document.ЗаказНаПеремещение.ManagerModule" id="1c0fc14c-f41a-4729-9c52-0e76a71814a2.2" configVersion="c3b6ddd82ad1686daecacb556c934ee3c4a5f445"/>
 		<Metadata name="Document.ЗаказНаПеремещение.ObjectModule" id="1c0fc14c-f41a-4729-9c52-0e76a71814a2.0" configVersion="af9408e4bc176fd464bce6d84d4526a122096c71"/>
 		<Metadata name="Document.ЗаказНаПроизводство" id="42c35635-e0b5-41d6-a871-3162fd713933" configVersion="3e8c47e92c714e0827102b7892aaa547992eafe1"/>
@@ -4056,7 +4056,7 @@
 		<Metadata name="Document.УведомлениеОЗачисленииВалюты" id="372ccc7e-96a0-4c62-aa0b-e7c6fae11384" configVersion="bec8a1c8654a3377281ac6d044ea2195cc528fc8"/>
 		<Metadata name="Document.УпаковочныйЛист" id="50381926-b462-4ab3-bbc6-be14835251e4" configVersion="c475dea89f518644a1a0e6f58918249bc5f050ce"/>
 		<Metadata name="Document.ЧекККМ" id="f45ce972-ba84-4690-bfe4-8a40f331684e" configVersion="70028cc4f4507a241f955ccf34dab1e3245031a8"/>
-		<Metadata name="Document.ЭтапПроизводства2_2" id="79d4df6e-d423-4845-8a17-6d9f831075cf" configVersion="a94c7bd4c34bfa8ef935be967f5a43c7fc988142">
+		<Metadata name="Document.ЭтапПроизводства2_2" id="79d4df6e-d423-4845-8a17-6d9f831075cf" configVersion="d45bfbbadf9c026faebbce68cfb9920b967d318f">
 			<Metadata name="Document.ЭтапПроизводства2_2.TabularSection.РасходМатериаловИРабот.Attribute.Номенклатура" id="0118b6fe-8e8a-4233-93e1-904c8216d6c9"/>
 			<Metadata name="Document.ЭтапПроизводства2_2.TabularSection.ПобочныеИзделия.Attribute.СтатьяРасходов" id="03aeede4-2961-40be-a0e2-6d59057a989f"/>
 			<Metadata name="Document.ЭтапПроизводства2_2.Attribute.СтатьяКалькуляции" id="0ad41c73-9520-46c3-9881-c74190b63286"/>
@@ -4089,6 +4089,7 @@
 			<Metadata name="Document.ЭтапПроизводства2_2.Attribute.ПартияПроизводства" id="4146295e-95e1-4a87-9f8d-db879ccc6fc2"/>
 			<Metadata name="Document.ЭтапПроизводства2_2.TabularSection.Трудозатраты.Attribute.СтатьяКалькуляции" id="4259e280-5b5f-42c7-a38c-0111044d0808"/>
 			<Metadata name="Document.ЭтапПроизводства2_2.TabularSection.ОбеспечениеМатериаламиИРаботами.Attribute.Номенклатура" id="42e1f016-4c5c-492a-961f-9a597d535780"/>
+			<Metadata name="Document.ЭтапПроизводства2_2.TabularSection.ОбеспечениеМатериаламиИРаботами.Attribute.СведенияАвтовыбора" id="4433277b-c9e9-4a5f-9c65-254dc8fcb23f"/>
 			<Metadata name="Document.ЭтапПроизводства2_2.TabularSection.РасходМатериаловИРабот" id="45c059b5-3e96-4d1a-900e-0026550c3eed"/>
 			<Metadata name="Document.ЭтапПроизводства2_2.Attribute.ЗавершающийБуфер" id="4b00b786-d4a4-42fb-8f21-03384f8f8b39"/>
 			<Metadata name="Document.ЭтапПроизводства2_2.Attribute.ВидЦены" id="4b8d4ed7-b33f-49c2-b138-86ac49b31bcb"/>
@@ -4158,6 +4159,7 @@
 			<Metadata name="Document.ЭтапПроизводства2_2.Attribute.ФактическоеОкончаниеЭтапа" id="b7a7a94f-becf-4867-abef-8437d2d5d560"/>
 			<Metadata name="Document.ЭтапПроизводства2_2.TabularSection.РасходМатериаловИРабот.Attribute.КоличествоУпаковок" id="bc769a55-28df-4bf7-a5d7-e3c967467dd9"/>
 			<Metadata name="Document.ЭтапПроизводства2_2.TabularSection.ВыходныеИзделия.Attribute.СтатусУказанияСерий" id="bd456c7d-1d5c-4547-931c-4e30e9cb275a"/>
+			<Metadata name="Document.ЭтапПроизводства2_2.Attribute.ВыполнениеРаботОднойДатой" id="bd6ab678-b56b-4ef4-aaf0-2589b7e00fac"/>
 			<Metadata name="Document.ЭтапПроизводства2_2.TabularSection.ПобочныеИзделия.Attribute.Назначение" id="bd76d7fc-839c-4613-84d8-2157df244002"/>
 			<Metadata name="Document.ЭтапПроизводства2_2.TabularSection.ПобочныеИзделия.Attribute.Произведено" id="bdc058ed-8aea-4eea-981c-3d2f5ec9232f"/>
 			<Metadata name="Document.ЭтапПроизводства2_2.TabularSection.ЭкономияМатериалов.Attribute.СтатьяРасходов" id="be3b246b-4f80-4ff1-a7f6-754bffb499b2"/>
@@ -4171,6 +4173,7 @@
 			<Metadata name="Document.ЭтапПроизводства2_2.TabularSection.Трудозатраты.Attribute.ГИГ_СводныйОтчетПоЕжедневнымВыработкам" id="cbaed7d5-090d-4302-be9d-798e9035d317"/>
 			<Metadata name="Document.ЭтапПроизводства2_2.TabularSection.ОбеспечениеМатериаламиИРаботами" id="ccf31e58-f26d-4135-ae8d-702842187e73"/>
 			<Metadata name="Document.ЭтапПроизводства2_2.TabularSection.ЭкономияМатериалов.Attribute.Характеристика" id="d009f4c5-614a-444b-83c2-089329b95c69"/>
+			<Metadata name="Document.ЭтапПроизводства2_2.Attribute.ЕдиницаИзмеренияДлительностиЭтапа" id="d11e7cc7-cf71-438f-a6d6-f070c4b6e2b9"/>
 			<Metadata name="Document.ЭтапПроизводства2_2.TabularSection.ВыходныеИзделия.Attribute.ОбработатьПоСпецификации" id="d2c5b8ed-340a-44a8-8d1f-40587f3dc05c"/>
 			<Metadata name="Document.ЭтапПроизводства2_2.TabularSection.ПобочныеИзделия" id="d362ed8a-a418-47f8-9a22-89f19e9fb204"/>
 			<Metadata name="Document.ЭтапПроизводства2_2.Attribute.Ответственный" id="d3bca631-27a5-409e-babe-d71f0a1c292e"/>
@@ -4201,7 +4204,7 @@
 			<Metadata name="Document.ЭтапПроизводства2_2.Attribute.Подразделение" id="ffcaada9-1fa8-402b-bd83-1010274ea06d"/>
 		</Metadata>
 		<Metadata name="Document.ЭтапПроизводства2_2.Form.ФормаДокумента" id="afadb61d-fd29-4f58-bfa5-fa19133cfc81" configVersion="8822eee4553da9d2a59b9dede6f5edc31e537f3e"/>
-		<Metadata name="Document.ЭтапПроизводства2_2.Form.ФормаДокумента.Form" id="afadb61d-fd29-4f58-bfa5-fa19133cfc81.0" configVersion="f95056389f2d19585f63fed079e6b220bdbdee5f"/>
+		<Metadata name="Document.ЭтапПроизводства2_2.Form.ФормаДокумента.Form" id="afadb61d-fd29-4f58-bfa5-fa19133cfc81.0" configVersion="7db66572ee551d278f33927777dd8221ec024f53"/>
 		<Metadata name="Document.ЭтапПроизводства2_2.ManagerModule" id="79d4df6e-d423-4845-8a17-6d9f831075cf.2" configVersion="b8233f32a2ce2b3cb939ec71102ab3a5739e7248"/>
 		<Metadata name="Document.ЭтапПроизводства2_2.ObjectModule" id="79d4df6e-d423-4845-8a17-6d9f831075cf.0" configVersion="8ad8a92e8753a3bf70136b660912d5498892b7a7"/>
 		<Metadata name="Enum.ВариантыАнализаНоменклатурыПродаваемойСовместно" id="52bb2e35-6333-41da-b7c8-36966a422e87" configVersion="44db679ae90586fb88b14e042ef6e7467d92a351"/>

@@ -27,6 +27,9 @@
 			<Name>ЭтапПроизводства2_2</Name>
 			<Comment/>
 			<ObjectBelonging>Adopted</ObjectBelonging>
+			<NumberType>String</NumberType>
+			<NumberLength>20</NumberLength>
+			<NumberAllowedLength>Variable</NumberAllowedLength>
 			<RegisterRecords/>
 		</Properties>
 		<ChildObjects>
@@ -748,6 +751,30 @@
 					</Type>
 				</Properties>
 			</Attribute>
+			<Attribute uuid="d11e7cc7-cf71-438f-a6d6-f070c4b6e2b9">
+				<InternalInfo/>
+				<Properties>
+					<Name>ЕдиницаИзмеренияДлительностиЭтапа</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<ExtendedConfigurationObject>94b6bfbb-3577-4d1c-a49d-7a851a93f3c6</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:EnumRef.ЕдиницыИзмеренияВремени</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="bd6ab678-b56b-4ef4-aaf0-2589b7e00fac">
+				<InternalInfo/>
+				<Properties>
+					<Name>ВыполнениеРаботОднойДатой</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<ExtendedConfigurationObject>802f7403-4f9a-4648-9240-3323abef48ec</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
 			<Form>ФормаДокумента</Form>
 			<TabularSection uuid="ccf31e58-f26d-4135-ae8d-702842187e73">
 				<InternalInfo>
@@ -958,6 +985,22 @@
 									<v8:FractionDigits>3</v8:FractionDigits>
 									<v8:AllowedSign>Nonnegative</v8:AllowedSign>
 								</v8:NumberQualifiers>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="4433277b-c9e9-4a5f-9c65-254dc8fcb23f">
+						<InternalInfo/>
+						<Properties>
+							<Name>СведенияАвтовыбора</Name>
+							<Comment/>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<ExtendedConfigurationObject>5f3c11b9-7b2e-4670-94e0-5209edbcb49d</ExtendedConfigurationObject>
+							<Type>
+								<v8:Type>xs:string</v8:Type>
+								<v8:StringQualifiers>
+									<v8:Length>0</v8:Length>
+									<v8:AllowedLength>Variable</v8:AllowedLength>
+								</v8:StringQualifiers>
 							</Type>
 						</Properties>
 					</Attribute>
