@@ -1267,8 +1267,8 @@
 		<Metadata name="CommonModule.ГИГ_МодульСервер.Module" id="16b47755-b4fa-4a71-9bdd-0892b927b8fb.0" configVersion="bff34a6e03470a5a1ee8e24821223bc9a5787c28"/>
 		<Metadata name="CommonModule.ГИГ_ОбеспечениеСервер" id="41a24c52-ff7e-4aaa-b8ec-b9fe495cad44" configVersion="45e99ecfbebee32e88516ab90ffc935451b689c4"/>
 		<Metadata name="CommonModule.ГИГ_ОбеспечениеСервер.Module" id="41a24c52-ff7e-4aaa-b8ec-b9fe495cad44.0" configVersion="706af249ac95832079cbbc511ea45c05fdec535c"/>
-		<Metadata name="CommonModule.ГИГ_Сервер_ОбработкаДокументов" id="5d5b600f-5569-4477-ba45-80785c6a9aa1" configVersion="4b5bb3d1fdabde5f9f6c23e48ca75244f5bf535a"/>
-		<Metadata name="CommonModule.ГИГ_Сервер_ОбработкаДокументов.Module" id="5d5b600f-5569-4477-ba45-80785c6a9aa1.0" configVersion="db094f4a1cd3c86d91ea4e8de5f6fcc9075338d7"/>
+		<Metadata name="CommonModule.ГИГ_Сервер_ОбработкаДокументов" id="5d5b600f-5569-4477-ba45-80785c6a9aa1" configVersion="e2d696053261ab87abba5da7d3d3bf9cb915b8ce"/>
+		<Metadata name="CommonModule.ГИГ_Сервер_ОбработкаДокументов.Module" id="5d5b600f-5569-4477-ba45-80785c6a9aa1.0" configVersion="feeee73b3eb78c0f29080c59b3ab081e42ef66dd"/>
 		<Metadata name="CommonModule.ГИГ_УправлениеПечатьюУТКлиент" id="84c935f1-034b-4abc-b017-47920630a5cf" configVersion="11d7386f7d4b14ccf40d1bdccc4013d4999bbbe1"/>
 		<Metadata name="CommonModule.ГИГ_УправлениеПечатьюУТКлиент.Module" id="84c935f1-034b-4abc-b017-47920630a5cf.0" configVersion="cc633a4e2011b43ad2734544cce2a9ad59621fb4"/>
 		<Metadata name="CommonModule.ДенежныеСредстваСервер" id="d8233a36-25ad-4996-9e1d-31db4a9b52a0" configVersion="ac7f125ce2ea61ff2750e93ee6be874942291689"/>
@@ -1453,7 +1453,7 @@
 		<Metadata name="CommonPicture.ФильтрПоСвойствам" id="e1387d86-4981-4407-8b87-ace7aabb3d64" configVersion="3afe480ab107592bc5555b6739a438df48da647c"/>
 		<Metadata name="CommonPicture.ЭлектронноеПисьмо" id="346eae44-4546-4798-8776-405c3ae68bcb" configVersion="42ec725cbba55ac78f9803fa50b0c62d9267b425"/>
 		<Metadata name="CommonPicture.ЭтапЗадерживаетЗаказ" id="82ae288f-7d00-4ddd-b8ed-896662963fd8" configVersion="630e37a7eaa97f8bc08af40db829b93cf6473c4c"/>
-		<Metadata name="Configuration.Ринэко" id="e863e6a0-1242-4626-bed8-8a3c719cba3f" configVersion="a63db324ac30d6f94866e052d76eafe132d8dd63"/>
+		<Metadata name="Configuration.Ринэко" id="e863e6a0-1242-4626-bed8-8a3c719cba3f" configVersion="013f49b08cc4b42d845056ab5821074b747b420b"/>
 		<Metadata name="Configuration.Ринэко.CommandInterface" id="1c801ee0-62a0-4610-aae3-c66b2de25395.a" configVersion="85b35967ccf127895c0de837ae419267ba06851a"/>
 		<Metadata name="Configuration.Ринэко.ManagedApplicationModule" id="1c801ee0-62a0-4610-aae3-c66b2de25395.6" configVersion="f620f455ccf1ee2698fd6ddfa42659103856aa0c"/>
 		<Metadata name="Constant.ГИГ_ЗагружатьПолныеДанныеЦенНоменклатуры" id="5791c4ab-e4db-4fab-ab04-7fd6b4bb8e61" configVersion="3b74b8468a8e5bfcdd1c69c388fc3bd884124d6a"/>
