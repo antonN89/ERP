@@ -1268,7 +1268,7 @@
 		<Metadata name="CommonModule.ГИГ_ОбеспечениеСервер" id="41a24c52-ff7e-4aaa-b8ec-b9fe495cad44" configVersion="45e99ecfbebee32e88516ab90ffc935451b689c4"/>
 		<Metadata name="CommonModule.ГИГ_ОбеспечениеСервер.Module" id="41a24c52-ff7e-4aaa-b8ec-b9fe495cad44.0" configVersion="706af249ac95832079cbbc511ea45c05fdec535c"/>
 		<Metadata name="CommonModule.ГИГ_Сервер_ОбработкаДокументов" id="5d5b600f-5569-4477-ba45-80785c6a9aa1" configVersion="e2d696053261ab87abba5da7d3d3bf9cb915b8ce"/>
-		<Metadata name="CommonModule.ГИГ_Сервер_ОбработкаДокументов.Module" id="5d5b600f-5569-4477-ba45-80785c6a9aa1.0" configVersion="feeee73b3eb78c0f29080c59b3ab081e42ef66dd"/>
+		<Metadata name="CommonModule.ГИГ_Сервер_ОбработкаДокументов.Module" id="5d5b600f-5569-4477-ba45-80785c6a9aa1.0" configVersion="7610d1fd7ed631934e58eee7906e1cbc2a493c9c"/>
 		<Metadata name="CommonModule.ГИГ_УправлениеПечатьюУТКлиент" id="84c935f1-034b-4abc-b017-47920630a5cf" configVersion="11d7386f7d4b14ccf40d1bdccc4013d4999bbbe1"/>
 		<Metadata name="CommonModule.ГИГ_УправлениеПечатьюУТКлиент.Module" id="84c935f1-034b-4abc-b017-47920630a5cf.0" configVersion="cc633a4e2011b43ad2734544cce2a9ad59621fb4"/>
 		<Metadata name="CommonModule.ДенежныеСредстваСервер" id="d8233a36-25ad-4996-9e1d-31db4a9b52a0" configVersion="ac7f125ce2ea61ff2750e93ee6be874942291689"/>
