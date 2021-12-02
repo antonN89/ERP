@@ -1453,7 +1453,7 @@
 		<Metadata name="CommonPicture.ФильтрПоСвойствам" id="e1387d86-4981-4407-8b87-ace7aabb3d64" configVersion="3afe480ab107592bc5555b6739a438df48da647c"/>
 		<Metadata name="CommonPicture.ЭлектронноеПисьмо" id="346eae44-4546-4798-8776-405c3ae68bcb" configVersion="42ec725cbba55ac78f9803fa50b0c62d9267b425"/>
 		<Metadata name="CommonPicture.ЭтапЗадерживаетЗаказ" id="82ae288f-7d00-4ddd-b8ed-896662963fd8" configVersion="630e37a7eaa97f8bc08af40db829b93cf6473c4c"/>
-		<Metadata name="Configuration.Ринэко" id="e863e6a0-1242-4626-bed8-8a3c719cba3f" configVersion="a84f103339bac4ae0697ceefb685c6a69e78d1d0"/>
+		<Metadata name="Configuration.Ринэко" id="e863e6a0-1242-4626-bed8-8a3c719cba3f" configVersion="609cdb509b2622bbf00a673db0fce748f5c788ca"/>
 		<Metadata name="Configuration.Ринэко.CommandInterface" id="1c801ee0-62a0-4610-aae3-c66b2de25395.a" configVersion="85b35967ccf127895c0de837ae419267ba06851a"/>
 		<Metadata name="Configuration.Ринэко.ManagedApplicationModule" id="1c801ee0-62a0-4610-aae3-c66b2de25395.6" configVersion="f620f455ccf1ee2698fd6ddfa42659103856aa0c"/>
 		<Metadata name="Constant.ГИГ_ЗагружатьПолныеДанныеЦенНоменклатуры" id="5791c4ab-e4db-4fab-ab04-7fd6b4bb8e61" configVersion="3b74b8468a8e5bfcdd1c69c388fc3bd884124d6a"/>
@@ -3658,7 +3658,7 @@
 			<Metadata name="Document.ПриобретениеТоваровУслуг.Attribute.СуммаДокумента" id="ffc3de97-ce5c-42a8-8c3e-2db581a4b7f1"/>
 		</Metadata>
 		<Metadata name="Document.ПриобретениеТоваровУслуг.Form.ФормаДокумента" id="3a561716-7ea5-4193-9765-3347cc7ec542" configVersion="c158fc582dcc5bf10a7ed43e0c3cde3384ed8cad"/>
-		<Metadata name="Document.ПриобретениеТоваровУслуг.Form.ФормаДокумента.Form" id="3a561716-7ea5-4193-9765-3347cc7ec542.0" configVersion="b4562d65a6f90a32aa0419228cea6e12fed68e34"/>
+		<Metadata name="Document.ПриобретениеТоваровУслуг.Form.ФормаДокумента.Form" id="3a561716-7ea5-4193-9765-3347cc7ec542.0" configVersion="6f5a30bb0638e3896800c2e44f616de467a6f327"/>
 		<Metadata name="Document.ПриобретениеТоваровУслуг.Form.ФормаСписка" id="5222dff8-8b24-4f2a-a6ca-5570ccd16d7b" configVersion="d3fcf5297c9f09cf4436e07e4cc41ea60552b0cf"/>
 		<Metadata name="Document.ПриобретениеТоваровУслуг.Form.ФормаСписка.Form" id="5222dff8-8b24-4f2a-a6ca-5570ccd16d7b.0" configVersion="9fc440ac8e77e111754471589d753a03a19c4e4d"/>
 		<Metadata name="Document.ПриобретениеТоваровУслуг.ManagerModule" id="6b8d098b-abf5-409d-9848-afdb3a343218.2" configVersion="7ba7ae31c4b6ab1e45f1a36bad1abbc01e0d6c95"/>

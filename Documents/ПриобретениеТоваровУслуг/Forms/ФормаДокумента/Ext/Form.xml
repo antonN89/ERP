@@ -281,6 +281,7 @@
 	<Events>
 		<Event name="ChoiceProcessing" callType="Override">Рин1_ОбработкаВыбораВместо</Event>
 		<Event name="NotificationProcessing" callType="After">Рин1_ОбработкаОповещенияПосле</Event>
+		<Event name="OnOpen" callType="After">Рин1_ПриОткрытииПосле</Event>
 		<Event name="BeforeWrite" callType="Before">Рин1_ПередЗаписьюПеред</Event>
 		<Event name="BeforeWrite" callType="After">Рин1_ПередЗаписьюПосле</Event>
 		<Event name="OnCreateAtServer" callType="After">Рин1_ПриСозданииНаСервереПосле</Event>
