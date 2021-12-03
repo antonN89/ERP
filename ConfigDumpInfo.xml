@@ -1379,6 +1379,7 @@
 		<Metadata name="CommonPicture.Информация" id="9e8b1e4a-9eba-48e8-8233-4713808730bf" configVersion="a82232da888e33a574b0f857f3deac98b10817f3"/>
 		<Metadata name="CommonPicture.Информация32" id="3d3036e1-55f3-497f-9ea3-b3792fb2e460" configVersion="9c7e37f07efce0cb055c91fdf6ce2e408f22436e"/>
 		<Metadata name="CommonPicture.ИнформацияНовости16Статичная" id="9a096fb1-77a7-4460-9b36-762c6d08c055" configVersion="80ff7417cc91215ff10eebc8ec0228422464ff65"/>
+		<Metadata name="CommonPicture.ИсключитьИзУчетнойПолитики" id="72091221-54f6-43e0-a0b0-7f360ff0061a" configVersion="a72792c38e2116852be364482609a3c0017090ad"/>
 		<Metadata name="CommonPicture.ИсполнителиДоставки" id="5ce04508-396f-450b-8d4a-003cef6aa536" configVersion="fdadd76422cd31c013984e0006f1e72044af6879"/>
 		<Metadata name="CommonPicture.КоллекцияКомментарий" id="7457aed1-c5aa-4e85-9b68-8d77a370a69e" configVersion="521649b4b20be449500d7659f3e20288ef6c2ace"/>
 		<Metadata name="CommonPicture.КоллекцияПиктограммыТренда" id="efc77818-81ed-44fa-9658-10ed87784f61" configVersion="93c2709c26d75ad7979e9a1dae65b3fd6ceac1b8"/>
@@ -1453,7 +1454,7 @@
 		<Metadata name="CommonPicture.ФильтрПоСвойствам" id="e1387d86-4981-4407-8b87-ace7aabb3d64" configVersion="3afe480ab107592bc5555b6739a438df48da647c"/>
 		<Metadata name="CommonPicture.ЭлектронноеПисьмо" id="346eae44-4546-4798-8776-405c3ae68bcb" configVersion="42ec725cbba55ac78f9803fa50b0c62d9267b425"/>
 		<Metadata name="CommonPicture.ЭтапЗадерживаетЗаказ" id="82ae288f-7d00-4ddd-b8ed-896662963fd8" configVersion="630e37a7eaa97f8bc08af40db829b93cf6473c4c"/>
-		<Metadata name="Configuration.Ринэко" id="e863e6a0-1242-4626-bed8-8a3c719cba3f" configVersion="609cdb509b2622bbf00a673db0fce748f5c788ca"/>
+		<Metadata name="Configuration.Ринэко" id="e863e6a0-1242-4626-bed8-8a3c719cba3f" configVersion="53b908b9cc19305fad4fdda996772496d515f535"/>
 		<Metadata name="Configuration.Ринэко.CommandInterface" id="1c801ee0-62a0-4610-aae3-c66b2de25395.a" configVersion="85b35967ccf127895c0de837ae419267ba06851a"/>
 		<Metadata name="Configuration.Ринэко.ManagedApplicationModule" id="1c801ee0-62a0-4610-aae3-c66b2de25395.6" configVersion="f620f455ccf1ee2698fd6ddfa42659103856aa0c"/>
 		<Metadata name="Constant.ГИГ_ЗагружатьПолныеДанныеЦенНоменклатуры" id="5791c4ab-e4db-4fab-ab04-7fd6b4bb8e61" configVersion="3b74b8468a8e5bfcdd1c69c388fc3bd884124d6a"/>
@@ -2028,6 +2029,9 @@
 		<Metadata name="DataProcessor.ДоступностьВидовРабочихЦентров" id="f9249935-72fa-4918-b0fd-ba869bbd2541" configVersion="5ed8ab63ffb79660d0a165cfbcb77f8f44aa9ff8"/>
 		<Metadata name="DataProcessor.ДоступностьВидовРабочихЦентров.Form.РабочееМесто" id="5abba436-264c-47a7-970e-8dfc350e6df4" configVersion="5bf4146e5b3e2704c5c2eeba51189f62e9fbed5c"/>
 		<Metadata name="DataProcessor.ДоступностьВидовРабочихЦентров.Form.РабочееМесто.Form" id="5abba436-264c-47a7-970e-8dfc350e6df4.0" configVersion="ea3366d266e564dadbf73aed1f501c6b166c046d"/>
+		<Metadata name="DataProcessor.ЖурналДокументовВнутреннегоТовародвижения" id="f62c0ef8-9c67-49a2-b079-bcecd5d5b20a" configVersion="27323219c4d500bdf9ae401b558c4a4f1780574e"/>
+		<Metadata name="DataProcessor.ЖурналДокументовВнутреннегоТовародвижения.Form.СписокДокументов" id="dd16d2fd-e113-4b79-8823-6fad1c732562" configVersion="823411e7b1fe20a96d244d593c1eecfe3e14d2fb"/>
+		<Metadata name="DataProcessor.ЖурналДокументовВнутреннегоТовародвижения.Form.СписокДокументов.Form" id="dd16d2fd-e113-4b79-8823-6fad1c732562.0" configVersion="55f43d4f59af7ec30ea4edbe8674856f9cd8e7a6"/>
 		<Metadata name="DataProcessor.ЗагрузкаОстатковНаСкладеПоставщика" id="03181d4a-9207-49d5-9888-5f23dbae7976" configVersion="0c80424bc64efebd1124e79bc49a9f043494159e">
 			<Metadata name="DataProcessor.ЗагрузкаОстатковНаСкладеПоставщика.TabularSection.ПравилаЗагрузки.Attribute.ЗаголовокКолонки" id="1a4e94aa-7816-4a1b-97cc-99d10cdcd82c"/>
 			<Metadata name="DataProcessor.ЗагрузкаОстатковНаСкладеПоставщика.Attribute.ПоставщикПрайса" id="27a7ed22-13f6-4610-a4a1-fe4e0acf5906"/>

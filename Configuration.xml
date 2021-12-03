@@ -52,7 +52,7 @@
 			<ScriptVariant>Russian</ScriptVariant>
 			<DefaultRoles/>
 			<Vendor>Rineco</Vendor>
-			<Version>02.12.2021_2_2.4.13.227</Version>
+			<Version>03.12.2021_2_2.4.13.227</Version>
 			<DefaultStyle/>
 			<DefaultLanguage>Language.Русский</DefaultLanguage>
 			<BriefInformation/>
@@ -197,6 +197,7 @@
 			<CommonPicture>ПустаяКартинка</CommonPicture>
 			<CommonPicture>ВУпаковочныйЛист</CommonPicture>
 			<CommonPicture>СостояниеПроверкиКонтрагента</CommonPicture>
+			<CommonPicture>ИсключитьИзУчетнойПолитики</CommonPicture>
 			<Role>АдминистраторСистемы</Role>
 			<Role>БазовыеПраваБСП</Role>
 			<Role>гиг_ДобавлениеИзменениеРасчетИзделий</Role>
@@ -821,6 +822,7 @@
 			<DataProcessor>ФормированиеЗаказовПоставщикуПоПлану</DataProcessor>
 			<DataProcessor>ФормированиеСменныхЗаданий</DataProcessor>
 			<DataProcessor>КлиентБанк</DataProcessor>
+			<DataProcessor>ЖурналДокументовВнутреннегоТовародвижения</DataProcessor>
 			<InformationRegister>ГИГ_ЗначенияПороговОграничений</InformationRegister>
 			<InformationRegister>ГИГ_ИсторияИзмененийЗначениейПороговИСкидок</InformationRegister>
 			<InformationRegister>ГИГ_ИсторияИзмененияЗначенийСкидок_НаценокИндивидуальныхСоглашений</InformationRegister>
