@@ -74,6 +74,7 @@
 			<Subsystem>СлужебныеПодсистемы</Subsystem>
 			<Subsystem>СтандартныеПодсистемы</Subsystem>
 			<Subsystem>ПодключаемыеОтчетыИОбработки</Subsystem>
+			<Subsystem>Кадры</Subsystem>
 			<StyleItem>ВысокийПриоритетДокумента</StyleItem>
 			<StyleItem>ГиперссылкаТабличнойЧасти</StyleItem>
 			<StyleItem>ГиперссылкаЦвет</StyleItem>

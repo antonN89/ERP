@@ -1454,8 +1454,9 @@
 		<Metadata name="CommonPicture.ФильтрПоСвойствам" id="e1387d86-4981-4407-8b87-ace7aabb3d64" configVersion="3afe480ab107592bc5555b6739a438df48da647c"/>
 		<Metadata name="CommonPicture.ЭлектронноеПисьмо" id="346eae44-4546-4798-8776-405c3ae68bcb" configVersion="42ec725cbba55ac78f9803fa50b0c62d9267b425"/>
 		<Metadata name="CommonPicture.ЭтапЗадерживаетЗаказ" id="82ae288f-7d00-4ddd-b8ed-896662963fd8" configVersion="630e37a7eaa97f8bc08af40db829b93cf6473c4c"/>
-		<Metadata name="Configuration.Ринэко" id="e863e6a0-1242-4626-bed8-8a3c719cba3f" configVersion="75d9359dc061c54fe9d3057662e0e137171584d3"/>
+		<Metadata name="Configuration.Ринэко" id="e863e6a0-1242-4626-bed8-8a3c719cba3f" configVersion="24caedd51be045d3cee5368d6bbd2f9a40911c15"/>
 		<Metadata name="Configuration.Ринэко.CommandInterface" id="1c801ee0-62a0-4610-aae3-c66b2de25395.a" configVersion="85b35967ccf127895c0de837ae419267ba06851a"/>
+		<Metadata name="Configuration.Ринэко.MainSectionCommandInterface" id="1c801ee0-62a0-4610-aae3-c66b2de25395.9" configVersion="4241e0bd7b11792e353adb60f116f8e7f7297d94"/>
 		<Metadata name="Configuration.Ринэко.ManagedApplicationModule" id="1c801ee0-62a0-4610-aae3-c66b2de25395.6" configVersion="f620f455ccf1ee2698fd6ddfa42659103856aa0c"/>
 		<Metadata name="Constant.ГИГ_ЗагружатьПолныеДанныеЦенНоменклатуры" id="5791c4ab-e4db-4fab-ab04-7fd6b4bb8e61" configVersion="3b74b8468a8e5bfcdd1c69c388fc3bd884124d6a"/>
 		<Metadata name="Constant.ГИГ_ОсновнойВидЦеныМРЦБезНДС" id="5bb64e85-e7f0-4843-9e9d-5c486db21a4d" configVersion="3ddb558a9375151bcb93e05ad52134b03b8f31e6"/>
@@ -5055,7 +5056,7 @@
 		<Metadata name="Report.Рин1_ОборотыНоменклатурыПродажиЗакупкиПроизводство.Template.МакетОформления.Template" id="8e61f6a3-0723-4e47-b03f-70fc4453e082.0" configVersion="3cc7099ebc490630d9baf50ef6ce867e019a3131"/>
 		<Metadata name="Report.Рин1_ОборотыНоменклатурыПродажиЗакупкиПроизводство.Template.ОсновнаяСхемаКомпоновкиДанных" id="5e122740-2814-4de6-9069-2770dca4ae65" configVersion="983ad6d9cf20c63066ee36e80a0bee5a1a763015"/>
 		<Metadata name="Report.Рин1_ОборотыНоменклатурыПродажиЗакупкиПроизводство.Template.ОсновнаяСхемаКомпоновкиДанных.Template" id="5e122740-2814-4de6-9069-2770dca4ae65.0" configVersion="b7307f8da554e6bc95746a25fedc409b64232884"/>
-		<Metadata name="Report.Рин1_ОтпускаИОтсутствияСотрудников" id="48f0bcc9-a1e2-419b-a0f4-901d16e5d815" configVersion="0b5063ce94b7c10b63ae7c857eecd2943c5e5be4"/>
+		<Metadata name="Report.Рин1_ОтпускаИОтсутствияСотрудников" id="48f0bcc9-a1e2-419b-a0f4-901d16e5d815" configVersion="26936734d59457dc8dee932f3f81ba29fc4ee783"/>
 		<Metadata name="Report.Рин1_ОтпускаИОтсутствияСотрудников.ObjectModule" id="48f0bcc9-a1e2-419b-a0f4-901d16e5d815.0" configVersion="89b1b05cc939a5fbcdc424a7656547297a28a6bf"/>
 		<Metadata name="Report.Рин1_ОтпускаИОтсутствияСотрудников.Template.ОсновнаяСхемаКомпоновкиДанных" id="f55c277e-bcc6-4f73-8576-5e6078a9c6f1" configVersion="7abb918195b8faba55c6a313520af9758003a513"/>
 		<Metadata name="Report.Рин1_ОтпускаИОтсутствияСотрудников.Template.ОсновнаяСхемаКомпоновкиДанных.Template" id="f55c277e-bcc6-4f73-8576-5e6078a9c6f1.0" configVersion="eee5f0b1120fdc1ceb5921cf5fbb2277eca00488"/>
@@ -5250,6 +5251,8 @@
 		<Metadata name="Subsystem.Администрирование.Subsystem.НСИ" id="ae56b53e-8c85-44db-a1dd-083b94090969" configVersion="5004ba19a08c708184f55eb301b02dc2d52714c5"/>
 		<Metadata name="Subsystem.Закупки" id="c0e3b6aa-3fb2-4a58-8040-a57c15baf895" configVersion="abd63ef045665fc7efd93c924e7323ef6c754cc9"/>
 		<Metadata name="Subsystem.Закупки.Subsystem.Закупки" id="f5a3531b-6ed9-4db6-a6e5-e8bb5b37ed88" configVersion="94868e7f813a748e2cfcf289843507a03e2fb911"/>
+		<Metadata name="Subsystem.Кадры" id="90c5fcff-225c-45cc-9394-bc34f8319703" configVersion="a22545219f02cb7f32e55da0c1f0c01d5f5ad044"/>
+		<Metadata name="Subsystem.Кадры.CommandInterface" id="90c5fcff-225c-45cc-9394-bc34f8319703.1" configVersion="de91c5f2f5e262edee14acf6a0dac924b4e56a1b"/>
 		<Metadata name="Subsystem.ПодключаемыеОтчетыИОбработки" id="2ea92ba5-3946-4d2c-81b7-d435ed0f726a" configVersion="df87c6c79ae2f784e3b648b3e1d74555bc0fbbe9"/>
 		<Metadata name="Subsystem.Продажи" id="7cbeb6ce-9b3d-487b-9a46-b75d559f63d7" configVersion="e05af88b7b3af4fbccedd2338cf9cff836aa6e21"/>
 		<Metadata name="Subsystem.Продажи.Subsystem.НастройкиИСправочники" id="8fd959a9-a027-480c-92bd-b0aaaaf66173" configVersion="484d8d425a052cb87676667ce9c2431f7b578ed8"/>
