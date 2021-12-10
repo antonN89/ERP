@@ -1454,7 +1454,7 @@
 		<Metadata name="CommonPicture.ФильтрПоСвойствам" id="e1387d86-4981-4407-8b87-ace7aabb3d64" configVersion="3afe480ab107592bc5555b6739a438df48da647c"/>
 		<Metadata name="CommonPicture.ЭлектронноеПисьмо" id="346eae44-4546-4798-8776-405c3ae68bcb" configVersion="42ec725cbba55ac78f9803fa50b0c62d9267b425"/>
 		<Metadata name="CommonPicture.ЭтапЗадерживаетЗаказ" id="82ae288f-7d00-4ddd-b8ed-896662963fd8" configVersion="630e37a7eaa97f8bc08af40db829b93cf6473c4c"/>
-		<Metadata name="Configuration.Ринэко" id="e863e6a0-1242-4626-bed8-8a3c719cba3f" configVersion="0a1d8095bac01b47e8fe2d57165aeb57a554a07b"/>
+		<Metadata name="Configuration.Ринэко" id="e863e6a0-1242-4626-bed8-8a3c719cba3f" configVersion="75d9359dc061c54fe9d3057662e0e137171584d3"/>
 		<Metadata name="Configuration.Ринэко.CommandInterface" id="1c801ee0-62a0-4610-aae3-c66b2de25395.a" configVersion="85b35967ccf127895c0de837ae419267ba06851a"/>
 		<Metadata name="Configuration.Ринэко.ManagedApplicationModule" id="1c801ee0-62a0-4610-aae3-c66b2de25395.6" configVersion="f620f455ccf1ee2698fd6ddfa42659103856aa0c"/>
 		<Metadata name="Constant.ГИГ_ЗагружатьПолныеДанныеЦенНоменклатуры" id="5791c4ab-e4db-4fab-ab04-7fd6b4bb8e61" configVersion="3b74b8468a8e5bfcdd1c69c388fc3bd884124d6a"/>
@@ -2482,8 +2482,8 @@
 		<Metadata name="DataProcessor.ФормированиеСменныхЗаданий.Form.РабочееМесто" id="0aef7cd1-f61e-4ba5-9606-e537394d6b22" configVersion="fe6f44b121e764f5cf1cf73511ef42942eab862a"/>
 		<Metadata name="DataProcessor.ФормированиеСменныхЗаданий.Form.РабочееМесто.Form" id="0aef7cd1-f61e-4ba5-9606-e537394d6b22.0" configVersion="8cb3a8f219c8a99b6156a3a2318cbd464bb63505"/>
 		<Metadata name="DataProcessor.гиг_АРМ_НачальникаПроизводства" id="0602ffd0-656e-4402-a066-3caa297425f4" configVersion="4b6a0b5ac42b0051cc01af2431c70f4d6f7bc855"/>
-		<Metadata name="DataProcessor.гиг_АРМ_НачальникаПроизводства.Form.АРМНачальникаПроизводства" id="c1e056af-0443-42e6-bbe2-6afec9f37bcd" configVersion="39e05628a890a48cd2c45f0bc7537a6963b927a8"/>
-		<Metadata name="DataProcessor.гиг_АРМ_НачальникаПроизводства.Form.АРМНачальникаПроизводства.Form" id="c1e056af-0443-42e6-bbe2-6afec9f37bcd.0" configVersion="3bdf5d0c1e410f3f339ce8055e74d1e13565f7a7"/>
+		<Metadata name="DataProcessor.гиг_АРМ_НачальникаПроизводства.Form.АРМНачальникаПроизводства" id="c1e056af-0443-42e6-bbe2-6afec9f37bcd" configVersion="5d882d9502a865fa8e14404492b3b32edd0e7147"/>
+		<Metadata name="DataProcessor.гиг_АРМ_НачальникаПроизводства.Form.АРМНачальникаПроизводства.Form" id="c1e056af-0443-42e6-bbe2-6afec9f37bcd.0" configVersion="da6326183522a482e0d5b5bde4a68816a43f1fe8"/>
 		<Metadata name="DataProcessor.гиг_АРМ_НачальникаПроизводства.Form.АРМНачальникаПроизводства.Help" id="c1e056af-0443-42e6-bbe2-6afec9f37bcd.1" configVersion="850e5a0694fa594125e1209f4cd516d956d00c28"/>
 		<Metadata name="DataProcessor.гиг_АРМ_НачальникаПроизводства.Form.ФормаВыбораСтатусаЭтапа" id="0d531164-9b41-4450-ae7c-9bf2e46936cb" configVersion="6d5d8be8ee81d64854b8356bf68fbc1cb21a51b5"/>
 		<Metadata name="DataProcessor.гиг_АРМ_НачальникаПроизводства.Form.ФормаВыбораСтатусаЭтапа.Form" id="0d531164-9b41-4450-ae7c-9bf2e46936cb.0" configVersion="16147910ff263ceec0db9e3c44b4e157c2ff4b5e"/>
@@ -5018,7 +5018,7 @@
 		<Metadata name="Report.РИНЭКО_ДебиторскаяЗадолженность" id="592e6b07-e7e0-4f6f-a910-eb963b5bf270" configVersion="9e6582b1770d670215c2574da8456846acb0f1bf"/>
 		<Metadata name="Report.РИНЭКО_ДебиторскаяЗадолженность.ObjectModule" id="592e6b07-e7e0-4f6f-a910-eb963b5bf270.0" configVersion="ae9d1521431748a24f0a1999014cf2c3548f148a"/>
 		<Metadata name="Report.РИНЭКО_ДебиторскаяЗадолженность.Template.ОсновнаяСхемаКомпоновкиДанных" id="ce7b471b-6943-4ba9-9053-aa8d8553568d" configVersion="d40442f37184cdf6c2b6b4a19c05d40e639a3489"/>
-		<Metadata name="Report.РИНЭКО_ДебиторскаяЗадолженность.Template.ОсновнаяСхемаКомпоновкиДанных.Template" id="ce7b471b-6943-4ba9-9053-aa8d8553568d.0" configVersion="1c8186a80322a82cb56752e6b15d42f1b440380f"/>
+		<Metadata name="Report.РИНЭКО_ДебиторскаяЗадолженность.Template.ОсновнаяСхемаКомпоновкиДанных.Template" id="ce7b471b-6943-4ba9-9053-aa8d8553568d.0" configVersion="9bf8e230daf5cd25d1759eefa421d66c1734f6df"/>
 		<Metadata name="Report.РИНЭКО_СредняяСебестоимостьТМЦ" id="acd70681-021f-488d-af5a-8e3255e67e4a" configVersion="ca382a1c6a5f6e59f86152e8660488fe5cd77f95">
 			<Metadata name="Report.РИНЭКО_СредняяСебестоимостьТМЦ.Attribute.Документ" id="a537fac3-ce76-4c01-ab5b-97d85bb9b5ea"/>
 		</Metadata>
