@@ -2483,7 +2483,7 @@
 		<Metadata name="DataProcessor.ФормированиеСменныхЗаданий.Form.РабочееМесто.Form" id="0aef7cd1-f61e-4ba5-9606-e537394d6b22.0" configVersion="8cb3a8f219c8a99b6156a3a2318cbd464bb63505"/>
 		<Metadata name="DataProcessor.гиг_АРМ_НачальникаПроизводства" id="0602ffd0-656e-4402-a066-3caa297425f4" configVersion="4b6a0b5ac42b0051cc01af2431c70f4d6f7bc855"/>
 		<Metadata name="DataProcessor.гиг_АРМ_НачальникаПроизводства.Form.АРМНачальникаПроизводства" id="c1e056af-0443-42e6-bbe2-6afec9f37bcd" configVersion="5d882d9502a865fa8e14404492b3b32edd0e7147"/>
-		<Metadata name="DataProcessor.гиг_АРМ_НачальникаПроизводства.Form.АРМНачальникаПроизводства.Form" id="c1e056af-0443-42e6-bbe2-6afec9f37bcd.0" configVersion="c3fb13343656cc2426d8b2d69925ca49d511137f"/>
+		<Metadata name="DataProcessor.гиг_АРМ_НачальникаПроизводства.Form.АРМНачальникаПроизводства.Form" id="c1e056af-0443-42e6-bbe2-6afec9f37bcd.0" configVersion="0c7034bed91586db7ab2cdf6d0507870489bc226"/>
 		<Metadata name="DataProcessor.гиг_АРМ_НачальникаПроизводства.Form.АРМНачальникаПроизводства.Help" id="c1e056af-0443-42e6-bbe2-6afec9f37bcd.1" configVersion="850e5a0694fa594125e1209f4cd516d956d00c28"/>
 		<Metadata name="DataProcessor.гиг_АРМ_НачальникаПроизводства.Form.ФормаВыбораСтатусаЭтапа" id="0d531164-9b41-4450-ae7c-9bf2e46936cb" configVersion="6d5d8be8ee81d64854b8356bf68fbc1cb21a51b5"/>
 		<Metadata name="DataProcessor.гиг_АРМ_НачальникаПроизводства.Form.ФормаВыбораСтатусаЭтапа.Form" id="0d531164-9b41-4450-ae7c-9bf2e46936cb.0" configVersion="16147910ff263ceec0db9e3c44b4e157c2ff4b5e"/>
