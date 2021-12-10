@@ -2483,7 +2483,7 @@
 		<Metadata name="DataProcessor.ФормированиеСменныхЗаданий.Form.РабочееМесто.Form" id="0aef7cd1-f61e-4ba5-9606-e537394d6b22.0" configVersion="8cb3a8f219c8a99b6156a3a2318cbd464bb63505"/>
 		<Metadata name="DataProcessor.гиг_АРМ_НачальникаПроизводства" id="0602ffd0-656e-4402-a066-3caa297425f4" configVersion="4b6a0b5ac42b0051cc01af2431c70f4d6f7bc855"/>
 		<Metadata name="DataProcessor.гиг_АРМ_НачальникаПроизводства.Form.АРМНачальникаПроизводства" id="c1e056af-0443-42e6-bbe2-6afec9f37bcd" configVersion="5d882d9502a865fa8e14404492b3b32edd0e7147"/>
-		<Metadata name="DataProcessor.гиг_АРМ_НачальникаПроизводства.Form.АРМНачальникаПроизводства.Form" id="c1e056af-0443-42e6-bbe2-6afec9f37bcd.0" configVersion="da6326183522a482e0d5b5bde4a68816a43f1fe8"/>
+		<Metadata name="DataProcessor.гиг_АРМ_НачальникаПроизводства.Form.АРМНачальникаПроизводства.Form" id="c1e056af-0443-42e6-bbe2-6afec9f37bcd.0" configVersion="c3fb13343656cc2426d8b2d69925ca49d511137f"/>
 		<Metadata name="DataProcessor.гиг_АРМ_НачальникаПроизводства.Form.АРМНачальникаПроизводства.Help" id="c1e056af-0443-42e6-bbe2-6afec9f37bcd.1" configVersion="850e5a0694fa594125e1209f4cd516d956d00c28"/>
 		<Metadata name="DataProcessor.гиг_АРМ_НачальникаПроизводства.Form.ФормаВыбораСтатусаЭтапа" id="0d531164-9b41-4450-ae7c-9bf2e46936cb" configVersion="6d5d8be8ee81d64854b8356bf68fbc1cb21a51b5"/>
 		<Metadata name="DataProcessor.гиг_АРМ_НачальникаПроизводства.Form.ФормаВыбораСтатусаЭтапа.Form" id="0d531164-9b41-4450-ae7c-9bf2e46936cb.0" configVersion="16147910ff263ceec0db9e3c44b4e157c2ff4b5e"/>
@@ -4970,10 +4970,10 @@
 		<Metadata name="Report.ВыручкаИСебестоимостьПродаж.Template.ОсновнаяСхемаКомпоновкиДанных1.Template" id="b2b05251-aef6-43ef-865f-b2de1b55f84d.0" configVersion="fe2316aa2209ccb61d48550012ae8bc2aa7aa4c4"/>
 		<Metadata name="Report.ВыручкаИСебестоимостьПродаж.Template.ОсновнаяСхемаКомпоновкиДанных2" id="984cbee6-ac55-4789-b4dd-aea9b475c376" configVersion="d11f74271010353cb09778d2319e62b095cc0f90"/>
 		<Metadata name="Report.ВыручкаИСебестоимостьПродаж.Template.ОсновнаяСхемаКомпоновкиДанных2.Template" id="984cbee6-ac55-4789-b4dd-aea9b475c376.0" configVersion="e81e9664d197a2738f1d9f920ae84c293a0313fe"/>
-		<Metadata name="Report.ВыручкаИСебестоимостьПродаж.Template.ОсновнаяСхемаКомпоновкиДанных3" id="3788d6f5-00f8-4c8c-aafb-534346d18361" configVersion="e85de426b50a0f7b5dac40f954d2ae83314f3e9d"/>
-		<Metadata name="Report.ВыручкаИСебестоимостьПродаж.Template.ОсновнаяСхемаКомпоновкиДанных3.Template" id="3788d6f5-00f8-4c8c-aafb-534346d18361.0" configVersion="3646f7cb203414316c2f6188546bb0237289867a"/>
-		<Metadata name="Report.ВыручкаИСебестоимостьПродаж.Template.ОсновнаяСхемаКомпоновкиДанных4" id="2232c349-fd80-485d-b470-45183550cc3b" configVersion="c911ff391e5a3e2f4802993b64e0d0e6e4d2cafa"/>
-		<Metadata name="Report.ВыручкаИСебестоимостьПродаж.Template.ОсновнаяСхемаКомпоновкиДанных4.Template" id="2232c349-fd80-485d-b470-45183550cc3b.0" configVersion="b024cc3fb83f90325d301687c3204d0bb111e4ba"/>
+		<Metadata name="Report.ВыручкаИСебестоимостьПродаж.Template.ОсновнаяСхемаКомпоновкиДанных3" id="3788d6f5-00f8-4c8c-aafb-534346d18361" configVersion="d885d78d9c1962be6bb1fbc34a9a3ccdbdd0cba5"/>
+		<Metadata name="Report.ВыручкаИСебестоимостьПродаж.Template.ОсновнаяСхемаКомпоновкиДанных3.Template" id="3788d6f5-00f8-4c8c-aafb-534346d18361.0" configVersion="b3c95badb557faca868e28508503a3f20daea6dc"/>
+		<Metadata name="Report.ВыручкаИСебестоимостьПродаж.Template.ОсновнаяСхемаКомпоновкиДанных4" id="2232c349-fd80-485d-b470-45183550cc3b" configVersion="53ee9fd0bdcff89e2a1cd7748ba3173018e4b15b"/>
+		<Metadata name="Report.ВыручкаИСебестоимостьПродаж.Template.ОсновнаяСхемаКомпоновкиДанных4.Template" id="2232c349-fd80-485d-b470-45183550cc3b.0" configVersion="8e55f4d289d19a1b24609a740844fa13b8111e4d"/>
 		<Metadata name="Report.ГИГ_АРМАнализЦенообразования" id="d23de132-7d61-4780-a48e-8ead943a6beb" configVersion="d446a8a10a11810bb627cbaf15d7923e8da6d4dc"/>
 		<Metadata name="Report.ГИГ_АРМАнализЦенообразования.Form.ФормаНастроекАРМАнализЦенообразования" id="aaf5f51b-0637-4da7-9718-7d9e75a52b3e" configVersion="f5c38e606c11b4bda6082e12448915d42b41ce6c"/>
 		<Metadata name="Report.ГИГ_АРМАнализЦенообразования.Form.ФормаНастроекАРМАнализЦенообразования.Form" id="aaf5f51b-0637-4da7-9718-7d9e75a52b3e.0" configVersion="67db6ab974631369473458b5d34cd5e727a8aaa6"/>
