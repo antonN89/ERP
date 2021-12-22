@@ -52,7 +52,7 @@
 			<ScriptVariant>Russian</ScriptVariant>
 			<DefaultRoles/>
 			<Vendor>Rineco</Vendor>
-			<Version>13.12.2021_2_2.4.13.227</Version>
+			<Version>20.12.2021_2_2.4.13.227</Version>
 			<DefaultStyle/>
 			<DefaultLanguage>Language.Русский</DefaultLanguage>
 			<BriefInformation/>
@@ -106,6 +106,7 @@
 			<StyleItem>ШрифтЗаголовкаИнформационнойПанели</StyleItem>
 			<StyleItem>ШрифтСоставнойНадписиМоноширинный</StyleItem>
 			<StyleItem>ЦветТекстаНевыбраннойКартинки</StyleItem>
+			<StyleItem>ВладелецФайловШрифт</StyleItem>
 			<Style>Основной</Style>
 			<CommonPicture>Внимание16</CommonPicture>
 			<CommonPicture>ВниманиеКрасный</CommonPicture>
@@ -199,6 +200,10 @@
 			<CommonPicture>ВУпаковочныйЛист</CommonPicture>
 			<CommonPicture>СостояниеПроверкиКонтрагента</CommonPicture>
 			<CommonPicture>ИсключитьИзУчетнойПолитики</CommonPicture>
+			<CommonPicture>ПодписанЗашифрованСостояния</CommonPicture>
+			<CommonPicture>КоллекцияПиктограммФайлов</CommonPicture>
+			<CommonPicture>ПодписанЗашифрованЗаголовок</CommonPicture>
+			<CommonPicture>ОбновитьФайлИзФайлаНаДиске</CommonPicture>
 			<Role>АдминистраторСистемы</Role>
 			<Role>БазовыеПраваБСП</Role>
 			<Role>гиг_ДобавлениеИзменениеРасчетИзделий</Role>
@@ -586,6 +591,9 @@
 			<Catalog>Ринэко_Настройки</Catalog>
 			<Catalog>РИНЭКО_ПланМероприятийПоРаботеСЗД</Catalog>
 			<Catalog>ВариантыКлассификацииЗадолженности</Catalog>
+			<Catalog>Рин1_ТиповойНаборМатериалов</Catalog>
+			<Catalog>РесурсныеСпецификацииПрисоединенныеФайлы</Catalog>
+			<Catalog>ИдентификаторыОбъектовМетаданных</Catalog>
 			<Document>АктВыполненныхРабот</Document>
 			<Document>АктОРасхожденияхПослеОтгрузки</Document>
 			<Document>АктОРасхожденияхПослеПриемки</Document>
@@ -765,6 +773,7 @@
 			<Enum>СтатусДЗ</Enum>
 			<Enum>ТипыУчастниковВзаимозачета</Enum>
 			<Enum>ВидыОперацийВзаимозачетаЗадолженности</Enum>
+			<Enum>Рин1_ТипСправочника</Enum>
 			<Report>ВыручкаИСебестоимостьПродаж</Report>
 			<Report>ГИГ_АРМАнализЦенообразования</Report>
 			<Report>ГИГ_АрмМатрицаЦенообразования</Report>
@@ -825,6 +834,8 @@
 			<DataProcessor>ФормированиеСменныхЗаданий</DataProcessor>
 			<DataProcessor>КлиентБанк</DataProcessor>
 			<DataProcessor>ЖурналДокументовВнутреннегоТовародвижения</DataProcessor>
+			<DataProcessor>Рин1_РаботаСТиповымНаборомМатериалов</DataProcessor>
+			<DataProcessor>РаботаСФайлами</DataProcessor>
 			<InformationRegister>ГИГ_ЗначенияПороговОграничений</InformationRegister>
 			<InformationRegister>ГИГ_ИсторияИзмененийЗначениейПороговИСкидок</InformationRegister>
 			<InformationRegister>ГИГ_ИсторияИзмененияЗначенийСкидок_НаценокИндивидуальныхСоглашений</InformationRegister>
@@ -863,6 +874,7 @@
 			<InformationRegister>Рин1_СегментыНоменклатурыДата</InformationRegister>
 			<InformationRegister>РИНЭКО_ИсторияИзмененияСтатуса</InformationRegister>
 			<InformationRegister>РИНЭКО_ИсторияОбсуждений</InformationRegister>
+			<InformationRegister>Рин1_СопоставлениеТиповыхНаборовМатериалов</InformationRegister>
 			<AccumulationRegister>ГИГ_ДанныеТрудозатратПоЕжедневнымВыработкам</AccumulationRegister>
 			<AccumulationRegister>ГрафикОтгрузкиТоваров</AccumulationRegister>
 			<AccumulationRegister>ДанныеОперативногоУчетаРабочегоВремениСотрудников</AccumulationRegister>

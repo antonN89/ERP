@@ -1628,6 +1628,11 @@
 												<CommandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
 												<ExtendedTooltip name="Обеспечение_ПодобратьПоСпецификацииРасширеннаяПодсказка" id="2085"/>
 											</Button>
+											<Button name="ОбеспечениеМатериаламиИРаботамиПодобратьПоТиповымНаборам" id="2310">
+												<Type>CommandBarButton</Type>
+												<CommandName>Form.Command.ПодобратьПоТиповымНаборам</CommandName>
+												<ExtendedTooltip name="ОбеспечениеМатериаламиИРаботамиПодобратьПоТиповымНаборамРасширеннаяПодсказка" id="2311"/>
+											</Button>
 											<Button name="Обеспечение_ПодобратьТовары" id="887">
 												<Type>CommandBarButton</Type>
 												<CommandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
@@ -5765,6 +5770,21 @@ costs</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action callType="Override">Рин1_ЗагрузитьИзВнешнегоФайлаВместо</Action>
+		</Command>
+		<Command name="ПодобратьПоТиповымНаборам" id="1000001">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Подобрать по типовым наборам</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Подобрать по типовым наборам</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action callType="After">Рин1_ПодобратьПоТиповымНаборамПосле</Action>
 		</Command>
 	</Commands>
 	<BaseForm version="2.10">
