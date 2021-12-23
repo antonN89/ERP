@@ -52,7 +52,7 @@
 			<ScriptVariant>Russian</ScriptVariant>
 			<DefaultRoles/>
 			<Vendor>Rineco</Vendor>
-			<Version>20.12.2021_2_2.4.13.227</Version>
+			<Version>23.12.2021_2_2.4.13.227</Version>
 			<DefaultStyle/>
 			<DefaultLanguage>Language.Русский</DefaultLanguage>
 			<BriefInformation/>
@@ -107,6 +107,7 @@
 			<StyleItem>ШрифтСоставнойНадписиМоноширинный</StyleItem>
 			<StyleItem>ЦветТекстаНевыбраннойКартинки</StyleItem>
 			<StyleItem>ВладелецФайловШрифт</StyleItem>
+			<StyleItem>ГруппаВариантовОтчетовЦвет82</StyleItem>
 			<Style>Основной</Style>
 			<CommonPicture>Внимание16</CommonPicture>
 			<CommonPicture>ВниманиеКрасный</CommonPicture>
@@ -204,6 +205,11 @@
 			<CommonPicture>КоллекцияПиктограммФайлов</CommonPicture>
 			<CommonPicture>ПодписанЗашифрованЗаголовок</CommonPicture>
 			<CommonPicture>ОбновитьФайлИзФайлаНаДиске</CommonPicture>
+			<CommonPicture>КоллекцияКритическийПуть</CommonPicture>
+			<CommonPicture>ПроизводственнаяОперация</CommonPicture>
+			<CommonPicture>ТребуетсяОбеспечение</CommonPicture>
+			<CommonPicture>ЭтапНаКритическомПути</CommonPicture>
+			<CommonPicture>КоллекцияПиктограммСостоянияОперацийЭтапаПроизводства</CommonPicture>
 			<Role>АдминистраторСистемы</Role>
 			<Role>БазовыеПраваБСП</Role>
 			<Role>гиг_ДобавлениеИзменениеРасчетИзделий</Role>
