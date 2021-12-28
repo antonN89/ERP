@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.10">
+	<Catalog uuid="9bd298f2-9dfd-4637-88e2-fc3b67f0ee06">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.ПартииПроизводства" category="Object">
+				<xr:TypeId>3987736a-4258-4208-bef1-b4d7f9a13c06</xr:TypeId>
+				<xr:ValueId>74ddea36-2ca2-4381-b6e1-883546862979</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.ПартииПроизводства" category="Ref">
+				<xr:TypeId>145e1142-ea6b-45e0-ac74-4ab8d598bb75</xr:TypeId>
+				<xr:ValueId>20e4fe9e-a1fd-4482-9133-52a3237814b3</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.ПартииПроизводства" category="Selection">
+				<xr:TypeId>4b374311-75e0-4dbe-a985-59d2d3dd77a8</xr:TypeId>
+				<xr:ValueId>45959889-c859-4609-a5e7-340ecdc8b12f</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.ПартииПроизводства" category="List">
+				<xr:TypeId>42c0049b-4003-4d15-897a-d2de52d8ec5c</xr:TypeId>
+				<xr:ValueId>a10b4aa3-31b7-4197-afa9-9807145087f8</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.ПартииПроизводства" category="Manager">
+				<xr:TypeId>66c33e25-e576-4692-83db-468a76955880</xr:TypeId>
+				<xr:ValueId>e161cee8-de6c-4f23-a299-42ee9fb74a94</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ПартииПроизводства</Name>
+			<Comment/>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<ExtendedConfigurationObject>93f55b18-71cb-4202-a7a3-5acf1126ed36</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="67d34600-428c-4136-87e6-b246aac7e814">
+				<InternalInfo/>
+				<Properties>
+					<Name>ОсновноеИзделиеНоменклатура</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<ExtendedConfigurationObject>24b26c0b-cb19-4068-9301-a4a4efaad76a</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Номенклатура</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="acf08cb1-da7b-4c10-95a2-3230d88b0455">
+				<InternalInfo/>
+				<Properties>
+					<Name>ОсновноеИзделиеХарактеристика</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<ExtendedConfigurationObject>dd88487c-09f7-4dbd-9643-8fec553ddf26</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.ХарактеристикиНоменклатуры</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+		</ChildObjects>
+	</Catalog>
+</MetaDataObject>

@@ -1,0 +1,310 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.10">
+	<Catalog uuid="204da905-014f-4360-a306-bd7c0d2be50c">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.НастройкиПродажДляПользователей" category="Object">
+				<xr:TypeId>8e7149d4-666d-4bd7-bd09-6f9c6da3a611</xr:TypeId>
+				<xr:ValueId>19192d5e-2b3c-4e7a-b178-4c136d9c7f16</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.НастройкиПродажДляПользователей" category="Ref">
+				<xr:TypeId>e3ea8d92-7783-47c8-9acd-aaf6106d3420</xr:TypeId>
+				<xr:ValueId>8a0eaefd-caaf-4891-9802-54f9adc5603c</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.НастройкиПродажДляПользователей" category="Selection">
+				<xr:TypeId>de48a7a2-ceb2-49d8-8ac9-fcd5ba3c7cdd</xr:TypeId>
+				<xr:ValueId>fb242a61-fc68-47aa-8760-ad8609ed8116</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.НастройкиПродажДляПользователей" category="List">
+				<xr:TypeId>076b8c4b-433e-4cba-9d3e-945aea0a985e</xr:TypeId>
+				<xr:ValueId>3904365c-cc41-4a52-bfbb-98c8e08469cd</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.НастройкиПродажДляПользователей" category="Manager">
+				<xr:TypeId>ab3fd2f8-cb78-4f50-9171-afe1381c132f</xr:TypeId>
+				<xr:ValueId>db7ed9b7-52eb-4ae9-9bb2-d3a0a98c9822</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>НастройкиПродажДляПользователей</Name>
+			<Comment/>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="18572580-6d03-44d7-b916-ede245ee5c51">
+				<Properties>
+					<Name>СхемаОграничения</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Схема ограничения</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+					<Type>
+						<v8:Type>cfg:CatalogRef.ГИГ_СхемыОграниченийПродаж</v8:Type>
+					</Type>
+					<PasswordMode>false</PasswordMode>
+					<Format/>
+					<EditFormat/>
+					<ToolTip/>
+					<MarkNegatives>false</MarkNegatives>
+					<Mask/>
+					<MultiLine>false</MultiLine>
+					<ExtendedEdit>false</ExtendedEdit>
+					<MinValue xsi:nil="true"/>
+					<MaxValue xsi:nil="true"/>
+					<FillFromFillingValue>false</FillFromFillingValue>
+					<FillValue xsi:nil="true"/>
+					<FillChecking>DontCheck</FillChecking>
+					<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
+					<ChoiceParameterLinks/>
+					<ChoiceParameters/>
+					<QuickChoice>Auto</QuickChoice>
+					<CreateOnInput>Auto</CreateOnInput>
+					<ChoiceForm/>
+					<LinkByType/>
+					<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
+					<Use>ForItem</Use>
+					<Indexing>DontIndex</Indexing>
+					<FullTextSearch>Use</FullTextSearch>
+					<DataHistory>Use</DataHistory>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="8797cf9d-0135-46fc-bdc6-b17ff097924a">
+				<InternalInfo/>
+				<Properties>
+					<Name>ОграничиватьРучныеСкидки</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="66bcf92f-dd88-4ad8-887a-14be0c0d96ee">
+				<InternalInfo/>
+				<Properties>
+					<Name>РМК_Отложить</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="bc173066-7803-421d-98b9-48807fa38aff">
+				<InternalInfo/>
+				<Properties>
+					<Name>ПроцентРучнойНаценки</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>5</v8:Digits>
+							<v8:FractionDigits>2</v8:FractionDigits>
+							<v8:AllowedSign>Nonnegative</v8:AllowedSign>
+						</v8:NumberQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="e0bc059e-7a0d-4a0c-9cf2-61c3c794cad0">
+				<InternalInfo/>
+				<Properties>
+					<Name>ПроцентРучнойСкидки</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>5</v8:Digits>
+							<v8:FractionDigits>2</v8:FractionDigits>
+							<v8:AllowedSign>Nonnegative</v8:AllowedSign>
+						</v8:NumberQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="f3bcc934-96a1-4e0b-9c9e-bb3754e528e5">
+				<InternalInfo/>
+				<Properties>
+					<Name>РМК_Использовать</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="9b34322e-af87-4c8d-b375-c162fcbe7e00">
+				<InternalInfo/>
+				<Properties>
+					<Name>РМК_ВозвратТовара</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="3e82f24f-db18-404f-8673-84ea6e1fb701">
+				<InternalInfo/>
+				<Properties>
+					<Name>РМК_ВнесениеДенег</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="39280eb7-0e7e-45cb-ae2a-27d45c7b0879">
+				<InternalInfo/>
+				<Properties>
+					<Name>РМК_ВыемкаДенег</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="6dc4f4e6-0051-45fb-a5c6-ec08d273ba8c">
+				<InternalInfo/>
+				<Properties>
+					<Name>РМК_КорректировкаСтрок</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="9b03a2e4-bfe3-4e1b-903f-b3b18b44c347">
+				<InternalInfo/>
+				<Properties>
+					<Name>РМК_Зарезервировать</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="12df54bb-dce0-44b4-a4be-94b0811ef269">
+				<InternalInfo/>
+				<Properties>
+					<Name>РМК_ОткрытьСмену</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="17af483a-de7b-449b-babd-a9f2110705d7">
+				<InternalInfo/>
+				<Properties>
+					<Name>РМК_ЗакрытьСмену</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="fba91e5f-4c7c-4122-8a30-ddb4e21cca59">
+				<InternalInfo/>
+				<Properties>
+					<Name>РМК_ИзменениеКартЛояльности</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="d3c5b62a-17b2-4082-862f-8d95ee3af869">
+				<InternalInfo/>
+				<Properties>
+					<Name>РМК_РедактированиеИнформацииОКлиенте</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<TabularSection uuid="54090a4d-bd94-4ef5-9758-9701e9a7ebfd">
+				<InternalInfo>
+					<xr:GeneratedType name="CatalogTabularSection.НастройкиПродажДляПользователей.ЦеновыеГруппы" category="TabularSection">
+						<xr:TypeId>a5216df9-59ab-4184-92cd-c53a437d3af9</xr:TypeId>
+						<xr:ValueId>c3b9b7d7-a033-4998-8e0b-65e64a909281</xr:ValueId>
+					</xr:GeneratedType>
+					<xr:GeneratedType name="CatalogTabularSectionRow.НастройкиПродажДляПользователей.ЦеновыеГруппы" category="TabularSectionRow">
+						<xr:TypeId>f3833802-aa14-40c8-8a2a-39b9a23397c5</xr:TypeId>
+						<xr:ValueId>5d9cf309-bab7-4bcb-809a-46a410bbadae</xr:ValueId>
+					</xr:GeneratedType>
+				</InternalInfo>
+				<Properties>
+					<Name>ЦеновыеГруппы</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+				<ChildObjects>
+					<Attribute uuid="6102405b-f2e6-4e0b-ac7d-c028f2197961">
+						<InternalInfo/>
+						<Properties>
+							<Name>ЦеноваяГруппа</Name>
+							<Comment/>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>cfg:CatalogRef.ЦеновыеГруппы</v8:Type>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="78c3121f-2c4b-4b56-9760-59854b54e856">
+						<InternalInfo/>
+						<Properties>
+							<Name>ПроцентРучнойСкидки</Name>
+							<Comment/>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>xs:decimal</v8:Type>
+								<v8:NumberQualifiers>
+									<v8:Digits>5</v8:Digits>
+									<v8:FractionDigits>2</v8:FractionDigits>
+									<v8:AllowedSign>Nonnegative</v8:AllowedSign>
+								</v8:NumberQualifiers>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="5056302b-8655-4554-b89e-0c44ddde88ba">
+						<InternalInfo/>
+						<Properties>
+							<Name>ПроцентРучнойНаценки</Name>
+							<Comment/>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>xs:decimal</v8:Type>
+								<v8:NumberQualifiers>
+									<v8:Digits>5</v8:Digits>
+									<v8:FractionDigits>2</v8:FractionDigits>
+									<v8:AllowedSign>Nonnegative</v8:AllowedSign>
+								</v8:NumberQualifiers>
+							</Type>
+						</Properties>
+					</Attribute>
+				</ChildObjects>
+			</TabularSection>
+			<Form>ФормаЭлемента</Form>
+			<Command uuid="da1795ce-4ee3-4fa8-82e2-958df7343368">
+				<InternalInfo/>
+				<Properties>
+					<Name>ПравилаПродаж</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Group>FormCommandBarImportant</Group>
+				</Properties>
+			</Command>
+		</ChildObjects>
+	</Catalog>
+</MetaDataObject>

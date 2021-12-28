@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.10">
+	<Catalog uuid="dfa18948-ab93-4181-879d-d8c178b9e211">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.ГрафикиОплаты" category="Object">
+				<xr:TypeId>13b575bf-6802-4c58-8e8f-28204f838878</xr:TypeId>
+				<xr:ValueId>8ebfa699-f241-471b-a4eb-7e35adf3030e</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.ГрафикиОплаты" category="Ref">
+				<xr:TypeId>7ad98e44-69b3-4e49-9510-5bcfd02618ed</xr:TypeId>
+				<xr:ValueId>84e5f80a-d0a7-4275-a971-f4b24be7fb5f</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.ГрафикиОплаты" category="Selection">
+				<xr:TypeId>5f84d231-d111-4a84-bd80-6596d732f602</xr:TypeId>
+				<xr:ValueId>413765fc-6fcb-4112-ad7c-987966f0333f</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.ГрафикиОплаты" category="List">
+				<xr:TypeId>f8f0b80d-51be-42e7-8804-67b82c4c0184</xr:TypeId>
+				<xr:ValueId>e92093d1-030d-46ed-b818-57adfa3ee83f</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.ГрафикиОплаты" category="Manager">
+				<xr:TypeId>1d135ac1-fce7-4a1d-9232-a50dff2e5775</xr:TypeId>
+				<xr:ValueId>8cce37ce-1724-4f4c-b304-ea88e177312c</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ГрафикиОплаты</Name>
+			<Comment/>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects>
+			<Form>ФормаЭлемента</Form>
+		</ChildObjects>
+	</Catalog>
+</MetaDataObject>

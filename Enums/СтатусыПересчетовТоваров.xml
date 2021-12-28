@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.10">
+	<Enum uuid="236f858c-6896-4fb6-ab2a-f54aa3943cd8">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.СтатусыПересчетовТоваров" category="Ref">
+				<xr:TypeId>24c5e75c-ed77-4863-aced-3a5a41178751</xr:TypeId>
+				<xr:ValueId>017d066d-6d58-42aa-8384-752150b8854b</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.СтатусыПересчетовТоваров" category="Manager">
+				<xr:TypeId>cb4eb58b-de88-4ea9-a0b1-42e50419cd45</xr:TypeId>
+				<xr:ValueId>29f948d3-3a93-4a23-bcef-697c8f6d8580</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.СтатусыПересчетовТоваров" category="List">
+				<xr:TypeId>16535856-718b-44d0-b105-1e6626d616ae</xr:TypeId>
+				<xr:ValueId>a51bb91f-1108-4a90-8835-ad1c43d7b4b9</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>СтатусыПересчетовТоваров</Name>
+			<Comment/>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<ExtendedConfigurationObject>ae6099f7-97fe-4eb1-88a6-b8d701fbeefd</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects/>
+	</Enum>
+</MetaDataObject>

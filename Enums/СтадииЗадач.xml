@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.10">
+	<Enum uuid="9e43d821-b90e-43cb-a111-d78dfb28c6b5">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.СтадииЗадач" category="Ref">
+				<xr:TypeId>1609cec6-2635-4235-978a-8e8c1c9ad385</xr:TypeId>
+				<xr:ValueId>d1e6b7c4-641f-47a2-aa3b-e0c796266a52</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.СтадииЗадач" category="Manager">
+				<xr:TypeId>47c5a8f3-cb93-43ce-82cf-2ef59455e1cc</xr:TypeId>
+				<xr:ValueId>696f2b37-85bc-47ea-b18e-6f95f7b1ce7c</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.СтадииЗадач" category="List">
+				<xr:TypeId>854c5f72-3ed4-4b25-8715-6912d7ae9a53</xr:TypeId>
+				<xr:ValueId>e0f13152-385e-461e-b720-9dce9d975795</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>СтадииЗадач</Name>
+			<Comment/>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects/>
+	</Enum>
+</MetaDataObject>

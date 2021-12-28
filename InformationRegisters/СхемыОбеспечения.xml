@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.10">
+	<InformationRegister uuid="17bc3ad0-9b0d-49f2-832a-b86b58b89404">
+		<InternalInfo>
+			<xr:GeneratedType name="InformationRegisterRecord.СхемыОбеспечения" category="Record">
+				<xr:TypeId>91a4836f-b8c7-4b30-bf2e-054f0ebfa7dc</xr:TypeId>
+				<xr:ValueId>e2074814-5ddf-4e6c-8546-7ebc37009065</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterManager.СхемыОбеспечения" category="Manager">
+				<xr:TypeId>118d22f2-016e-475d-bfd5-66230a310d67</xr:TypeId>
+				<xr:ValueId>0aa7cee9-2c14-49bb-86d1-765f9268b0be</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterSelection.СхемыОбеспечения" category="Selection">
+				<xr:TypeId>206f4576-dd0a-43f9-a55c-b1c73e400348</xr:TypeId>
+				<xr:ValueId>89e981f5-a65f-4026-8d47-26fbb8ed251b</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterList.СхемыОбеспечения" category="List">
+				<xr:TypeId>0c2749b4-5cad-4a70-b825-a2e55daf1922</xr:TypeId>
+				<xr:ValueId>da999d25-5c05-4c37-a94c-d8c252a0bafc</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordSet.СхемыОбеспечения" category="RecordSet">
+				<xr:TypeId>09d0329c-6535-45a6-8e95-51cd4bbc0927</xr:TypeId>
+				<xr:ValueId>01322201-0213-44e8-8827-acb87edce517</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordKey.СхемыОбеспечения" category="RecordKey">
+				<xr:TypeId>d296ff35-e843-4dd1-ab5d-66740d6f32b8</xr:TypeId>
+				<xr:ValueId>b2d43e98-949a-46af-82bc-2b22a8016ee0</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordManager.СхемыОбеспечения" category="RecordManager">
+				<xr:TypeId>a985a4b6-f30a-41d3-a04a-fdf04594cc9d</xr:TypeId>
+				<xr:ValueId>59f0cf3f-355a-4e3c-a0e1-c1cd7c00af99</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>СхемыОбеспечения</Name>
+			<Comment/>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<InformationRegisterPeriodicity>Nonperiodical</InformationRegisterPeriodicity>
+			<WriteMode>Independent</WriteMode>
+		</Properties>
+		<ChildObjects>
+			<Resource uuid="5f0cfb75-8996-4bf0-bf05-f59e5eac81af">
+				<InternalInfo/>
+				<Properties>
+					<Name>СпособОбеспеченияПотребностей</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.СпособыОбеспеченияПотребностей</v8:Type>
+					</Type>
+				</Properties>
+			</Resource>
+			<Dimension uuid="85a498d9-da87-49b7-8250-678749544f50">
+				<InternalInfo/>
+				<Properties>
+					<Name>СхемаОбеспечения</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.СхемыОбеспечения</v8:Type>
+					</Type>
+				</Properties>
+			</Dimension>
+			<Dimension uuid="8c66a3d0-02dc-4aba-9596-cff2a059037f">
+				<InternalInfo/>
+				<Properties>
+					<Name>Склад</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.ФорматыМагазинов</v8:Type>
+						<v8:Type>cfg:CatalogRef.Склады</v8:Type>
+					</Type>
+				</Properties>
+			</Dimension>
+		</ChildObjects>
+	</InformationRegister>
+</MetaDataObject>

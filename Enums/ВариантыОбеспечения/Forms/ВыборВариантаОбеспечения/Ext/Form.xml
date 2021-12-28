@@ -1,0 +1,1302 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.10">
+	<WindowOpeningMode>LockOwnerWindow</WindowOpeningMode>
+	<AutoTitle>false</AutoTitle>
+	<CommandBarLocation>None</CommandBarLocation>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
+		<Autofill>false</Autofill>
+	</AutoCommandBar>
+	<Events>
+		<Event name="OnCreateAtServer" callType="Override">Рин1_ПриСозданииНаСервереВместо</Event>
+	</Events>
+	<ChildItems>
+		<UsualGroup name="КоманднаяПанельВерх" id="85">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Командная панель верх</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Command bar up</v8:content>
+				</v8:item>
+			</Title>
+			<Group>Horizontal</Group>
+			<Representation>None</Representation>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="КоманднаяПанельВерхРасширеннаяПодсказка" id="86"/>
+			<ChildItems>
+				<CommandBar name="КомандыВерх" id="87">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Команды верх</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Command top</v8:content>
+						</v8:item>
+					</Title>
+					<ExtendedTooltip name="КомандыВерхРасширеннаяПодсказка" id="88"/>
+					<ChildItems>
+						<Button name="Выбрать" id="214">
+							<Type>CommandBarButton</Type>
+							<DefaultButton>true</DefaultButton>
+							<CommandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
+							<ExtendedTooltip name="ВыбратьРасширеннаяПодсказка" id="215"/>
+						</Button>
+					</ChildItems>
+				</CommandBar>
+				<RadioButtonField name="Обеспечивать" id="89">
+					<DataPath>19</DataPath>
+					<SkipOnInput>true</SkipOnInput>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Обеспечивать и отгружать</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Supply and ship</v8:content>
+						</v8:item>
+					</Title>
+					<RadioButtonType>Auto</RadioButtonType>
+					<ChoiceList>
+						<xr:Item>
+							<xr:Presentation/>
+							<xr:CheckState>0</xr:CheckState>
+							<xr:Value xsi:type="FormChoiceListDesTimeValue">
+								<Presentation>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Не обособленно</v8:content>
+									</v8:item>
+									<v8:item>
+										<v8:lang>en</v8:lang>
+										<v8:content>Not separately</v8:content>
+									</v8:item>
+								</Presentation>
+								<Value xsi:type="xs:string">Не обособленно</Value>
+							</xr:Value>
+						</xr:Item>
+						<xr:Item>
+							<xr:Presentation/>
+							<xr:CheckState>0</xr:CheckState>
+							<xr:Value xsi:type="FormChoiceListDesTimeValue">
+								<Presentation>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Обособленно</v8:content>
+									</v8:item>
+									<v8:item>
+										<v8:lang>en</v8:lang>
+										<v8:content>Separately</v8:content>
+									</v8:item>
+								</Presentation>
+								<Value xsi:type="xs:string">Обособленно</Value>
+							</xr:Value>
+						</xr:Item>
+					</ChoiceList>
+					<ContextMenu name="ОбеспечиватьКонтекстноеМеню" id="90"/>
+					<ExtendedTooltip name="ОбеспечиватьРасширеннаяПодсказка" id="91"/>
+				</RadioButtonField>
+			</ChildItems>
+		</UsualGroup>
+		<Pages name="СтраницыДействия" id="147">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Страницы действия</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Action pages</v8:content>
+				</v8:item>
+			</Title>
+			<PagesRepresentation>None</PagesRepresentation>
+			<ExtendedTooltip name="СтраницыДействияРасширеннаяПодсказка" id="148"/>
+			<ChildItems>
+				<Page name="СтраницаДействия" id="149">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Страница действия</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Actions page</v8:content>
+						</v8:item>
+					</Title>
+					<ExtendedTooltip name="СтраницаДействияРасширеннаяПодсказка" id="150"/>
+					<ChildItems>
+						<Table name="Действия" id="3">
+							<Representation>List</Representation>
+							<CommandBarLocation>None</CommandBarLocation>
+							<ReadOnly>true</ReadOnly>
+							<ChangeRowSet>false</ChangeRowSet>
+							<ChoiceMode>true</ChoiceMode>
+							<SelectionMode>SingleRow</SelectionMode>
+							<AutoInsertNewRow>true</AutoInsertNewRow>
+							<EnableStartDrag>true</EnableStartDrag>
+							<EnableDrag>true</EnableDrag>
+							<FileDragMode>AsFile</FileDragMode>
+							<DataPath>1</DataPath>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Действия</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Actions</v8:content>
+								</v8:item>
+							</Title>
+							<RowFilter xsi:nil="true"/>
+							<ContextMenu name="ДействияКонтекстноеМеню" id="4"/>
+							<AutoCommandBar name="ДействияКоманднаяПанель" id="5"/>
+							<ExtendedTooltip name="ДействияРасширеннаяПодсказка" id="6"/>
+							<SearchStringAddition name="ДействияСтрокаПоиска" id="76">
+								<AdditionSource>
+									<Item>Действия</Item>
+									<Type>SearchStringRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="ДействияСтрокаПоискаКонтекстноеМеню" id="77"/>
+								<ExtendedTooltip name="ДействияСтрокаПоискаРасширеннаяПодсказка" id="78"/>
+							</SearchStringAddition>
+							<ViewStatusAddition name="ДействияСостояниеПросмотра" id="79">
+								<AdditionSource>
+									<Item>Действия</Item>
+									<Type>ViewStatusRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="ДействияСостояниеПросмотраКонтекстноеМеню" id="80"/>
+								<ExtendedTooltip name="ДействияСостояниеПросмотраРасширеннаяПодсказка" id="81"/>
+							</ViewStatusAddition>
+							<SearchControlAddition name="ДействияУправлениеПоиском" id="82">
+								<AdditionSource>
+									<Item>Действия</Item>
+									<Type>SearchControl</Type>
+								</AdditionSource>
+								<ContextMenu name="ДействияУправлениеПоискомКонтекстноеМеню" id="83"/>
+								<ExtendedTooltip name="ДействияУправлениеПоискомРасширеннаяПодсказка" id="84"/>
+							</SearchControlAddition>
+							<ChildItems>
+								<InputField name="Действие" id="144">
+									<ReadOnly>true</ReadOnly>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="ДействиеКонтекстноеМеню" id="145"/>
+									<ExtendedTooltip name="ДействиеРасширеннаяПодсказка" id="146"/>
+								</InputField>
+								<InputField name="Количество" id="187">
+									<ReadOnly>true</ReadOnly>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="КоличествоКонтекстноеМеню" id="188"/>
+									<ExtendedTooltip name="КоличествоРасширеннаяПодсказка" id="189"/>
+								</InputField>
+								<LabelField name="Склад" id="16">
+									<ReadOnly>true</ReadOnly>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="СкладКонтекстноеМеню" id="17"/>
+									<ExtendedTooltip name="СкладРасширеннаяПодсказка" id="18"/>
+								</LabelField>
+							</ChildItems>
+						</Table>
+					</ChildItems>
+				</Page>
+				<Page name="СтраницаДействияОбособленные" id="151">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Страница действия обособленные</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Page separate actions</v8:content>
+						</v8:item>
+					</Title>
+					<ExtendedTooltip name="СтраницаДействияОбособленныеРасширеннаяПодсказка" id="152"/>
+					<ChildItems>
+						<Table name="ДействияОбособленные" id="153">
+							<Representation>List</Representation>
+							<CommandBarLocation>None</CommandBarLocation>
+							<ChangeRowSet>false</ChangeRowSet>
+							<ChoiceMode>true</ChoiceMode>
+							<AutoInsertNewRow>true</AutoInsertNewRow>
+							<EnableStartDrag>true</EnableStartDrag>
+							<EnableDrag>true</EnableDrag>
+							<FileDragMode>AsFile</FileDragMode>
+							<DataPath>23</DataPath>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Действия обособленные</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Actions separate</v8:content>
+								</v8:item>
+							</Title>
+							<RowFilter xsi:nil="true"/>
+							<ContextMenu name="ДействияОбособленныеКонтекстноеМеню" id="154"/>
+							<AutoCommandBar name="ДействияОбособленныеКоманднаяПанель" id="155"/>
+							<ExtendedTooltip name="ДействияОбособленныеРасширеннаяПодсказка" id="156"/>
+							<SearchStringAddition name="ДействияОбособленныеСтрокаПоиска" id="157">
+								<AdditionSource>
+									<Item>ДействияОбособленные</Item>
+									<Type>SearchStringRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="ДействияОбособленныеСтрокаПоискаКонтекстноеМеню" id="160"/>
+								<ExtendedTooltip name="ДействияОбособленныеСтрокаПоискаРасширеннаяПодсказка" id="161"/>
+							</SearchStringAddition>
+							<ViewStatusAddition name="ДействияОбособленныеСостояниеПросмотра" id="162">
+								<AdditionSource>
+									<Item>ДействияОбособленные</Item>
+									<Type>ViewStatusRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="ДействияОбособленныеСостояниеПросмотраКонтекстноеМеню" id="165"/>
+								<ExtendedTooltip name="ДействияОбособленныеСостояниеПросмотраРасширеннаяПодсказка" id="166"/>
+							</ViewStatusAddition>
+							<SearchControlAddition name="ДействияОбособленныеУправлениеПоиском" id="167">
+								<AdditionSource>
+									<Item>ДействияОбособленные</Item>
+									<Type>SearchControl</Type>
+								</AdditionSource>
+								<ContextMenu name="ДействияОбособленныеУправлениеПоискомКонтекстноеМеню" id="170"/>
+								<ExtendedTooltip name="ДействияОбособленныеУправлениеПоискомРасширеннаяПодсказка" id="171"/>
+							</SearchControlAddition>
+							<ChildItems>
+								<InputField name="ДействиеОбособленное" id="184">
+									<ReadOnly>true</ReadOnly>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="ДействиеОбособленноеКонтекстноеМеню" id="185"/>
+									<ExtendedTooltip name="ДействиеОбособленноеРасширеннаяПодсказка" id="186"/>
+								</InputField>
+								<InputField name="КоличествоОбособленно" id="178">
+									<ReadOnly>true</ReadOnly>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="КоличествоОбособленноКонтекстноеМеню" id="179"/>
+									<ExtendedTooltip name="КоличествоОбособленноРасширеннаяПодсказка" id="180"/>
+								</InputField>
+								<InputField name="СкладОбособленно" id="181">
+									<ReadOnly>true</ReadOnly>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="СкладОбособленноКонтекстноеМеню" id="182"/>
+									<ExtendedTooltip name="СкладОбособленноРасширеннаяПодсказка" id="183"/>
+								</InputField>
+							</ChildItems>
+						</Table>
+					</ChildItems>
+				</Page>
+			</ChildItems>
+		</Pages>
+		<LabelDecoration name="НадписьНетПотребностей" id="71">
+			<Visible>false</Visible>
+			<AutoMaxWidth>false</AutoMaxWidth>
+			<TextColor>style:ПоясняющийТекст</TextColor>
+			<Font ref="sys:DefaultGUIFont" bold="true" italic="false" underline="false" strikeout="false" kind="WindowsFont"/>
+			<Title formatted="false">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Обеспечение не требуется, все количество отгружено</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Supply is not required, everything is shipped</v8:content>
+				</v8:item>
+			</Title>
+			<ContextMenu name="НадписьНетПотребностейКонтекстноеМеню" id="72"/>
+			<ExtendedTooltip name="НадписьНетПотребностейРасширеннаяПодсказка" id="73"/>
+		</LabelDecoration>
+		<UsualGroup name="ГруппаИтогиПоСтроке" id="241">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Итоги по строке</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Totals by line</v8:content>
+				</v8:item>
+			</Title>
+			<Group>Horizontal</Group>
+			<Representation>None</Representation>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="ГруппаИтогиПоСтрокеРасширеннаяПодсказка" id="242"/>
+			<ChildItems>
+				<PictureDecoration name="Декорация3" id="246">
+					<Picture>
+						<xr:Ref>CommonPicture.Информация</xr:Ref>
+						<xr:LoadTransparent>false</xr:LoadTransparent>
+					</Picture>
+					<FileDragMode>AsFile</FileDragMode>
+					<ContextMenu name="Декорация3КонтекстноеМеню" id="247"/>
+					<ExtendedTooltip name="Декорация3РасширеннаяПодсказка" id="248"/>
+				</PictureDecoration>
+				<UsualGroup name="ГруппаЗаказаноОбеспеченоПоСтроке" id="259">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Заказано обеспечено по строке</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Ordered supplied by a line</v8:content>
+						</v8:item>
+					</Title>
+					<Group>Vertical</Group>
+					<Representation>None</Representation>
+					<ShowTitle>false</ShowTitle>
+					<ExtendedTooltip name="ГруппаЗаказаноОбеспеченоПоСтрокеРасширеннаяПодсказка" id="260"/>
+					<ChildItems>
+						<LabelDecoration name="НадписьЗаказаноОтгружено" id="243">
+							<AutoMaxWidth>false</AutoMaxWidth>
+							<TextColor>style:ПоясняющийТекст</TextColor>
+							<Title formatted="false">
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Надпись заказано отгружено</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Label ordered shipped</v8:content>
+								</v8:item>
+							</Title>
+							<ContextMenu name="НадписьЗаказаноОтгруженоКонтекстноеМеню" id="244"/>
+							<ExtendedTooltip name="НадписьЗаказаноОтгруженоРасширеннаяПодсказка" id="245"/>
+						</LabelDecoration>
+						<LabelField name="НадписьОбеспечено" id="256">
+							<DataPath>30</DataPath>
+							<TitleLocation>None</TitleLocation>
+							<AutoMaxWidth>false</AutoMaxWidth>
+							<TextColor>style:ПоясняющийТекст</TextColor>
+							<ContextMenu name="НадписьОбеспеченоКонтекстноеМеню" id="257"/>
+							<ExtendedTooltip name="НадписьОбеспеченоРасширеннаяПодсказка" id="258"/>
+						</LabelField>
+					</ChildItems>
+				</UsualGroup>
+			</ChildItems>
+		</UsualGroup>
+		<UsualGroup name="ГруппаВыбранноеДействие" id="115">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Выбранное действие</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Selected action</v8:content>
+				</v8:item>
+			</Title>
+			<Group>Horizontal</Group>
+			<Representation>None</Representation>
+			<ExtendedTooltip name="ГруппаВыбранноеДействиеРасширеннаяПодсказка" id="116"/>
+			<ChildItems>
+				<Pages name="СтраницыРазбитьСтроку" id="223">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Страницы разбить строку</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Page split line</v8:content>
+						</v8:item>
+					</Title>
+					<PagesRepresentation>None</PagesRepresentation>
+					<ExtendedTooltip name="СтраницыРазбитьСтрокуРасширеннаяПодсказка" id="224"/>
+					<ChildItems>
+						<Page name="СтраницаРазбитьСтроку" id="225">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Страница разбить строку</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Page split line</v8:content>
+								</v8:item>
+							</Title>
+							<ExtendedTooltip name="СтраницаРазбитьСтрокуРасширеннаяПодсказка" id="226"/>
+							<ChildItems>
+								<PictureDecoration name="РазбитьСтроку1" id="109">
+									<Title formatted="false">
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Разбить строку1</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Split line1</v8:content>
+										</v8:item>
+									</Title>
+									<Picture>
+										<xr:Ref>CommonPicture.РазбитьСтроку</xr:Ref>
+										<xr:LoadTransparent>false</xr:LoadTransparent>
+									</Picture>
+									<FileDragMode>AsFile</FileDragMode>
+									<ContextMenu name="РазбитьСтроку1КонтекстноеМеню" id="110"/>
+									<ExtendedTooltip name="РазбитьСтроку1РасширеннаяПодсказка" id="111"/>
+								</PictureDecoration>
+							</ChildItems>
+						</Page>
+						<Page name="СтраницаНеРазбиватьСтроку" id="227">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Страница не разбивать строку</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Page do not split the row</v8:content>
+								</v8:item>
+							</Title>
+							<ExtendedTooltip name="СтраницаНеРазбиватьСтрокуРасширеннаяПодсказка" id="228"/>
+							<ChildItems>
+								<LabelDecoration name="Декорация4" id="253">
+									<Width>2</Width>
+									<ContextMenu name="Декорация4КонтекстноеМеню" id="254"/>
+									<ExtendedTooltip name="Декорация4РасширеннаяПодсказка" id="255"/>
+								</LabelDecoration>
+							</ChildItems>
+						</Page>
+					</ChildItems>
+				</Pages>
+				<UsualGroup name="Группа4" id="251">
+					<Group>Vertical</Group>
+					<Representation>None</Representation>
+					<ShowTitle>false</ShowTitle>
+					<ExtendedTooltip name="Группа4РасширеннаяПодсказка" id="252"/>
+					<ChildItems>
+						<UsualGroup name="Группа1" id="216">
+							<Group>Horizontal</Group>
+							<Representation>None</Representation>
+							<ShowTitle>false</ShowTitle>
+							<ExtendedTooltip name="Группа1РасширеннаяПодсказка" id="217"/>
+							<ChildItems>
+								<Pages name="СтраницыДействие1" id="232">
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Страницы действие 1</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Pages action 1</v8:content>
+										</v8:item>
+									</Title>
+									<PagesRepresentation>None</PagesRepresentation>
+									<ExtendedTooltip name="СтраницыДействие1РасширеннаяПодсказка" id="233"/>
+									<ChildItems>
+										<Page name="СтраницаДействие1" id="234">
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Страница действие 1</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Page action 1</v8:content>
+												</v8:item>
+											</Title>
+											<Group>Horizontal</Group>
+											<ExtendedTooltip name="СтраницаДействие1РасширеннаяПодсказка" id="235"/>
+											<ChildItems>
+												<LabelField name="Действие1" id="100">
+													<DataPath>20</DataPath>
+													<TitleLocation>None</TitleLocation>
+													<AutoMaxWidth>false</AutoMaxWidth>
+													<TextColor>style:ПоясняющийТекст</TextColor>
+													<ContextMenu name="Действие1КонтекстноеМеню" id="101"/>
+													<ExtendedTooltip name="Действие1РасширеннаяПодсказка" id="102"/>
+												</LabelField>
+											</ChildItems>
+										</Page>
+										<Page name="СтраницаНетДействия1" id="236">
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Страница нет действия 1</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Page no action 1</v8:content>
+												</v8:item>
+											</Title>
+											<ExtendedTooltip name="СтраницаНетДействия1РасширеннаяПодсказка" id="237"/>
+											<ChildItems>
+												<LabelDecoration name="Декорация2" id="238">
+													<Width>2</Width>
+													<ContextMenu name="Декорация2КонтекстноеМеню" id="239"/>
+													<ExtendedTooltip name="Декорация2РасширеннаяПодсказка" id="240"/>
+												</LabelDecoration>
+											</ChildItems>
+										</Page>
+									</ChildItems>
+								</Pages>
+							</ChildItems>
+						</UsualGroup>
+						<Pages name="ГруппаДействие2" id="120">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Действие 2</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Action 2</v8:content>
+								</v8:item>
+							</Title>
+							<PagesRepresentation>None</PagesRepresentation>
+							<ExtendedTooltip name="ГруппаДействие2РасширеннаяПодсказка" id="121"/>
+							<ChildItems>
+								<Page name="СтраницаЕстьДействие2" id="122">
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Страница есть действие 2</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Page has action 2</v8:content>
+										</v8:item>
+									</Title>
+									<Group>Horizontal</Group>
+									<ExtendedTooltip name="СтраницаЕстьДействие2РасширеннаяПодсказка" id="123"/>
+									<ChildItems>
+										<LabelField name="Действие2" id="103">
+											<DataPath>21</DataPath>
+											<TitleLocation>None</TitleLocation>
+											<AutoMaxWidth>false</AutoMaxWidth>
+											<TextColor>style:ПоясняющийТекст</TextColor>
+											<ContextMenu name="Действие2КонтекстноеМеню" id="104"/>
+											<ExtendedTooltip name="Действие2РасширеннаяПодсказка" id="105"/>
+										</LabelField>
+									</ChildItems>
+								</Page>
+								<Page name="СтраницаНетДействия2" id="124">
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Страница нет действия 2</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Page no action 2</v8:content>
+										</v8:item>
+									</Title>
+									<ExtendedTooltip name="СтраницаНетДействия2РасширеннаяПодсказка" id="125"/>
+									<ChildItems>
+										<LabelDecoration name="НетДействия2" id="126">
+											<Width>2</Width>
+											<ContextMenu name="НетДействия2КонтекстноеМеню" id="127"/>
+											<ExtendedTooltip name="НетДействия2РасширеннаяПодсказка" id="128"/>
+										</LabelDecoration>
+									</ChildItems>
+								</Page>
+							</ChildItems>
+						</Pages>
+						<UsualGroup name="ГруппаДействие3" id="261">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Группа действие3</v8:content>
+								</v8:item>
+							</Title>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Группа действие3</v8:content>
+								</v8:item>
+							</ToolTip>
+							<Representation>None</Representation>
+							<ShowTitle>false</ShowTitle>
+							<ExtendedTooltip name="ГруппаДействие3РасширеннаяПодсказка" id="262"/>
+							<ChildItems>
+								<LabelField name="Действие3" id="263">
+									<DataPath>Действие3</DataPath>
+									<TitleLocation>None</TitleLocation>
+									<TextColor>style:SpecialTextColor</TextColor>
+									<Font ref="style:NormalTextFont" bold="true" italic="false" underline="false" strikeout="false" kind="StyleItem"/>
+									<ContextMenu name="Действие3КонтекстноеМеню" id="264"/>
+									<ExtendedTooltip name="Действие3РасширеннаяПодсказка" id="265"/>
+								</LabelField>
+							</ChildItems>
+						</UsualGroup>
+					</ChildItems>
+				</UsualGroup>
+			</ChildItems>
+		</UsualGroup>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Действие3" id="1000001">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Действие3</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="АдресаВХранилище" id="1000002">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Адреса в хранилище</v8:content>
+				</v8:item>
+			</Title>
+			<Type/>
+		</Attribute>
+		<Attribute name="ОстатокОбособленно" id="1000003">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Остаток обособленно</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:decimal</v8:Type>
+				<v8:NumberQualifiers>
+					<v8:Digits>15</v8:Digits>
+					<v8:FractionDigits>2</v8:FractionDigits>
+					<v8:AllowedSign>Any</v8:AllowedSign>
+				</v8:NumberQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="ИдентификаторВыбраннойСтроки" id="1000004">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Идентификатор выбранной строки</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:decimal</v8:Type>
+				<v8:NumberQualifiers>
+					<v8:Digits>10</v8:Digits>
+					<v8:FractionDigits>0</v8:FractionDigits>
+					<v8:AllowedSign>Nonnegative</v8:AllowedSign>
+				</v8:NumberQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="Рин1_ОстатокОбособленоНеПодтверждено" id="1000005">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Рин1 остаток обособлено не подтверждено</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:decimal</v8:Type>
+				<v8:NumberQualifiers>
+					<v8:Digits>15</v8:Digits>
+					<v8:FractionDigits>3</v8:FractionDigits>
+					<v8:AllowedSign>Any</v8:AllowedSign>
+				</v8:NumberQualifiers>
+			</Type>
+		</Attribute>
+	</Attributes>
+	<BaseForm version="2.10">
+		<WindowOpeningMode>LockOwnerWindow</WindowOpeningMode>
+		<AutoTitle>false</AutoTitle>
+		<CommandBarLocation>None</CommandBarLocation>
+		<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
+			<Autofill>false</Autofill>
+		</AutoCommandBar>
+		<ChildItems>
+			<UsualGroup name="КоманднаяПанельВерх" id="85">
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Командная панель верх</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>Command bar up</v8:content>
+					</v8:item>
+				</Title>
+				<Group>Horizontal</Group>
+				<Representation>None</Representation>
+				<ShowTitle>false</ShowTitle>
+				<ExtendedTooltip name="КоманднаяПанельВерхРасширеннаяПодсказка" id="86"/>
+				<ChildItems>
+					<CommandBar name="КомандыВерх" id="87">
+						<Title>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Команды верх</v8:content>
+							</v8:item>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>Command top</v8:content>
+							</v8:item>
+						</Title>
+						<ExtendedTooltip name="КомандыВерхРасширеннаяПодсказка" id="88"/>
+						<ChildItems>
+							<Button name="Выбрать" id="214">
+								<Type>CommandBarButton</Type>
+								<DefaultButton>true</DefaultButton>
+								<CommandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
+								<ExtendedTooltip name="ВыбратьРасширеннаяПодсказка" id="215"/>
+							</Button>
+						</ChildItems>
+					</CommandBar>
+					<RadioButtonField name="Обеспечивать" id="89">
+						<DataPath>19</DataPath>
+						<SkipOnInput>true</SkipOnInput>
+						<Title>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Обеспечивать и отгружать</v8:content>
+							</v8:item>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>Supply and ship</v8:content>
+							</v8:item>
+						</Title>
+						<RadioButtonType>Auto</RadioButtonType>
+						<ChoiceList>
+							<xr:Item>
+								<xr:Presentation/>
+								<xr:CheckState>0</xr:CheckState>
+								<xr:Value xsi:type="FormChoiceListDesTimeValue">
+									<Presentation>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Не обособленно</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Not separately</v8:content>
+										</v8:item>
+									</Presentation>
+									<Value xsi:type="xs:string">Не обособленно</Value>
+								</xr:Value>
+							</xr:Item>
+							<xr:Item>
+								<xr:Presentation/>
+								<xr:CheckState>0</xr:CheckState>
+								<xr:Value xsi:type="FormChoiceListDesTimeValue">
+									<Presentation>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Обособленно</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Separately</v8:content>
+										</v8:item>
+									</Presentation>
+									<Value xsi:type="xs:string">Обособленно</Value>
+								</xr:Value>
+							</xr:Item>
+						</ChoiceList>
+						<ContextMenu name="ОбеспечиватьКонтекстноеМеню" id="90"/>
+						<ExtendedTooltip name="ОбеспечиватьРасширеннаяПодсказка" id="91"/>
+					</RadioButtonField>
+				</ChildItems>
+			</UsualGroup>
+			<Pages name="СтраницыДействия" id="147">
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Страницы действия</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>Action pages</v8:content>
+					</v8:item>
+				</Title>
+				<PagesRepresentation>None</PagesRepresentation>
+				<ExtendedTooltip name="СтраницыДействияРасширеннаяПодсказка" id="148"/>
+				<ChildItems>
+					<Page name="СтраницаДействия" id="149">
+						<Title>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Страница действия</v8:content>
+							</v8:item>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>Actions page</v8:content>
+							</v8:item>
+						</Title>
+						<ExtendedTooltip name="СтраницаДействияРасширеннаяПодсказка" id="150"/>
+						<ChildItems>
+							<Table name="Действия" id="3">
+								<Representation>List</Representation>
+								<CommandBarLocation>None</CommandBarLocation>
+								<ReadOnly>true</ReadOnly>
+								<ChangeRowSet>false</ChangeRowSet>
+								<ChoiceMode>true</ChoiceMode>
+								<SelectionMode>SingleRow</SelectionMode>
+								<AutoInsertNewRow>true</AutoInsertNewRow>
+								<EnableStartDrag>true</EnableStartDrag>
+								<EnableDrag>true</EnableDrag>
+								<FileDragMode>AsFile</FileDragMode>
+								<DataPath>1</DataPath>
+								<Title>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Действия</v8:content>
+									</v8:item>
+									<v8:item>
+										<v8:lang>en</v8:lang>
+										<v8:content>Actions</v8:content>
+									</v8:item>
+								</Title>
+								<RowFilter xsi:nil="true"/>
+								<ContextMenu name="ДействияКонтекстноеМеню" id="4"/>
+								<AutoCommandBar name="ДействияКоманднаяПанель" id="5"/>
+								<ExtendedTooltip name="ДействияРасширеннаяПодсказка" id="6"/>
+								<SearchStringAddition name="ДействияСтрокаПоиска" id="76">
+									<AdditionSource>
+										<Item>Действия</Item>
+										<Type>SearchStringRepresentation</Type>
+									</AdditionSource>
+									<ContextMenu name="ДействияСтрокаПоискаКонтекстноеМеню" id="77"/>
+									<ExtendedTooltip name="ДействияСтрокаПоискаРасширеннаяПодсказка" id="78"/>
+								</SearchStringAddition>
+								<ViewStatusAddition name="ДействияСостояниеПросмотра" id="79">
+									<AdditionSource>
+										<Item>Действия</Item>
+										<Type>ViewStatusRepresentation</Type>
+									</AdditionSource>
+									<ContextMenu name="ДействияСостояниеПросмотраКонтекстноеМеню" id="80"/>
+									<ExtendedTooltip name="ДействияСостояниеПросмотраРасширеннаяПодсказка" id="81"/>
+								</ViewStatusAddition>
+								<SearchControlAddition name="ДействияУправлениеПоиском" id="82">
+									<AdditionSource>
+										<Item>Действия</Item>
+										<Type>SearchControl</Type>
+									</AdditionSource>
+									<ContextMenu name="ДействияУправлениеПоискомКонтекстноеМеню" id="83"/>
+									<ExtendedTooltip name="ДействияУправлениеПоискомРасширеннаяПодсказка" id="84"/>
+								</SearchControlAddition>
+								<ChildItems>
+									<InputField name="Действие" id="144">
+										<ReadOnly>true</ReadOnly>
+										<EditMode>EnterOnInput</EditMode>
+										<ContextMenu name="ДействиеКонтекстноеМеню" id="145"/>
+										<ExtendedTooltip name="ДействиеРасширеннаяПодсказка" id="146"/>
+									</InputField>
+									<InputField name="Количество" id="187">
+										<ReadOnly>true</ReadOnly>
+										<EditMode>EnterOnInput</EditMode>
+										<ContextMenu name="КоличествоКонтекстноеМеню" id="188"/>
+										<ExtendedTooltip name="КоличествоРасширеннаяПодсказка" id="189"/>
+									</InputField>
+									<LabelField name="Склад" id="16">
+										<ReadOnly>true</ReadOnly>
+										<EditMode>EnterOnInput</EditMode>
+										<ContextMenu name="СкладКонтекстноеМеню" id="17"/>
+										<ExtendedTooltip name="СкладРасширеннаяПодсказка" id="18"/>
+									</LabelField>
+								</ChildItems>
+							</Table>
+						</ChildItems>
+					</Page>
+					<Page name="СтраницаДействияОбособленные" id="151">
+						<Title>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Страница действия обособленные</v8:content>
+							</v8:item>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>Page separate actions</v8:content>
+							</v8:item>
+						</Title>
+						<ExtendedTooltip name="СтраницаДействияОбособленныеРасширеннаяПодсказка" id="152"/>
+						<ChildItems>
+							<Table name="ДействияОбособленные" id="153">
+								<Representation>List</Representation>
+								<CommandBarLocation>None</CommandBarLocation>
+								<ChangeRowSet>false</ChangeRowSet>
+								<ChoiceMode>true</ChoiceMode>
+								<AutoInsertNewRow>true</AutoInsertNewRow>
+								<EnableStartDrag>true</EnableStartDrag>
+								<EnableDrag>true</EnableDrag>
+								<FileDragMode>AsFile</FileDragMode>
+								<DataPath>23</DataPath>
+								<Title>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Действия обособленные</v8:content>
+									</v8:item>
+									<v8:item>
+										<v8:lang>en</v8:lang>
+										<v8:content>Actions separate</v8:content>
+									</v8:item>
+								</Title>
+								<RowFilter xsi:nil="true"/>
+								<ContextMenu name="ДействияОбособленныеКонтекстноеМеню" id="154"/>
+								<AutoCommandBar name="ДействияОбособленныеКоманднаяПанель" id="155"/>
+								<ExtendedTooltip name="ДействияОбособленныеРасширеннаяПодсказка" id="156"/>
+								<SearchStringAddition name="ДействияОбособленныеСтрокаПоиска" id="157">
+									<AdditionSource>
+										<Item>ДействияОбособленные</Item>
+										<Type>SearchStringRepresentation</Type>
+									</AdditionSource>
+									<ContextMenu name="ДействияОбособленныеСтрокаПоискаКонтекстноеМеню" id="160"/>
+									<ExtendedTooltip name="ДействияОбособленныеСтрокаПоискаРасширеннаяПодсказка" id="161"/>
+								</SearchStringAddition>
+								<ViewStatusAddition name="ДействияОбособленныеСостояниеПросмотра" id="162">
+									<AdditionSource>
+										<Item>ДействияОбособленные</Item>
+										<Type>ViewStatusRepresentation</Type>
+									</AdditionSource>
+									<ContextMenu name="ДействияОбособленныеСостояниеПросмотраКонтекстноеМеню" id="165"/>
+									<ExtendedTooltip name="ДействияОбособленныеСостояниеПросмотраРасширеннаяПодсказка" id="166"/>
+								</ViewStatusAddition>
+								<SearchControlAddition name="ДействияОбособленныеУправлениеПоиском" id="167">
+									<AdditionSource>
+										<Item>ДействияОбособленные</Item>
+										<Type>SearchControl</Type>
+									</AdditionSource>
+									<ContextMenu name="ДействияОбособленныеУправлениеПоискомКонтекстноеМеню" id="170"/>
+									<ExtendedTooltip name="ДействияОбособленныеУправлениеПоискомРасширеннаяПодсказка" id="171"/>
+								</SearchControlAddition>
+								<ChildItems>
+									<InputField name="ДействиеОбособленное" id="184">
+										<ReadOnly>true</ReadOnly>
+										<EditMode>EnterOnInput</EditMode>
+										<ContextMenu name="ДействиеОбособленноеКонтекстноеМеню" id="185"/>
+										<ExtendedTooltip name="ДействиеОбособленноеРасширеннаяПодсказка" id="186"/>
+									</InputField>
+									<InputField name="КоличествоОбособленно" id="178">
+										<ReadOnly>true</ReadOnly>
+										<EditMode>EnterOnInput</EditMode>
+										<ContextMenu name="КоличествоОбособленноКонтекстноеМеню" id="179"/>
+										<ExtendedTooltip name="КоличествоОбособленноРасширеннаяПодсказка" id="180"/>
+									</InputField>
+									<InputField name="СкладОбособленно" id="181">
+										<ReadOnly>true</ReadOnly>
+										<EditMode>EnterOnInput</EditMode>
+										<ContextMenu name="СкладОбособленноКонтекстноеМеню" id="182"/>
+										<ExtendedTooltip name="СкладОбособленноРасширеннаяПодсказка" id="183"/>
+									</InputField>
+								</ChildItems>
+							</Table>
+						</ChildItems>
+					</Page>
+				</ChildItems>
+			</Pages>
+			<LabelDecoration name="НадписьНетПотребностей" id="71">
+				<Visible>false</Visible>
+				<AutoMaxWidth>false</AutoMaxWidth>
+				<TextColor>style:ПоясняющийТекст</TextColor>
+				<Font ref="sys:DefaultGUIFont" bold="true" italic="false" underline="false" strikeout="false" kind="WindowsFont"/>
+				<Title formatted="false">
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Обеспечение не требуется, все количество отгружено</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>Supply is not required, everything is shipped</v8:content>
+					</v8:item>
+				</Title>
+				<ContextMenu name="НадписьНетПотребностейКонтекстноеМеню" id="72"/>
+				<ExtendedTooltip name="НадписьНетПотребностейРасширеннаяПодсказка" id="73"/>
+			</LabelDecoration>
+			<UsualGroup name="ГруппаИтогиПоСтроке" id="241">
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Итоги по строке</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>Totals by line</v8:content>
+					</v8:item>
+				</Title>
+				<Group>Horizontal</Group>
+				<Representation>None</Representation>
+				<ShowTitle>false</ShowTitle>
+				<ExtendedTooltip name="ГруппаИтогиПоСтрокеРасширеннаяПодсказка" id="242"/>
+				<ChildItems>
+					<PictureDecoration name="Декорация3" id="246">
+						<Picture>
+							<xr:Ref>CommonPicture.Информация</xr:Ref>
+							<xr:LoadTransparent>false</xr:LoadTransparent>
+						</Picture>
+						<FileDragMode>AsFile</FileDragMode>
+						<ContextMenu name="Декорация3КонтекстноеМеню" id="247"/>
+						<ExtendedTooltip name="Декорация3РасширеннаяПодсказка" id="248"/>
+					</PictureDecoration>
+					<UsualGroup name="ГруппаЗаказаноОбеспеченоПоСтроке" id="259">
+						<Title>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Заказано обеспечено по строке</v8:content>
+							</v8:item>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>Ordered supplied by a line</v8:content>
+							</v8:item>
+						</Title>
+						<Group>Vertical</Group>
+						<Representation>None</Representation>
+						<ShowTitle>false</ShowTitle>
+						<ExtendedTooltip name="ГруппаЗаказаноОбеспеченоПоСтрокеРасширеннаяПодсказка" id="260"/>
+						<ChildItems>
+							<LabelDecoration name="НадписьЗаказаноОтгружено" id="243">
+								<AutoMaxWidth>false</AutoMaxWidth>
+								<TextColor>style:ПоясняющийТекст</TextColor>
+								<Title formatted="false">
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Надпись заказано отгружено</v8:content>
+									</v8:item>
+									<v8:item>
+										<v8:lang>en</v8:lang>
+										<v8:content>Label ordered shipped</v8:content>
+									</v8:item>
+								</Title>
+								<ContextMenu name="НадписьЗаказаноОтгруженоКонтекстноеМеню" id="244"/>
+								<ExtendedTooltip name="НадписьЗаказаноОтгруженоРасширеннаяПодсказка" id="245"/>
+							</LabelDecoration>
+							<LabelField name="НадписьОбеспечено" id="256">
+								<DataPath>30</DataPath>
+								<TitleLocation>None</TitleLocation>
+								<AutoMaxWidth>false</AutoMaxWidth>
+								<TextColor>style:ПоясняющийТекст</TextColor>
+								<ContextMenu name="НадписьОбеспеченоКонтекстноеМеню" id="257"/>
+								<ExtendedTooltip name="НадписьОбеспеченоРасширеннаяПодсказка" id="258"/>
+							</LabelField>
+						</ChildItems>
+					</UsualGroup>
+				</ChildItems>
+			</UsualGroup>
+			<UsualGroup name="ГруппаВыбранноеДействие" id="115">
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Выбранное действие</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>Selected action</v8:content>
+					</v8:item>
+				</Title>
+				<Group>Horizontal</Group>
+				<Representation>None</Representation>
+				<ExtendedTooltip name="ГруппаВыбранноеДействиеРасширеннаяПодсказка" id="116"/>
+				<ChildItems>
+					<Pages name="СтраницыРазбитьСтроку" id="223">
+						<Title>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Страницы разбить строку</v8:content>
+							</v8:item>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>Page split line</v8:content>
+							</v8:item>
+						</Title>
+						<PagesRepresentation>None</PagesRepresentation>
+						<ExtendedTooltip name="СтраницыРазбитьСтрокуРасширеннаяПодсказка" id="224"/>
+						<ChildItems>
+							<Page name="СтраницаРазбитьСтроку" id="225">
+								<Title>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Страница разбить строку</v8:content>
+									</v8:item>
+									<v8:item>
+										<v8:lang>en</v8:lang>
+										<v8:content>Page split line</v8:content>
+									</v8:item>
+								</Title>
+								<ExtendedTooltip name="СтраницаРазбитьСтрокуРасширеннаяПодсказка" id="226"/>
+								<ChildItems>
+									<PictureDecoration name="РазбитьСтроку1" id="109">
+										<Title formatted="false">
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>Разбить строку1</v8:content>
+											</v8:item>
+											<v8:item>
+												<v8:lang>en</v8:lang>
+												<v8:content>Split line1</v8:content>
+											</v8:item>
+										</Title>
+										<Picture>
+											<xr:Ref>CommonPicture.РазбитьСтроку</xr:Ref>
+											<xr:LoadTransparent>false</xr:LoadTransparent>
+										</Picture>
+										<FileDragMode>AsFile</FileDragMode>
+										<ContextMenu name="РазбитьСтроку1КонтекстноеМеню" id="110"/>
+										<ExtendedTooltip name="РазбитьСтроку1РасширеннаяПодсказка" id="111"/>
+									</PictureDecoration>
+								</ChildItems>
+							</Page>
+							<Page name="СтраницаНеРазбиватьСтроку" id="227">
+								<Title>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Страница не разбивать строку</v8:content>
+									</v8:item>
+									<v8:item>
+										<v8:lang>en</v8:lang>
+										<v8:content>Page do not split the row</v8:content>
+									</v8:item>
+								</Title>
+								<ExtendedTooltip name="СтраницаНеРазбиватьСтрокуРасширеннаяПодсказка" id="228"/>
+								<ChildItems>
+									<LabelDecoration name="Декорация4" id="253">
+										<Width>2</Width>
+										<ContextMenu name="Декорация4КонтекстноеМеню" id="254"/>
+										<ExtendedTooltip name="Декорация4РасширеннаяПодсказка" id="255"/>
+									</LabelDecoration>
+								</ChildItems>
+							</Page>
+						</ChildItems>
+					</Pages>
+					<UsualGroup name="Группа4" id="251">
+						<Group>Vertical</Group>
+						<Representation>None</Representation>
+						<ShowTitle>false</ShowTitle>
+						<ExtendedTooltip name="Группа4РасширеннаяПодсказка" id="252"/>
+						<ChildItems>
+							<UsualGroup name="Группа1" id="216">
+								<Group>Horizontal</Group>
+								<Representation>None</Representation>
+								<ShowTitle>false</ShowTitle>
+								<ExtendedTooltip name="Группа1РасширеннаяПодсказка" id="217"/>
+								<ChildItems>
+									<Pages name="СтраницыДействие1" id="232">
+										<Title>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>Страницы действие 1</v8:content>
+											</v8:item>
+											<v8:item>
+												<v8:lang>en</v8:lang>
+												<v8:content>Pages action 1</v8:content>
+											</v8:item>
+										</Title>
+										<PagesRepresentation>None</PagesRepresentation>
+										<ExtendedTooltip name="СтраницыДействие1РасширеннаяПодсказка" id="233"/>
+										<ChildItems>
+											<Page name="СтраницаДействие1" id="234">
+												<Title>
+													<v8:item>
+														<v8:lang>ru</v8:lang>
+														<v8:content>Страница действие 1</v8:content>
+													</v8:item>
+													<v8:item>
+														<v8:lang>en</v8:lang>
+														<v8:content>Page action 1</v8:content>
+													</v8:item>
+												</Title>
+												<Group>Horizontal</Group>
+												<ExtendedTooltip name="СтраницаДействие1РасширеннаяПодсказка" id="235"/>
+												<ChildItems>
+													<LabelField name="Действие1" id="100">
+														<DataPath>20</DataPath>
+														<TitleLocation>None</TitleLocation>
+														<AutoMaxWidth>false</AutoMaxWidth>
+														<TextColor>style:ПоясняющийТекст</TextColor>
+														<ContextMenu name="Действие1КонтекстноеМеню" id="101"/>
+														<ExtendedTooltip name="Действие1РасширеннаяПодсказка" id="102"/>
+													</LabelField>
+												</ChildItems>
+											</Page>
+											<Page name="СтраницаНетДействия1" id="236">
+												<Title>
+													<v8:item>
+														<v8:lang>ru</v8:lang>
+														<v8:content>Страница нет действия 1</v8:content>
+													</v8:item>
+													<v8:item>
+														<v8:lang>en</v8:lang>
+														<v8:content>Page no action 1</v8:content>
+													</v8:item>
+												</Title>
+												<ExtendedTooltip name="СтраницаНетДействия1РасширеннаяПодсказка" id="237"/>
+												<ChildItems>
+													<LabelDecoration name="Декорация2" id="238">
+														<Width>2</Width>
+														<ContextMenu name="Декорация2КонтекстноеМеню" id="239"/>
+														<ExtendedTooltip name="Декорация2РасширеннаяПодсказка" id="240"/>
+													</LabelDecoration>
+												</ChildItems>
+											</Page>
+										</ChildItems>
+									</Pages>
+								</ChildItems>
+							</UsualGroup>
+							<Pages name="ГруппаДействие2" id="120">
+								<Title>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Действие 2</v8:content>
+									</v8:item>
+									<v8:item>
+										<v8:lang>en</v8:lang>
+										<v8:content>Action 2</v8:content>
+									</v8:item>
+								</Title>
+								<PagesRepresentation>None</PagesRepresentation>
+								<ExtendedTooltip name="ГруппаДействие2РасширеннаяПодсказка" id="121"/>
+								<ChildItems>
+									<Page name="СтраницаЕстьДействие2" id="122">
+										<Title>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>Страница есть действие 2</v8:content>
+											</v8:item>
+											<v8:item>
+												<v8:lang>en</v8:lang>
+												<v8:content>Page has action 2</v8:content>
+											</v8:item>
+										</Title>
+										<Group>Horizontal</Group>
+										<ExtendedTooltip name="СтраницаЕстьДействие2РасширеннаяПодсказка" id="123"/>
+										<ChildItems>
+											<LabelField name="Действие2" id="103">
+												<DataPath>21</DataPath>
+												<TitleLocation>None</TitleLocation>
+												<AutoMaxWidth>false</AutoMaxWidth>
+												<TextColor>style:ПоясняющийТекст</TextColor>
+												<ContextMenu name="Действие2КонтекстноеМеню" id="104"/>
+												<ExtendedTooltip name="Действие2РасширеннаяПодсказка" id="105"/>
+											</LabelField>
+										</ChildItems>
+									</Page>
+									<Page name="СтраницаНетДействия2" id="124">
+										<Title>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>Страница нет действия 2</v8:content>
+											</v8:item>
+											<v8:item>
+												<v8:lang>en</v8:lang>
+												<v8:content>Page no action 2</v8:content>
+											</v8:item>
+										</Title>
+										<ExtendedTooltip name="СтраницаНетДействия2РасширеннаяПодсказка" id="125"/>
+										<ChildItems>
+											<LabelDecoration name="НетДействия2" id="126">
+												<Width>2</Width>
+												<ContextMenu name="НетДействия2КонтекстноеМеню" id="127"/>
+												<ExtendedTooltip name="НетДействия2РасширеннаяПодсказка" id="128"/>
+											</LabelDecoration>
+										</ChildItems>
+									</Page>
+								</ChildItems>
+							</Pages>
+						</ChildItems>
+					</UsualGroup>
+				</ChildItems>
+			</UsualGroup>
+		</ChildItems>
+		<Attributes/>
+	</BaseForm>
+</Form>

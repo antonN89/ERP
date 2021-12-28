@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.10">
+	<Subsystem uuid="d3291617-557f-422e-9fcb-d2218538340e">
+		<InternalInfo/>
+		<Properties>
+			<Name>Рин1_API</Name>
+			<Comment/>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<ExtendedConfigurationObject>99ae5eba-8480-4ffb-9477-9a8512475e23</ExtendedConfigurationObject>
+			<Content>
+				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.API_ABB_ЗагрузкаETIM</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">5077a90e-117d-4657-bb54-105de2de2f76</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.API_DKC_ЗагрузкаETIM</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">d99f457b-be31-4429-905e-d51d56ccef36</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.API_SE_ЗагрузкаETIM</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.API_ЗагрузкаВГХиШтрихкода</xr:Item>
+			</Content>
+		</Properties>
+		<ChildObjects/>
+	</Subsystem>
+</MetaDataObject>

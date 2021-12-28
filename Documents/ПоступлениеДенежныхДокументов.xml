@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.10">
+	<Document uuid="8625bea2-8caf-4329-8bd2-d4bbcd6b84c0">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.ПоступлениеДенежныхДокументов" category="Object">
+				<xr:TypeId>9c46d7e4-1eb8-4794-98fc-cc809551d9e5</xr:TypeId>
+				<xr:ValueId>1e61f185-4805-442a-90d7-db0d0be7b6aa</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.ПоступлениеДенежныхДокументов" category="Ref">
+				<xr:TypeId>8b1545b4-4a0e-4470-97dc-520ca2ae9c9b</xr:TypeId>
+				<xr:ValueId>22ed7b21-4c23-466a-9c16-a993d9482025</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.ПоступлениеДенежныхДокументов" category="Selection">
+				<xr:TypeId>3eebbfd4-4d95-4138-aef8-b64a56c50112</xr:TypeId>
+				<xr:ValueId>7bdcb714-77ff-48aa-bf61-4dda81e18e8d</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.ПоступлениеДенежныхДокументов" category="List">
+				<xr:TypeId>d2a89446-aba0-4a98-99ba-6f88e1436c0c</xr:TypeId>
+				<xr:ValueId>89f1abd2-46d1-423e-a7bc-2854198985da</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.ПоступлениеДенежныхДокументов" category="Manager">
+				<xr:TypeId>6898b560-85b6-41ac-9b7c-86fb5c32e0f0</xr:TypeId>
+				<xr:ValueId>b0c94223-2a4d-4d16-96c8-e4098c3b392e</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ПоступлениеДенежныхДокументов</Name>
+			<Comment/>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<ExtendedConfigurationObject>363672e2-1c36-418d-bd7d-de088307284a</ExtendedConfigurationObject>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects>
+			<Form>ФормаДокумента</Form>
+		</ChildObjects>
+	</Document>
+</MetaDataObject>

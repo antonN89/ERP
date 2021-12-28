@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.10">
+	<Enum uuid="6cd71521-cac2-499d-87fb-e796f6bae240">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.ТипыДоговоров" category="Ref">
+				<xr:TypeId>26cfc44a-6ec4-4cd8-b54d-96e0cd0d5c09</xr:TypeId>
+				<xr:ValueId>27ed7dca-368a-4963-8428-483888513893</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.ТипыДоговоров" category="Manager">
+				<xr:TypeId>6d11b3e8-6cb1-4488-ad0e-d7c72776279d</xr:TypeId>
+				<xr:ValueId>ad778245-dcf3-4b41-8ba8-49d8202089d6</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.ТипыДоговоров" category="List">
+				<xr:TypeId>38429c1b-15ab-4afd-b843-db30f9448740</xr:TypeId>
+				<xr:ValueId>c084fb0c-c8b8-42e8-b63c-139a44792d99</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ТипыДоговоров</Name>
+			<Comment/>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects>
+			<EnumValue uuid="f08a538e-976c-47bf-af1b-63bd1aa2727f">
+				<InternalInfo/>
+				<Properties>
+					<Name>СПокупателем</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</EnumValue>
+		</ChildObjects>
+	</Enum>
+</MetaDataObject>

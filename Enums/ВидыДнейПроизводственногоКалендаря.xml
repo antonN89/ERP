@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.10">
+	<Enum uuid="82314a2a-818d-46d1-a89d-d3964d22f5f5">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.ВидыДнейПроизводственногоКалендаря" category="Ref">
+				<xr:TypeId>83591804-8604-4f34-af56-7e9abbda72d0</xr:TypeId>
+				<xr:ValueId>4e360302-9703-4d93-a595-63953980b5bb</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.ВидыДнейПроизводственногоКалендаря" category="Manager">
+				<xr:TypeId>20513372-3e26-462b-8761-ea5e3fc84fb8</xr:TypeId>
+				<xr:ValueId>8870afd4-6ee3-4699-86c6-26e57ad5f12a</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.ВидыДнейПроизводственногоКалендаря" category="List">
+				<xr:TypeId>0d8515b6-627d-4621-b58c-7b69f8a46477</xr:TypeId>
+				<xr:ValueId>958f85d0-1e15-4f81-87dc-ddd8ad91dba7</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ВидыДнейПроизводственногоКалендаря</Name>
+			<Comment/>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<ExtendedConfigurationObject>7c1ce6f1-558b-4853-a3ae-61a85cd20318</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects>
+			<EnumValue uuid="b7d875cb-9e9b-4d30-a5e5-3cf56f6af894">
+				<InternalInfo/>
+				<Properties>
+					<Name>Суббота</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<ExtendedConfigurationObject>4a0641ed-f597-4ea5-840e-6defca266004</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="ca76a642-b52d-4f63-a297-fdb0bdcc729a">
+				<InternalInfo/>
+				<Properties>
+					<Name>Воскресенье</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<ExtendedConfigurationObject>2491aa05-665f-44c8-a11f-93a18404cbc9</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="24a49a99-a4cc-44a4-9052-626b850d4b37">
+				<InternalInfo/>
+				<Properties>
+					<Name>Праздник</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<ExtendedConfigurationObject>6798684b-2ff8-43a8-90b1-e3879f6dbcca</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="8a667b0a-d4e9-48a3-80a9-621ba0d2f93f">
+				<InternalInfo/>
+				<Properties>
+					<Name>Нерабочий</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<ExtendedConfigurationObject>2f9c347d-ee82-49f2-a5eb-97f55374856f</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="15cb408a-953c-40a1-9d60-7b1e296996cf">
+				<InternalInfo/>
+				<Properties>
+					<Name>Рабочий</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<ExtendedConfigurationObject>18d0a858-7e7c-45f8-a826-c921f976c5ee</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="0659a8c2-1aa2-41e8-b1cf-e0589c982b29">
+				<InternalInfo/>
+				<Properties>
+					<Name>Предпраздничный</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<ExtendedConfigurationObject>c5762c35-4329-466e-ac00-42f13ccf80e7</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+		</ChildObjects>
+	</Enum>
+</MetaDataObject>

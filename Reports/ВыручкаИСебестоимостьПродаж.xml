@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.10">
+	<Report uuid="fd64ada2-278c-4fe1-999b-f556f2f58a64">
+		<InternalInfo>
+			<xr:GeneratedType name="ReportObject.ВыручкаИСебестоимостьПродаж" category="Object">
+				<xr:TypeId>3a082d2a-3742-46d4-aeb8-ff3dc4b82a83</xr:TypeId>
+				<xr:ValueId>54898e67-2dcf-4c1e-b74f-7b32a10780e3</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="ReportManager.ВыручкаИСебестоимостьПродаж" category="Manager">
+				<xr:TypeId>4c746efa-4560-427b-92b6-bdd3e86d3ca8</xr:TypeId>
+				<xr:ValueId>857cb077-2a8a-454c-b92f-29bcd397a11c</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ВыручкаИСебестоимостьПродаж</Name>
+			<Comment/>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<ExtendedConfigurationObject>eb6b53b9-91ea-420a-902d-10c7a8d36e3b</ExtendedConfigurationObject>
+			<MainDataCompositionSchema>Report.ВыручкаИСебестоимостьПродаж.Template.ОсновнаяСхемаКомпоновкиДанных4</MainDataCompositionSchema>
+		</Properties>
+		<ChildObjects>
+			<Template>ОсновнаяСхемаКомпоновкиДанных1</Template>
+			<Template>ОсновнаяСхемаКомпоновкиДанных2</Template>
+			<Template>ОсновнаяСхемаКомпоновкиДанных3</Template>
+			<Template>ОсновнаяСхемаКомпоновкиДанных4</Template>
+		</ChildObjects>
+	</Report>
+</MetaDataObject>

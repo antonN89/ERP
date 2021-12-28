@@ -1,0 +1,3156 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.10">
+	<AutoTitle>false</AutoTitle>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
+		<Autofill>false</Autofill>
+	</AutoCommandBar>
+	<Events>
+		<Event name="OnCreateAtServer" callType="After">Рин1_ПриСозданииНаСервереПосле</Event>
+	</Events>
+	<ChildItems>
+		<CommandBar name="КоманднаяПанельСхемыОбеспечения" id="693">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Командная панель схемы обеспечения</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Command bar supply schemes</v8:content>
+				</v8:item>
+			</Title>
+			<ExtendedTooltip name="КоманднаяПанельСхемыОбеспеченияРасширеннаяПодсказка" id="694"/>
+			<ChildItems>
+				<Button name="ФормаЗаписатьИЗакрыть" id="1170">
+					<Type>CommandBarButton</Type>
+					<DefaultButton>true</DefaultButton>
+					<CommandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
+					<ExtendedTooltip name="ФормаЗаписатьИЗакрытьРасширеннаяПодсказка" id="1171"/>
+				</Button>
+				<Button name="ФормаЗаписать" id="1172">
+					<Type>CommandBarButton</Type>
+					<CommandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
+					<ExtendedTooltip name="ФормаЗаписатьРасширеннаяПодсказка" id="1173"/>
+				</Button>
+				<Button name="ИзменитьФорму" id="1174">
+					<Type>CommandBarButton</Type>
+					<CommandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
+					<ExtendedTooltip name="ИзменитьФормуРасширеннаяПодсказка" id="1175"/>
+				</Button>
+				<Button name="Справка" id="1176">
+					<Type>CommandBarButton</Type>
+					<CommandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
+					<ExtendedTooltip name="СправкаРасширеннаяПодсказка" id="1177"/>
+				</Button>
+			</ChildItems>
+		</CommandBar>
+		<UsualGroup name="ШапкаСхемыОбеспечения" id="683">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Шапка</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Header</v8:content>
+				</v8:item>
+			</Title>
+			<Group>Horizontal</Group>
+			<Representation>None</Representation>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="ШапкаСхемыОбеспеченияРасширеннаяПодсказка" id="684"/>
+			<ChildItems>
+				<UsualGroup name="ГруппаНаименование" id="685">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Наименование</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Name</v8:content>
+						</v8:item>
+					</Title>
+					<Group>Horizontal</Group>
+					<Representation>None</Representation>
+					<ChildItemsWidth>LeftNarrow</ChildItemsWidth>
+					<ShowTitle>false</ShowTitle>
+					<ExtendedTooltip name="ГруппаНаименованиеРасширеннаяПодсказка" id="686"/>
+					<ChildItems>
+						<InputField name="Наименование" id="687">
+							<DataPath>28/-3</DataPath>
+							<EditMode>EnterOnInput</EditMode>
+							<ContextMenu name="НаименованиеКонтекстноеМеню" id="688"/>
+							<ExtendedTooltip name="НаименованиеРасширеннаяПодсказка" id="689"/>
+						</InputField>
+						<LabelDecoration name="НадписьИспользованиеСхемы" id="690">
+							<AutoMaxWidth>false</AutoMaxWidth>
+							<Title formatted="false">
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Используется для товаров (всего: -).</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Used for goods (total: -).</v8:content>
+								</v8:item>
+							</Title>
+							<BackColor>style:ИтогиФон</BackColor>
+							<ContextMenu name="НадписьИспользованиеСхемыКонтекстноеМеню" id="691"/>
+							<ExtendedTooltip name="НадписьИспользованиеСхемыРасширеннаяПодсказка" id="692"/>
+						</LabelDecoration>
+					</ChildItems>
+				</UsualGroup>
+			</ChildItems>
+		</UsualGroup>
+		<Pages name="СтраницыПараметрыОбеспечения" id="516">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Страницы параметры обеспечения</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Pages supply parameters</v8:content>
+				</v8:item>
+			</Title>
+			<ExtendedTooltip name="СтраницыПараметрыОбеспеченияРасширеннаяПодсказка" id="517"/>
+			<ChildItems>
+				<Page name="СтраницаСпособыОбеспеченияСклада" id="520">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Способы обеспечения</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Supply methods</v8:content>
+						</v8:item>
+					</Title>
+					<ExtendedTooltip name="СтраницаСпособыОбеспеченияСкладаРасширеннаяПодсказка" id="521"/>
+					<ChildItems>
+						<CheckBoxField name="ТолькоОбеспечиваемаяНоменклатура" id="1165">
+							<DataPath>35</DataPath>
+							<TitleLocation>Right</TitleLocation>
+							<CheckBoxType>Auto</CheckBoxType>
+							<ContextMenu name="ТолькоОбеспечиваемаяНоменклатураКонтекстноеМеню" id="1166"/>
+							<ExtendedTooltip name="ТолькоОбеспечиваемаяНоменклатураРасширеннаяПодсказка" id="1167"/>
+						</CheckBoxField>
+						<UsualGroup name="ШапкаСпискаСпособовОбеспеченияСклада" id="1198">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Шапка списка способов обеспечения склада</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Header of list of warehouse supply methods</v8:content>
+								</v8:item>
+							</Title>
+							<Representation>None</Representation>
+							<ShowTitle>false</ShowTitle>
+							<ExtendedTooltip name="ШапкаСпискаСпособовОбеспеченияСкладаРасширеннаяПодсказка" id="1199"/>
+							<ChildItems>
+								<CommandBar name="КоманднаяПанельСпискаСпособовОбеспеченияСклада" id="1196">
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Командная панель списка способов обеспечения склада</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Command bar of list of warehouse supply methods</v8:content>
+										</v8:item>
+									</Title>
+									<CommandSource>Item.СписокСпособовОбеспеченияСклада</CommandSource>
+									<ExtendedTooltip name="КоманднаяПанельСпискаСпособовОбеспеченияСкладаРасширеннаяПодсказка" id="1197"/>
+									<ChildItems>
+										<ButtonGroup name="КомандыУстановкиСпособаОбеспеченияСклада" id="1085">
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Команды установки способа обеспечения склада</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Commands of setting warehouse supply method</v8:content>
+												</v8:item>
+											</Title>
+											<ExtendedTooltip name="КомандыУстановкиСпособаОбеспеченияСкладаРасширеннаяПодсказка" id="1086"/>
+											<ChildItems>
+												<Button name="СписокСпособовОбеспеченияСкладаЗаполнитьСпособОбеспечения" id="783">
+													<Type>CommandBarButton</Type>
+													<CommandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
+													<ExtendedTooltip name="СписокСпособовОбеспеченияСкладаЗаполнитьСпособОбеспеченияРасширеннаяПодсказка" id="784"/>
+												</Button>
+												<Button name="СписокСпособовОбеспеченияСкладаОчиститьСпособОбеспечения" id="785">
+													<Type>CommandBarButton</Type>
+													<CommandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
+													<ExtendedTooltip name="СписокСпособовОбеспеченияСкладаОчиститьСпособОбеспеченияРасширеннаяПодсказка" id="786"/>
+												</Button>
+											</ChildItems>
+										</ButtonGroup>
+										<ButtonGroup name="КомандыУстановкиУпаковкиЗаказаСклада" id="1087">
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Команды установки упаковки заказа склада</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Commands of setting warehouse order packaging</v8:content>
+												</v8:item>
+											</Title>
+											<ExtendedTooltip name="КомандыУстановкиУпаковкиЗаказаСкладаРасширеннаяПодсказка" id="1088"/>
+											<ChildItems>
+												<Button name="СписокСпособовОбеспеченияСкладаЗаполнитьУпаковкуЗаказаНаСкладе" id="1043">
+													<Type>CommandBarButton</Type>
+													<CommandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
+													<ExtendedTooltip name="СписокСпособовОбеспеченияСкладаЗаполнитьУпаковкуЗаказаНаСкладеРасширеннаяПодсказка" id="1044"/>
+												</Button>
+												<Button name="СписокСпособовОбеспеченияСкладаОчиститьУпаковкуЗаказаНаСкладе" id="1045">
+													<Type>CommandBarButton</Type>
+													<CommandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
+													<ExtendedTooltip name="СписокСпособовОбеспеченияСкладаОчиститьУпаковкуЗаказаНаСкладеРасширеннаяПодсказка" id="1046"/>
+												</Button>
+											</ChildItems>
+										</ButtonGroup>
+										<ButtonGroup name="КомандыФормыСпособовОбеспеченияСклада" id="1180">
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Команды формы способов обеспечения склада</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Commands of warehouse supply method form</v8:content>
+												</v8:item>
+											</Title>
+											<ExtendedTooltip name="КомандыФормыСпособовОбеспеченияСкладаРасширеннаяПодсказка" id="1181"/>
+											<ChildItems>
+												<Button name="СписокСпособовОбеспеченияСкладаИзменитьФорму" id="1178">
+													<Type>CommandBarButton</Type>
+													<CommandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
+													<ExtendedTooltip name="СписокСпособовОбеспеченияСкладаИзменитьФормуРасширеннаяПодсказка" id="1179"/>
+												</Button>
+												<Button name="СписокСпособовОбеспеченияСкладаОткрытьСправкуОбработки" id="1111">
+													<Type>CommandBarButton</Type>
+													<CommandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
+													<LocationInCommandBar>InAdditionalSubmenu</LocationInCommandBar>
+													<ExtendedTooltip name="СписокСпособовОбеспеченияСкладаОткрытьСправкуОбработкиРасширеннаяПодсказка" id="1112"/>
+												</Button>
+											</ChildItems>
+										</ButtonGroup>
+									</ChildItems>
+								</CommandBar>
+								<Button name="СписокСпособовОбеспеченияСкладаОткрытьСправкуОбработкиКнопка" id="1200">
+									<Type>UsualButton</Type>
+									<CommandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
+									<ExtendedTooltip name="СписокСпособовОбеспеченияСкладаОткрытьСправкуОбработкиКнопкаРасширеннаяПодсказка" id="1201"/>
+								</Button>
+							</ChildItems>
+						</UsualGroup>
+						<UsualGroup name="ГруппаПользовательскихНастроекСпособовОбеспеченияСклада" id="1161">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Пользовательских настроек способов обеспечения склада</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>User settings of warehouse supply methods</v8:content>
+								</v8:item>
+							</Title>
+							<Representation>None</Representation>
+							<ShowTitle>false</ShowTitle>
+							<ExtendedTooltip name="ГруппаПользовательскихНастроекСпособовОбеспеченияСкладаРасширеннаяПодсказка" id="1162"/>
+						</UsualGroup>
+						<Table name="СписокСпособовОбеспеченияСклада" id="1113">
+							<Representation>List</Representation>
+							<CommandBarLocation>None</CommandBarLocation>
+							<ChangeRowSet>false</ChangeRowSet>
+							<UseAlternationRowColor>true</UseAlternationRowColor>
+							<EnableStartDrag>true</EnableStartDrag>
+							<FileDragMode>AsFile</FileDragMode>
+							<DataPath>41</DataPath>
+							<RowPictureDataPath>41/10000000</RowPictureDataPath>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Список способов обеспечения склада</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>List of warehouse supply methods</v8:content>
+								</v8:item>
+							</Title>
+							<SearchStringLocation>CommandBar</SearchStringLocation>
+							<SearchControlLocation>None</SearchControlLocation>
+							<AutoRefresh>false</AutoRefresh>
+							<AutoRefreshPeriod>60</AutoRefreshPeriod>
+							<Period>
+								<v8:variant xsi:type="v8:StandardPeriodVariant">Custom</v8:variant>
+								<v8:startDate>0001-01-01T00:00:00</v8:startDate>
+								<v8:endDate>0001-01-01T00:00:00</v8:endDate>
+							</Period>
+							<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
+							<RestoreCurrentRow>false</RestoreCurrentRow>
+							<TopLevelParent xsi:nil="true"/>
+							<ShowRoot>true</ShowRoot>
+							<AllowRootChoice>false</AllowRootChoice>
+							<UpdateOnDataChange>Auto</UpdateOnDataChange>
+							<UserSettingsGroup>ГруппаПользовательскихНастроекСпособовОбеспеченияСклада</UserSettingsGroup>
+							<ContextMenu name="СписокСпособовОбеспеченияСкладаКонтекстноеМеню" id="1114">
+								<Autofill>false</Autofill>
+								<ChildItems>
+									<ButtonGroup name="КонтекстноеМенюКомандыУстановкиСпособаОбеспеченияСклада" id="1091">
+										<Title>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>Контекстное меню команды установки способа обеспечения склада</v8:content>
+											</v8:item>
+											<v8:item>
+												<v8:lang>en</v8:lang>
+												<v8:content>Context menu commands of setting warehouse supply method</v8:content>
+											</v8:item>
+										</Title>
+										<ExtendedTooltip name="КонтекстноеМенюКомандыУстановкиСпособаОбеспеченияСкладаРасширеннаяПодсказка" id="1092"/>
+										<ChildItems>
+											<Button name="СписокСпособовОбеспеченияСкладаКонтекстноеМенюЗаполнитьСпособОбеспеченияСклада" id="1057">
+												<Type>CommandBarButton</Type>
+												<CommandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
+												<ExtendedTooltip name="СписокСпособовОбеспеченияСкладаКонтекстноеМенюЗаполнитьСпособОбеспеченияСкладаРасширеннаяПодсказка" id="1058"/>
+											</Button>
+											<Button name="СписокСпособовОбеспеченияСкладаКонтекстноеМенюОчиститьСпособОбеспеченияСклада" id="1059">
+												<Type>CommandBarButton</Type>
+												<CommandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
+												<ExtendedTooltip name="СписокСпособовОбеспеченияСкладаКонтекстноеМенюОчиститьСпособОбеспеченияСкладаРасширеннаяПодсказка" id="1060"/>
+											</Button>
+										</ChildItems>
+									</ButtonGroup>
+									<ButtonGroup name="КонтекстноеМенюКомандыУстановкиУпаковкиЗаказаСклада" id="1093">
+										<Title>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>Контекстное меню команды установки упаковки заказа склада</v8:content>
+											</v8:item>
+											<v8:item>
+												<v8:lang>en</v8:lang>
+												<v8:content>Context menu commands of setting warehouse order packaging</v8:content>
+											</v8:item>
+										</Title>
+										<ExtendedTooltip name="КонтекстноеМенюКомандыУстановкиУпаковкиЗаказаСкладаРасширеннаяПодсказка" id="1094"/>
+										<ChildItems>
+											<Button name="СписокСпособовОбеспеченияСкладаКонтекстноеМенюЗаполнитьУпаковкуЗаказаНаСкладе" id="1061">
+												<Type>CommandBarButton</Type>
+												<CommandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
+												<ExtendedTooltip name="СписокСпособовОбеспеченияСкладаКонтекстноеМенюЗаполнитьУпаковкуЗаказаНаСкладеРасширеннаяПодсказка" id="1062"/>
+											</Button>
+											<Button name="СписокСпособовОбеспеченияСкладаКонтекстноеМенюОчиститьУпаковкуЗаказаНаСкладе" id="1063">
+												<Type>CommandBarButton</Type>
+												<CommandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
+												<ExtendedTooltip name="СписокСпособовОбеспеченияСкладаКонтекстноеМенюОчиститьУпаковкуЗаказаНаСкладеРасширеннаяПодсказка" id="1064"/>
+											</Button>
+										</ChildItems>
+									</ButtonGroup>
+									<ButtonGroup name="КонтекстноеМенюСтандартныеКоманды" id="1163">
+										<Title>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>Контекстное меню стандартные команды</v8:content>
+											</v8:item>
+											<v8:item>
+												<v8:lang>en</v8:lang>
+												<v8:content>Context menu standard commands</v8:content>
+											</v8:item>
+										</Title>
+										<CommandSource>Item.СписокСпособовОбеспеченияСклада</CommandSource>
+										<ExtendedTooltip name="КонтекстноеМенюСтандартныеКомандыРасширеннаяПодсказка" id="1164"/>
+									</ButtonGroup>
+								</ChildItems>
+							</ContextMenu>
+							<AutoCommandBar name="СписокСпособовОбеспеченияСкладаКоманднаяПанель" id="1115"/>
+							<ExtendedTooltip name="СписокСпособовОбеспеченияСкладаРасширеннаяПодсказка" id="1116"/>
+							<SearchStringAddition name="СписокСпособовОбеспеченияСкладаСтрокаПоиска" id="1117">
+								<AdditionSource>
+									<Item>СписокСпособовОбеспеченияСклада</Item>
+									<Type>SearchStringRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="СписокСпособовОбеспеченияСкладаСтрокаПоискаКонтекстноеМеню" id="1118"/>
+								<ExtendedTooltip name="СписокСпособовОбеспеченияСкладаСтрокаПоискаРасширеннаяПодсказка" id="1119"/>
+							</SearchStringAddition>
+							<ViewStatusAddition name="СписокСпособовОбеспеченияСкладаСостояниеПросмотра" id="1120">
+								<AdditionSource>
+									<Item>СписокСпособовОбеспеченияСклада</Item>
+									<Type>ViewStatusRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="СписокСпособовОбеспеченияСкладаСостояниеПросмотраКонтекстноеМеню" id="1121"/>
+								<ExtendedTooltip name="СписокСпособовОбеспеченияСкладаСостояниеПросмотраРасширеннаяПодсказка" id="1122"/>
+							</ViewStatusAddition>
+							<SearchControlAddition name="СписокСпособовОбеспеченияСкладаУправлениеПоиском" id="1123">
+								<AdditionSource>
+									<Item>СписокСпособовОбеспеченияСклада</Item>
+									<Type>SearchControl</Type>
+								</AdditionSource>
+								<ContextMenu name="СписокСпособовОбеспеченияСкладаУправлениеПоискомКонтекстноеМеню" id="1124"/>
+								<ExtendedTooltip name="СписокСпособовОбеспеченияСкладаУправлениеПоискомРасширеннаяПодсказка" id="1125"/>
+							</SearchControlAddition>
+							<ChildItems>
+								<LabelField name="СписокСпособовОбеспеченияСкладаНоменклатура" id="1132">
+									<DataPath>41/3</DataPath>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Номенклатура</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Products and services</v8:content>
+										</v8:item>
+									</Title>
+									<ContextMenu name="СписокСпособовОбеспеченияСкладаНоменклатураКонтекстноеМеню" id="1133"/>
+									<ExtendedTooltip name="СписокСпособовОбеспеченияСкладаНоменклатураРасширеннаяПодсказка" id="1134"/>
+								</LabelField>
+								<LabelField name="СписокСпособовОбеспеченияСкладаХарактеристика" id="1153">
+									<DataPath>41/13</DataPath>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Характеристика</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Characteristic</v8:content>
+										</v8:item>
+									</Title>
+									<ContextMenu name="СписокСпособовОбеспеченияСкладаХарактеристикаКонтекстноеМеню" id="1154"/>
+									<ExtendedTooltip name="СписокСпособовОбеспеченияСкладаХарактеристикаРасширеннаяПодсказка" id="1155"/>
+								</LabelField>
+								<InputField name="СписокСпособовОбеспеченияСкладаИндивидуальнаяНастройка" id="1126">
+									<DataPath>41/14</DataPath>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Источник настройки</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Setting source</v8:content>
+										</v8:item>
+									</Title>
+									<Width>5</Width>
+									<ContextMenu name="СписокСпособовОбеспеченияСкладаИндивидуальнаяНастройкаКонтекстноеМеню" id="1127"/>
+									<ExtendedTooltip name="СписокСпособовОбеспеченияСкладаИндивидуальнаяНастройкаРасширеннаяПодсказка" id="1128"/>
+								</InputField>
+								<ColumnGroup name="СписокСпособовОбеспеченияСкладаСхемаСпособ" id="1159">
+									<EnableContentChange>true</EnableContentChange>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Список способов обеспечения склада схема способ</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>List of warehouse fulfillment methods scheme method</v8:content>
+										</v8:item>
+									</Title>
+									<Group>InCell</Group>
+									<ExtendedTooltip name="СписокСпособовОбеспеченияСкладаСхемаСпособРасширеннаяПодсказка" id="1160"/>
+									<ChildItems>
+										<LabelField name="СписокСпособовОбеспеченияСкладаСхемаОбеспечения" id="1144">
+											<DataPath>41/19</DataPath>
+											<ContextMenu name="СписокСпособовОбеспеченияСкладаСхемаОбеспеченияКонтекстноеМеню" id="1145"/>
+											<ExtendedTooltip name="СписокСпособовОбеспеченияСкладаСхемаОбеспеченияРасширеннаяПодсказка" id="1146"/>
+										</LabelField>
+										<LabelField name="СписокСпособовОбеспеченияСкладаСпособОбеспечения" id="1138">
+											<DataPath>41/22</DataPath>
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Способ обеспечения</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Supply method</v8:content>
+												</v8:item>
+											</Title>
+											<ContextMenu name="СписокСпособовОбеспеченияСкладаСпособОбеспеченияКонтекстноеМеню" id="1139"/>
+											<ExtendedTooltip name="СписокСпособовОбеспеченияСкладаСпособОбеспеченияРасширеннаяПодсказка" id="1140"/>
+										</LabelField>
+									</ChildItems>
+								</ColumnGroup>
+								<LabelField name="СписокСпособовОбеспеченияСкладаТипОбеспечения" id="1147">
+									<DataPath>41/26</DataPath>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Тип обеспечения</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Supply type</v8:content>
+										</v8:item>
+									</Title>
+									<Width>5</Width>
+									<ContextMenu name="СписокСпособовОбеспеченияСкладаТипОбеспеченияКонтекстноеМеню" id="1148"/>
+									<ExtendedTooltip name="СписокСпособовОбеспеченияСкладаТипОбеспеченияРасширеннаяПодсказка" id="1149"/>
+								</LabelField>
+								<LabelField name="СписокСпособовОбеспеченияСкладаИсточникОбеспечения" id="1129">
+									<DataPath>41/27</DataPath>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Источник обеспечения</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Supply source</v8:content>
+										</v8:item>
+									</Title>
+									<ContextMenu name="СписокСпособовОбеспеченияСкладаИсточникОбеспеченияКонтекстноеМеню" id="1130"/>
+									<ExtendedTooltip name="СписокСпособовОбеспеченияСкладаИсточникОбеспеченияРасширеннаяПодсказка" id="1131"/>
+								</LabelField>
+								<LabelField name="СписокСпособовОбеспеченияСкладаСрокПоставки" id="1156">
+									<DataPath>41/29</DataPath>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Срок поставки, дн.</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Delivery period, days</v8:content>
+										</v8:item>
+									</Title>
+									<Width>5</Width>
+									<ContextMenu name="СписокСпособовОбеспеченияСкладаСрокПоставкиКонтекстноеМеню" id="1157"/>
+									<ExtendedTooltip name="СписокСпособовОбеспеченияСкладаСрокПоставкиРасширеннаяПодсказка" id="1158"/>
+								</LabelField>
+								<LabelField name="СписокСпособовОбеспеченияСкладаОбеспечиваемыйПериод" id="1135">
+									<DataPath>41/30</DataPath>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Обеспечиваемый период, дн.</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Covered period, days</v8:content>
+										</v8:item>
+									</Title>
+									<Width>5</Width>
+									<ContextMenu name="СписокСпособовОбеспеченияСкладаОбеспечиваемыйПериодКонтекстноеМеню" id="1136"/>
+									<ExtendedTooltip name="СписокСпособовОбеспеченияСкладаОбеспечиваемыйПериодРасширеннаяПодсказка" id="1137"/>
+								</LabelField>
+								<LabelField name="СписокСпособовОбеспеченияСкладаУпаковкаЗаказа" id="1150">
+									<DataPath>41/31</DataPath>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Упаковка заказа</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Order packaging</v8:content>
+										</v8:item>
+									</Title>
+									<Width>5</Width>
+									<ContextMenu name="СписокСпособовОбеспеченияСкладаУпаковкаЗаказаКонтекстноеМеню" id="1151"/>
+									<ExtendedTooltip name="СписокСпособовОбеспеченияСкладаУпаковкаЗаказаРасширеннаяПодсказка" id="1152"/>
+								</LabelField>
+							</ChildItems>
+						</Table>
+					</ChildItems>
+				</Page>
+				<Page name="СтраницаСпособыОбеспеченияНоменклатурой" id="554">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Склады</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Warehouses</v8:content>
+						</v8:item>
+					</Title>
+					<ExtendedTooltip name="СтраницаСпособыОбеспеченияНоменклатуройРасширеннаяПодсказка" id="555"/>
+					<ChildItems>
+						<UsualGroup name="ОтборПоХарактеристике" id="1189">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Отбор по характеристике</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Filter by characteristic</v8:content>
+								</v8:item>
+							</Title>
+							<Representation>None</Representation>
+							<ShowTitle>false</ShowTitle>
+							<ExtendedTooltip name="ОтборПоХарактеристикеРасширеннаяПодсказка" id="1190"/>
+							<ChildItems>
+								<InputField name="Характеристика" id="740">
+									<DataPath>44</DataPath>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Характеристика</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Characteristic</v8:content>
+										</v8:item>
+									</Title>
+									<ClearButton>true</ClearButton>
+									<OpenButton>false</OpenButton>
+									<ChoiceParameterLinks>
+										<xr:Link>
+											<xr:Name>Номенклатура</xr:Name>
+											<xr:DataPath xsi:type="xs:string">43</xr:DataPath>
+											<xr:ValueChange>DontChange</xr:ValueChange>
+										</xr:Link>
+									</ChoiceParameterLinks>
+									<ContextMenu name="ХарактеристикаКонтекстноеМеню" id="741"/>
+									<ExtendedTooltip name="ХарактеристикаРасширеннаяПодсказка" id="742"/>
+								</InputField>
+								<LabelField name="СостояниеДоступностиИзмененияСпособа" id="1191">
+									<DataPath>1</DataPath>
+									<TitleLocation>None</TitleLocation>
+									<AutoMaxWidth>false</AutoMaxWidth>
+									<MaxWidth>55</MaxWidth>
+									<TextColor>style:ТекстИнформационнойНадписи</TextColor>
+									<ContextMenu name="СостояниеДоступностиИзмененияСпособаКонтекстноеМеню" id="1192"/>
+									<ExtendedTooltip name="СостояниеДоступностиИзмененияСпособаРасширеннаяПодсказка" id="1193"/>
+								</LabelField>
+							</ChildItems>
+						</UsualGroup>
+						<UsualGroup name="ШапкаСпискаСпособовОбеспечения" id="556">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Шапка списка</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>List header</v8:content>
+								</v8:item>
+							</Title>
+							<Group>Horizontal</Group>
+							<Representation>None</Representation>
+							<ShowTitle>false</ShowTitle>
+							<ExtendedTooltip name="ШапкаСпискаСпособовОбеспеченияРасширеннаяПодсказка" id="557"/>
+							<ChildItems>
+								<UsualGroup name="РежимОтображения" id="558">
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Режим отображения</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Display mode</v8:content>
+										</v8:item>
+									</Title>
+									<Group>Vertical</Group>
+									<Representation>None</Representation>
+									<ShowTitle>false</ShowTitle>
+									<ExtendedTooltip name="РежимОтображенияРасширеннаяПодсказка" id="559"/>
+									<ChildItems>
+										<RadioButtonField name="Отображение" id="560">
+											<DataPath>24</DataPath>
+											<TitleLocation>Left</TitleLocation>
+											<RadioButtonType>Tumbler</RadioButtonType>
+											<ColumnsCount>2</ColumnsCount>
+											<ChoiceList>
+												<xr:Item>
+													<xr:Presentation/>
+													<xr:CheckState>0</xr:CheckState>
+													<xr:Value xsi:type="FormChoiceListDesTimeValue">
+														<Presentation>
+															<v8:item>
+																<v8:lang>ru</v8:lang>
+																<v8:content>По форматам</v8:content>
+															</v8:item>
+															<v8:item>
+																<v8:lang>en</v8:lang>
+																<v8:content>By formats</v8:content>
+															</v8:item>
+														</Presentation>
+														<Value xsi:type="xs:string">Форматы</Value>
+													</xr:Value>
+												</xr:Item>
+												<xr:Item>
+													<xr:Presentation/>
+													<xr:CheckState>0</xr:CheckState>
+													<xr:Value xsi:type="FormChoiceListDesTimeValue">
+														<Presentation>
+															<v8:item>
+																<v8:lang>ru</v8:lang>
+																<v8:content>По иерархии</v8:content>
+															</v8:item>
+															<v8:item>
+																<v8:lang>en</v8:lang>
+																<v8:content>By hierarchy</v8:content>
+															</v8:item>
+														</Presentation>
+														<Value xsi:type="xs:string">Склады</Value>
+													</xr:Value>
+												</xr:Item>
+											</ChoiceList>
+											<ContextMenu name="ОтображениеКонтекстноеМеню" id="561"/>
+											<ExtendedTooltip name="ОтображениеРасширеннаяПодсказка" id="562"/>
+										</RadioButtonField>
+									</ChildItems>
+								</UsualGroup>
+								<CommandBar name="КомандыСпискаСклады" id="563">
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Команды списка склады</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Commands of the warehouses list</v8:content>
+										</v8:item>
+									</Title>
+									<ExtendedTooltip name="КомандыСпискаСкладыРасширеннаяПодсказка" id="564"/>
+									<ChildItems>
+										<ButtonGroup name="КомандыУстановкиСпособаОбеспеченияНоменклатурой" id="919">
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Команды установки способа обеспечения номенклатурой</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Commands of setting product supply method</v8:content>
+												</v8:item>
+											</Title>
+											<ExtendedTooltip name="КомандыУстановкиСпособаОбеспеченияНоменклатуройРасширеннаяПодсказка" id="920"/>
+											<ChildItems>
+												<Button name="ЗаполнитьСпособОбеспеченияНоменклатурой" id="565">
+													<Type>CommandBarButton</Type>
+													<CommandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
+													<ExtendedTooltip name="ЗаполнитьСпособОбеспеченияНоменклатуройРасширеннаяПодсказка" id="566"/>
+												</Button>
+												<Button name="ОчиститьСпособОбеспеченияНоменклатурой" id="567">
+													<Type>CommandBarButton</Type>
+													<CommandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
+													<ExtendedTooltip name="ОчиститьСпособОбеспеченияНоменклатуройРасширеннаяПодсказка" id="568"/>
+												</Button>
+											</ChildItems>
+										</ButtonGroup>
+										<ButtonGroup name="КомандыУстановкиУпаковкиЗаказаНоменклатурой" id="921">
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Команды установки упаковки заказа номенклатурой</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Commands of setting order packaging by products</v8:content>
+												</v8:item>
+											</Title>
+											<ExtendedTooltip name="КомандыУстановкиУпаковкиЗаказаНоменклатуройРасширеннаяПодсказка" id="922"/>
+											<ChildItems>
+												<Button name="ЗаполнитьУпаковкуЗаказа" id="915">
+													<Type>CommandBarButton</Type>
+													<CommandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
+													<ExtendedTooltip name="ЗаполнитьУпаковкуЗаказаРасширеннаяПодсказка" id="916"/>
+												</Button>
+												<Button name="ОчиститьУпаковкуЗаказа" id="917">
+													<Type>CommandBarButton</Type>
+													<CommandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
+													<ExtendedTooltip name="ОчиститьУпаковкуЗаказаРасширеннаяПодсказка" id="918"/>
+												</Button>
+											</ChildItems>
+										</ButtonGroup>
+										<Button name="ОбновитьСписокДерево" id="911">
+											<Type>CommandBarButton</Type>
+											<CommandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
+											<ExtendedTooltip name="ОбновитьСписокДеревоРасширеннаяПодсказка" id="912"/>
+										</Button>
+										<ButtonGroup name="КомандыФормыСпособовОбеспеченияНоменклатурой" id="1182">
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Команды формы способов обеспечения номенклатурой</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Commands forms of product supply methods</v8:content>
+												</v8:item>
+											</Title>
+											<ExtendedTooltip name="КомандыФормыСпособовОбеспеченияНоменклатуройРасширеннаяПодсказка" id="1183"/>
+											<ChildItems>
+												<Button name="ИзменитьФорму1" id="1184">
+													<Type>CommandBarButton</Type>
+													<CommandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
+													<ExtendedTooltip name="ИзменитьФорму1РасширеннаяПодсказка" id="1185"/>
+												</Button>
+												<Button name="ОткрытьСправку" id="1109">
+													<Type>CommandBarButton</Type>
+													<CommandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
+													<LocationInCommandBar>InAdditionalSubmenu</LocationInCommandBar>
+													<ExtendedTooltip name="ОткрытьСправкуРасширеннаяПодсказка" id="1110"/>
+												</Button>
+											</ChildItems>
+										</ButtonGroup>
+									</ChildItems>
+								</CommandBar>
+								<Button name="ОткрытьСправкуКнопка" id="1194">
+									<Type>UsualButton</Type>
+									<CommandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
+									<ExtendedTooltip name="ОткрытьСправкуКнопкаРасширеннаяПодсказка" id="1195"/>
+								</Button>
+							</ChildItems>
+						</UsualGroup>
+						<Pages name="СтраницыРежимОтображения" id="569">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Страницы режим отображения</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Pages display mode</v8:content>
+								</v8:item>
+							</Title>
+							<PagesRepresentation>None</PagesRepresentation>
+							<ExtendedTooltip name="СтраницыРежимОтображенияРасширеннаяПодсказка" id="570"/>
+							<ChildItems>
+								<Page name="СтраницаФорматы" id="571">
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Страница форматы</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Page formats</v8:content>
+										</v8:item>
+									</Title>
+									<ExtendedTooltip name="СтраницаФорматыРасширеннаяПодсказка" id="572"/>
+									<ChildItems>
+										<Table name="ДеревоФорматов" id="573">
+											<ReadOnly>true</ReadOnly>
+											<ChangeRowSet>false</ChangeRowSet>
+											<AutoInsertNewRow>true</AutoInsertNewRow>
+											<EnableStartDrag>true</EnableStartDrag>
+											<EnableDrag>true</EnableDrag>
+											<FileDragMode>AsFile</FileDragMode>
+											<DataPath>25</DataPath>
+											<RowPictureDataPath>25/10</RowPictureDataPath>
+											<RowsPicture>
+												<xr:Ref>CommonPicture.ПиктограммыЭлементов</xr:Ref>
+												<xr:LoadTransparent>false</xr:LoadTransparent>
+											</RowsPicture>
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Дерево форматов</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Format tree</v8:content>
+												</v8:item>
+											</Title>
+											<ContextMenu name="ДеревоФорматовКонтекстноеМеню" id="574">
+												<ChildItems>
+													<ButtonGroup name="ДеревоФорматовКонтекстноеМенюКомандыУстановкиСпособаОбеспеченияНоменклатурой" id="1095">
+														<Title>
+															<v8:item>
+																<v8:lang>ru</v8:lang>
+																<v8:content>Дерево форматов контекстное меню команды установки способа обеспечения номенклатурой</v8:content>
+															</v8:item>
+															<v8:item>
+																<v8:lang>en</v8:lang>
+																<v8:content>Format tree context menu commands of setting product supply method</v8:content>
+															</v8:item>
+														</Title>
+														<ExtendedTooltip name="ДеревоФорматовКонтекстноеМенюКомандыУстановкиСпособаОбеспеченияНоменклатуройРасширеннаяПодсказка" id="1096"/>
+														<ChildItems>
+															<Button name="ДеревоФорматовКонтекстноеМенюЗаполнитьСпособОбеспеченияНоменклатурой" id="1065">
+																<Type>CommandBarButton</Type>
+																<CommandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
+																<ExtendedTooltip name="ДеревоФорматовКонтекстноеМенюЗаполнитьСпособОбеспеченияНоменклатуройРасширеннаяПодсказка" id="1066"/>
+															</Button>
+															<Button name="ДеревоФорматовКонтекстноеМенюОчиститьСпособОбеспеченияНоменклатурой" id="1067">
+																<Type>CommandBarButton</Type>
+																<CommandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
+																<ExtendedTooltip name="ДеревоФорматовКонтекстноеМенюОчиститьСпособОбеспеченияНоменклатуройРасширеннаяПодсказка" id="1068"/>
+															</Button>
+														</ChildItems>
+													</ButtonGroup>
+													<ButtonGroup name="ДеревоФорматовКонтекстноеМенюКомандыУстановкиУпаковкиЗаказаНоменклатурой" id="1097">
+														<Title>
+															<v8:item>
+																<v8:lang>ru</v8:lang>
+																<v8:content>Дерево форматов контекстное меню команды установки упаковки заказа номенклатурой</v8:content>
+															</v8:item>
+															<v8:item>
+																<v8:lang>en</v8:lang>
+																<v8:content>Format tree context menu commands of setting order packaging by products</v8:content>
+															</v8:item>
+														</Title>
+														<ExtendedTooltip name="ДеревоФорматовКонтекстноеМенюКомандыУстановкиУпаковкиЗаказаНоменклатуройРасширеннаяПодсказка" id="1098"/>
+														<ChildItems>
+															<Button name="ДеревоФорматовКонтекстноеМенюЗаполнитьУпаковкуЗаказаНоменклатуры" id="1069">
+																<Type>CommandBarButton</Type>
+																<CommandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
+																<ExtendedTooltip name="ДеревоФорматовКонтекстноеМенюЗаполнитьУпаковкуЗаказаНоменклатурыРасширеннаяПодсказка" id="1070"/>
+															</Button>
+															<Button name="ДеревоФорматовКонтекстноеМенюОчиститьУпаковкуЗаказаНоменклатуры" id="1071">
+																<Type>CommandBarButton</Type>
+																<CommandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
+																<ExtendedTooltip name="ДеревоФорматовКонтекстноеМенюОчиститьУпаковкуЗаказаНоменклатурыРасширеннаяПодсказка" id="1072"/>
+															</Button>
+														</ChildItems>
+													</ButtonGroup>
+												</ChildItems>
+											</ContextMenu>
+											<AutoCommandBar name="ДеревоФорматовКоманднаяПанель" id="575">
+												<Autofill>false</Autofill>
+											</AutoCommandBar>
+											<ExtendedTooltip name="ДеревоФорматовРасширеннаяПодсказка" id="576"/>
+											<SearchStringAddition name="ДеревоФорматовСтрокаПоиска" id="577">
+												<AdditionSource>
+													<Item>ДеревоФорматов</Item>
+													<Type>SearchStringRepresentation</Type>
+												</AdditionSource>
+												<ContextMenu name="ДеревоФорматовСтрокаПоискаКонтекстноеМеню" id="578"/>
+												<ExtendedTooltip name="ДеревоФорматовСтрокаПоискаРасширеннаяПодсказка" id="579"/>
+											</SearchStringAddition>
+											<ViewStatusAddition name="ДеревоФорматовСостояниеПросмотра" id="580">
+												<AdditionSource>
+													<Item>ДеревоФорматов</Item>
+													<Type>ViewStatusRepresentation</Type>
+												</AdditionSource>
+												<ContextMenu name="ДеревоФорматовСостояниеПросмотраКонтекстноеМеню" id="581"/>
+												<ExtendedTooltip name="ДеревоФорматовСостояниеПросмотраРасширеннаяПодсказка" id="582"/>
+											</ViewStatusAddition>
+											<SearchControlAddition name="ДеревоФорматовУправлениеПоиском" id="583">
+												<AdditionSource>
+													<Item>ДеревоФорматов</Item>
+													<Type>SearchControl</Type>
+												</AdditionSource>
+												<ContextMenu name="ДеревоФорматовУправлениеПоискомКонтекстноеМеню" id="584"/>
+												<ExtendedTooltip name="ДеревоФорматовУправлениеПоискомРасширеннаяПодсказка" id="585"/>
+											</SearchControlAddition>
+											<ChildItems>
+												<InputField name="ДеревоФорматовФорматСклад" id="648">
+													<DataPath>25/1</DataPath>
+													<ReadOnly>true</ReadOnly>
+													<EditMode>EnterOnInput</EditMode>
+													<Width>5</Width>
+													<HorizontalStretch>true</HorizontalStretch>
+													<ContextMenu name="ДеревоФорматовФорматСкладКонтекстноеМеню" id="649"/>
+													<ExtendedTooltip name="ДеревоФорматовФорматСкладРасширеннаяПодсказка" id="650"/>
+												</InputField>
+												<InputField name="ДеревоФорматовЕстьНастройкаДляТовара" id="1103">
+													<DataPath>25/14</DataPath>
+													<ReadOnly>true</ReadOnly>
+													<Title>
+														<v8:item>
+															<v8:lang>ru</v8:lang>
+															<v8:content>Источник настройки</v8:content>
+														</v8:item>
+														<v8:item>
+															<v8:lang>en</v8:lang>
+															<v8:content>Setting source</v8:content>
+														</v8:item>
+													</Title>
+													<EditMode>EnterOnInput</EditMode>
+													<Width>5</Width>
+													<ContextMenu name="ДеревоФорматовЕстьНастройкаДляТовараКонтекстноеМеню" id="1104"/>
+													<ExtendedTooltip name="ДеревоФорматовЕстьНастройкаДляТовараРасширеннаяПодсказка" id="1105"/>
+												</InputField>
+												<InputField name="ДеревоФорматовСпособОбеспечения" id="1006">
+													<DataPath>25/2</DataPath>
+													<ReadOnly>true</ReadOnly>
+													<EditMode>EnterOnInput</EditMode>
+													<Width>5</Width>
+													<ChoiceListHeight>1</ChoiceListHeight>
+													<ContextMenu name="ДеревоФорматовСпособОбеспеченияКонтекстноеМеню" id="1007"/>
+													<ExtendedTooltip name="ДеревоФорматовСпособОбеспеченияРасширеннаяПодсказка" id="1008"/>
+												</InputField>
+												<InputField name="ДеревоФорматовТипОбеспечения" id="1034">
+													<DataPath>25/9</DataPath>
+													<ReadOnly>true</ReadOnly>
+													<EditMode>EnterOnInput</EditMode>
+													<Width>5</Width>
+													<ContextMenu name="ДеревоФорматовТипОбеспеченияКонтекстноеМеню" id="1035"/>
+													<ExtendedTooltip name="ДеревоФорматовТипОбеспеченияРасширеннаяПодсказка" id="1036"/>
+												</InputField>
+												<InputField name="ДеревоФорматовИсточникОбеспечения" id="657">
+													<DataPath>25/3</DataPath>
+													<ReadOnly>true</ReadOnly>
+													<EditMode>EnterOnInput</EditMode>
+													<Width>5</Width>
+													<HorizontalStretch>true</HorizontalStretch>
+													<ContextMenu name="ДеревоФорматовИсточникОбеспеченияКонтекстноеМеню" id="658"/>
+													<ExtendedTooltip name="ДеревоФорматовИсточникОбеспеченияРасширеннаяПодсказка" id="659"/>
+												</InputField>
+												<InputField name="ДеревоФорматовСрокПоставки" id="660">
+													<DataPath>25/4</DataPath>
+													<ReadOnly>true</ReadOnly>
+													<Title>
+														<v8:item>
+															<v8:lang>ru</v8:lang>
+															<v8:content>Срок поставки, дн.</v8:content>
+														</v8:item>
+														<v8:item>
+															<v8:lang>en</v8:lang>
+															<v8:content>Delivery period, days</v8:content>
+														</v8:item>
+													</Title>
+													<EditMode>EnterOnInput</EditMode>
+													<Width>5</Width>
+													<ContextMenu name="ДеревоФорматовСрокПоставкиКонтекстноеМеню" id="661"/>
+													<ExtendedTooltip name="ДеревоФорматовСрокПоставкиРасширеннаяПодсказка" id="662"/>
+												</InputField>
+												<InputField name="ДеревоФорматовОбеспечиваемыйПериод" id="651">
+													<DataPath>25/5</DataPath>
+													<ReadOnly>true</ReadOnly>
+													<Title>
+														<v8:item>
+															<v8:lang>ru</v8:lang>
+															<v8:content>Обеспечиваемый период, дн.</v8:content>
+														</v8:item>
+														<v8:item>
+															<v8:lang>en</v8:lang>
+															<v8:content>Covered period, days</v8:content>
+														</v8:item>
+													</Title>
+													<EditMode>EnterOnInput</EditMode>
+													<Width>5</Width>
+													<HorizontalStretch>true</HorizontalStretch>
+													<ContextMenu name="ДеревоФорматовОбеспечиваемыйПериодКонтекстноеМеню" id="652"/>
+													<ExtendedTooltip name="ДеревоФорматовОбеспечиваемыйПериодРасширеннаяПодсказка" id="653"/>
+												</InputField>
+												<InputField name="ДеревоФорматовУпаковкаЗаказа" id="737">
+													<DataPath>25/12</DataPath>
+													<ReadOnly>true</ReadOnly>
+													<SkipOnInput>true</SkipOnInput>
+													<EditMode>EnterOnInput</EditMode>
+													<Width>5</Width>
+													<ChoiceParameterLinks>
+														<xr:Link>
+															<xr:Name>Отбор.НоменклатураМногооборотнаяТара</xr:Name>
+															<xr:DataPath xsi:type="xs:string">1</xr:DataPath>
+															<xr:ValueChange>Clear</xr:ValueChange>
+														</xr:Link>
+													</ChoiceParameterLinks>
+													<ContextMenu name="ДеревоФорматовУпаковкаЗаказаКонтекстноеМеню" id="738"/>
+													<ExtendedTooltip name="ДеревоФорматовУпаковкаЗаказаРасширеннаяПодсказка" id="739"/>
+												</InputField>
+											</ChildItems>
+										</Table>
+									</ChildItems>
+								</Page>
+								<Page name="СтраницаСклады" id="601">
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Страница склады</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Page warehouses</v8:content>
+										</v8:item>
+									</Title>
+									<ExtendedTooltip name="СтраницаСкладыРасширеннаяПодсказка" id="602"/>
+									<ChildItems>
+										<UsualGroup name="ГруппаПользовательскихНастроекСпискаСпособовОбеспечения" id="603">
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Пользовательских настроек списка способов обеспечения</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>User settings of supply method list</v8:content>
+												</v8:item>
+											</Title>
+											<Representation>None</Representation>
+											<ShowTitle>false</ShowTitle>
+											<ExtendedTooltip name="ГруппаПользовательскихНастроекСпискаСпособовОбеспеченияРасширеннаяПодсказка" id="604"/>
+										</UsualGroup>
+										<Table name="СписокСкладов" id="605">
+											<ReadOnly>true</ReadOnly>
+											<ChangeRowSet>false</ChangeRowSet>
+											<UseAlternationRowColor>true</UseAlternationRowColor>
+											<EnableStartDrag>true</EnableStartDrag>
+											<EnableDrag>true</EnableDrag>
+											<FileDragMode>AsFile</FileDragMode>
+											<DataPath>26</DataPath>
+											<RowPictureDataPath>26/10000000</RowPictureDataPath>
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Список складов</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Warehouse list</v8:content>
+												</v8:item>
+											</Title>
+											<AutoRefresh>false</AutoRefresh>
+											<AutoRefreshPeriod>60</AutoRefreshPeriod>
+											<Period>
+												<v8:variant xsi:type="v8:StandardPeriodVariant">Custom</v8:variant>
+												<v8:startDate>0001-01-01T00:00:00</v8:startDate>
+												<v8:endDate>0001-01-01T00:00:00</v8:endDate>
+											</Period>
+											<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
+											<RestoreCurrentRow>false</RestoreCurrentRow>
+											<TopLevelParent xsi:nil="true"/>
+											<ShowRoot>true</ShowRoot>
+											<AllowRootChoice>false</AllowRootChoice>
+											<UpdateOnDataChange>Auto</UpdateOnDataChange>
+											<UserSettingsGroup>ГруппаПользовательскихНастроекСпискаСпособовОбеспечения</UserSettingsGroup>
+											<ContextMenu name="СписокСкладовКонтекстноеМеню" id="606">
+												<ChildItems>
+													<ButtonGroup name="СписокСкладовКонтекстноеМенюКомандыУстановкиСпособаОбеспеченияНоменклатурой" id="1099">
+														<Title>
+															<v8:item>
+																<v8:lang>ru</v8:lang>
+																<v8:content>Список складов контекстное меню команды установки способа обеспечения номенклатурой</v8:content>
+															</v8:item>
+															<v8:item>
+																<v8:lang>en</v8:lang>
+																<v8:content>Warehouse list context menu setting commands of product supply method</v8:content>
+															</v8:item>
+														</Title>
+														<ExtendedTooltip name="СписокСкладовКонтекстноеМенюКомандыУстановкиСпособаОбеспеченияНоменклатуройРасширеннаяПодсказка" id="1100"/>
+														<ChildItems>
+															<Button name="СписокСкладовКонтекстноеМенюЗаполнитьСпособОбеспеченияНоменклатурой" id="1073">
+																<Type>CommandBarButton</Type>
+																<CommandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
+																<ExtendedTooltip name="СписокСкладовКонтекстноеМенюЗаполнитьСпособОбеспеченияНоменклатуройРасширеннаяПодсказка" id="1074"/>
+															</Button>
+															<Button name="СписокСкладовКонтекстноеМенюОчиститьСпособОбеспеченияНоменклатурой" id="1075">
+																<Type>CommandBarButton</Type>
+																<CommandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
+																<ExtendedTooltip name="СписокСкладовКонтекстноеМенюОчиститьСпособОбеспеченияНоменклатуройРасширеннаяПодсказка" id="1076"/>
+															</Button>
+														</ChildItems>
+													</ButtonGroup>
+													<ButtonGroup name="СписокСкладовКонтекстноеМенюКомандыУстановкиУпаковкиЗаказаНоменклатурой" id="1101">
+														<Title>
+															<v8:item>
+																<v8:lang>ru</v8:lang>
+																<v8:content>Список складов контекстное меню команды установки упаковки заказа номенклатурой</v8:content>
+															</v8:item>
+															<v8:item>
+																<v8:lang>en</v8:lang>
+																<v8:content>Warehouse list context menu commands of setting order packaging by products</v8:content>
+															</v8:item>
+														</Title>
+														<ExtendedTooltip name="СписокСкладовКонтекстноеМенюКомандыУстановкиУпаковкиЗаказаНоменклатуройРасширеннаяПодсказка" id="1102"/>
+														<ChildItems>
+															<Button name="СписокСкладовКонтекстноеМенюЗаполнитьУпаковкуЗаказаНоменклатуры" id="1077">
+																<Type>CommandBarButton</Type>
+																<CommandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
+																<ExtendedTooltip name="СписокСкладовКонтекстноеМенюЗаполнитьУпаковкуЗаказаНоменклатурыРасширеннаяПодсказка" id="1078"/>
+															</Button>
+															<Button name="СписокСкладовКонтекстноеМенюОчиститьУпаковкуЗаказаНоменклатуры" id="1079">
+																<Type>CommandBarButton</Type>
+																<CommandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
+																<ExtendedTooltip name="СписокСкладовКонтекстноеМенюОчиститьУпаковкуЗаказаНоменклатурыРасширеннаяПодсказка" id="1080"/>
+															</Button>
+														</ChildItems>
+													</ButtonGroup>
+													<ButtonGroup name="СписокСкладовКонтекстноеМенюГруппаНастройкаСписка" id="636">
+														<Title>
+															<v8:item>
+																<v8:lang>ru</v8:lang>
+																<v8:content>Список складов контекстное меню группа настройка списка</v8:content>
+															</v8:item>
+															<v8:item>
+																<v8:lang>en</v8:lang>
+																<v8:content>Warehouse list context menu group list configuration</v8:content>
+															</v8:item>
+														</Title>
+														<ExtendedTooltip name="СписокСкладовКонтекстноеМенюГруппаНастройкаСпискаРасширеннаяПодсказка" id="637"/>
+														<ChildItems>
+															<Button name="СписокСкладовКонтекстноеМенюНастройкаСписка" id="638">
+																<Type>CommandBarButton</Type>
+																<CommandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
+																<ExtendedTooltip name="СписокСкладовКонтекстноеМенюНастройкаСпискаРасширеннаяПодсказка" id="639"/>
+															</Button>
+															<Button name="СписокКонтекстноеМенюЗагрузитьНастройкиДинамическогоСписка" id="640">
+																<Type>CommandBarButton</Type>
+																<CommandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
+																<ExtendedTooltip name="СписокКонтекстноеМенюЗагрузитьНастройкиДинамическогоСпискаРасширеннаяПодсказка" id="641"/>
+															</Button>
+															<Button name="СписокКонтекстноеМенюСохранитьНастройкиДинамическогоСписка" id="642">
+																<Type>CommandBarButton</Type>
+																<CommandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
+																<ExtendedTooltip name="СписокКонтекстноеМенюСохранитьНастройкиДинамическогоСпискаРасширеннаяПодсказка" id="643"/>
+															</Button>
+															<Button name="СписокКонтекстноеМенюСтандартныеНастройкиДинамическогоСписка" id="644">
+																<Type>CommandBarButton</Type>
+																<CommandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
+																<ExtendedTooltip name="СписокКонтекстноеМенюСтандартныеНастройкиДинамическогоСпискаРасширеннаяПодсказка" id="645"/>
+															</Button>
+														</ChildItems>
+													</ButtonGroup>
+													<Button name="СписокКонтекстноеМенюВывестиСписок" id="646">
+														<Type>CommandBarButton</Type>
+														<CommandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
+														<ExtendedTooltip name="СписокКонтекстноеМенюВывестиСписокРасширеннаяПодсказка" id="647"/>
+													</Button>
+												</ChildItems>
+											</ContextMenu>
+											<AutoCommandBar name="СписокСкладовКоманднаяПанель" id="607">
+												<Autofill>false</Autofill>
+											</AutoCommandBar>
+											<ExtendedTooltip name="СписокСкладовРасширеннаяПодсказка" id="608"/>
+											<SearchStringAddition name="СписокСкладовСтрокаПоиска" id="609">
+												<AdditionSource>
+													<Item>СписокСкладов</Item>
+													<Type>SearchStringRepresentation</Type>
+												</AdditionSource>
+												<ContextMenu name="СписокСкладовСтрокаПоискаКонтекстноеМеню" id="610"/>
+												<ExtendedTooltip name="СписокСкладовСтрокаПоискаРасширеннаяПодсказка" id="611"/>
+											</SearchStringAddition>
+											<ViewStatusAddition name="СписокСкладовСостояниеПросмотра" id="612">
+												<AdditionSource>
+													<Item>СписокСкладов</Item>
+													<Type>ViewStatusRepresentation</Type>
+												</AdditionSource>
+												<ContextMenu name="СписокСкладовСостояниеПросмотраКонтекстноеМеню" id="613"/>
+												<ExtendedTooltip name="СписокСкладовСостояниеПросмотраРасширеннаяПодсказка" id="614"/>
+											</ViewStatusAddition>
+											<SearchControlAddition name="СписокСкладовУправлениеПоиском" id="615">
+												<AdditionSource>
+													<Item>СписокСкладов</Item>
+													<Type>SearchControl</Type>
+												</AdditionSource>
+												<ContextMenu name="СписокСкладовУправлениеПоискомКонтекстноеМеню" id="616"/>
+												<ExtendedTooltip name="СписокСкладовУправлениеПоискомРасширеннаяПодсказка" id="617"/>
+											</SearchControlAddition>
+											<ChildItems>
+												<LabelField name="СписокСкладовСклад" id="663">
+													<DataPath>26/8</DataPath>
+													<Title>
+														<v8:item>
+															<v8:lang>ru</v8:lang>
+															<v8:content>Склад</v8:content>
+														</v8:item>
+														<v8:item>
+															<v8:lang>en</v8:lang>
+															<v8:content>Warehouse</v8:content>
+														</v8:item>
+													</Title>
+													<Width>5</Width>
+													<HorizontalStretch>true</HorizontalStretch>
+													<ContextMenu name="СписокСкладовСкладКонтекстноеМеню" id="664"/>
+													<ExtendedTooltip name="СписокСкладовСкладРасширеннаяПодсказка" id="665"/>
+												</LabelField>
+												<LabelField name="СписокСкладовФорматМагазина" id="666">
+													<DataPath>26/20</DataPath>
+													<Title>
+														<v8:item>
+															<v8:lang>ru</v8:lang>
+															<v8:content>Формат магазина (склада)</v8:content>
+														</v8:item>
+														<v8:item>
+															<v8:lang>en</v8:lang>
+															<v8:content>Store (warehouse) format</v8:content>
+														</v8:item>
+													</Title>
+													<Width>5</Width>
+													<HorizontalStretch>true</HorizontalStretch>
+													<ContextMenu name="СписокСкладовФорматМагазинаКонтекстноеМеню" id="667"/>
+													<ExtendedTooltip name="СписокСкладовФорматМагазинаРасширеннаяПодсказка" id="668"/>
+												</LabelField>
+												<InputField name="СписокСкладовЕстьНастройкаДляТовара" id="1106">
+													<DataPath>26/22</DataPath>
+													<Title>
+														<v8:item>
+															<v8:lang>ru</v8:lang>
+															<v8:content>Источник настройки</v8:content>
+														</v8:item>
+														<v8:item>
+															<v8:lang>en</v8:lang>
+															<v8:content>Setting source</v8:content>
+														</v8:item>
+													</Title>
+													<Width>5</Width>
+													<ContextMenu name="СписокСкладовЕстьНастройкаДляТовараКонтекстноеМеню" id="1107"/>
+													<ExtendedTooltip name="СписокСкладовЕстьНастройкаДляТовараРасширеннаяПодсказка" id="1108"/>
+												</InputField>
+												<LabelField name="СписокСкладовСпособОбеспечения" id="669">
+													<DataPath>26/29</DataPath>
+													<Title>
+														<v8:item>
+															<v8:lang>ru</v8:lang>
+															<v8:content>Способ обеспечения потребностей</v8:content>
+														</v8:item>
+														<v8:item>
+															<v8:lang>en</v8:lang>
+															<v8:content>Demand fulfillment method</v8:content>
+														</v8:item>
+													</Title>
+													<Width>5</Width>
+													<HorizontalStretch>true</HorizontalStretch>
+													<ContextMenu name="СписокСкладовСпособОбеспеченияКонтекстноеМеню" id="670"/>
+													<ExtendedTooltip name="СписокСкладовСпособОбеспеченияРасширеннаяПодсказка" id="671"/>
+												</LabelField>
+												<LabelField name="СписокСкладовТипОбеспечения" id="1037">
+													<DataPath>26/37</DataPath>
+													<Title>
+														<v8:item>
+															<v8:lang>ru</v8:lang>
+															<v8:content>Тип обеспечения</v8:content>
+														</v8:item>
+														<v8:item>
+															<v8:lang>en</v8:lang>
+															<v8:content>Supply type</v8:content>
+														</v8:item>
+													</Title>
+													<Width>5</Width>
+													<ContextMenu name="СписокСкладовТипОбеспеченияКонтекстноеМеню" id="1038"/>
+													<ExtendedTooltip name="СписокСкладовТипОбеспеченияРасширеннаяПодсказка" id="1039"/>
+												</LabelField>
+												<LabelField name="СписокСкладовИсточникОбеспечения" id="672">
+													<DataPath>26/42</DataPath>
+													<Title>
+														<v8:item>
+															<v8:lang>ru</v8:lang>
+															<v8:content>Источник обеспечения</v8:content>
+														</v8:item>
+														<v8:item>
+															<v8:lang>en</v8:lang>
+															<v8:content>Supply source</v8:content>
+														</v8:item>
+													</Title>
+													<Width>5</Width>
+													<HorizontalStretch>true</HorizontalStretch>
+													<ContextMenu name="СписокСкладовИсточникОбеспеченияКонтекстноеМеню" id="673"/>
+													<ExtendedTooltip name="СписокСкладовИсточникОбеспеченияРасширеннаяПодсказка" id="674"/>
+												</LabelField>
+												<LabelField name="СписокСкладовСрокПоставки" id="675">
+													<DataPath>26/48</DataPath>
+													<Title>
+														<v8:item>
+															<v8:lang>ru</v8:lang>
+															<v8:content>Срок поставки, дн</v8:content>
+														</v8:item>
+														<v8:item>
+															<v8:lang>en</v8:lang>
+															<v8:content>Delivery period, days</v8:content>
+														</v8:item>
+													</Title>
+													<Width>5</Width>
+													<HorizontalStretch>true</HorizontalStretch>
+													<ContextMenu name="СписокСкладовСрокПоставкиКонтекстноеМеню" id="676"/>
+													<ExtendedTooltip name="СписокСкладовСрокПоставкиРасширеннаяПодсказка" id="677"/>
+												</LabelField>
+												<LabelField name="СписокСкладовОбеспечиваемыйПериод" id="678">
+													<DataPath>26/53</DataPath>
+													<Title>
+														<v8:item>
+															<v8:lang>ru</v8:lang>
+															<v8:content>Обеспечиваемый период, дн</v8:content>
+														</v8:item>
+														<v8:item>
+															<v8:lang>en</v8:lang>
+															<v8:content>Covered period, days</v8:content>
+														</v8:item>
+													</Title>
+													<Width>5</Width>
+													<HorizontalStretch>true</HorizontalStretch>
+													<ContextMenu name="СписокСкладовОбеспечиваемыйПериодКонтекстноеМеню" id="679"/>
+													<ExtendedTooltip name="СписокСкладовОбеспечиваемыйПериодРасширеннаяПодсказка" id="680"/>
+												</LabelField>
+												<LabelField name="СписокСкладовУпаковкаЗаказа" id="734">
+													<DataPath>26/58</DataPath>
+													<Title>
+														<v8:item>
+															<v8:lang>ru</v8:lang>
+															<v8:content>Упаковка заказа</v8:content>
+														</v8:item>
+														<v8:item>
+															<v8:lang>en</v8:lang>
+															<v8:content>Order packaging</v8:content>
+														</v8:item>
+													</Title>
+													<Width>5</Width>
+													<ContextMenu name="СписокСкладовУпаковкаЗаказаКонтекстноеМеню" id="735"/>
+													<ExtendedTooltip name="СписокСкладовУпаковкаЗаказаРасширеннаяПодсказка" id="736"/>
+												</LabelField>
+											</ChildItems>
+										</Table>
+									</ChildItems>
+								</Page>
+							</ChildItems>
+						</Pages>
+					</ChildItems>
+				</Page>
+				<Page name="СтраницаНастройкаПодразделения" id="699">
+					<EnableContentChange>true</EnableContentChange>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Производственные подразделения</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Production departments</v8:content>
+						</v8:item>
+					</Title>
+					<ExtendedTooltip name="СтраницаНастройкаПодразделенияРасширеннаяПодсказка" id="700"/>
+					<ChildItems>
+						<UsualGroup name="ГруппаПользовательскихНастроекСпискаПодразделений" id="732">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Пользовательских настроек списка подразделений</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>User settings of department list</v8:content>
+								</v8:item>
+							</Title>
+							<Representation>None</Representation>
+							<ShowTitle>false</ShowTitle>
+							<ExtendedTooltip name="ГруппаПользовательскихНастроекСпискаПодразделенийРасширеннаяПодсказка" id="733"/>
+						</UsualGroup>
+						<Table name="СписокПодразделений" id="701">
+							<ReadOnly>true</ReadOnly>
+							<ChangeRowSet>false</ChangeRowSet>
+							<UseAlternationRowColor>true</UseAlternationRowColor>
+							<EnableStartDrag>true</EnableStartDrag>
+							<EnableDrag>true</EnableDrag>
+							<FileDragMode>AsFile</FileDragMode>
+							<DataPath>29</DataPath>
+							<RowPictureDataPath>29/10000000</RowPictureDataPath>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Список подразделений</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Department list</v8:content>
+								</v8:item>
+							</Title>
+							<SearchStringLocation>CommandBar</SearchStringLocation>
+							<SearchControlLocation>None</SearchControlLocation>
+							<AutoRefresh>false</AutoRefresh>
+							<AutoRefreshPeriod>60</AutoRefreshPeriod>
+							<Period>
+								<v8:variant xsi:type="v8:StandardPeriodVariant">Custom</v8:variant>
+								<v8:startDate>0001-01-01T00:00:00</v8:startDate>
+								<v8:endDate>0001-01-01T00:00:00</v8:endDate>
+							</Period>
+							<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
+							<RestoreCurrentRow>false</RestoreCurrentRow>
+							<TopLevelParent xsi:nil="true"/>
+							<ShowRoot>true</ShowRoot>
+							<AllowRootChoice>false</AllowRootChoice>
+							<UpdateOnDataChange>Auto</UpdateOnDataChange>
+							<UserSettingsGroup>ГруппаПользовательскихНастроекСпискаПодразделений</UserSettingsGroup>
+							<ContextMenu name="СписокПодразделенийКонтекстноеМеню" id="702">
+								<ChildItems>
+									<ButtonGroup name="СписокПодразделенийКонтекстноеМенюКомандыУстановкиСклада" id="1168">
+										<Title>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>Список подразделений контекстное меню команды установки склада</v8:content>
+											</v8:item>
+											<v8:item>
+												<v8:lang>en</v8:lang>
+												<v8:content>Department list context menu warehouse setting commands</v8:content>
+											</v8:item>
+										</Title>
+										<ExtendedTooltip name="СписокПодразделенийКонтекстноеМенюКомандыУстановкиСкладаРасширеннаяПодсказка" id="1169"/>
+										<ChildItems>
+											<Button name="СписокПодразделенийКонтекстноеМенюЗаполнитьСклад" id="1081">
+												<Type>CommandBarButton</Type>
+												<CommandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
+												<ExtendedTooltip name="СписокПодразделенийКонтекстноеМенюЗаполнитьСкладРасширеннаяПодсказка" id="1082"/>
+											</Button>
+											<Button name="СписокПодразделенийКонтекстноеМенюОчиститьСклад" id="1083">
+												<Type>CommandBarButton</Type>
+												<CommandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
+												<ExtendedTooltip name="СписокПодразделенийКонтекстноеМенюОчиститьСкладРасширеннаяПодсказка" id="1084"/>
+											</Button>
+										</ChildItems>
+									</ButtonGroup>
+								</ChildItems>
+							</ContextMenu>
+							<AutoCommandBar name="СписокПодразделенийКоманднаяПанель" id="703">
+								<ChildItems>
+									<ButtonGroup name="СписокПодразделенийГруппаКомандУстановкиСклада" id="724">
+										<Title>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>Список подразделений группа команд установки склада</v8:content>
+											</v8:item>
+											<v8:item>
+												<v8:lang>en</v8:lang>
+												<v8:content>Department list warehouse setting command group</v8:content>
+											</v8:item>
+										</Title>
+										<ExtendedTooltip name="СписокПодразделенийГруппаКомандУстановкиСкладаРасширеннаяПодсказка" id="725"/>
+										<ChildItems>
+											<Button name="СписокПодразделенийЗаполнитьСклад" id="720">
+												<Type>CommandBarButton</Type>
+												<CommandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
+												<ExtendedTooltip name="СписокПодразделенийЗаполнитьСкладРасширеннаяПодсказка" id="721"/>
+											</Button>
+											<Button name="СписокПодразделенийОчиститьСклад" id="722">
+												<Type>CommandBarButton</Type>
+												<CommandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
+												<ExtendedTooltip name="СписокПодразделенийОчиститьСкладРасширеннаяПодсказка" id="723"/>
+											</Button>
+										</ChildItems>
+									</ButtonGroup>
+								</ChildItems>
+							</AutoCommandBar>
+							<ExtendedTooltip name="СписокПодразделенийРасширеннаяПодсказка" id="704"/>
+							<SearchStringAddition name="СписокПодразделенийСтрокаПоиска" id="705">
+								<AdditionSource>
+									<Item>СписокПодразделений</Item>
+									<Type>SearchStringRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="СписокПодразделенийСтрокаПоискаКонтекстноеМеню" id="706"/>
+								<ExtendedTooltip name="СписокПодразделенийСтрокаПоискаРасширеннаяПодсказка" id="707"/>
+							</SearchStringAddition>
+							<ViewStatusAddition name="СписокПодразделенийСостояниеПросмотра" id="708">
+								<AdditionSource>
+									<Item>СписокПодразделений</Item>
+									<Type>ViewStatusRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="СписокПодразделенийСостояниеПросмотраКонтекстноеМеню" id="709"/>
+								<ExtendedTooltip name="СписокПодразделенийСостояниеПросмотраРасширеннаяПодсказка" id="710"/>
+							</ViewStatusAddition>
+							<SearchControlAddition name="СписокПодразделенийУправлениеПоиском" id="711">
+								<AdditionSource>
+									<Item>СписокПодразделений</Item>
+									<Type>SearchControl</Type>
+								</AdditionSource>
+								<ContextMenu name="СписокПодразделенийУправлениеПоискомКонтекстноеМеню" id="712"/>
+								<ExtendedTooltip name="СписокПодразделенийУправлениеПоискомРасширеннаяПодсказка" id="713"/>
+							</SearchControlAddition>
+							<ChildItems>
+								<LabelField name="СписокПодразделенийНаименование" id="726">
+									<DataPath>29/2</DataPath>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Подразделение</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Department</v8:content>
+										</v8:item>
+									</Title>
+									<ContextMenu name="СписокПодразделенийНаименованиеКонтекстноеМеню" id="727"/>
+									<ExtendedTooltip name="СписокПодразделенийНаименованиеРасширеннаяПодсказка" id="728"/>
+								</LabelField>
+								<LabelField name="СписокПодразделенийСклад" id="729">
+									<DataPath>29/7</DataPath>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Склад</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Warehouse</v8:content>
+										</v8:item>
+									</Title>
+									<ContextMenu name="СписокПодразделенийСкладКонтекстноеМеню" id="730"/>
+									<ExtendedTooltip name="СписокПодразделенийСкладРасширеннаяПодсказка" id="731"/>
+								</LabelField>
+							</ChildItems>
+						</Table>
+					</ChildItems>
+				</Page>
+			</ChildItems>
+		</Pages>
+	</ChildItems>
+	<Attributes/>
+	<BaseForm version="2.10">
+		<AutoTitle>false</AutoTitle>
+		<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
+			<Autofill>false</Autofill>
+		</AutoCommandBar>
+		<ChildItems>
+			<CommandBar name="КоманднаяПанельСхемыОбеспечения" id="693">
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Командная панель схемы обеспечения</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>Command bar supply schemes</v8:content>
+					</v8:item>
+				</Title>
+				<ExtendedTooltip name="КоманднаяПанельСхемыОбеспеченияРасширеннаяПодсказка" id="694"/>
+				<ChildItems>
+					<Button name="ФормаЗаписатьИЗакрыть" id="1170">
+						<Type>CommandBarButton</Type>
+						<DefaultButton>true</DefaultButton>
+						<CommandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
+						<ExtendedTooltip name="ФормаЗаписатьИЗакрытьРасширеннаяПодсказка" id="1171"/>
+					</Button>
+					<Button name="ФормаЗаписать" id="1172">
+						<Type>CommandBarButton</Type>
+						<CommandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
+						<ExtendedTooltip name="ФормаЗаписатьРасширеннаяПодсказка" id="1173"/>
+					</Button>
+					<Button name="ИзменитьФорму" id="1174">
+						<Type>CommandBarButton</Type>
+						<CommandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
+						<ExtendedTooltip name="ИзменитьФормуРасширеннаяПодсказка" id="1175"/>
+					</Button>
+					<Button name="Справка" id="1176">
+						<Type>CommandBarButton</Type>
+						<CommandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
+						<ExtendedTooltip name="СправкаРасширеннаяПодсказка" id="1177"/>
+					</Button>
+				</ChildItems>
+			</CommandBar>
+			<UsualGroup name="ШапкаСхемыОбеспечения" id="683">
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Шапка</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>Header</v8:content>
+					</v8:item>
+				</Title>
+				<Group>Horizontal</Group>
+				<Representation>None</Representation>
+				<ShowTitle>false</ShowTitle>
+				<ExtendedTooltip name="ШапкаСхемыОбеспеченияРасширеннаяПодсказка" id="684"/>
+				<ChildItems>
+					<UsualGroup name="ГруппаНаименование" id="685">
+						<Title>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Наименование</v8:content>
+							</v8:item>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>Name</v8:content>
+							</v8:item>
+						</Title>
+						<Group>Horizontal</Group>
+						<Representation>None</Representation>
+						<ChildItemsWidth>LeftNarrow</ChildItemsWidth>
+						<ShowTitle>false</ShowTitle>
+						<ExtendedTooltip name="ГруппаНаименованиеРасширеннаяПодсказка" id="686"/>
+						<ChildItems>
+							<InputField name="Наименование" id="687">
+								<DataPath>28/-3</DataPath>
+								<EditMode>EnterOnInput</EditMode>
+								<ContextMenu name="НаименованиеКонтекстноеМеню" id="688"/>
+								<ExtendedTooltip name="НаименованиеРасширеннаяПодсказка" id="689"/>
+							</InputField>
+							<LabelDecoration name="НадписьИспользованиеСхемы" id="690">
+								<AutoMaxWidth>false</AutoMaxWidth>
+								<Title formatted="false">
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Используется для товаров (всего: -).</v8:content>
+									</v8:item>
+									<v8:item>
+										<v8:lang>en</v8:lang>
+										<v8:content>Used for goods (total: -).</v8:content>
+									</v8:item>
+								</Title>
+								<BackColor>style:ИтогиФон</BackColor>
+								<ContextMenu name="НадписьИспользованиеСхемыКонтекстноеМеню" id="691"/>
+								<ExtendedTooltip name="НадписьИспользованиеСхемыРасширеннаяПодсказка" id="692"/>
+							</LabelDecoration>
+						</ChildItems>
+					</UsualGroup>
+				</ChildItems>
+			</UsualGroup>
+			<Pages name="СтраницыПараметрыОбеспечения" id="516">
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Страницы параметры обеспечения</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>Pages supply parameters</v8:content>
+					</v8:item>
+				</Title>
+				<ExtendedTooltip name="СтраницыПараметрыОбеспеченияРасширеннаяПодсказка" id="517"/>
+				<ChildItems>
+					<Page name="СтраницаСпособыОбеспеченияСклада" id="520">
+						<Title>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Способы обеспечения</v8:content>
+							</v8:item>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>Supply methods</v8:content>
+							</v8:item>
+						</Title>
+						<ExtendedTooltip name="СтраницаСпособыОбеспеченияСкладаРасширеннаяПодсказка" id="521"/>
+						<ChildItems>
+							<CheckBoxField name="ТолькоОбеспечиваемаяНоменклатура" id="1165">
+								<DataPath>35</DataPath>
+								<TitleLocation>Right</TitleLocation>
+								<CheckBoxType>Auto</CheckBoxType>
+								<ContextMenu name="ТолькоОбеспечиваемаяНоменклатураКонтекстноеМеню" id="1166"/>
+								<ExtendedTooltip name="ТолькоОбеспечиваемаяНоменклатураРасширеннаяПодсказка" id="1167"/>
+							</CheckBoxField>
+							<UsualGroup name="ШапкаСпискаСпособовОбеспеченияСклада" id="1198">
+								<Title>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Шапка списка способов обеспечения склада</v8:content>
+									</v8:item>
+									<v8:item>
+										<v8:lang>en</v8:lang>
+										<v8:content>Header of list of warehouse supply methods</v8:content>
+									</v8:item>
+								</Title>
+								<Representation>None</Representation>
+								<ShowTitle>false</ShowTitle>
+								<ExtendedTooltip name="ШапкаСпискаСпособовОбеспеченияСкладаРасширеннаяПодсказка" id="1199"/>
+								<ChildItems>
+									<CommandBar name="КоманднаяПанельСпискаСпособовОбеспеченияСклада" id="1196">
+										<Title>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>Командная панель списка способов обеспечения склада</v8:content>
+											</v8:item>
+											<v8:item>
+												<v8:lang>en</v8:lang>
+												<v8:content>Command bar of list of warehouse supply methods</v8:content>
+											</v8:item>
+										</Title>
+										<CommandSource>Item.СписокСпособовОбеспеченияСклада</CommandSource>
+										<ExtendedTooltip name="КоманднаяПанельСпискаСпособовОбеспеченияСкладаРасширеннаяПодсказка" id="1197"/>
+										<ChildItems>
+											<ButtonGroup name="КомандыУстановкиСпособаОбеспеченияСклада" id="1085">
+												<Title>
+													<v8:item>
+														<v8:lang>ru</v8:lang>
+														<v8:content>Команды установки способа обеспечения склада</v8:content>
+													</v8:item>
+													<v8:item>
+														<v8:lang>en</v8:lang>
+														<v8:content>Commands of setting warehouse supply method</v8:content>
+													</v8:item>
+												</Title>
+												<ExtendedTooltip name="КомандыУстановкиСпособаОбеспеченияСкладаРасширеннаяПодсказка" id="1086"/>
+												<ChildItems>
+													<Button name="СписокСпособовОбеспеченияСкладаЗаполнитьСпособОбеспечения" id="783">
+														<Type>CommandBarButton</Type>
+														<CommandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
+														<ExtendedTooltip name="СписокСпособовОбеспеченияСкладаЗаполнитьСпособОбеспеченияРасширеннаяПодсказка" id="784"/>
+													</Button>
+													<Button name="СписокСпособовОбеспеченияСкладаОчиститьСпособОбеспечения" id="785">
+														<Type>CommandBarButton</Type>
+														<CommandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
+														<ExtendedTooltip name="СписокСпособовОбеспеченияСкладаОчиститьСпособОбеспеченияРасширеннаяПодсказка" id="786"/>
+													</Button>
+												</ChildItems>
+											</ButtonGroup>
+											<ButtonGroup name="КомандыУстановкиУпаковкиЗаказаСклада" id="1087">
+												<Title>
+													<v8:item>
+														<v8:lang>ru</v8:lang>
+														<v8:content>Команды установки упаковки заказа склада</v8:content>
+													</v8:item>
+													<v8:item>
+														<v8:lang>en</v8:lang>
+														<v8:content>Commands of setting warehouse order packaging</v8:content>
+													</v8:item>
+												</Title>
+												<ExtendedTooltip name="КомандыУстановкиУпаковкиЗаказаСкладаРасширеннаяПодсказка" id="1088"/>
+												<ChildItems>
+													<Button name="СписокСпособовОбеспеченияСкладаЗаполнитьУпаковкуЗаказаНаСкладе" id="1043">
+														<Type>CommandBarButton</Type>
+														<CommandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
+														<ExtendedTooltip name="СписокСпособовОбеспеченияСкладаЗаполнитьУпаковкуЗаказаНаСкладеРасширеннаяПодсказка" id="1044"/>
+													</Button>
+													<Button name="СписокСпособовОбеспеченияСкладаОчиститьУпаковкуЗаказаНаСкладе" id="1045">
+														<Type>CommandBarButton</Type>
+														<CommandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
+														<ExtendedTooltip name="СписокСпособовОбеспеченияСкладаОчиститьУпаковкуЗаказаНаСкладеРасширеннаяПодсказка" id="1046"/>
+													</Button>
+												</ChildItems>
+											</ButtonGroup>
+											<ButtonGroup name="КомандыФормыСпособовОбеспеченияСклада" id="1180">
+												<Title>
+													<v8:item>
+														<v8:lang>ru</v8:lang>
+														<v8:content>Команды формы способов обеспечения склада</v8:content>
+													</v8:item>
+													<v8:item>
+														<v8:lang>en</v8:lang>
+														<v8:content>Commands of warehouse supply method form</v8:content>
+													</v8:item>
+												</Title>
+												<ExtendedTooltip name="КомандыФормыСпособовОбеспеченияСкладаРасширеннаяПодсказка" id="1181"/>
+												<ChildItems>
+													<Button name="СписокСпособовОбеспеченияСкладаИзменитьФорму" id="1178">
+														<Type>CommandBarButton</Type>
+														<CommandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
+														<ExtendedTooltip name="СписокСпособовОбеспеченияСкладаИзменитьФормуРасширеннаяПодсказка" id="1179"/>
+													</Button>
+													<Button name="СписокСпособовОбеспеченияСкладаОткрытьСправкуОбработки" id="1111">
+														<Type>CommandBarButton</Type>
+														<CommandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
+														<LocationInCommandBar>InAdditionalSubmenu</LocationInCommandBar>
+														<ExtendedTooltip name="СписокСпособовОбеспеченияСкладаОткрытьСправкуОбработкиРасширеннаяПодсказка" id="1112"/>
+													</Button>
+												</ChildItems>
+											</ButtonGroup>
+										</ChildItems>
+									</CommandBar>
+									<Button name="СписокСпособовОбеспеченияСкладаОткрытьСправкуОбработкиКнопка" id="1200">
+										<Type>UsualButton</Type>
+										<CommandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
+										<ExtendedTooltip name="СписокСпособовОбеспеченияСкладаОткрытьСправкуОбработкиКнопкаРасширеннаяПодсказка" id="1201"/>
+									</Button>
+								</ChildItems>
+							</UsualGroup>
+							<UsualGroup name="ГруппаПользовательскихНастроекСпособовОбеспеченияСклада" id="1161">
+								<Title>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Пользовательских настроек способов обеспечения склада</v8:content>
+									</v8:item>
+									<v8:item>
+										<v8:lang>en</v8:lang>
+										<v8:content>User settings of warehouse supply methods</v8:content>
+									</v8:item>
+								</Title>
+								<Representation>None</Representation>
+								<ShowTitle>false</ShowTitle>
+								<ExtendedTooltip name="ГруппаПользовательскихНастроекСпособовОбеспеченияСкладаРасширеннаяПодсказка" id="1162"/>
+							</UsualGroup>
+							<Table name="СписокСпособовОбеспеченияСклада" id="1113">
+								<Representation>List</Representation>
+								<CommandBarLocation>None</CommandBarLocation>
+								<ChangeRowSet>false</ChangeRowSet>
+								<UseAlternationRowColor>true</UseAlternationRowColor>
+								<EnableStartDrag>true</EnableStartDrag>
+								<FileDragMode>AsFile</FileDragMode>
+								<DataPath>41</DataPath>
+								<RowPictureDataPath>41/10000000</RowPictureDataPath>
+								<Title>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Список способов обеспечения склада</v8:content>
+									</v8:item>
+									<v8:item>
+										<v8:lang>en</v8:lang>
+										<v8:content>List of warehouse supply methods</v8:content>
+									</v8:item>
+								</Title>
+								<SearchStringLocation>CommandBar</SearchStringLocation>
+								<SearchControlLocation>None</SearchControlLocation>
+								<AutoRefresh>false</AutoRefresh>
+								<AutoRefreshPeriod>60</AutoRefreshPeriod>
+								<Period>
+									<v8:variant xsi:type="v8:StandardPeriodVariant">Custom</v8:variant>
+									<v8:startDate>0001-01-01T00:00:00</v8:startDate>
+									<v8:endDate>0001-01-01T00:00:00</v8:endDate>
+								</Period>
+								<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
+								<RestoreCurrentRow>false</RestoreCurrentRow>
+								<TopLevelParent xsi:nil="true"/>
+								<ShowRoot>true</ShowRoot>
+								<AllowRootChoice>false</AllowRootChoice>
+								<UpdateOnDataChange>Auto</UpdateOnDataChange>
+								<UserSettingsGroup>ГруппаПользовательскихНастроекСпособовОбеспеченияСклада</UserSettingsGroup>
+								<ContextMenu name="СписокСпособовОбеспеченияСкладаКонтекстноеМеню" id="1114">
+									<Autofill>false</Autofill>
+									<ChildItems>
+										<ButtonGroup name="КонтекстноеМенюКомандыУстановкиСпособаОбеспеченияСклада" id="1091">
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Контекстное меню команды установки способа обеспечения склада</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Context menu commands of setting warehouse supply method</v8:content>
+												</v8:item>
+											</Title>
+											<ExtendedTooltip name="КонтекстноеМенюКомандыУстановкиСпособаОбеспеченияСкладаРасширеннаяПодсказка" id="1092"/>
+											<ChildItems>
+												<Button name="СписокСпособовОбеспеченияСкладаКонтекстноеМенюЗаполнитьСпособОбеспеченияСклада" id="1057">
+													<Type>CommandBarButton</Type>
+													<CommandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
+													<ExtendedTooltip name="СписокСпособовОбеспеченияСкладаКонтекстноеМенюЗаполнитьСпособОбеспеченияСкладаРасширеннаяПодсказка" id="1058"/>
+												</Button>
+												<Button name="СписокСпособовОбеспеченияСкладаКонтекстноеМенюОчиститьСпособОбеспеченияСклада" id="1059">
+													<Type>CommandBarButton</Type>
+													<CommandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
+													<ExtendedTooltip name="СписокСпособовОбеспеченияСкладаКонтекстноеМенюОчиститьСпособОбеспеченияСкладаРасширеннаяПодсказка" id="1060"/>
+												</Button>
+											</ChildItems>
+										</ButtonGroup>
+										<ButtonGroup name="КонтекстноеМенюКомандыУстановкиУпаковкиЗаказаСклада" id="1093">
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Контекстное меню команды установки упаковки заказа склада</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Context menu commands of setting warehouse order packaging</v8:content>
+												</v8:item>
+											</Title>
+											<ExtendedTooltip name="КонтекстноеМенюКомандыУстановкиУпаковкиЗаказаСкладаРасширеннаяПодсказка" id="1094"/>
+											<ChildItems>
+												<Button name="СписокСпособовОбеспеченияСкладаКонтекстноеМенюЗаполнитьУпаковкуЗаказаНаСкладе" id="1061">
+													<Type>CommandBarButton</Type>
+													<CommandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
+													<ExtendedTooltip name="СписокСпособовОбеспеченияСкладаКонтекстноеМенюЗаполнитьУпаковкуЗаказаНаСкладеРасширеннаяПодсказка" id="1062"/>
+												</Button>
+												<Button name="СписокСпособовОбеспеченияСкладаКонтекстноеМенюОчиститьУпаковкуЗаказаНаСкладе" id="1063">
+													<Type>CommandBarButton</Type>
+													<CommandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
+													<ExtendedTooltip name="СписокСпособовОбеспеченияСкладаКонтекстноеМенюОчиститьУпаковкуЗаказаНаСкладеРасширеннаяПодсказка" id="1064"/>
+												</Button>
+											</ChildItems>
+										</ButtonGroup>
+										<ButtonGroup name="КонтекстноеМенюСтандартныеКоманды" id="1163">
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Контекстное меню стандартные команды</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Context menu standard commands</v8:content>
+												</v8:item>
+											</Title>
+											<CommandSource>Item.СписокСпособовОбеспеченияСклада</CommandSource>
+											<ExtendedTooltip name="КонтекстноеМенюСтандартныеКомандыРасширеннаяПодсказка" id="1164"/>
+										</ButtonGroup>
+									</ChildItems>
+								</ContextMenu>
+								<AutoCommandBar name="СписокСпособовОбеспеченияСкладаКоманднаяПанель" id="1115"/>
+								<ExtendedTooltip name="СписокСпособовОбеспеченияСкладаРасширеннаяПодсказка" id="1116"/>
+								<SearchStringAddition name="СписокСпособовОбеспеченияСкладаСтрокаПоиска" id="1117">
+									<AdditionSource>
+										<Item>СписокСпособовОбеспеченияСклада</Item>
+										<Type>SearchStringRepresentation</Type>
+									</AdditionSource>
+									<ContextMenu name="СписокСпособовОбеспеченияСкладаСтрокаПоискаКонтекстноеМеню" id="1118"/>
+									<ExtendedTooltip name="СписокСпособовОбеспеченияСкладаСтрокаПоискаРасширеннаяПодсказка" id="1119"/>
+								</SearchStringAddition>
+								<ViewStatusAddition name="СписокСпособовОбеспеченияСкладаСостояниеПросмотра" id="1120">
+									<AdditionSource>
+										<Item>СписокСпособовОбеспеченияСклада</Item>
+										<Type>ViewStatusRepresentation</Type>
+									</AdditionSource>
+									<ContextMenu name="СписокСпособовОбеспеченияСкладаСостояниеПросмотраКонтекстноеМеню" id="1121"/>
+									<ExtendedTooltip name="СписокСпособовОбеспеченияСкладаСостояниеПросмотраРасширеннаяПодсказка" id="1122"/>
+								</ViewStatusAddition>
+								<SearchControlAddition name="СписокСпособовОбеспеченияСкладаУправлениеПоиском" id="1123">
+									<AdditionSource>
+										<Item>СписокСпособовОбеспеченияСклада</Item>
+										<Type>SearchControl</Type>
+									</AdditionSource>
+									<ContextMenu name="СписокСпособовОбеспеченияСкладаУправлениеПоискомКонтекстноеМеню" id="1124"/>
+									<ExtendedTooltip name="СписокСпособовОбеспеченияСкладаУправлениеПоискомРасширеннаяПодсказка" id="1125"/>
+								</SearchControlAddition>
+								<ChildItems>
+									<LabelField name="СписокСпособовОбеспеченияСкладаНоменклатура" id="1132">
+										<DataPath>41/3</DataPath>
+										<Title>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>Номенклатура</v8:content>
+											</v8:item>
+											<v8:item>
+												<v8:lang>en</v8:lang>
+												<v8:content>Products and services</v8:content>
+											</v8:item>
+										</Title>
+										<ContextMenu name="СписокСпособовОбеспеченияСкладаНоменклатураКонтекстноеМеню" id="1133"/>
+										<ExtendedTooltip name="СписокСпособовОбеспеченияСкладаНоменклатураРасширеннаяПодсказка" id="1134"/>
+									</LabelField>
+									<LabelField name="СписокСпособовОбеспеченияСкладаХарактеристика" id="1153">
+										<DataPath>41/13</DataPath>
+										<Title>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>Характеристика</v8:content>
+											</v8:item>
+											<v8:item>
+												<v8:lang>en</v8:lang>
+												<v8:content>Characteristic</v8:content>
+											</v8:item>
+										</Title>
+										<ContextMenu name="СписокСпособовОбеспеченияСкладаХарактеристикаКонтекстноеМеню" id="1154"/>
+										<ExtendedTooltip name="СписокСпособовОбеспеченияСкладаХарактеристикаРасширеннаяПодсказка" id="1155"/>
+									</LabelField>
+									<InputField name="СписокСпособовОбеспеченияСкладаИндивидуальнаяНастройка" id="1126">
+										<DataPath>41/14</DataPath>
+										<Title>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>Источник настройки</v8:content>
+											</v8:item>
+											<v8:item>
+												<v8:lang>en</v8:lang>
+												<v8:content>Setting source</v8:content>
+											</v8:item>
+										</Title>
+										<Width>5</Width>
+										<ContextMenu name="СписокСпособовОбеспеченияСкладаИндивидуальнаяНастройкаКонтекстноеМеню" id="1127"/>
+										<ExtendedTooltip name="СписокСпособовОбеспеченияСкладаИндивидуальнаяНастройкаРасширеннаяПодсказка" id="1128"/>
+									</InputField>
+									<ColumnGroup name="СписокСпособовОбеспеченияСкладаСхемаСпособ" id="1159">
+										<EnableContentChange>true</EnableContentChange>
+										<Title>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>Список способов обеспечения склада схема способ</v8:content>
+											</v8:item>
+											<v8:item>
+												<v8:lang>en</v8:lang>
+												<v8:content>List of warehouse fulfillment methods scheme method</v8:content>
+											</v8:item>
+										</Title>
+										<Group>InCell</Group>
+										<ExtendedTooltip name="СписокСпособовОбеспеченияСкладаСхемаСпособРасширеннаяПодсказка" id="1160"/>
+										<ChildItems>
+											<LabelField name="СписокСпособовОбеспеченияСкладаСхемаОбеспечения" id="1144">
+												<DataPath>41/19</DataPath>
+												<ContextMenu name="СписокСпособовОбеспеченияСкладаСхемаОбеспеченияКонтекстноеМеню" id="1145"/>
+												<ExtendedTooltip name="СписокСпособовОбеспеченияСкладаСхемаОбеспеченияРасширеннаяПодсказка" id="1146"/>
+											</LabelField>
+											<LabelField name="СписокСпособовОбеспеченияСкладаСпособОбеспечения" id="1138">
+												<DataPath>41/22</DataPath>
+												<Title>
+													<v8:item>
+														<v8:lang>ru</v8:lang>
+														<v8:content>Способ обеспечения</v8:content>
+													</v8:item>
+													<v8:item>
+														<v8:lang>en</v8:lang>
+														<v8:content>Supply method</v8:content>
+													</v8:item>
+												</Title>
+												<ContextMenu name="СписокСпособовОбеспеченияСкладаСпособОбеспеченияКонтекстноеМеню" id="1139"/>
+												<ExtendedTooltip name="СписокСпособовОбеспеченияСкладаСпособОбеспеченияРасширеннаяПодсказка" id="1140"/>
+											</LabelField>
+										</ChildItems>
+									</ColumnGroup>
+									<LabelField name="СписокСпособовОбеспеченияСкладаТипОбеспечения" id="1147">
+										<DataPath>41/26</DataPath>
+										<Title>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>Тип обеспечения</v8:content>
+											</v8:item>
+											<v8:item>
+												<v8:lang>en</v8:lang>
+												<v8:content>Supply type</v8:content>
+											</v8:item>
+										</Title>
+										<Width>5</Width>
+										<ContextMenu name="СписокСпособовОбеспеченияСкладаТипОбеспеченияКонтекстноеМеню" id="1148"/>
+										<ExtendedTooltip name="СписокСпособовОбеспеченияСкладаТипОбеспеченияРасширеннаяПодсказка" id="1149"/>
+									</LabelField>
+									<LabelField name="СписокСпособовОбеспеченияСкладаИсточникОбеспечения" id="1129">
+										<DataPath>41/27</DataPath>
+										<Title>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>Источник обеспечения</v8:content>
+											</v8:item>
+											<v8:item>
+												<v8:lang>en</v8:lang>
+												<v8:content>Supply source</v8:content>
+											</v8:item>
+										</Title>
+										<ContextMenu name="СписокСпособовОбеспеченияСкладаИсточникОбеспеченияКонтекстноеМеню" id="1130"/>
+										<ExtendedTooltip name="СписокСпособовОбеспеченияСкладаИсточникОбеспеченияРасширеннаяПодсказка" id="1131"/>
+									</LabelField>
+									<LabelField name="СписокСпособовОбеспеченияСкладаСрокПоставки" id="1156">
+										<DataPath>41/29</DataPath>
+										<Title>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>Срок поставки, дн.</v8:content>
+											</v8:item>
+											<v8:item>
+												<v8:lang>en</v8:lang>
+												<v8:content>Delivery period, days</v8:content>
+											</v8:item>
+										</Title>
+										<Width>5</Width>
+										<ContextMenu name="СписокСпособовОбеспеченияСкладаСрокПоставкиКонтекстноеМеню" id="1157"/>
+										<ExtendedTooltip name="СписокСпособовОбеспеченияСкладаСрокПоставкиРасширеннаяПодсказка" id="1158"/>
+									</LabelField>
+									<LabelField name="СписокСпособовОбеспеченияСкладаОбеспечиваемыйПериод" id="1135">
+										<DataPath>41/30</DataPath>
+										<Title>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>Обеспечиваемый период, дн.</v8:content>
+											</v8:item>
+											<v8:item>
+												<v8:lang>en</v8:lang>
+												<v8:content>Covered period, days</v8:content>
+											</v8:item>
+										</Title>
+										<Width>5</Width>
+										<ContextMenu name="СписокСпособовОбеспеченияСкладаОбеспечиваемыйПериодКонтекстноеМеню" id="1136"/>
+										<ExtendedTooltip name="СписокСпособовОбеспеченияСкладаОбеспечиваемыйПериодРасширеннаяПодсказка" id="1137"/>
+									</LabelField>
+									<LabelField name="СписокСпособовОбеспеченияСкладаУпаковкаЗаказа" id="1150">
+										<DataPath>41/31</DataPath>
+										<Title>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>Упаковка заказа</v8:content>
+											</v8:item>
+											<v8:item>
+												<v8:lang>en</v8:lang>
+												<v8:content>Order packaging</v8:content>
+											</v8:item>
+										</Title>
+										<Width>5</Width>
+										<ContextMenu name="СписокСпособовОбеспеченияСкладаУпаковкаЗаказаКонтекстноеМеню" id="1151"/>
+										<ExtendedTooltip name="СписокСпособовОбеспеченияСкладаУпаковкаЗаказаРасширеннаяПодсказка" id="1152"/>
+									</LabelField>
+								</ChildItems>
+							</Table>
+						</ChildItems>
+					</Page>
+					<Page name="СтраницаСпособыОбеспеченияНоменклатурой" id="554">
+						<Title>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Склады</v8:content>
+							</v8:item>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>Warehouses</v8:content>
+							</v8:item>
+						</Title>
+						<ExtendedTooltip name="СтраницаСпособыОбеспеченияНоменклатуройРасширеннаяПодсказка" id="555"/>
+						<ChildItems>
+							<UsualGroup name="ОтборПоХарактеристике" id="1189">
+								<Title>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Отбор по характеристике</v8:content>
+									</v8:item>
+									<v8:item>
+										<v8:lang>en</v8:lang>
+										<v8:content>Filter by characteristic</v8:content>
+									</v8:item>
+								</Title>
+								<Representation>None</Representation>
+								<ShowTitle>false</ShowTitle>
+								<ExtendedTooltip name="ОтборПоХарактеристикеРасширеннаяПодсказка" id="1190"/>
+								<ChildItems>
+									<InputField name="Характеристика" id="740">
+										<DataPath>44</DataPath>
+										<Title>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>Характеристика</v8:content>
+											</v8:item>
+											<v8:item>
+												<v8:lang>en</v8:lang>
+												<v8:content>Characteristic</v8:content>
+											</v8:item>
+										</Title>
+										<ClearButton>true</ClearButton>
+										<OpenButton>false</OpenButton>
+										<ChoiceParameterLinks>
+											<xr:Link>
+												<xr:Name>Номенклатура</xr:Name>
+												<xr:DataPath xsi:type="xs:string">43</xr:DataPath>
+												<xr:ValueChange>DontChange</xr:ValueChange>
+											</xr:Link>
+										</ChoiceParameterLinks>
+										<ContextMenu name="ХарактеристикаКонтекстноеМеню" id="741"/>
+										<ExtendedTooltip name="ХарактеристикаРасширеннаяПодсказка" id="742"/>
+									</InputField>
+									<LabelField name="СостояниеДоступностиИзмененияСпособа" id="1191">
+										<DataPath>1</DataPath>
+										<TitleLocation>None</TitleLocation>
+										<AutoMaxWidth>false</AutoMaxWidth>
+										<MaxWidth>55</MaxWidth>
+										<TextColor>style:ТекстИнформационнойНадписи</TextColor>
+										<ContextMenu name="СостояниеДоступностиИзмененияСпособаКонтекстноеМеню" id="1192"/>
+										<ExtendedTooltip name="СостояниеДоступностиИзмененияСпособаРасширеннаяПодсказка" id="1193"/>
+									</LabelField>
+								</ChildItems>
+							</UsualGroup>
+							<UsualGroup name="ШапкаСпискаСпособовОбеспечения" id="556">
+								<Title>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Шапка списка</v8:content>
+									</v8:item>
+									<v8:item>
+										<v8:lang>en</v8:lang>
+										<v8:content>List header</v8:content>
+									</v8:item>
+								</Title>
+								<Group>Horizontal</Group>
+								<Representation>None</Representation>
+								<ShowTitle>false</ShowTitle>
+								<ExtendedTooltip name="ШапкаСпискаСпособовОбеспеченияРасширеннаяПодсказка" id="557"/>
+								<ChildItems>
+									<UsualGroup name="РежимОтображения" id="558">
+										<Title>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>Режим отображения</v8:content>
+											</v8:item>
+											<v8:item>
+												<v8:lang>en</v8:lang>
+												<v8:content>Display mode</v8:content>
+											</v8:item>
+										</Title>
+										<Group>Vertical</Group>
+										<Representation>None</Representation>
+										<ShowTitle>false</ShowTitle>
+										<ExtendedTooltip name="РежимОтображенияРасширеннаяПодсказка" id="559"/>
+										<ChildItems>
+											<RadioButtonField name="Отображение" id="560">
+												<DataPath>24</DataPath>
+												<TitleLocation>Left</TitleLocation>
+												<RadioButtonType>Tumbler</RadioButtonType>
+												<ColumnsCount>2</ColumnsCount>
+												<ChoiceList>
+													<xr:Item>
+														<xr:Presentation/>
+														<xr:CheckState>0</xr:CheckState>
+														<xr:Value xsi:type="FormChoiceListDesTimeValue">
+															<Presentation>
+																<v8:item>
+																	<v8:lang>ru</v8:lang>
+																	<v8:content>По форматам</v8:content>
+																</v8:item>
+																<v8:item>
+																	<v8:lang>en</v8:lang>
+																	<v8:content>By formats</v8:content>
+																</v8:item>
+															</Presentation>
+															<Value xsi:type="xs:string">Форматы</Value>
+														</xr:Value>
+													</xr:Item>
+													<xr:Item>
+														<xr:Presentation/>
+														<xr:CheckState>0</xr:CheckState>
+														<xr:Value xsi:type="FormChoiceListDesTimeValue">
+															<Presentation>
+																<v8:item>
+																	<v8:lang>ru</v8:lang>
+																	<v8:content>По иерархии</v8:content>
+																</v8:item>
+																<v8:item>
+																	<v8:lang>en</v8:lang>
+																	<v8:content>By hierarchy</v8:content>
+																</v8:item>
+															</Presentation>
+															<Value xsi:type="xs:string">Склады</Value>
+														</xr:Value>
+													</xr:Item>
+												</ChoiceList>
+												<ContextMenu name="ОтображениеКонтекстноеМеню" id="561"/>
+												<ExtendedTooltip name="ОтображениеРасширеннаяПодсказка" id="562"/>
+											</RadioButtonField>
+										</ChildItems>
+									</UsualGroup>
+									<CommandBar name="КомандыСпискаСклады" id="563">
+										<Title>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>Команды списка склады</v8:content>
+											</v8:item>
+											<v8:item>
+												<v8:lang>en</v8:lang>
+												<v8:content>Commands of the warehouses list</v8:content>
+											</v8:item>
+										</Title>
+										<ExtendedTooltip name="КомандыСпискаСкладыРасширеннаяПодсказка" id="564"/>
+										<ChildItems>
+											<ButtonGroup name="КомандыУстановкиСпособаОбеспеченияНоменклатурой" id="919">
+												<Title>
+													<v8:item>
+														<v8:lang>ru</v8:lang>
+														<v8:content>Команды установки способа обеспечения номенклатурой</v8:content>
+													</v8:item>
+													<v8:item>
+														<v8:lang>en</v8:lang>
+														<v8:content>Commands of setting product supply method</v8:content>
+													</v8:item>
+												</Title>
+												<ExtendedTooltip name="КомандыУстановкиСпособаОбеспеченияНоменклатуройРасширеннаяПодсказка" id="920"/>
+												<ChildItems>
+													<Button name="ЗаполнитьСпособОбеспеченияНоменклатурой" id="565">
+														<Type>CommandBarButton</Type>
+														<CommandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
+														<ExtendedTooltip name="ЗаполнитьСпособОбеспеченияНоменклатуройРасширеннаяПодсказка" id="566"/>
+													</Button>
+													<Button name="ОчиститьСпособОбеспеченияНоменклатурой" id="567">
+														<Type>CommandBarButton</Type>
+														<CommandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
+														<ExtendedTooltip name="ОчиститьСпособОбеспеченияНоменклатуройРасширеннаяПодсказка" id="568"/>
+													</Button>
+												</ChildItems>
+											</ButtonGroup>
+											<ButtonGroup name="КомандыУстановкиУпаковкиЗаказаНоменклатурой" id="921">
+												<Title>
+													<v8:item>
+														<v8:lang>ru</v8:lang>
+														<v8:content>Команды установки упаковки заказа номенклатурой</v8:content>
+													</v8:item>
+													<v8:item>
+														<v8:lang>en</v8:lang>
+														<v8:content>Commands of setting order packaging by products</v8:content>
+													</v8:item>
+												</Title>
+												<ExtendedTooltip name="КомандыУстановкиУпаковкиЗаказаНоменклатуройРасширеннаяПодсказка" id="922"/>
+												<ChildItems>
+													<Button name="ЗаполнитьУпаковкуЗаказа" id="915">
+														<Type>CommandBarButton</Type>
+														<CommandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
+														<ExtendedTooltip name="ЗаполнитьУпаковкуЗаказаРасширеннаяПодсказка" id="916"/>
+													</Button>
+													<Button name="ОчиститьУпаковкуЗаказа" id="917">
+														<Type>CommandBarButton</Type>
+														<CommandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
+														<ExtendedTooltip name="ОчиститьУпаковкуЗаказаРасширеннаяПодсказка" id="918"/>
+													</Button>
+												</ChildItems>
+											</ButtonGroup>
+											<Button name="ОбновитьСписокДерево" id="911">
+												<Type>CommandBarButton</Type>
+												<CommandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
+												<ExtendedTooltip name="ОбновитьСписокДеревоРасширеннаяПодсказка" id="912"/>
+											</Button>
+											<ButtonGroup name="КомандыФормыСпособовОбеспеченияНоменклатурой" id="1182">
+												<Title>
+													<v8:item>
+														<v8:lang>ru</v8:lang>
+														<v8:content>Команды формы способов обеспечения номенклатурой</v8:content>
+													</v8:item>
+													<v8:item>
+														<v8:lang>en</v8:lang>
+														<v8:content>Commands forms of product supply methods</v8:content>
+													</v8:item>
+												</Title>
+												<ExtendedTooltip name="КомандыФормыСпособовОбеспеченияНоменклатуройРасширеннаяПодсказка" id="1183"/>
+												<ChildItems>
+													<Button name="ИзменитьФорму1" id="1184">
+														<Type>CommandBarButton</Type>
+														<CommandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
+														<ExtendedTooltip name="ИзменитьФорму1РасширеннаяПодсказка" id="1185"/>
+													</Button>
+													<Button name="ОткрытьСправку" id="1109">
+														<Type>CommandBarButton</Type>
+														<CommandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
+														<LocationInCommandBar>InAdditionalSubmenu</LocationInCommandBar>
+														<ExtendedTooltip name="ОткрытьСправкуРасширеннаяПодсказка" id="1110"/>
+													</Button>
+												</ChildItems>
+											</ButtonGroup>
+										</ChildItems>
+									</CommandBar>
+									<Button name="ОткрытьСправкуКнопка" id="1194">
+										<Type>UsualButton</Type>
+										<CommandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
+										<ExtendedTooltip name="ОткрытьСправкуКнопкаРасширеннаяПодсказка" id="1195"/>
+									</Button>
+								</ChildItems>
+							</UsualGroup>
+							<Pages name="СтраницыРежимОтображения" id="569">
+								<Title>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Страницы режим отображения</v8:content>
+									</v8:item>
+									<v8:item>
+										<v8:lang>en</v8:lang>
+										<v8:content>Pages display mode</v8:content>
+									</v8:item>
+								</Title>
+								<PagesRepresentation>None</PagesRepresentation>
+								<ExtendedTooltip name="СтраницыРежимОтображенияРасширеннаяПодсказка" id="570"/>
+								<ChildItems>
+									<Page name="СтраницаФорматы" id="571">
+										<Title>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>Страница форматы</v8:content>
+											</v8:item>
+											<v8:item>
+												<v8:lang>en</v8:lang>
+												<v8:content>Page formats</v8:content>
+											</v8:item>
+										</Title>
+										<ExtendedTooltip name="СтраницаФорматыРасширеннаяПодсказка" id="572"/>
+										<ChildItems>
+											<Table name="ДеревоФорматов" id="573">
+												<ReadOnly>true</ReadOnly>
+												<ChangeRowSet>false</ChangeRowSet>
+												<AutoInsertNewRow>true</AutoInsertNewRow>
+												<EnableStartDrag>true</EnableStartDrag>
+												<EnableDrag>true</EnableDrag>
+												<FileDragMode>AsFile</FileDragMode>
+												<DataPath>25</DataPath>
+												<RowPictureDataPath>25/10</RowPictureDataPath>
+												<RowsPicture>
+													<xr:Ref>CommonPicture.ПиктограммыЭлементов</xr:Ref>
+													<xr:LoadTransparent>false</xr:LoadTransparent>
+												</RowsPicture>
+												<Title>
+													<v8:item>
+														<v8:lang>ru</v8:lang>
+														<v8:content>Дерево форматов</v8:content>
+													</v8:item>
+													<v8:item>
+														<v8:lang>en</v8:lang>
+														<v8:content>Format tree</v8:content>
+													</v8:item>
+												</Title>
+												<ContextMenu name="ДеревоФорматовКонтекстноеМеню" id="574">
+													<ChildItems>
+														<ButtonGroup name="ДеревоФорматовКонтекстноеМенюКомандыУстановкиСпособаОбеспеченияНоменклатурой" id="1095">
+															<Title>
+																<v8:item>
+																	<v8:lang>ru</v8:lang>
+																	<v8:content>Дерево форматов контекстное меню команды установки способа обеспечения номенклатурой</v8:content>
+																</v8:item>
+																<v8:item>
+																	<v8:lang>en</v8:lang>
+																	<v8:content>Format tree context menu commands of setting product supply method</v8:content>
+																</v8:item>
+															</Title>
+															<ExtendedTooltip name="ДеревоФорматовКонтекстноеМенюКомандыУстановкиСпособаОбеспеченияНоменклатуройРасширеннаяПодсказка" id="1096"/>
+															<ChildItems>
+																<Button name="ДеревоФорматовКонтекстноеМенюЗаполнитьСпособОбеспеченияНоменклатурой" id="1065">
+																	<Type>CommandBarButton</Type>
+																	<CommandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
+																	<ExtendedTooltip name="ДеревоФорматовКонтекстноеМенюЗаполнитьСпособОбеспеченияНоменклатуройРасширеннаяПодсказка" id="1066"/>
+																</Button>
+																<Button name="ДеревоФорматовКонтекстноеМенюОчиститьСпособОбеспеченияНоменклатурой" id="1067">
+																	<Type>CommandBarButton</Type>
+																	<CommandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
+																	<ExtendedTooltip name="ДеревоФорматовКонтекстноеМенюОчиститьСпособОбеспеченияНоменклатуройРасширеннаяПодсказка" id="1068"/>
+																</Button>
+															</ChildItems>
+														</ButtonGroup>
+														<ButtonGroup name="ДеревоФорматовКонтекстноеМенюКомандыУстановкиУпаковкиЗаказаНоменклатурой" id="1097">
+															<Title>
+																<v8:item>
+																	<v8:lang>ru</v8:lang>
+																	<v8:content>Дерево форматов контекстное меню команды установки упаковки заказа номенклатурой</v8:content>
+																</v8:item>
+																<v8:item>
+																	<v8:lang>en</v8:lang>
+																	<v8:content>Format tree context menu commands of setting order packaging by products</v8:content>
+																</v8:item>
+															</Title>
+															<ExtendedTooltip name="ДеревоФорматовКонтекстноеМенюКомандыУстановкиУпаковкиЗаказаНоменклатуройРасширеннаяПодсказка" id="1098"/>
+															<ChildItems>
+																<Button name="ДеревоФорматовКонтекстноеМенюЗаполнитьУпаковкуЗаказаНоменклатуры" id="1069">
+																	<Type>CommandBarButton</Type>
+																	<CommandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
+																	<ExtendedTooltip name="ДеревоФорматовКонтекстноеМенюЗаполнитьУпаковкуЗаказаНоменклатурыРасширеннаяПодсказка" id="1070"/>
+																</Button>
+																<Button name="ДеревоФорматовКонтекстноеМенюОчиститьУпаковкуЗаказаНоменклатуры" id="1071">
+																	<Type>CommandBarButton</Type>
+																	<CommandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
+																	<ExtendedTooltip name="ДеревоФорматовКонтекстноеМенюОчиститьУпаковкуЗаказаНоменклатурыРасширеннаяПодсказка" id="1072"/>
+																</Button>
+															</ChildItems>
+														</ButtonGroup>
+													</ChildItems>
+												</ContextMenu>
+												<AutoCommandBar name="ДеревоФорматовКоманднаяПанель" id="575">
+													<Autofill>false</Autofill>
+												</AutoCommandBar>
+												<ExtendedTooltip name="ДеревоФорматовРасширеннаяПодсказка" id="576"/>
+												<SearchStringAddition name="ДеревоФорматовСтрокаПоиска" id="577">
+													<AdditionSource>
+														<Item>ДеревоФорматов</Item>
+														<Type>SearchStringRepresentation</Type>
+													</AdditionSource>
+													<ContextMenu name="ДеревоФорматовСтрокаПоискаКонтекстноеМеню" id="578"/>
+													<ExtendedTooltip name="ДеревоФорматовСтрокаПоискаРасширеннаяПодсказка" id="579"/>
+												</SearchStringAddition>
+												<ViewStatusAddition name="ДеревоФорматовСостояниеПросмотра" id="580">
+													<AdditionSource>
+														<Item>ДеревоФорматов</Item>
+														<Type>ViewStatusRepresentation</Type>
+													</AdditionSource>
+													<ContextMenu name="ДеревоФорматовСостояниеПросмотраКонтекстноеМеню" id="581"/>
+													<ExtendedTooltip name="ДеревоФорматовСостояниеПросмотраРасширеннаяПодсказка" id="582"/>
+												</ViewStatusAddition>
+												<SearchControlAddition name="ДеревоФорматовУправлениеПоиском" id="583">
+													<AdditionSource>
+														<Item>ДеревоФорматов</Item>
+														<Type>SearchControl</Type>
+													</AdditionSource>
+													<ContextMenu name="ДеревоФорматовУправлениеПоискомКонтекстноеМеню" id="584"/>
+													<ExtendedTooltip name="ДеревоФорматовУправлениеПоискомРасширеннаяПодсказка" id="585"/>
+												</SearchControlAddition>
+												<ChildItems>
+													<InputField name="ДеревоФорматовФорматСклад" id="648">
+														<DataPath>25/1</DataPath>
+														<ReadOnly>true</ReadOnly>
+														<EditMode>EnterOnInput</EditMode>
+														<Width>5</Width>
+														<HorizontalStretch>true</HorizontalStretch>
+														<ContextMenu name="ДеревоФорматовФорматСкладКонтекстноеМеню" id="649"/>
+														<ExtendedTooltip name="ДеревоФорматовФорматСкладРасширеннаяПодсказка" id="650"/>
+													</InputField>
+													<InputField name="ДеревоФорматовЕстьНастройкаДляТовара" id="1103">
+														<DataPath>25/14</DataPath>
+														<ReadOnly>true</ReadOnly>
+														<Title>
+															<v8:item>
+																<v8:lang>ru</v8:lang>
+																<v8:content>Источник настройки</v8:content>
+															</v8:item>
+															<v8:item>
+																<v8:lang>en</v8:lang>
+																<v8:content>Setting source</v8:content>
+															</v8:item>
+														</Title>
+														<EditMode>EnterOnInput</EditMode>
+														<Width>5</Width>
+														<ContextMenu name="ДеревоФорматовЕстьНастройкаДляТовараКонтекстноеМеню" id="1104"/>
+														<ExtendedTooltip name="ДеревоФорматовЕстьНастройкаДляТовараРасширеннаяПодсказка" id="1105"/>
+													</InputField>
+													<InputField name="ДеревоФорматовСпособОбеспечения" id="1006">
+														<DataPath>25/2</DataPath>
+														<ReadOnly>true</ReadOnly>
+														<EditMode>EnterOnInput</EditMode>
+														<Width>5</Width>
+														<ChoiceListHeight>1</ChoiceListHeight>
+														<ContextMenu name="ДеревоФорматовСпособОбеспеченияКонтекстноеМеню" id="1007"/>
+														<ExtendedTooltip name="ДеревоФорматовСпособОбеспеченияРасширеннаяПодсказка" id="1008"/>
+													</InputField>
+													<InputField name="ДеревоФорматовТипОбеспечения" id="1034">
+														<DataPath>25/9</DataPath>
+														<ReadOnly>true</ReadOnly>
+														<EditMode>EnterOnInput</EditMode>
+														<Width>5</Width>
+														<ContextMenu name="ДеревоФорматовТипОбеспеченияКонтекстноеМеню" id="1035"/>
+														<ExtendedTooltip name="ДеревоФорматовТипОбеспеченияРасширеннаяПодсказка" id="1036"/>
+													</InputField>
+													<InputField name="ДеревоФорматовИсточникОбеспечения" id="657">
+														<DataPath>25/3</DataPath>
+														<ReadOnly>true</ReadOnly>
+														<EditMode>EnterOnInput</EditMode>
+														<Width>5</Width>
+														<HorizontalStretch>true</HorizontalStretch>
+														<ContextMenu name="ДеревоФорматовИсточникОбеспеченияКонтекстноеМеню" id="658"/>
+														<ExtendedTooltip name="ДеревоФорматовИсточникОбеспеченияРасширеннаяПодсказка" id="659"/>
+													</InputField>
+													<InputField name="ДеревоФорматовСрокПоставки" id="660">
+														<DataPath>25/4</DataPath>
+														<ReadOnly>true</ReadOnly>
+														<Title>
+															<v8:item>
+																<v8:lang>ru</v8:lang>
+																<v8:content>Срок поставки, дн.</v8:content>
+															</v8:item>
+															<v8:item>
+																<v8:lang>en</v8:lang>
+																<v8:content>Delivery period, days</v8:content>
+															</v8:item>
+														</Title>
+														<EditMode>EnterOnInput</EditMode>
+														<Width>5</Width>
+														<ContextMenu name="ДеревоФорматовСрокПоставкиКонтекстноеМеню" id="661"/>
+														<ExtendedTooltip name="ДеревоФорматовСрокПоставкиРасширеннаяПодсказка" id="662"/>
+													</InputField>
+													<InputField name="ДеревоФорматовОбеспечиваемыйПериод" id="651">
+														<DataPath>25/5</DataPath>
+														<ReadOnly>true</ReadOnly>
+														<Title>
+															<v8:item>
+																<v8:lang>ru</v8:lang>
+																<v8:content>Обеспечиваемый период, дн.</v8:content>
+															</v8:item>
+															<v8:item>
+																<v8:lang>en</v8:lang>
+																<v8:content>Covered period, days</v8:content>
+															</v8:item>
+														</Title>
+														<EditMode>EnterOnInput</EditMode>
+														<Width>5</Width>
+														<HorizontalStretch>true</HorizontalStretch>
+														<ContextMenu name="ДеревоФорматовОбеспечиваемыйПериодКонтекстноеМеню" id="652"/>
+														<ExtendedTooltip name="ДеревоФорматовОбеспечиваемыйПериодРасширеннаяПодсказка" id="653"/>
+													</InputField>
+													<InputField name="ДеревоФорматовУпаковкаЗаказа" id="737">
+														<DataPath>25/12</DataPath>
+														<ReadOnly>true</ReadOnly>
+														<SkipOnInput>true</SkipOnInput>
+														<EditMode>EnterOnInput</EditMode>
+														<Width>5</Width>
+														<ChoiceParameterLinks>
+															<xr:Link>
+																<xr:Name>Отбор.НоменклатураМногооборотнаяТара</xr:Name>
+																<xr:DataPath xsi:type="xs:string">1</xr:DataPath>
+																<xr:ValueChange>Clear</xr:ValueChange>
+															</xr:Link>
+														</ChoiceParameterLinks>
+														<ContextMenu name="ДеревоФорматовУпаковкаЗаказаКонтекстноеМеню" id="738"/>
+														<ExtendedTooltip name="ДеревоФорматовУпаковкаЗаказаРасширеннаяПодсказка" id="739"/>
+													</InputField>
+												</ChildItems>
+											</Table>
+										</ChildItems>
+									</Page>
+									<Page name="СтраницаСклады" id="601">
+										<Title>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>Страница склады</v8:content>
+											</v8:item>
+											<v8:item>
+												<v8:lang>en</v8:lang>
+												<v8:content>Page warehouses</v8:content>
+											</v8:item>
+										</Title>
+										<ExtendedTooltip name="СтраницаСкладыРасширеннаяПодсказка" id="602"/>
+										<ChildItems>
+											<UsualGroup name="ГруппаПользовательскихНастроекСпискаСпособовОбеспечения" id="603">
+												<Title>
+													<v8:item>
+														<v8:lang>ru</v8:lang>
+														<v8:content>Пользовательских настроек списка способов обеспечения</v8:content>
+													</v8:item>
+													<v8:item>
+														<v8:lang>en</v8:lang>
+														<v8:content>User settings of supply method list</v8:content>
+													</v8:item>
+												</Title>
+												<Representation>None</Representation>
+												<ShowTitle>false</ShowTitle>
+												<ExtendedTooltip name="ГруппаПользовательскихНастроекСпискаСпособовОбеспеченияРасширеннаяПодсказка" id="604"/>
+											</UsualGroup>
+											<Table name="СписокСкладов" id="605">
+												<ReadOnly>true</ReadOnly>
+												<ChangeRowSet>false</ChangeRowSet>
+												<UseAlternationRowColor>true</UseAlternationRowColor>
+												<EnableStartDrag>true</EnableStartDrag>
+												<EnableDrag>true</EnableDrag>
+												<FileDragMode>AsFile</FileDragMode>
+												<DataPath>26</DataPath>
+												<RowPictureDataPath>26/10000000</RowPictureDataPath>
+												<Title>
+													<v8:item>
+														<v8:lang>ru</v8:lang>
+														<v8:content>Список складов</v8:content>
+													</v8:item>
+													<v8:item>
+														<v8:lang>en</v8:lang>
+														<v8:content>Warehouse list</v8:content>
+													</v8:item>
+												</Title>
+												<AutoRefresh>false</AutoRefresh>
+												<AutoRefreshPeriod>60</AutoRefreshPeriod>
+												<Period>
+													<v8:variant xsi:type="v8:StandardPeriodVariant">Custom</v8:variant>
+													<v8:startDate>0001-01-01T00:00:00</v8:startDate>
+													<v8:endDate>0001-01-01T00:00:00</v8:endDate>
+												</Period>
+												<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
+												<RestoreCurrentRow>false</RestoreCurrentRow>
+												<TopLevelParent xsi:nil="true"/>
+												<ShowRoot>true</ShowRoot>
+												<AllowRootChoice>false</AllowRootChoice>
+												<UpdateOnDataChange>Auto</UpdateOnDataChange>
+												<UserSettingsGroup>ГруппаПользовательскихНастроекСпискаСпособовОбеспечения</UserSettingsGroup>
+												<ContextMenu name="СписокСкладовКонтекстноеМеню" id="606">
+													<ChildItems>
+														<ButtonGroup name="СписокСкладовКонтекстноеМенюКомандыУстановкиСпособаОбеспеченияНоменклатурой" id="1099">
+															<Title>
+																<v8:item>
+																	<v8:lang>ru</v8:lang>
+																	<v8:content>Список складов контекстное меню команды установки способа обеспечения номенклатурой</v8:content>
+																</v8:item>
+																<v8:item>
+																	<v8:lang>en</v8:lang>
+																	<v8:content>Warehouse list context menu setting commands of product supply method</v8:content>
+																</v8:item>
+															</Title>
+															<ExtendedTooltip name="СписокСкладовКонтекстноеМенюКомандыУстановкиСпособаОбеспеченияНоменклатуройРасширеннаяПодсказка" id="1100"/>
+															<ChildItems>
+																<Button name="СписокСкладовКонтекстноеМенюЗаполнитьСпособОбеспеченияНоменклатурой" id="1073">
+																	<Type>CommandBarButton</Type>
+																	<CommandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
+																	<ExtendedTooltip name="СписокСкладовКонтекстноеМенюЗаполнитьСпособОбеспеченияНоменклатуройРасширеннаяПодсказка" id="1074"/>
+																</Button>
+																<Button name="СписокСкладовКонтекстноеМенюОчиститьСпособОбеспеченияНоменклатурой" id="1075">
+																	<Type>CommandBarButton</Type>
+																	<CommandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
+																	<ExtendedTooltip name="СписокСкладовКонтекстноеМенюОчиститьСпособОбеспеченияНоменклатуройРасширеннаяПодсказка" id="1076"/>
+																</Button>
+															</ChildItems>
+														</ButtonGroup>
+														<ButtonGroup name="СписокСкладовКонтекстноеМенюКомандыУстановкиУпаковкиЗаказаНоменклатурой" id="1101">
+															<Title>
+																<v8:item>
+																	<v8:lang>ru</v8:lang>
+																	<v8:content>Список складов контекстное меню команды установки упаковки заказа номенклатурой</v8:content>
+																</v8:item>
+																<v8:item>
+																	<v8:lang>en</v8:lang>
+																	<v8:content>Warehouse list context menu commands of setting order packaging by products</v8:content>
+																</v8:item>
+															</Title>
+															<ExtendedTooltip name="СписокСкладовКонтекстноеМенюКомандыУстановкиУпаковкиЗаказаНоменклатуройРасширеннаяПодсказка" id="1102"/>
+															<ChildItems>
+																<Button name="СписокСкладовКонтекстноеМенюЗаполнитьУпаковкуЗаказаНоменклатуры" id="1077">
+																	<Type>CommandBarButton</Type>
+																	<CommandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
+																	<ExtendedTooltip name="СписокСкладовКонтекстноеМенюЗаполнитьУпаковкуЗаказаНоменклатурыРасширеннаяПодсказка" id="1078"/>
+																</Button>
+																<Button name="СписокСкладовКонтекстноеМенюОчиститьУпаковкуЗаказаНоменклатуры" id="1079">
+																	<Type>CommandBarButton</Type>
+																	<CommandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
+																	<ExtendedTooltip name="СписокСкладовКонтекстноеМенюОчиститьУпаковкуЗаказаНоменклатурыРасширеннаяПодсказка" id="1080"/>
+																</Button>
+															</ChildItems>
+														</ButtonGroup>
+														<ButtonGroup name="СписокСкладовКонтекстноеМенюГруппаНастройкаСписка" id="636">
+															<Title>
+																<v8:item>
+																	<v8:lang>ru</v8:lang>
+																	<v8:content>Список складов контекстное меню группа настройка списка</v8:content>
+																</v8:item>
+																<v8:item>
+																	<v8:lang>en</v8:lang>
+																	<v8:content>Warehouse list context menu group list configuration</v8:content>
+																</v8:item>
+															</Title>
+															<ExtendedTooltip name="СписокСкладовКонтекстноеМенюГруппаНастройкаСпискаРасширеннаяПодсказка" id="637"/>
+															<ChildItems>
+																<Button name="СписокСкладовКонтекстноеМенюНастройкаСписка" id="638">
+																	<Type>CommandBarButton</Type>
+																	<CommandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
+																	<ExtendedTooltip name="СписокСкладовКонтекстноеМенюНастройкаСпискаРасширеннаяПодсказка" id="639"/>
+																</Button>
+																<Button name="СписокКонтекстноеМенюЗагрузитьНастройкиДинамическогоСписка" id="640">
+																	<Type>CommandBarButton</Type>
+																	<CommandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
+																	<ExtendedTooltip name="СписокКонтекстноеМенюЗагрузитьНастройкиДинамическогоСпискаРасширеннаяПодсказка" id="641"/>
+																</Button>
+																<Button name="СписокКонтекстноеМенюСохранитьНастройкиДинамическогоСписка" id="642">
+																	<Type>CommandBarButton</Type>
+																	<CommandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
+																	<ExtendedTooltip name="СписокКонтекстноеМенюСохранитьНастройкиДинамическогоСпискаРасширеннаяПодсказка" id="643"/>
+																</Button>
+																<Button name="СписокКонтекстноеМенюСтандартныеНастройкиДинамическогоСписка" id="644">
+																	<Type>CommandBarButton</Type>
+																	<CommandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
+																	<ExtendedTooltip name="СписокКонтекстноеМенюСтандартныеНастройкиДинамическогоСпискаРасширеннаяПодсказка" id="645"/>
+																</Button>
+															</ChildItems>
+														</ButtonGroup>
+														<Button name="СписокКонтекстноеМенюВывестиСписок" id="646">
+															<Type>CommandBarButton</Type>
+															<CommandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
+															<ExtendedTooltip name="СписокКонтекстноеМенюВывестиСписокРасширеннаяПодсказка" id="647"/>
+														</Button>
+													</ChildItems>
+												</ContextMenu>
+												<AutoCommandBar name="СписокСкладовКоманднаяПанель" id="607">
+													<Autofill>false</Autofill>
+												</AutoCommandBar>
+												<ExtendedTooltip name="СписокСкладовРасширеннаяПодсказка" id="608"/>
+												<SearchStringAddition name="СписокСкладовСтрокаПоиска" id="609">
+													<AdditionSource>
+														<Item>СписокСкладов</Item>
+														<Type>SearchStringRepresentation</Type>
+													</AdditionSource>
+													<ContextMenu name="СписокСкладовСтрокаПоискаКонтекстноеМеню" id="610"/>
+													<ExtendedTooltip name="СписокСкладовСтрокаПоискаРасширеннаяПодсказка" id="611"/>
+												</SearchStringAddition>
+												<ViewStatusAddition name="СписокСкладовСостояниеПросмотра" id="612">
+													<AdditionSource>
+														<Item>СписокСкладов</Item>
+														<Type>ViewStatusRepresentation</Type>
+													</AdditionSource>
+													<ContextMenu name="СписокСкладовСостояниеПросмотраКонтекстноеМеню" id="613"/>
+													<ExtendedTooltip name="СписокСкладовСостояниеПросмотраРасширеннаяПодсказка" id="614"/>
+												</ViewStatusAddition>
+												<SearchControlAddition name="СписокСкладовУправлениеПоиском" id="615">
+													<AdditionSource>
+														<Item>СписокСкладов</Item>
+														<Type>SearchControl</Type>
+													</AdditionSource>
+													<ContextMenu name="СписокСкладовУправлениеПоискомКонтекстноеМеню" id="616"/>
+													<ExtendedTooltip name="СписокСкладовУправлениеПоискомРасширеннаяПодсказка" id="617"/>
+												</SearchControlAddition>
+												<ChildItems>
+													<LabelField name="СписокСкладовСклад" id="663">
+														<DataPath>26/8</DataPath>
+														<Title>
+															<v8:item>
+																<v8:lang>ru</v8:lang>
+																<v8:content>Склад</v8:content>
+															</v8:item>
+															<v8:item>
+																<v8:lang>en</v8:lang>
+																<v8:content>Warehouse</v8:content>
+															</v8:item>
+														</Title>
+														<Width>5</Width>
+														<HorizontalStretch>true</HorizontalStretch>
+														<ContextMenu name="СписокСкладовСкладКонтекстноеМеню" id="664"/>
+														<ExtendedTooltip name="СписокСкладовСкладРасширеннаяПодсказка" id="665"/>
+													</LabelField>
+													<LabelField name="СписокСкладовФорматМагазина" id="666">
+														<DataPath>26/20</DataPath>
+														<Title>
+															<v8:item>
+																<v8:lang>ru</v8:lang>
+																<v8:content>Формат магазина (склада)</v8:content>
+															</v8:item>
+															<v8:item>
+																<v8:lang>en</v8:lang>
+																<v8:content>Store (warehouse) format</v8:content>
+															</v8:item>
+														</Title>
+														<Width>5</Width>
+														<HorizontalStretch>true</HorizontalStretch>
+														<ContextMenu name="СписокСкладовФорматМагазинаКонтекстноеМеню" id="667"/>
+														<ExtendedTooltip name="СписокСкладовФорматМагазинаРасширеннаяПодсказка" id="668"/>
+													</LabelField>
+													<InputField name="СписокСкладовЕстьНастройкаДляТовара" id="1106">
+														<DataPath>26/22</DataPath>
+														<Title>
+															<v8:item>
+																<v8:lang>ru</v8:lang>
+																<v8:content>Источник настройки</v8:content>
+															</v8:item>
+															<v8:item>
+																<v8:lang>en</v8:lang>
+																<v8:content>Setting source</v8:content>
+															</v8:item>
+														</Title>
+														<Width>5</Width>
+														<ContextMenu name="СписокСкладовЕстьНастройкаДляТовараКонтекстноеМеню" id="1107"/>
+														<ExtendedTooltip name="СписокСкладовЕстьНастройкаДляТовараРасширеннаяПодсказка" id="1108"/>
+													</InputField>
+													<LabelField name="СписокСкладовСпособОбеспечения" id="669">
+														<DataPath>26/29</DataPath>
+														<Title>
+															<v8:item>
+																<v8:lang>ru</v8:lang>
+																<v8:content>Способ обеспечения потребностей</v8:content>
+															</v8:item>
+															<v8:item>
+																<v8:lang>en</v8:lang>
+																<v8:content>Demand fulfillment method</v8:content>
+															</v8:item>
+														</Title>
+														<Width>5</Width>
+														<HorizontalStretch>true</HorizontalStretch>
+														<ContextMenu name="СписокСкладовСпособОбеспеченияКонтекстноеМеню" id="670"/>
+														<ExtendedTooltip name="СписокСкладовСпособОбеспеченияРасширеннаяПодсказка" id="671"/>
+													</LabelField>
+													<LabelField name="СписокСкладовТипОбеспечения" id="1037">
+														<DataPath>26/37</DataPath>
+														<Title>
+															<v8:item>
+																<v8:lang>ru</v8:lang>
+																<v8:content>Тип обеспечения</v8:content>
+															</v8:item>
+															<v8:item>
+																<v8:lang>en</v8:lang>
+																<v8:content>Supply type</v8:content>
+															</v8:item>
+														</Title>
+														<Width>5</Width>
+														<ContextMenu name="СписокСкладовТипОбеспеченияКонтекстноеМеню" id="1038"/>
+														<ExtendedTooltip name="СписокСкладовТипОбеспеченияРасширеннаяПодсказка" id="1039"/>
+													</LabelField>
+													<LabelField name="СписокСкладовИсточникОбеспечения" id="672">
+														<DataPath>26/42</DataPath>
+														<Title>
+															<v8:item>
+																<v8:lang>ru</v8:lang>
+																<v8:content>Источник обеспечения</v8:content>
+															</v8:item>
+															<v8:item>
+																<v8:lang>en</v8:lang>
+																<v8:content>Supply source</v8:content>
+															</v8:item>
+														</Title>
+														<Width>5</Width>
+														<HorizontalStretch>true</HorizontalStretch>
+														<ContextMenu name="СписокСкладовИсточникОбеспеченияКонтекстноеМеню" id="673"/>
+														<ExtendedTooltip name="СписокСкладовИсточникОбеспеченияРасширеннаяПодсказка" id="674"/>
+													</LabelField>
+													<LabelField name="СписокСкладовСрокПоставки" id="675">
+														<DataPath>26/48</DataPath>
+														<Title>
+															<v8:item>
+																<v8:lang>ru</v8:lang>
+																<v8:content>Срок поставки, дн</v8:content>
+															</v8:item>
+															<v8:item>
+																<v8:lang>en</v8:lang>
+																<v8:content>Delivery period, days</v8:content>
+															</v8:item>
+														</Title>
+														<Width>5</Width>
+														<HorizontalStretch>true</HorizontalStretch>
+														<ContextMenu name="СписокСкладовСрокПоставкиКонтекстноеМеню" id="676"/>
+														<ExtendedTooltip name="СписокСкладовСрокПоставкиРасширеннаяПодсказка" id="677"/>
+													</LabelField>
+													<LabelField name="СписокСкладовОбеспечиваемыйПериод" id="678">
+														<DataPath>26/53</DataPath>
+														<Title>
+															<v8:item>
+																<v8:lang>ru</v8:lang>
+																<v8:content>Обеспечиваемый период, дн</v8:content>
+															</v8:item>
+															<v8:item>
+																<v8:lang>en</v8:lang>
+																<v8:content>Covered period, days</v8:content>
+															</v8:item>
+														</Title>
+														<Width>5</Width>
+														<HorizontalStretch>true</HorizontalStretch>
+														<ContextMenu name="СписокСкладовОбеспечиваемыйПериодКонтекстноеМеню" id="679"/>
+														<ExtendedTooltip name="СписокСкладовОбеспечиваемыйПериодРасширеннаяПодсказка" id="680"/>
+													</LabelField>
+													<LabelField name="СписокСкладовУпаковкаЗаказа" id="734">
+														<DataPath>26/58</DataPath>
+														<Title>
+															<v8:item>
+																<v8:lang>ru</v8:lang>
+																<v8:content>Упаковка заказа</v8:content>
+															</v8:item>
+															<v8:item>
+																<v8:lang>en</v8:lang>
+																<v8:content>Order packaging</v8:content>
+															</v8:item>
+														</Title>
+														<Width>5</Width>
+														<ContextMenu name="СписокСкладовУпаковкаЗаказаКонтекстноеМеню" id="735"/>
+														<ExtendedTooltip name="СписокСкладовУпаковкаЗаказаРасширеннаяПодсказка" id="736"/>
+													</LabelField>
+												</ChildItems>
+											</Table>
+										</ChildItems>
+									</Page>
+								</ChildItems>
+							</Pages>
+						</ChildItems>
+					</Page>
+					<Page name="СтраницаНастройкаПодразделения" id="699">
+						<EnableContentChange>true</EnableContentChange>
+						<Title>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Производственные подразделения</v8:content>
+							</v8:item>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>Production departments</v8:content>
+							</v8:item>
+						</Title>
+						<ExtendedTooltip name="СтраницаНастройкаПодразделенияРасширеннаяПодсказка" id="700"/>
+						<ChildItems>
+							<UsualGroup name="ГруппаПользовательскихНастроекСпискаПодразделений" id="732">
+								<Title>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Пользовательских настроек списка подразделений</v8:content>
+									</v8:item>
+									<v8:item>
+										<v8:lang>en</v8:lang>
+										<v8:content>User settings of department list</v8:content>
+									</v8:item>
+								</Title>
+								<Representation>None</Representation>
+								<ShowTitle>false</ShowTitle>
+								<ExtendedTooltip name="ГруппаПользовательскихНастроекСпискаПодразделенийРасширеннаяПодсказка" id="733"/>
+							</UsualGroup>
+							<Table name="СписокПодразделений" id="701">
+								<ReadOnly>true</ReadOnly>
+								<ChangeRowSet>false</ChangeRowSet>
+								<UseAlternationRowColor>true</UseAlternationRowColor>
+								<EnableStartDrag>true</EnableStartDrag>
+								<EnableDrag>true</EnableDrag>
+								<FileDragMode>AsFile</FileDragMode>
+								<DataPath>29</DataPath>
+								<RowPictureDataPath>29/10000000</RowPictureDataPath>
+								<Title>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Список подразделений</v8:content>
+									</v8:item>
+									<v8:item>
+										<v8:lang>en</v8:lang>
+										<v8:content>Department list</v8:content>
+									</v8:item>
+								</Title>
+								<SearchStringLocation>CommandBar</SearchStringLocation>
+								<SearchControlLocation>None</SearchControlLocation>
+								<AutoRefresh>false</AutoRefresh>
+								<AutoRefreshPeriod>60</AutoRefreshPeriod>
+								<Period>
+									<v8:variant xsi:type="v8:StandardPeriodVariant">Custom</v8:variant>
+									<v8:startDate>0001-01-01T00:00:00</v8:startDate>
+									<v8:endDate>0001-01-01T00:00:00</v8:endDate>
+								</Period>
+								<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
+								<RestoreCurrentRow>false</RestoreCurrentRow>
+								<TopLevelParent xsi:nil="true"/>
+								<ShowRoot>true</ShowRoot>
+								<AllowRootChoice>false</AllowRootChoice>
+								<UpdateOnDataChange>Auto</UpdateOnDataChange>
+								<UserSettingsGroup>ГруппаПользовательскихНастроекСпискаПодразделений</UserSettingsGroup>
+								<ContextMenu name="СписокПодразделенийКонтекстноеМеню" id="702">
+									<ChildItems>
+										<ButtonGroup name="СписокПодразделенийКонтекстноеМенюКомандыУстановкиСклада" id="1168">
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Список подразделений контекстное меню команды установки склада</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Department list context menu warehouse setting commands</v8:content>
+												</v8:item>
+											</Title>
+											<ExtendedTooltip name="СписокПодразделенийКонтекстноеМенюКомандыУстановкиСкладаРасширеннаяПодсказка" id="1169"/>
+											<ChildItems>
+												<Button name="СписокПодразделенийКонтекстноеМенюЗаполнитьСклад" id="1081">
+													<Type>CommandBarButton</Type>
+													<CommandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
+													<ExtendedTooltip name="СписокПодразделенийКонтекстноеМенюЗаполнитьСкладРасширеннаяПодсказка" id="1082"/>
+												</Button>
+												<Button name="СписокПодразделенийКонтекстноеМенюОчиститьСклад" id="1083">
+													<Type>CommandBarButton</Type>
+													<CommandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
+													<ExtendedTooltip name="СписокПодразделенийКонтекстноеМенюОчиститьСкладРасширеннаяПодсказка" id="1084"/>
+												</Button>
+											</ChildItems>
+										</ButtonGroup>
+									</ChildItems>
+								</ContextMenu>
+								<AutoCommandBar name="СписокПодразделенийКоманднаяПанель" id="703">
+									<ChildItems>
+										<ButtonGroup name="СписокПодразделенийГруппаКомандУстановкиСклада" id="724">
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Список подразделений группа команд установки склада</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Department list warehouse setting command group</v8:content>
+												</v8:item>
+											</Title>
+											<ExtendedTooltip name="СписокПодразделенийГруппаКомандУстановкиСкладаРасширеннаяПодсказка" id="725"/>
+											<ChildItems>
+												<Button name="СписокПодразделенийЗаполнитьСклад" id="720">
+													<Type>CommandBarButton</Type>
+													<CommandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
+													<ExtendedTooltip name="СписокПодразделенийЗаполнитьСкладРасширеннаяПодсказка" id="721"/>
+												</Button>
+												<Button name="СписокПодразделенийОчиститьСклад" id="722">
+													<Type>CommandBarButton</Type>
+													<CommandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
+													<ExtendedTooltip name="СписокПодразделенийОчиститьСкладРасширеннаяПодсказка" id="723"/>
+												</Button>
+											</ChildItems>
+										</ButtonGroup>
+									</ChildItems>
+								</AutoCommandBar>
+								<ExtendedTooltip name="СписокПодразделенийРасширеннаяПодсказка" id="704"/>
+								<SearchStringAddition name="СписокПодразделенийСтрокаПоиска" id="705">
+									<AdditionSource>
+										<Item>СписокПодразделений</Item>
+										<Type>SearchStringRepresentation</Type>
+									</AdditionSource>
+									<ContextMenu name="СписокПодразделенийСтрокаПоискаКонтекстноеМеню" id="706"/>
+									<ExtendedTooltip name="СписокПодразделенийСтрокаПоискаРасширеннаяПодсказка" id="707"/>
+								</SearchStringAddition>
+								<ViewStatusAddition name="СписокПодразделенийСостояниеПросмотра" id="708">
+									<AdditionSource>
+										<Item>СписокПодразделений</Item>
+										<Type>ViewStatusRepresentation</Type>
+									</AdditionSource>
+									<ContextMenu name="СписокПодразделенийСостояниеПросмотраКонтекстноеМеню" id="709"/>
+									<ExtendedTooltip name="СписокПодразделенийСостояниеПросмотраРасширеннаяПодсказка" id="710"/>
+								</ViewStatusAddition>
+								<SearchControlAddition name="СписокПодразделенийУправлениеПоиском" id="711">
+									<AdditionSource>
+										<Item>СписокПодразделений</Item>
+										<Type>SearchControl</Type>
+									</AdditionSource>
+									<ContextMenu name="СписокПодразделенийУправлениеПоискомКонтекстноеМеню" id="712"/>
+									<ExtendedTooltip name="СписокПодразделенийУправлениеПоискомРасширеннаяПодсказка" id="713"/>
+								</SearchControlAddition>
+								<ChildItems>
+									<LabelField name="СписокПодразделенийНаименование" id="726">
+										<DataPath>29/2</DataPath>
+										<Title>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>Подразделение</v8:content>
+											</v8:item>
+											<v8:item>
+												<v8:lang>en</v8:lang>
+												<v8:content>Department</v8:content>
+											</v8:item>
+										</Title>
+										<ContextMenu name="СписокПодразделенийНаименованиеКонтекстноеМеню" id="727"/>
+										<ExtendedTooltip name="СписокПодразделенийНаименованиеРасширеннаяПодсказка" id="728"/>
+									</LabelField>
+									<LabelField name="СписокПодразделенийСклад" id="729">
+										<DataPath>29/7</DataPath>
+										<Title>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>Склад</v8:content>
+											</v8:item>
+											<v8:item>
+												<v8:lang>en</v8:lang>
+												<v8:content>Warehouse</v8:content>
+											</v8:item>
+										</Title>
+										<ContextMenu name="СписокПодразделенийСкладКонтекстноеМеню" id="730"/>
+										<ExtendedTooltip name="СписокПодразделенийСкладРасширеннаяПодсказка" id="731"/>
+									</LabelField>
+								</ChildItems>
+							</Table>
+						</ChildItems>
+					</Page>
+				</ChildItems>
+			</Pages>
+		</ChildItems>
+		<Attributes/>
+	</BaseForm>
+</Form>

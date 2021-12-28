@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.10">
+	<DataProcessor uuid="b09b6948-9974-4ccb-a185-3b21ef91b582">
+		<InternalInfo>
+			<xr:GeneratedType name="DataProcessorObject.ПечатьАктыОРасхождениях" category="Object">
+				<xr:TypeId>54aaa1ca-0ec3-436c-ace9-0bb5693886f1</xr:TypeId>
+				<xr:ValueId>f5cf3e9c-fdc0-4bd1-8603-b8265bba333e</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DataProcessorManager.ПечатьАктыОРасхождениях" category="Manager">
+				<xr:TypeId>fe364460-6cf7-40b5-abde-888fc45f863f</xr:TypeId>
+				<xr:ValueId>4ec1de52-199b-4f0f-91e6-9434685e2c8a</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ПечатьАктыОРасхождениях</Name>
+			<Comment/>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<ExtendedConfigurationObject>7c3766ad-0484-41e6-bff7-5c43e6b4e0e9</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects>
+			<Template>ПФ_MXL_ТОРГ2_ru</Template>
+		</ChildObjects>
+	</DataProcessor>
+</MetaDataObject>

@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.10">
+	<Document uuid="3d0b53cb-a761-41f6-ba72-03379dacd084">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.ГИГ_ЕжедневнаяВыработка" category="Object">
+				<xr:TypeId>9672e7c8-95dc-4849-a8a5-c946859fde77</xr:TypeId>
+				<xr:ValueId>16b68b0e-02ff-4844-a5f6-057a4ed6f3df</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.ГИГ_ЕжедневнаяВыработка" category="Ref">
+				<xr:TypeId>f622a1c3-321d-4e39-8d0b-582382a640a9</xr:TypeId>
+				<xr:ValueId>eee74a73-8496-4d4f-83c7-ac8f61aef1c2</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.ГИГ_ЕжедневнаяВыработка" category="Selection">
+				<xr:TypeId>79428d32-e10c-4d31-845e-77a39810de25</xr:TypeId>
+				<xr:ValueId>2caa6267-59df-4864-b7d3-c51969fcbf21</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.ГИГ_ЕжедневнаяВыработка" category="List">
+				<xr:TypeId>a919d1cf-5a62-4c4f-b9c7-aa8a908be64f</xr:TypeId>
+				<xr:ValueId>59cda01a-ac8b-4e6f-87f1-5d935332e7d3</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.ГИГ_ЕжедневнаяВыработка" category="Manager">
+				<xr:TypeId>ad5e253a-74ef-474c-aff0-8125fc13776d</xr:TypeId>
+				<xr:ValueId>08ef7329-0ed9-4dd6-9cb5-680930d3fcfc</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ГИГ_ЕжедневнаяВыработка</Name>
+			<Comment/>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects/>
+	</Document>
+</MetaDataObject>

@@ -1,0 +1,352 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.10">
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
+		<ChildItems>
+			<Button name="ФормаВыполнитьЗапрос" id="109">
+				<Type>CommandBarButton</Type>
+				<DefaultButton>true</DefaultButton>
+				<CommandName>Form.Command.ВыполнитьЗапрос</CommandName>
+				<ExtendedTooltip name="ФормаВыполнитьЗапросРасширеннаяПодсказка" id="110"/>
+			</Button>
+			<Button name="ФормаПрименитьИзменения" id="111">
+				<Type>CommandBarButton</Type>
+				<CommandName>Form.Command.ПрименитьИзменения</CommandName>
+				<ExtendedTooltip name="ФормаПрименитьИзмененияРасширеннаяПодсказка" id="112"/>
+			</Button>
+		</ChildItems>
+	</AutoCommandBar>
+	<ChildItems>
+		<InputField name="Производитель" id="4">
+			<DataPath>Объект.Производитель</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ContextMenu name="ПроизводительКонтекстноеМеню" id="5"/>
+			<ExtendedTooltip name="ПроизводительРасширеннаяПодсказка" id="6"/>
+		</InputField>
+		<InputField name="Номенклатура" id="1">
+			<DataPath>Объект.Номенклатура</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ContextMenu name="НоменклатураКонтекстноеМеню" id="2"/>
+			<ExtendedTooltip name="НоменклатураРасширеннаяПодсказка" id="3"/>
+		</InputField>
+		<Table name="Результат" id="113">
+			<AutoInsertNewRow>true</AutoInsertNewRow>
+			<EnableStartDrag>true</EnableStartDrag>
+			<EnableDrag>true</EnableDrag>
+			<DataPath>Объект.Результат</DataPath>
+			<RowFilter xsi:nil="true"/>
+			<ContextMenu name="РезультатКонтекстноеМеню" id="114"/>
+			<AutoCommandBar name="РезультатКоманднаяПанель" id="115"/>
+			<ExtendedTooltip name="РезультатРасширеннаяПодсказка" id="116"/>
+			<SearchStringAddition name="РезультатСтрокаПоиска" id="117">
+				<AdditionSource>
+					<Item>Результат</Item>
+					<Type>SearchStringRepresentation</Type>
+				</AdditionSource>
+				<ContextMenu name="РезультатСтрокаПоискаКонтекстноеМеню" id="118"/>
+				<ExtendedTooltip name="РезультатСтрокаПоискаРасширеннаяПодсказка" id="119"/>
+			</SearchStringAddition>
+			<ViewStatusAddition name="РезультатСостояниеПросмотра" id="120">
+				<AdditionSource>
+					<Item>Результат</Item>
+					<Type>ViewStatusRepresentation</Type>
+				</AdditionSource>
+				<ContextMenu name="РезультатСостояниеПросмотраКонтекстноеМеню" id="121"/>
+				<ExtendedTooltip name="РезультатСостояниеПросмотраРасширеннаяПодсказка" id="122"/>
+			</ViewStatusAddition>
+			<SearchControlAddition name="РезультатУправлениеПоиском" id="123">
+				<AdditionSource>
+					<Item>Результат</Item>
+					<Type>SearchControl</Type>
+				</AdditionSource>
+				<ContextMenu name="РезультатУправлениеПоискомКонтекстноеМеню" id="124"/>
+				<ExtendedTooltip name="РезультатУправлениеПоискомРасширеннаяПодсказка" id="125"/>
+			</SearchControlAddition>
+			<ChildItems>
+				<CheckBoxField name="РезультатПометка" id="183">
+					<DataPath>Объект.Результат.Пометка</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<CheckBoxType>Auto</CheckBoxType>
+					<ContextMenu name="РезультатПометкаКонтекстноеМеню" id="184"/>
+					<ExtendedTooltip name="РезультатПометкаРасширеннаяПодсказка" id="185"/>
+				</CheckBoxField>
+				<InputField name="РезультатНоменклатура" id="180">
+					<DataPath>Объект.Результат.Номенклатура</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="РезультатНоменклатураКонтекстноеМеню" id="181"/>
+					<ExtendedTooltip name="РезультатНоменклатураРасширеннаяПодсказка" id="182"/>
+				</InputField>
+				<InputField name="РезультатАртикул" id="129">
+					<DataPath>Объект.Результат.Артикул</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="РезультатАртикулКонтекстноеМеню" id="130"/>
+					<ExtendedTooltip name="РезультатАртикулРасширеннаяПодсказка" id="131"/>
+				</InputField>
+				<InputField name="РезультатСвойство" id="135">
+					<DataPath>Объект.Результат.Свойство</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="РезультатСвойствоКонтекстноеМеню" id="136"/>
+					<ExtendedTooltip name="РезультатСвойствоРасширеннаяПодсказка" id="137"/>
+				</InputField>
+				<InputField name="РезультатГруппаПредставление" id="138">
+					<DataPath>Объект.Результат.ГруппаПредставление</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="РезультатГруппаПредставлениеКонтекстноеМеню" id="139"/>
+					<ExtendedTooltip name="РезультатГруппаПредставлениеРасширеннаяПодсказка" id="140"/>
+				</InputField>
+				<InputField name="РезультатКлассПредставление" id="141">
+					<DataPath>Объект.Результат.КлассПредставление</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="РезультатКлассПредставлениеКонтекстноеМеню" id="142"/>
+					<ExtendedTooltip name="РезультатКлассПредставлениеРасширеннаяПодсказка" id="143"/>
+				</InputField>
+				<InputField name="РезультатСвойствоПредставление" id="144">
+					<DataPath>Объект.Результат.СвойствоПредставление</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="РезультатСвойствоПредставлениеКонтекстноеМеню" id="145"/>
+					<ExtendedTooltip name="РезультатСвойствоПредставлениеРасширеннаяПодсказка" id="146"/>
+				</InputField>
+				<InputField name="РезультатValue_A" id="147">
+					<DataPath>Объект.Результат.Value_A</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="РезультатValue_AКонтекстноеМеню" id="148"/>
+					<ExtendedTooltip name="РезультатValue_AРасширеннаяПодсказка" id="149"/>
+				</InputField>
+				<InputField name="РезультатValue_L" id="150">
+					<DataPath>Объект.Результат.Value_L</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="РезультатValue_LКонтекстноеМеню" id="151"/>
+					<ExtendedTooltip name="РезультатValue_LРасширеннаяПодсказка" id="152"/>
+				</InputField>
+				<InputField name="РезультатValue_N" id="153">
+					<DataPath>Объект.Результат.Value_N</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="РезультатValue_NКонтекстноеМеню" id="154"/>
+					<ExtendedTooltip name="РезультатValue_NРасширеннаяПодсказка" id="155"/>
+				</InputField>
+				<InputField name="РезультатЗначение_R_API" id="156">
+					<DataPath>Объект.Результат.Значение_R_API</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="РезультатЗначение_R_APIКонтекстноеМеню" id="157"/>
+					<ExtendedTooltip name="РезультатЗначение_R_APIРасширеннаяПодсказка" id="158"/>
+				</InputField>
+				<InputField name="РезультатЗначениеR1_API" id="159">
+					<DataPath>Объект.Результат.ЗначениеR1_API</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="РезультатЗначениеR1_APIКонтекстноеМеню" id="160"/>
+					<ExtendedTooltip name="РезультатЗначениеR1_APIРасширеннаяПодсказка" id="161"/>
+				</InputField>
+				<InputField name="РезультатValue_RZ" id="162">
+					<DataPath>Объект.Результат.Value_RZ</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="РезультатValue_RZКонтекстноеМеню" id="163"/>
+					<ExtendedTooltip name="РезультатValue_RZРасширеннаяПодсказка" id="164"/>
+				</InputField>
+				<InputField name="РезультатКлассAPI" id="165">
+					<DataPath>Объект.Результат.КлассAPI</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="РезультатКлассAPIКонтекстноеМеню" id="166"/>
+					<ExtendedTooltip name="РезультатКлассAPIРасширеннаяПодсказка" id="167"/>
+				</InputField>
+				<InputField name="РезультатСвойствоAPI" id="168">
+					<DataPath>Объект.Результат.СвойствоAPI</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="РезультатСвойствоAPIКонтекстноеМеню" id="169"/>
+					<ExtendedTooltip name="РезультатСвойствоAPIРасширеннаяПодсказка" id="170"/>
+				</InputField>
+				<InputField name="РезультатЗначениеAPI" id="171">
+					<DataPath>Объект.Результат.ЗначениеAPI</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="РезультатЗначениеAPIКонтекстноеМеню" id="172"/>
+					<ExtendedTooltip name="РезультатЗначениеAPIРасширеннаяПодсказка" id="173"/>
+				</InputField>
+				<InputField name="РезультатValue_R" id="174">
+					<DataPath>Объект.Результат.Value_R</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="РезультатValue_RКонтекстноеМеню" id="175"/>
+					<ExtendedTooltip name="РезультатValue_RРасширеннаяПодсказка" id="176"/>
+				</InputField>
+				<InputField name="РезультатValue_R1" id="177">
+					<DataPath>Объект.Результат.Value_R1</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="РезультатValue_R1КонтекстноеМеню" id="178"/>
+					<ExtendedTooltip name="РезультатValue_R1РасширеннаяПодсказка" id="179"/>
+				</InputField>
+			</ChildItems>
+		</Table>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Объект" id="1">
+			<Type>
+				<v8:Type>cfg:DataProcessorObject.API_SE_ЗагрузкаETIM</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+			<Columns>
+				<AdditionalColumns table="Объект.Результат">
+					<Column name="Пометка" id="1">
+						<Title>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Пометка</v8:content>
+							</v8:item>
+						</Title>
+						<Type>
+							<v8:Type>xs:boolean</v8:Type>
+						</Type>
+					</Column>
+				</AdditionalColumns>
+			</Columns>
+		</Attribute>
+		<ConditionalAppearance>
+			<dcsset:item>
+				<dcsset:selection>
+					<dcsset:item>
+						<dcsset:field>РезультатВес</dcsset:field>
+					</dcsset:item>
+				</dcsset:selection>
+				<dcsset:filter>
+					<dcsset:item xsi:type="dcsset:FilterItemComparison">
+						<dcsset:left xsi:type="dcscor:Field">Объект.Результат.Вес</dcsset:left>
+						<dcsset:comparisonType>NotEqual</dcsset:comparisonType>
+						<dcsset:right xsi:type="dcscor:Field">Объект.Результат.ВесAPI</dcsset:right>
+					</dcsset:item>
+				</dcsset:filter>
+				<dcsset:appearance>
+					<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+						<dcscor:parameter>ЦветФона</dcscor:parameter>
+						<dcscor:value xsi:type="v8ui:Color">style:ПолеСОшибкойФон</dcscor:value>
+					</dcscor:item>
+				</dcsset:appearance>
+			</dcsset:item>
+			<dcsset:item>
+				<dcsset:selection>
+					<dcsset:item>
+						<dcsset:field>РезультатДлина</dcsset:field>
+					</dcsset:item>
+				</dcsset:selection>
+				<dcsset:filter>
+					<dcsset:item xsi:type="dcsset:FilterItemComparison">
+						<dcsset:left xsi:type="dcscor:Field">Объект.Результат.Длина</dcsset:left>
+						<dcsset:comparisonType>NotEqual</dcsset:comparisonType>
+						<dcsset:right xsi:type="dcscor:Field">Объект.Результат.ДлинаAPI</dcsset:right>
+					</dcsset:item>
+				</dcsset:filter>
+				<dcsset:appearance>
+					<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+						<dcscor:parameter>ЦветФона</dcscor:parameter>
+						<dcscor:value xsi:type="v8ui:Color">style:ПолеСОшибкойФон</dcscor:value>
+					</dcscor:item>
+				</dcsset:appearance>
+			</dcsset:item>
+			<dcsset:item>
+				<dcsset:selection>
+					<dcsset:item>
+						<dcsset:field>РезультатОбъем</dcsset:field>
+					</dcsset:item>
+				</dcsset:selection>
+				<dcsset:filter>
+					<dcsset:item xsi:type="dcsset:FilterItemComparison">
+						<dcsset:left xsi:type="dcscor:Field">Объект.Результат.Объем</dcsset:left>
+						<dcsset:comparisonType>NotEqual</dcsset:comparisonType>
+						<dcsset:right xsi:type="dcscor:Field">Объект.Результат.ОбъемAPI</dcsset:right>
+					</dcsset:item>
+				</dcsset:filter>
+				<dcsset:appearance>
+					<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+						<dcscor:parameter>ЦветФона</dcscor:parameter>
+						<dcscor:value xsi:type="v8ui:Color">style:ПолеСОшибкойФон</dcscor:value>
+					</dcscor:item>
+				</dcsset:appearance>
+			</dcsset:item>
+			<dcsset:item>
+				<dcsset:selection>
+					<dcsset:item>
+						<dcsset:field>РезультатШтрихкод</dcsset:field>
+					</dcsset:item>
+				</dcsset:selection>
+				<dcsset:filter>
+					<dcsset:item xsi:type="dcsset:FilterItemComparison">
+						<dcsset:left xsi:type="dcscor:Field">Объект.Результат.Штрихкод</dcsset:left>
+						<dcsset:comparisonType>NotEqual</dcsset:comparisonType>
+						<dcsset:right xsi:type="dcscor:Field">Объект.Результат.ШтрихкодAPI</dcsset:right>
+					</dcsset:item>
+				</dcsset:filter>
+				<dcsset:appearance>
+					<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+						<dcscor:parameter>ЦветФона</dcscor:parameter>
+						<dcscor:value xsi:type="v8ui:Color">style:ПолеСОшибкойФон</dcscor:value>
+					</dcscor:item>
+				</dcsset:appearance>
+			</dcsset:item>
+		</ConditionalAppearance>
+	</Attributes>
+	<Commands>
+		<Command name="ВыполнитьЗапрос" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Выполнить запрос</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Выполнить запрос</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ВыполнитьЗапрос</Action>
+		</Command>
+		<Command name="ПрименитьИзменения" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Применить изменения</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Применить изменения</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ПрименитьИзменения</Action>
+		</Command>
+		<Command name="УстановитьПометку" id="3">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Установить пометку</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Установить пометку</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Picture>
+				<xr:Ref>StdPicture.CheckAll</xr:Ref>
+				<xr:LoadTransparent>true</xr:LoadTransparent>
+			</Picture>
+			<Action>УстановитьПометку</Action>
+		</Command>
+		<Command name="СнятьПометку" id="4">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Снять пометку</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Снять пометку</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Picture>
+				<xr:Ref>StdPicture.UncheckAll</xr:Ref>
+				<xr:LoadTransparent>true</xr:LoadTransparent>
+			</Picture>
+			<Action>СнятьПометку</Action>
+		</Command>
+	</Commands>
+</Form>

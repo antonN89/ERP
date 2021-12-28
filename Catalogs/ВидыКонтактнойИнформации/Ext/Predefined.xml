@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<PredefinedData xmlns="http://v8.1c.ru/8.3/xcf/predef" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="CatalogPredefinedItems" version="2.10">
+	<Item id="d6e36a0f-7eb8-4323-b6b1-9eceb4478d2e">
+		<Name>СправочникКонтактныеЛицаПартнеров</Name>
+		<Code/>
+		<Description>Контактная информация справочника "Контактные лица партнеров"</Description>
+		<IsFolder>true</IsFolder>
+		<ChildItems>
+			<Item id="495091ea-7959-4cc4-896e-f47e50bb690f">
+				<Name>EmailКонтактногоЛица</Name>
+				<Code/>
+				<Description>Электронная почта</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
+		</ChildItems>
+	</Item>
+	<Item id="8c3f89aa-e339-4841-88db-be72fb13e635">
+		<Name>СправочникКонтрагенты</Name>
+		<Code/>
+		<Description>Контактная информация справочника "Контрагенты"</Description>
+		<IsFolder>true</IsFolder>
+		<ChildItems>
+			<Item id="784334b6-af9b-4202-933c-e6df2a79267b">
+				<Name>ФактАдресКонтрагента</Name>
+				<Code/>
+				<Description>Фактический адрес</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
+		</ChildItems>
+	</Item>
+</PredefinedData>

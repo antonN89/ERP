@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.10">
+	<Enum uuid="076ee398-568d-4a09-9420-fb5fd300c6c9">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.МетодыОбеспеченияПотребностей" category="Ref">
+				<xr:TypeId>ff757aeb-1df3-4edd-a765-2e3a3dd8b93c</xr:TypeId>
+				<xr:ValueId>1bd63439-1bcb-4e95-9e21-55e8daa1ac0e</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.МетодыОбеспеченияПотребностей" category="Manager">
+				<xr:TypeId>ac51b4f9-2668-41bf-9528-31e6c35b963c</xr:TypeId>
+				<xr:ValueId>d704b587-6dbb-4db4-bb3f-6e3660bb635c</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.МетодыОбеспеченияПотребностей" category="List">
+				<xr:TypeId>28618e31-eb21-4227-bd70-1f0168421566</xr:TypeId>
+				<xr:ValueId>4d693ef2-25a1-4b48-a85a-2974f70d7020</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>МетодыОбеспеченияПотребностей</Name>
+			<Comment/>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects/>
+	</Enum>
+</MetaDataObject>

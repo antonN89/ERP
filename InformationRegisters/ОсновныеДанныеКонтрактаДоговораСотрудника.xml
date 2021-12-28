@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.10">
+	<InformationRegister uuid="aa0e54be-e1e7-48e3-9511-9b65ee472ba8">
+		<InternalInfo>
+			<xr:GeneratedType name="InformationRegisterRecord.ОсновныеДанныеКонтрактаДоговораСотрудника" category="Record">
+				<xr:TypeId>d1cead73-e6eb-41a5-9c57-e358a0319723</xr:TypeId>
+				<xr:ValueId>be273ba6-9cdd-4d75-bd0a-9e902ad7893e</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterManager.ОсновныеДанныеКонтрактаДоговораСотрудника" category="Manager">
+				<xr:TypeId>026d2a06-9915-4d19-bf22-e26ce8c05ddc</xr:TypeId>
+				<xr:ValueId>b5589e6b-dd81-4fcf-b0e2-fade0e1311d2</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterSelection.ОсновныеДанныеКонтрактаДоговораСотрудника" category="Selection">
+				<xr:TypeId>0b341d22-8d72-4464-8ab8-842a33e32f10</xr:TypeId>
+				<xr:ValueId>9977210a-34e0-42fd-9339-8c27ce932bfb</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterList.ОсновныеДанныеКонтрактаДоговораСотрудника" category="List">
+				<xr:TypeId>4ffa1ed6-2082-4821-b9a7-235d6e3e8984</xr:TypeId>
+				<xr:ValueId>ca13f739-264a-4671-a10c-de7367ce06fc</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordSet.ОсновныеДанныеКонтрактаДоговораСотрудника" category="RecordSet">
+				<xr:TypeId>e912fbcd-f07a-4640-a884-bc0fe3683352</xr:TypeId>
+				<xr:ValueId>b34c8a90-c3f0-4fd0-be07-64c973a30eda</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordKey.ОсновныеДанныеКонтрактаДоговораСотрудника" category="RecordKey">
+				<xr:TypeId>b5114813-a67f-4e3e-b20f-83ce83ab30a9</xr:TypeId>
+				<xr:ValueId>f1a9ffad-cdff-443e-a3f8-be0db8a197c8</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordManager.ОсновныеДанныеКонтрактаДоговораСотрудника" category="RecordManager">
+				<xr:TypeId>d75104a4-6588-4381-b1b8-53650c4717c9</xr:TypeId>
+				<xr:ValueId>2dba0523-e886-4f55-b21a-c81fb78bbc9f</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ОсновныеДанныеКонтрактаДоговораСотрудника</Name>
+			<Comment/>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<InformationRegisterPeriodicity>Second</InformationRegisterPeriodicity>
+			<WriteMode>RecorderSubordinate</WriteMode>
+		</Properties>
+		<ChildObjects>
+			<Dimension uuid="12b95a4b-06e0-45bb-b4a9-602e221a8f5a">
+				<InternalInfo/>
+				<Properties>
+					<Name>Сотрудник</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Сотрудники</v8:Type>
+					</Type>
+				</Properties>
+			</Dimension>
+			<Dimension uuid="bc24bf3e-3247-42fd-8721-f2d1dc49b7bd">
+				<InternalInfo/>
+				<Properties>
+					<Name>ФизическоеЛицо</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.ФизическиеЛица</v8:Type>
+					</Type>
+				</Properties>
+			</Dimension>
+		</ChildObjects>
+	</InformationRegister>
+</MetaDataObject>

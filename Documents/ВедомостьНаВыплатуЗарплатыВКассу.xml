@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.10">
+	<Document uuid="564077c4-1c42-4dbd-8316-5c1840e5f9e9">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.ВедомостьНаВыплатуЗарплатыВКассу" category="Object">
+				<xr:TypeId>d96445ff-a471-4090-b535-6db79d55a1e0</xr:TypeId>
+				<xr:ValueId>15c794d5-7ac3-48b6-9b7d-3ea7ea67865f</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.ВедомостьНаВыплатуЗарплатыВКассу" category="Ref">
+				<xr:TypeId>5fb38913-880c-4aa3-9d68-b63cef533d6e</xr:TypeId>
+				<xr:ValueId>b6c4b6b6-53b9-4a9d-b65f-e06e4aaa75a4</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.ВедомостьНаВыплатуЗарплатыВКассу" category="Selection">
+				<xr:TypeId>d3c4f9c4-36bf-4e62-a268-70fec676c893</xr:TypeId>
+				<xr:ValueId>993dd978-b37e-4023-93bf-386563e8f595</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.ВедомостьНаВыплатуЗарплатыВКассу" category="List">
+				<xr:TypeId>dc68d22d-0deb-424b-91a1-c4dcb0b0e45a</xr:TypeId>
+				<xr:ValueId>9cae1668-cf80-4f64-95cd-ba6e3973c746</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.ВедомостьНаВыплатуЗарплатыВКассу" category="Manager">
+				<xr:TypeId>8cb5857d-a224-4577-976e-feeaae53f855</xr:TypeId>
+				<xr:ValueId>b8057921-bcf8-4e8f-856d-81fa8a98858f</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ВедомостьНаВыплатуЗарплатыВКассу</Name>
+			<Comment/>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<ExtendedConfigurationObject>d76eb704-c017-4f90-8e7b-fd42223fcb0a</ExtendedConfigurationObject>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects>
+			<Form>ФормаДокумента</Form>
+		</ChildObjects>
+	</Document>
+</MetaDataObject>

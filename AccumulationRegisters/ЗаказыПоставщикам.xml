@@ -1,0 +1,142 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.10">
+	<AccumulationRegister uuid="039ae7be-8912-41ae-a6c8-35f7a7b628a4">
+		<InternalInfo>
+			<xr:GeneratedType name="AccumulationRegisterRecord.ЗаказыПоставщикам" category="Record">
+				<xr:TypeId>caf02d90-9951-44f1-862f-56769d191ebf</xr:TypeId>
+				<xr:ValueId>99d927a4-8d91-460e-9699-1e960909824d</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="AccumulationRegisterManager.ЗаказыПоставщикам" category="Manager">
+				<xr:TypeId>89719218-80d8-4039-85b8-f9d486a0705b</xr:TypeId>
+				<xr:ValueId>303590d8-b193-4561-bfab-ceffa220af19</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="AccumulationRegisterSelection.ЗаказыПоставщикам" category="Selection">
+				<xr:TypeId>28949466-0250-4165-93a2-0644e8f4f5e8</xr:TypeId>
+				<xr:ValueId>eac84c73-6bb7-469b-9590-39c15a4bf07c</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="AccumulationRegisterList.ЗаказыПоставщикам" category="List">
+				<xr:TypeId>e3129e37-4928-4432-8ef7-5b32f834136c</xr:TypeId>
+				<xr:ValueId>cc43b0d7-2555-4cdf-b0cb-2d53f45bae30</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="AccumulationRegisterRecordSet.ЗаказыПоставщикам" category="RecordSet">
+				<xr:TypeId>ad3ef315-1313-49e3-965f-a630f2cbaa8e</xr:TypeId>
+				<xr:ValueId>d26489d6-42dc-47a8-b031-8de37c93dc5f</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="AccumulationRegisterRecordKey.ЗаказыПоставщикам" category="RecordKey">
+				<xr:TypeId>169f25ae-edd0-45b3-9388-d4774fe639e9</xr:TypeId>
+				<xr:ValueId>017e130d-f723-41ac-a960-704b4b2c6a19</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ЗаказыПоставщикам</Name>
+			<Comment/>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<RegisterType>Balance</RegisterType>
+		</Properties>
+		<ChildObjects>
+			<Resource uuid="29127899-e48b-4ec2-9b98-4f28028db996">
+				<InternalInfo/>
+				<Properties>
+					<Name>Заказано</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>15</v8:Digits>
+							<v8:FractionDigits>3</v8:FractionDigits>
+							<v8:AllowedSign>Any</v8:AllowedSign>
+						</v8:NumberQualifiers>
+					</Type>
+				</Properties>
+			</Resource>
+			<Resource uuid="161a82ca-4ba9-4486-809a-fa223de75b10">
+				<InternalInfo/>
+				<Properties>
+					<Name>КОформлению</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>15</v8:Digits>
+							<v8:FractionDigits>3</v8:FractionDigits>
+							<v8:AllowedSign>Any</v8:AllowedSign>
+						</v8:NumberQualifiers>
+					</Type>
+				</Properties>
+			</Resource>
+			<Attribute uuid="603dabf2-8945-4c1c-bf10-351c2453dc11">
+				<InternalInfo/>
+				<Properties>
+					<Name>ПричинаОтмены</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.ПричиныОтменыЗаказовПоставщикам</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Dimension uuid="33241f56-3b4d-4e10-9a3d-f50d3f09c4f4">
+				<InternalInfo/>
+				<Properties>
+					<Name>ЗаказПоставщику</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:DocumentRef.ЗаказПоставщику</v8:Type>
+					</Type>
+				</Properties>
+			</Dimension>
+			<Dimension uuid="fa12f365-ff0a-4fa2-869e-11256d818ad0">
+				<InternalInfo/>
+				<Properties>
+					<Name>Номенклатура</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Номенклатура</v8:Type>
+					</Type>
+				</Properties>
+			</Dimension>
+			<Dimension uuid="41730a9f-9699-47cc-933a-8bc15f263ca0">
+				<InternalInfo/>
+				<Properties>
+					<Name>Характеристика</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.ХарактеристикиНоменклатуры</v8:Type>
+					</Type>
+				</Properties>
+			</Dimension>
+			<Dimension uuid="8afe5c8a-6e68-4bf5-b251-00e62051bd1d">
+				<InternalInfo/>
+				<Properties>
+					<Name>КодСтроки</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>10</v8:Digits>
+							<v8:FractionDigits>0</v8:FractionDigits>
+							<v8:AllowedSign>Any</v8:AllowedSign>
+						</v8:NumberQualifiers>
+					</Type>
+				</Properties>
+			</Dimension>
+			<Dimension uuid="a1ea5421-3696-413b-8bf6-7611cadc4947">
+				<InternalInfo/>
+				<Properties>
+					<Name>Склад</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Склады</v8:Type>
+					</Type>
+				</Properties>
+			</Dimension>
+		</ChildObjects>
+	</AccumulationRegister>
+</MetaDataObject>

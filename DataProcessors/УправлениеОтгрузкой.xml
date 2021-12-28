@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.10">
+	<DataProcessor uuid="e4c74d01-8a83-41f6-8295-d798cdf1356f">
+		<InternalInfo>
+			<xr:GeneratedType name="DataProcessorObject.УправлениеОтгрузкой" category="Object">
+				<xr:TypeId>a6d5097f-7743-4ca1-b19d-022e8c5aaf89</xr:TypeId>
+				<xr:ValueId>e791f1fc-a37c-495c-88c8-207f4d580eaa</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DataProcessorManager.УправлениеОтгрузкой" category="Manager">
+				<xr:TypeId>cfe5703c-9d88-48c1-8a8c-1db677825892</xr:TypeId>
+				<xr:ValueId>20a8a70c-d1dd-4bb4-b62b-6b3b990510fe</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>УправлениеОтгрузкой</Name>
+			<Comment/>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<ExtendedConfigurationObject>989dc785-2e91-434d-8797-f37b9863becf</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects>
+			<Form>Форма</Form>
+			<Form>РИНЭКО_ФормаВыбораПользователя</Form>
+		</ChildObjects>
+	</DataProcessor>
+</MetaDataObject>

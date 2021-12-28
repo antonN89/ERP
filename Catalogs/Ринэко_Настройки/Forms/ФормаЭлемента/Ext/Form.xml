@@ -1,0 +1,604 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.10">
+	<Title>
+		<v8:item>
+			<v8:lang>ru</v8:lang>
+			<v8:content>Форма элемента</v8:content>
+		</v8:item>
+	</Title>
+	<WindowOpeningMode>LockOwnerWindow</WindowOpeningMode>
+	<UseForFoldersAndItems>Items</UseForFoldersAndItems>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
+	<Events>
+		<Event name="OnOpen">ПриОткрытии</Event>
+		<Event name="OnCreateAtServer">ПриСозданииНаСервере</Event>
+	</Events>
+	<ChildItems>
+		<UsualGroup name="ГруппаШапка" id="83">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа шапка</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа шапка</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Group>AlwaysHorizontal</Group>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="ГруппаШапкаРасширеннаяПодсказка" id="84"/>
+			<ChildItems>
+				<UsualGroup name="ГруппаШапкаЛево" id="85">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Группа шапка лево</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Группа шапка лево</v8:content>
+						</v8:item>
+					</ToolTip>
+					<Group>Vertical</Group>
+					<ShowTitle>false</ShowTitle>
+					<ExtendedTooltip name="ГруппаШапкаЛевоРасширеннаяПодсказка" id="86"/>
+					<ChildItems>
+						<InputField name="Код" id="1">
+							<DataPath>Объект.Code</DataPath>
+							<EditMode>EnterOnInput</EditMode>
+							<ContextMenu name="КодКонтекстноеМеню" id="2"/>
+							<ExtendedTooltip name="КодРасширеннаяПодсказка" id="3"/>
+						</InputField>
+						<InputField name="Наименование" id="4">
+							<DataPath>Объект.Description</DataPath>
+							<EditMode>EnterOnInput</EditMode>
+							<ContextMenu name="НаименованиеКонтекстноеМеню" id="5"/>
+							<ExtendedTooltip name="НаименованиеРасширеннаяПодсказка" id="6"/>
+						</InputField>
+					</ChildItems>
+				</UsualGroup>
+				<UsualGroup name="ГруппаШапкаПраво" id="87">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Группа шапка право</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Группа шапка право</v8:content>
+						</v8:item>
+					</ToolTip>
+					<ShowTitle>false</ShowTitle>
+					<ExtendedTooltip name="ГруппаШапкаПравоРасширеннаяПодсказка" id="88"/>
+				</UsualGroup>
+			</ChildItems>
+		</UsualGroup>
+		<UsualGroup name="ГруппаНастройки" id="92">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа настройки</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа настройки</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Group>AlwaysHorizontal</Group>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="ГруппаНастройкиРасширеннаяПодсказка" id="93"/>
+			<ChildItems>
+				<UsualGroup name="ГруппаНастройкиЛево" id="94">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Группа настройки лево</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Группа настройки лево</v8:content>
+						</v8:item>
+					</ToolTip>
+					<ShowTitle>false</ShowTitle>
+					<ExtendedTooltip name="ГруппаНастройкиЛевоРасширеннаяПодсказка" id="95"/>
+					<ChildItems>
+						<UsualGroup name="ГруппаНастройкиРеквизит1" id="98">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Группа настройки реквизит1</v8:content>
+								</v8:item>
+							</Title>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Группа настройки реквизит1</v8:content>
+								</v8:item>
+							</ToolTip>
+							<Group>AlwaysHorizontal</Group>
+							<ShowTitle>false</ShowTitle>
+							<ExtendedTooltip name="ГруппаНастройкиРеквизит1РасширеннаяПодсказка" id="99"/>
+							<ChildItems>
+								<InputField name="Реквизит1" id="7">
+									<DataPath>Объект.Реквизит1</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="Реквизит1КонтекстноеМеню" id="8"/>
+									<ExtendedTooltip name="Реквизит1РасширеннаяПодсказка" id="9"/>
+								</InputField>
+								<InputField name="КомментарийРеквизита1" id="118">
+									<DataPath>Объект.КомментарийРеквизита1</DataPath>
+									<TitleLocation>None</TitleLocation>
+									<ContextMenu name="КомментарийРеквизита1КонтекстноеМеню" id="119"/>
+									<ExtendedTooltip name="КомментарийРеквизита1РасширеннаяПодсказка" id="120"/>
+								</InputField>
+							</ChildItems>
+						</UsualGroup>
+						<UsualGroup name="ГруппаНастройкиРеквизит2" id="100">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Группа настройки реквизит2</v8:content>
+								</v8:item>
+							</Title>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Группа настройки реквизит2</v8:content>
+								</v8:item>
+							</ToolTip>
+							<Group>AlwaysHorizontal</Group>
+							<ShowTitle>false</ShowTitle>
+							<ExtendedTooltip name="ГруппаНастройкиРеквизит2РасширеннаяПодсказка" id="101"/>
+							<ChildItems>
+								<InputField name="Реквизит2" id="10">
+									<DataPath>Объект.Реквизит2</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="Реквизит2КонтекстноеМеню" id="11"/>
+									<ExtendedTooltip name="Реквизит2РасширеннаяПодсказка" id="12"/>
+								</InputField>
+								<InputField name="КомментарийРеквизита2" id="121">
+									<DataPath>Объект.КомментарийРеквизита2</DataPath>
+									<TitleLocation>None</TitleLocation>
+									<ContextMenu name="КомментарийРеквизита2КонтекстноеМеню" id="122"/>
+									<ExtendedTooltip name="КомментарийРеквизита2РасширеннаяПодсказка" id="123"/>
+								</InputField>
+							</ChildItems>
+						</UsualGroup>
+						<UsualGroup name="ГруппаНастройкиРеквизит3" id="102">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Группа настройки реквизит3</v8:content>
+								</v8:item>
+							</Title>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Группа настройки реквизит3</v8:content>
+								</v8:item>
+							</ToolTip>
+							<Group>AlwaysHorizontal</Group>
+							<ShowTitle>false</ShowTitle>
+							<ExtendedTooltip name="ГруппаНастройкиРеквизит3РасширеннаяПодсказка" id="103"/>
+							<ChildItems>
+								<InputField name="Реквизит3" id="13">
+									<DataPath>Объект.Реквизит3</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="Реквизит3КонтекстноеМеню" id="14"/>
+									<ExtendedTooltip name="Реквизит3РасширеннаяПодсказка" id="15"/>
+								</InputField>
+								<InputField name="КомментарийРеквизита3" id="124">
+									<DataPath>Объект.КомментарийРеквизита3</DataPath>
+									<TitleLocation>None</TitleLocation>
+									<ContextMenu name="КомментарийРеквизита3КонтекстноеМеню" id="125"/>
+									<ExtendedTooltip name="КомментарийРеквизита3РасширеннаяПодсказка" id="126"/>
+								</InputField>
+							</ChildItems>
+						</UsualGroup>
+						<UsualGroup name="ГруппаНастройкиРеквизит4" id="104">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Группа настройки реквизит4</v8:content>
+								</v8:item>
+							</Title>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Группа настройки реквизит4</v8:content>
+								</v8:item>
+							</ToolTip>
+							<Group>AlwaysHorizontal</Group>
+							<ShowTitle>false</ShowTitle>
+							<ExtendedTooltip name="ГруппаНастройкиРеквизит4РасширеннаяПодсказка" id="105"/>
+							<ChildItems>
+								<InputField name="Реквизит4" id="16">
+									<DataPath>Объект.Реквизит4</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="Реквизит4КонтекстноеМеню" id="17"/>
+									<ExtendedTooltip name="Реквизит4РасширеннаяПодсказка" id="18"/>
+								</InputField>
+								<InputField name="КомментарийРеквизита4" id="127">
+									<DataPath>Объект.КомментарийРеквизита4</DataPath>
+									<TitleLocation>None</TitleLocation>
+									<ContextMenu name="КомментарийРеквизита4КонтекстноеМеню" id="128"/>
+									<ExtendedTooltip name="КомментарийРеквизита4РасширеннаяПодсказка" id="129"/>
+								</InputField>
+							</ChildItems>
+						</UsualGroup>
+						<UsualGroup name="ГруппаНастройкиРеквизит5" id="106">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Группа настройки реквизит5</v8:content>
+								</v8:item>
+							</Title>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Группа настройки реквизит5</v8:content>
+								</v8:item>
+							</ToolTip>
+							<Group>AlwaysHorizontal</Group>
+							<ShowTitle>false</ShowTitle>
+							<ExtendedTooltip name="ГруппаНастройкиРеквизит5РасширеннаяПодсказка" id="107"/>
+							<ChildItems>
+								<InputField name="Реквизит5" id="19">
+									<DataPath>Объект.Реквизит5</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="Реквизит5КонтекстноеМеню" id="20"/>
+									<ExtendedTooltip name="Реквизит5РасширеннаяПодсказка" id="21"/>
+								</InputField>
+								<InputField name="КомментарийРеквизита5" id="130">
+									<DataPath>Объект.КомментарийРеквизита5</DataPath>
+									<TitleLocation>None</TitleLocation>
+									<ContextMenu name="КомментарийРеквизита5КонтекстноеМеню" id="131"/>
+									<ExtendedTooltip name="КомментарийРеквизита5РасширеннаяПодсказка" id="132"/>
+								</InputField>
+							</ChildItems>
+						</UsualGroup>
+						<UsualGroup name="ГруппаНастройкиРеквизит6" id="108">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Группа настройки реквизит6</v8:content>
+								</v8:item>
+							</Title>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Группа настройки реквизит6</v8:content>
+								</v8:item>
+							</ToolTip>
+							<Group>AlwaysHorizontal</Group>
+							<ShowTitle>false</ShowTitle>
+							<ExtendedTooltip name="ГруппаНастройкиРеквизит6РасширеннаяПодсказка" id="109"/>
+							<ChildItems>
+								<InputField name="Реквизит6" id="22">
+									<DataPath>Объект.Реквизит6</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="Реквизит6КонтекстноеМеню" id="23"/>
+									<ExtendedTooltip name="Реквизит6РасширеннаяПодсказка" id="24"/>
+								</InputField>
+								<InputField name="КомментарийРеквизита6" id="133">
+									<DataPath>Объект.КомментарийРеквизита6</DataPath>
+									<TitleLocation>None</TitleLocation>
+									<ContextMenu name="КомментарийРеквизита6КонтекстноеМеню" id="134"/>
+									<ExtendedTooltip name="КомментарийРеквизита6РасширеннаяПодсказка" id="135"/>
+								</InputField>
+							</ChildItems>
+						</UsualGroup>
+						<UsualGroup name="ГруппаНастройкиРеквизит7" id="110">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Группа настройки реквизит7</v8:content>
+								</v8:item>
+							</Title>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Группа настройки реквизит7</v8:content>
+								</v8:item>
+							</ToolTip>
+							<Group>AlwaysHorizontal</Group>
+							<ShowTitle>false</ShowTitle>
+							<ExtendedTooltip name="ГруппаНастройкиРеквизит7РасширеннаяПодсказка" id="111"/>
+							<ChildItems>
+								<InputField name="Реквизит7" id="25">
+									<DataPath>Объект.Реквизит7</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="Реквизит7КонтекстноеМеню" id="26"/>
+									<ExtendedTooltip name="Реквизит7РасширеннаяПодсказка" id="27"/>
+								</InputField>
+								<InputField name="КомментарийРеквизита7" id="136">
+									<DataPath>Объект.КомментарийРеквизита7</DataPath>
+									<TitleLocation>None</TitleLocation>
+									<ContextMenu name="КомментарийРеквизита7КонтекстноеМеню" id="137"/>
+									<ExtendedTooltip name="КомментарийРеквизита7РасширеннаяПодсказка" id="138"/>
+								</InputField>
+							</ChildItems>
+						</UsualGroup>
+						<UsualGroup name="ГруппаНастройкиРеквизит8" id="112">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Группа настройки реквизит8</v8:content>
+								</v8:item>
+							</Title>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Группа настройки реквизит8</v8:content>
+								</v8:item>
+							</ToolTip>
+							<Group>AlwaysHorizontal</Group>
+							<ShowTitle>false</ShowTitle>
+							<ExtendedTooltip name="ГруппаНастройкиРеквизит8РасширеннаяПодсказка" id="113"/>
+							<ChildItems>
+								<InputField name="Реквизит8" id="28">
+									<DataPath>Объект.Реквизит8</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="Реквизит8КонтекстноеМеню" id="29"/>
+									<ExtendedTooltip name="Реквизит8РасширеннаяПодсказка" id="30"/>
+								</InputField>
+								<InputField name="КомментарийРеквизита8" id="139">
+									<DataPath>Объект.КомментарийРеквизита8</DataPath>
+									<TitleLocation>None</TitleLocation>
+									<ContextMenu name="КомментарийРеквизита8КонтекстноеМеню" id="140"/>
+									<ExtendedTooltip name="КомментарийРеквизита8РасширеннаяПодсказка" id="141"/>
+								</InputField>
+							</ChildItems>
+						</UsualGroup>
+						<UsualGroup name="ГруппаНастройкиРеквизит9" id="114">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Группа настройки реквизит9</v8:content>
+								</v8:item>
+							</Title>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Группа настройки реквизит9</v8:content>
+								</v8:item>
+							</ToolTip>
+							<Group>AlwaysHorizontal</Group>
+							<ShowTitle>false</ShowTitle>
+							<ExtendedTooltip name="ГруппаНастройкиРеквизит9РасширеннаяПодсказка" id="115"/>
+							<ChildItems>
+								<InputField name="Реквизит9" id="31">
+									<DataPath>Объект.Реквизит9</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="Реквизит9КонтекстноеМеню" id="32"/>
+									<ExtendedTooltip name="Реквизит9РасширеннаяПодсказка" id="33"/>
+								</InputField>
+								<InputField name="КомментарийРеквизита9" id="142">
+									<DataPath>Объект.КомментарийРеквизита9</DataPath>
+									<TitleLocation>None</TitleLocation>
+									<ContextMenu name="КомментарийРеквизита9КонтекстноеМеню" id="143"/>
+									<ExtendedTooltip name="КомментарийРеквизита9РасширеннаяПодсказка" id="144"/>
+								</InputField>
+							</ChildItems>
+						</UsualGroup>
+						<UsualGroup name="ГруппаНастройкиРеквизит10" id="116">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Группа настройки реквизит10</v8:content>
+								</v8:item>
+							</Title>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Группа настройки реквизит10</v8:content>
+								</v8:item>
+							</ToolTip>
+							<Group>AlwaysHorizontal</Group>
+							<ShowTitle>false</ShowTitle>
+							<ExtendedTooltip name="ГруппаНастройкиРеквизит10РасширеннаяПодсказка" id="117"/>
+							<ChildItems>
+								<InputField name="Реквизит10" id="34">
+									<DataPath>Объект.Реквизит10</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="Реквизит10КонтекстноеМеню" id="35"/>
+									<ExtendedTooltip name="Реквизит10РасширеннаяПодсказка" id="36"/>
+								</InputField>
+								<InputField name="КомментарийРеквизита10" id="145">
+									<DataPath>Объект.КомментарийРеквизита10</DataPath>
+									<TitleLocation>None</TitleLocation>
+									<ContextMenu name="КомментарийРеквизита10КонтекстноеМеню" id="146"/>
+									<ExtendedTooltip name="КомментарийРеквизита10РасширеннаяПодсказка" id="147"/>
+								</InputField>
+							</ChildItems>
+						</UsualGroup>
+					</ChildItems>
+				</UsualGroup>
+				<UsualGroup name="ГруппаНастройкиПраво" id="96">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Группа настройки право</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Группа настройки право</v8:content>
+						</v8:item>
+					</ToolTip>
+					<ShowTitle>false</ShowTitle>
+					<ExtendedTooltip name="ГруппаНастройкиПравоРасширеннаяПодсказка" id="97"/>
+				</UsualGroup>
+			</ChildItems>
+		</UsualGroup>
+		<UsualGroup name="ГруппаДопНастройки" id="148">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа доп настройки</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа доп настройки</v8:content>
+				</v8:item>
+			</ToolTip>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="ГруппаДопНастройкиРасширеннаяПодсказка" id="149"/>
+			<ChildItems>
+				<Table name="ДополнительныеНастройки" id="37">
+					<Representation>List</Representation>
+					<AutoInsertNewRow>true</AutoInsertNewRow>
+					<EnableStartDrag>true</EnableStartDrag>
+					<EnableDrag>true</EnableDrag>
+					<DataPath>Объект.ДополнительныеНастройки</DataPath>
+					<RowFilter xsi:nil="true"/>
+					<ContextMenu name="ДополнительныеНастройкиКонтекстноеМеню" id="38"/>
+					<AutoCommandBar name="ДополнительныеНастройкиКоманднаяПанель" id="39"/>
+					<ExtendedTooltip name="ДополнительныеНастройкиРасширеннаяПодсказка" id="40"/>
+					<SearchStringAddition name="ДополнительныеНастройкиСтрокаПоиска" id="41">
+						<AdditionSource>
+							<Item>ДополнительныеНастройки</Item>
+							<Type>SearchStringRepresentation</Type>
+						</AdditionSource>
+						<ContextMenu name="ДополнительныеНастройкиСтрокаПоискаКонтекстноеМеню" id="42"/>
+						<ExtendedTooltip name="ДополнительныеНастройкиСтрокаПоискаРасширеннаяПодсказка" id="43"/>
+					</SearchStringAddition>
+					<ViewStatusAddition name="ДополнительныеНастройкиСостояниеПросмотра" id="44">
+						<AdditionSource>
+							<Item>ДополнительныеНастройки</Item>
+							<Type>ViewStatusRepresentation</Type>
+						</AdditionSource>
+						<ContextMenu name="ДополнительныеНастройкиСостояниеПросмотраКонтекстноеМеню" id="45"/>
+						<ExtendedTooltip name="ДополнительныеНастройкиСостояниеПросмотраРасширеннаяПодсказка" id="46"/>
+					</ViewStatusAddition>
+					<SearchControlAddition name="ДополнительныеНастройкиУправлениеПоиском" id="47">
+						<AdditionSource>
+							<Item>ДополнительныеНастройки</Item>
+							<Type>SearchControl</Type>
+						</AdditionSource>
+						<ContextMenu name="ДополнительныеНастройкиУправлениеПоискомКонтекстноеМеню" id="48"/>
+						<ExtendedTooltip name="ДополнительныеНастройкиУправлениеПоискомРасширеннаяПодсказка" id="49"/>
+					</SearchControlAddition>
+					<ChildItems>
+						<LabelField name="ДополнительныеНастройкиНомерСтроки" id="50">
+							<DataPath>Объект.ДополнительныеНастройки.LineNumber</DataPath>
+							<EditMode>EnterOnInput</EditMode>
+							<ContextMenu name="ДополнительныеНастройкиНомерСтрокиКонтекстноеМеню" id="51"/>
+							<ExtendedTooltip name="ДополнительныеНастройкиНомерСтрокиРасширеннаяПодсказка" id="52"/>
+						</LabelField>
+						<InputField name="ДополнительныеНастройкиРеквизит1" id="53">
+							<DataPath>Объект.ДополнительныеНастройки.Реквизит1</DataPath>
+							<EditMode>EnterOnInput</EditMode>
+							<ClearButton>true</ClearButton>
+							<ContextMenu name="ДополнительныеНастройкиРеквизит1КонтекстноеМеню" id="54"/>
+							<ExtendedTooltip name="ДополнительныеНастройкиРеквизит1РасширеннаяПодсказка" id="55"/>
+						</InputField>
+						<InputField name="ДополнительныеНастройкиРеквизит2" id="56">
+							<DataPath>Объект.ДополнительныеНастройки.Реквизит2</DataPath>
+							<EditMode>EnterOnInput</EditMode>
+							<ContextMenu name="ДополнительныеНастройкиРеквизит2КонтекстноеМеню" id="57"/>
+							<ExtendedTooltip name="ДополнительныеНастройкиРеквизит2РасширеннаяПодсказка" id="58"/>
+						</InputField>
+						<InputField name="ДополнительныеНастройкиРеквизит3" id="59">
+							<DataPath>Объект.ДополнительныеНастройки.Реквизит3</DataPath>
+							<EditMode>EnterOnInput</EditMode>
+							<ContextMenu name="ДополнительныеНастройкиРеквизит3КонтекстноеМеню" id="60"/>
+							<ExtendedTooltip name="ДополнительныеНастройкиРеквизит3РасширеннаяПодсказка" id="61"/>
+						</InputField>
+						<InputField name="ДополнительныеНастройкиРеквизит4" id="62">
+							<DataPath>Объект.ДополнительныеНастройки.Реквизит4</DataPath>
+							<EditMode>EnterOnInput</EditMode>
+							<ContextMenu name="ДополнительныеНастройкиРеквизит4КонтекстноеМеню" id="63"/>
+							<ExtendedTooltip name="ДополнительныеНастройкиРеквизит4РасширеннаяПодсказка" id="64"/>
+						</InputField>
+						<InputField name="ДополнительныеНастройкиРеквизит5" id="65">
+							<DataPath>Объект.ДополнительныеНастройки.Реквизит5</DataPath>
+							<EditMode>EnterOnInput</EditMode>
+							<ContextMenu name="ДополнительныеНастройкиРеквизит5КонтекстноеМеню" id="66"/>
+							<ExtendedTooltip name="ДополнительныеНастройкиРеквизит5РасширеннаяПодсказка" id="67"/>
+						</InputField>
+						<InputField name="ДополнительныеНастройкиРеквизит6" id="68">
+							<DataPath>Объект.ДополнительныеНастройки.Реквизит6</DataPath>
+							<EditMode>EnterOnInput</EditMode>
+							<ContextMenu name="ДополнительныеНастройкиРеквизит6КонтекстноеМеню" id="69"/>
+							<ExtendedTooltip name="ДополнительныеНастройкиРеквизит6РасширеннаяПодсказка" id="70"/>
+						</InputField>
+						<InputField name="ДополнительныеНастройкиРеквизит7" id="71">
+							<DataPath>Объект.ДополнительныеНастройки.Реквизит7</DataPath>
+							<EditMode>EnterOnInput</EditMode>
+							<ContextMenu name="ДополнительныеНастройкиРеквизит7КонтекстноеМеню" id="72"/>
+							<ExtendedTooltip name="ДополнительныеНастройкиРеквизит7РасширеннаяПодсказка" id="73"/>
+						</InputField>
+						<InputField name="ДополнительныеНастройкиРеквизит8" id="74">
+							<DataPath>Объект.ДополнительныеНастройки.Реквизит8</DataPath>
+							<EditMode>EnterOnInput</EditMode>
+							<ContextMenu name="ДополнительныеНастройкиРеквизит8КонтекстноеМеню" id="75"/>
+							<ExtendedTooltip name="ДополнительныеНастройкиРеквизит8РасширеннаяПодсказка" id="76"/>
+						</InputField>
+						<InputField name="ДополнительныеНастройкиРеквизит9" id="77">
+							<DataPath>Объект.ДополнительныеНастройки.Реквизит9</DataPath>
+							<EditMode>EnterOnInput</EditMode>
+							<ContextMenu name="ДополнительныеНастройкиРеквизит9КонтекстноеМеню" id="78"/>
+							<ExtendedTooltip name="ДополнительныеНастройкиРеквизит9РасширеннаяПодсказка" id="79"/>
+						</InputField>
+						<InputField name="ДополнительныеНастройкиРеквизит10" id="80">
+							<DataPath>Объект.ДополнительныеНастройки.Реквизит10</DataPath>
+							<EditMode>EnterOnInput</EditMode>
+							<ContextMenu name="ДополнительныеНастройкиРеквизит10КонтекстноеМеню" id="81"/>
+							<ExtendedTooltip name="ДополнительныеНастройкиРеквизит10РасширеннаяПодсказка" id="82"/>
+						</InputField>
+					</ChildItems>
+				</Table>
+			</ChildItems>
+		</UsualGroup>
+		<UsualGroup name="ГруппаКомментарий" id="150">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Комментарий</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа комментарий</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Behavior>Collapsible</Behavior>
+			<ExtendedTooltip name="ГруппаКомментарийРасширеннаяПодсказка" id="151"/>
+			<ChildItems>
+				<InputField name="КомментарийОбщий" id="152">
+					<DataPath>Объект.КомментарийОбщий</DataPath>
+					<TitleLocation>None</TitleLocation>
+					<AutoMaxWidth>false</AutoMaxWidth>
+					<MultiLine>true</MultiLine>
+					<ContextMenu name="КомментарийОбщийКонтекстноеМеню" id="153"/>
+					<ExtendedTooltip name="КомментарийОбщийРасширеннаяПодсказка" id="154"/>
+				</InputField>
+			</ChildItems>
+		</UsualGroup>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Объект" id="1">
+			<Type>
+				<v8:Type>cfg:CatalogObject.Ринэко_Настройки</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+			<SavedData>true</SavedData>
+		</Attribute>
+	</Attributes>
+</Form>
