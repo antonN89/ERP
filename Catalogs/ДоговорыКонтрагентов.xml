@@ -1841,6 +1841,7 @@
 					<DataHistory>Use</DataHistory>
 				</Properties>
 			</Attribute>
+<<<<<<< HEAD
 			<Attribute uuid="d499831c-4043-43ca-a040-e9d116f2f7ae">
 				<Properties>
 					<Name>Рин1_ЭДО</Name>
@@ -1881,6 +1882,8 @@
 					<DataHistory>Use</DataHistory>
 				</Properties>
 			</Attribute>
+=======
+>>>>>>> parent of 7be3d8f (Задача 00000 (в коммите много задач))
 			<TabularSection uuid="83804ad7-fe23-467b-a6a7-842270678b3a">
 				<InternalInfo>
 					<xr:GeneratedType name="CatalogTabularSection.ДоговорыКонтрагентов.ПодтверждающиеДокументы" category="TabularSection">

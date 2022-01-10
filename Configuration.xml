@@ -52,7 +52,11 @@
 			<ScriptVariant>Russian</ScriptVariant>
 			<DefaultRoles/>
 			<Vendor>Rineco</Vendor>
+<<<<<<< HEAD
 			<Version>28.12.2021_2_2.4.13.227</Version>
+=======
+			<Version>23.12.2021_2_2.4.13.227</Version>
+>>>>>>> parent of 7be3d8f (Задача 00000 (в коммите много задач))
 			<DefaultStyle/>
 			<DefaultLanguage>Language.Русский</DefaultLanguage>
 			<BriefInformation/>

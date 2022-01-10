@@ -731,14 +731,21 @@
 		<font>4</font>
 		<border>0</border>
 		<verticalAlignment>Top</verticalAlignment>
+<<<<<<< HEAD
 		<textPlacement>Cut</textPlacement>
+=======
+		<textPlacement>Wrap</textPlacement>
+>>>>>>> parent of 7be3d8f (Задача 00000 (в коммите много задач))
 		<fillType>Parameter</fillType>
 	</format>
 	<format>
 		<font>4</font>
 		<border>0</border>
 		<verticalAlignment>Top</verticalAlignment>
+<<<<<<< HEAD
 		<textPlacement>Cut</textPlacement>
+=======
+>>>>>>> parent of 7be3d8f (Задача 00000 (в коммите много задач))
 	</format>
 	<format>
 		<width>72</width>

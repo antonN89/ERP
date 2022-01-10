@@ -776,10 +776,13 @@
 				</Properties>
 			</Attribute>
 			<Form>ФормаДокумента</Form>
+<<<<<<< HEAD
 			<Form>Диспетчирование</Form>
 			<Form>Рин1_ФормаСводногоЗадания</Form>
 			<Form>Рин1_ФормаВыбораСтатейКалькуляции</Form>
 			<Form>Рин1_ФормаАнализа</Form>
+=======
+>>>>>>> parent of 7be3d8f (Задача 00000 (в коммите много задач))
 			<TabularSection uuid="ccf31e58-f26d-4135-ae8d-702842187e73">
 				<InternalInfo>
 					<xr:GeneratedType name="DocumentTabularSection.ЭтапПроизводства2_2.ОбеспечениеМатериаламиИРаботами" category="TabularSection">
@@ -2091,7 +2094,10 @@
 					</Attribute>
 				</ChildObjects>
 			</TabularSection>
+<<<<<<< HEAD
 			<Template>Рин1_ПФ_СводноеЗадание</Template>
+=======
+>>>>>>> parent of 7be3d8f (Задача 00000 (в коммите много задач))
 		</ChildObjects>
 	</Document>
 </MetaDataObject>

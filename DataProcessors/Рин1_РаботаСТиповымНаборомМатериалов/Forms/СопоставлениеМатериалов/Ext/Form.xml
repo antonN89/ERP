@@ -120,11 +120,14 @@
 							<ContextMenu name="ТаблицаСопоставленныхКонтекстноеМеню" id="57"/>
 							<AutoCommandBar name="ТаблицаСопоставленныхКоманднаяПанель" id="58">
 								<ChildItems>
+<<<<<<< HEAD
 									<Button name="ТаблицаСопоставленныхПодборНоменклатуры" id="77">
 										<Type>CommandBarButton</Type>
 										<CommandName>Form.Command.ПодборНоменклатуры</CommandName>
 										<ExtendedTooltip name="ТаблицаСопоставленныхПодборНоменклатурыРасширеннаяПодсказка" id="78"/>
 									</Button>
+=======
+>>>>>>> parent of 7be3d8f (Задача 00000 (в коммите много задач))
 									<Button name="ТаблицаСопоставленныхСопоставитьНоменклатуру" id="79">
 										<Type>CommandBarButton</Type>
 										<DefaultButton>true</DefaultButton>
@@ -137,6 +140,14 @@
 										</Title>
 										<ExtendedTooltip name="ТаблицаСопоставленныхСопоставитьНоменклатуруРасширеннаяПодсказка" id="80"/>
 									</Button>
+<<<<<<< HEAD
+=======
+									<Button name="ТаблицаСопоставленныхПодборНоменклатуры" id="77">
+										<Type>CommandBarButton</Type>
+										<CommandName>Form.Command.ПодборНоменклатуры</CommandName>
+										<ExtendedTooltip name="ТаблицаСопоставленныхПодборНоменклатурыРасширеннаяПодсказка" id="78"/>
+									</Button>
+>>>>>>> parent of 7be3d8f (Задача 00000 (в коммите много задач))
 								</ChildItems>
 							</AutoCommandBar>
 							<ExtendedTooltip name="ТаблицаСопоставленныхРасширеннаяПодсказка" id="59"/>

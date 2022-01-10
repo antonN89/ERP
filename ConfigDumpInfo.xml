@@ -301,7 +301,11 @@
 		<Metadata name="Catalog.ГруппыДоступаНоменклатуры" id="8aba8b22-f748-48bd-a990-d48f32fd0535" configVersion="e420ffe9ae14c77c7dd68cc7879eb32c58e949cc"/>
 		<Metadata name="Catalog.ГруппыФинансовогоУчетаНоменклатуры" id="e4261a73-d111-46d8-a253-c362594f8194" configVersion="0c102883f74fc4884d26f18875cbf0af8e4ffa9b"/>
 		<Metadata name="Catalog.ГруппыФинансовогоУчетаРасчетов" id="82a2fc00-42ec-4ad7-935c-1fe36f8a0e92" configVersion="821a6aab422505b6111e7e2acac8e6f068a54241"/>
+<<<<<<< HEAD
 		<Metadata name="Catalog.ДоговорыКонтрагентов" id="3bbfdb37-8fb0-490f-9092-ad3c8c5442be" configVersion="ebaee2b86803e92ce3b1b26e4075e2614c3675f0">
+=======
+		<Metadata name="Catalog.ДоговорыКонтрагентов" id="3bbfdb37-8fb0-490f-9092-ad3c8c5442be" configVersion="65ed10b37c9fd22ac3c438a4f112a00dab6de23a">
+>>>>>>> parent of 7be3d8f (Задача 00000 (в коммите много задач))
 			<Metadata name="Catalog.ДоговорыКонтрагентов.Attribute.НалогообложениеНДС" id="07594cab-8099-4077-acc0-fb6ef1b688ef"/>
 			<Metadata name="Catalog.ДоговорыКонтрагентов.Attribute.НаименованиеДляПечати" id="091d5d47-1d1b-4bc9-8700-dcd2a3081601"/>
 			<Metadata name="Catalog.ДоговорыКонтрагентов.Attribute.ДополнительнаяИнформацияПоДоставке" id="0f297b6f-bf5e-4bb1-a469-86e609558af1"/>
@@ -371,7 +375,10 @@
 			<Metadata name="Catalog.ДоговорыКонтрагентов.Attribute.ПорядокРасчетов" id="cb51cb1d-015c-4a16-9525-d6315bd30829"/>
 			<Metadata name="Catalog.ДоговорыКонтрагентов.Attribute.РИНЭКО_ДатаПолученияОригинала" id="d10bd8d3-cf47-4a20-b31e-6d74371ca3a9"/>
 			<Metadata name="Catalog.ДоговорыКонтрагентов.Attribute.Руководитель" id="d2f47959-d9a0-4018-a2dc-17fa5223c193"/>
+<<<<<<< HEAD
 			<Metadata name="Catalog.ДоговорыКонтрагентов.Attribute.Рин1_ЭДО" id="d499831c-4043-43ca-a040-e9d116f2f7ae"/>
+=======
+>>>>>>> parent of 7be3d8f (Задача 00000 (в коммите много задач))
 			<Metadata name="Catalog.ДоговорыКонтрагентов.Attribute.Менеджер" id="d9e4b146-9e83-4e7e-8df8-c455fb9ded3e"/>
 			<Metadata name="Catalog.ДоговорыКонтрагентов.Attribute.БанковскийСчетГрузополучателя" id="dbaeba3f-4bae-4d71-9417-a8edbe2a9a16"/>
 			<Metadata name="Catalog.ДоговорыКонтрагентов.TabularSection.ПодтверждающиеДокументы.Attribute.Файл" id="dcbee3fc-8733-4668-a449-50898b499deb"/>
@@ -395,7 +402,11 @@
 		<Metadata name="Catalog.ДоговорыКонтрагентов.Form.ФормаСпискаПродажи" id="6cb2f0b9-6c62-4306-adb5-2797f3bdb8e7" configVersion="98c345d3e245579a1412a20ec0a6eb60dc8ee3d5"/>
 		<Metadata name="Catalog.ДоговорыКонтрагентов.Form.ФормаСпискаПродажи.Form" id="6cb2f0b9-6c62-4306-adb5-2797f3bdb8e7.0" configVersion="c19e4a54b71deacb589785525c2c69617f5f0541"/>
 		<Metadata name="Catalog.ДоговорыКонтрагентов.Form.ФормаЭлемента" id="b377f01e-d042-405e-92a9-68485b719678" configVersion="845394de664a134bd0518c9a62692546cc140ba4"/>
+<<<<<<< HEAD
 		<Metadata name="Catalog.ДоговорыКонтрагентов.Form.ФормаЭлемента.Form" id="b377f01e-d042-405e-92a9-68485b719678.0" configVersion="e84e2083bb1862205e3248a63b4be970b1afa456"/>
+=======
+		<Metadata name="Catalog.ДоговорыКонтрагентов.Form.ФормаЭлемента.Form" id="b377f01e-d042-405e-92a9-68485b719678.0" configVersion="6f36808ef2c655c46a87eff5c6d5b1ce10edb6bc"/>
+>>>>>>> parent of 7be3d8f (Задача 00000 (в коммите много задач))
 		<Metadata name="Catalog.ДоговорыКонтрагентов.ObjectModule" id="3bbfdb37-8fb0-490f-9092-ad3c8c5442be.0" configVersion="59530023f8df4fb38dcea2671159302d59c2290d"/>
 		<Metadata name="Catalog.ДоговорыКонтрагентовПрисоединенныеФайлы" id="04efea43-2368-4557-9c45-711c9e825ea6" configVersion="0dac907124cb9dc7a669b9a7a8b3f9ba011d532e"/>
 		<Metadata name="Catalog.ДоговорыКредитовИДепозитов" id="8106f6fa-10ee-4feb-8309-2ccd92904d1c" configVersion="b971022c3b20d0d44966905aef459bcc01ea1990"/>
@@ -799,8 +810,12 @@
 		<Metadata name="Catalog.Рин1_СвойстваКлассаETIM.Form.ФормаСписка.Form" id="f63f0331-5363-4511-820c-b1b6faca6a5f.0" configVersion="16076c9c135eb8cedfcb78bc44786dab691fce95"/>
 		<Metadata name="Catalog.Рин1_СвойстваКлассаETIM.Form.ФормаЭлемента" id="5a4a3638-80f2-4b9d-8927-11e3a10601dc" configVersion="1a524d01f4f9261401e208dcd401b8efff8e8771"/>
 		<Metadata name="Catalog.Рин1_СвойстваКлассаETIM.Form.ФормаЭлемента.Form" id="5a4a3638-80f2-4b9d-8927-11e3a10601dc.0" configVersion="97780b394550e6857b28f0de6f49f30448a8908b"/>
+<<<<<<< HEAD
 		<Metadata name="Catalog.Рин1_ТиповойНаборМатериалов" id="22fa1a2d-12ab-4b89-8a8b-a07be35fccfa" configVersion="0671796720102e0359430c479878b6829c8403f3">
 			<Metadata name="Catalog.Рин1_ТиповойНаборМатериалов.Attribute.СтатьяКалькуляции" id="6e2e792f-7ce3-4243-9a51-fd7616c95046"/>
+=======
+		<Metadata name="Catalog.Рин1_ТиповойНаборМатериалов" id="22fa1a2d-12ab-4b89-8a8b-a07be35fccfa" configVersion="46e776589bcb4e39fc1c2dd22987f3759d171cab">
+>>>>>>> parent of 7be3d8f (Задача 00000 (в коммите много задач))
 			<Metadata name="Catalog.Рин1_ТиповойНаборМатериалов.Attribute.ТипЗаписи" id="f230915f-73f8-4662-8cf8-e3cb0f9a17cf"/>
 			<Metadata name="Catalog.Рин1_ТиповойНаборМатериалов.Attribute.Склад" id="f5a9389e-5cf1-4eab-89de-2aa73ec9e60e"/>
 		</Metadata>
@@ -1477,7 +1492,11 @@
 		<Metadata name="CommonPicture.ЭлектронноеПисьмо" id="346eae44-4546-4798-8776-405c3ae68bcb" configVersion="42ec725cbba55ac78f9803fa50b0c62d9267b425"/>
 		<Metadata name="CommonPicture.ЭтапЗадерживаетЗаказ" id="82ae288f-7d00-4ddd-b8ed-896662963fd8" configVersion="630e37a7eaa97f8bc08af40db829b93cf6473c4c"/>
 		<Metadata name="CommonPicture.ЭтапНаКритическомПути" id="e1267f39-2f74-4ccd-a3ce-e5361e490b64" configVersion="0adf024efe55d4759416d8441c1b5aa57d7d47d1"/>
+<<<<<<< HEAD
 		<Metadata name="Configuration.Ринэко" id="e863e6a0-1242-4626-bed8-8a3c719cba3f" configVersion="b413d6329d604c8a36578b67f80e58049548cad7"/>
+=======
+		<Metadata name="Configuration.Ринэко" id="e863e6a0-1242-4626-bed8-8a3c719cba3f" configVersion="637c238c5070ee44e2a93f688ff9eb9adf50c9b9"/>
+>>>>>>> parent of 7be3d8f (Задача 00000 (в коммите много задач))
 		<Metadata name="Configuration.Ринэко.CommandInterface" id="1c801ee0-62a0-4610-aae3-c66b2de25395.a" configVersion="85b35967ccf127895c0de837ae419267ba06851a"/>
 		<Metadata name="Configuration.Ринэко.MainSectionCommandInterface" id="1c801ee0-62a0-4610-aae3-c66b2de25395.9" configVersion="4241e0bd7b11792e353adb60f116f8e7f7297d94"/>
 		<Metadata name="Configuration.Ринэко.ManagedApplicationModule" id="1c801ee0-62a0-4610-aae3-c66b2de25395.6" configVersion="f620f455ccf1ee2698fd6ddfa42659103856aa0c"/>
@@ -2465,7 +2484,11 @@
 		<Metadata name="DataProcessor.Рин1_РаботаСАктамиРасхождений.Form.ФормаПодбораДокументовОснований.Help" id="16b2f11a-2aa4-4b65-a035-d0ef2f78f998.1" configVersion="77816598b0104ebdef85d857b7b16b309b2327f4"/>
 		<Metadata name="DataProcessor.Рин1_РаботаСАктамиРасхождений.Template.ОформляемыеДокументы" id="3e389829-b3b4-4439-b956-5e4653dbe7c9" configVersion="9542ff411f0aecb30a18dc2206473fdb5ba66799"/>
 		<Metadata name="DataProcessor.Рин1_РаботаСАктамиРасхождений.Template.ОформляемыеДокументы.Template" id="3e389829-b3b4-4439-b956-5e4653dbe7c9.0" configVersion="882424851c8565e317b5cc015d0e3e158e5ece47"/>
+<<<<<<< HEAD
 		<Metadata name="DataProcessor.Рин1_РаботаСТиповымНаборомМатериалов" id="528e835d-c4f4-4e88-94ad-f934dc539943" configVersion="eae111525d9d9c14a67ceadc3964916b73c6c321">
+=======
+		<Metadata name="DataProcessor.Рин1_РаботаСТиповымНаборомМатериалов" id="528e835d-c4f4-4e88-94ad-f934dc539943" configVersion="a3c716f4fa1f8fe46ed9c6681fd87e3ea88ba7a2">
+>>>>>>> parent of 7be3d8f (Задача 00000 (в коммите много задач))
 			<Metadata name="DataProcessor.Рин1_РаботаСТиповымНаборомМатериалов.TabularSection.ТаблицаВыбранных.Attribute.ОстаткиНаОсновном" id="1a2d7c52-a65d-4d23-9f59-9196259a8a00"/>
 			<Metadata name="DataProcessor.Рин1_РаботаСТиповымНаборомМатериалов.TabularSection.ТаблицаВыбранных.Attribute.Номенклатура" id="295a6eef-ca41-43cf-b7ad-8e6963346f4d"/>
 			<Metadata name="DataProcessor.Рин1_РаботаСТиповымНаборомМатериалов.TabularSection.ТаблицаВыбранных.Attribute.ОстаткиНаПроизводстве" id="32fcfee5-c418-471b-8fb2-188d9de83721"/>
@@ -2481,6 +2504,7 @@
 			<Metadata name="DataProcessor.Рин1_РаботаСТиповымНаборомМатериалов.TabularSection.ТаблицаВыбранных.Attribute.ПереданоИтог" id="dcdebfe8-6a86-4a19-a5e2-8f6a186ea021"/>
 			<Metadata name="DataProcessor.Рин1_РаботаСТиповымНаборомМатериалов.TabularSection.ТаблицаВыбранных.Attribute.КодСтроки" id="eab6ce48-4e85-4e4c-af3d-a3532944f74e"/>
 			<Metadata name="DataProcessor.Рин1_РаботаСТиповымНаборомМатериалов.TabularSection.ТаблицаСопоставленных.Attribute.Порядок" id="f74dcbb6-9a87-41ac-add5-73a94be57aae"/>
+<<<<<<< HEAD
 			<Metadata name="DataProcessor.Рин1_РаботаСТиповымНаборомМатериалов.TabularSection.ТаблицаВыбранных.Attribute.СтатьяКалькуляции" id="fc8892cb-4a94-42d7-8bce-fadee2ef5c2e"/>
 		</Metadata>
 		<Metadata name="DataProcessor.Рин1_РаботаСТиповымНаборомМатериалов.Form.ПодборМатериалов" id="c35b6453-91f1-4323-997d-35a7b1a3ed8e" configVersion="10f9a47e0135517065e3c35e3889cde52b410062"/>
@@ -2491,6 +2515,17 @@
 		<Metadata name="DataProcessor.Рин1_РаботаСТиповымНаборомМатериалов.Form.ФормаВыборТиповыхНаборовПередПечатью.Form" id="701268df-f0e0-4760-9919-133ce2d82e40.0" configVersion="34041566dedebb3439e25aef51b3a24e12f28d40"/>
 		<Metadata name="DataProcessor.Рин1_РаботаСТиповымНаборомМатериалов.Template.СписокТиповыхМатериалов" id="f367bfc9-5940-475f-8117-7cf7e00444e1" configVersion="e09c75e3e5197dc5a7e5affd8d03a5bccd9da935"/>
 		<Metadata name="DataProcessor.Рин1_РаботаСТиповымНаборомМатериалов.Template.СписокТиповыхМатериалов.Template" id="f367bfc9-5940-475f-8117-7cf7e00444e1.0" configVersion="85b234889f167b4fbac2edb57ac1e61feee2a202"/>
+=======
+		</Metadata>
+		<Metadata name="DataProcessor.Рин1_РаботаСТиповымНаборомМатериалов.Form.ПодборМатериалов" id="c35b6453-91f1-4323-997d-35a7b1a3ed8e" configVersion="10f9a47e0135517065e3c35e3889cde52b410062"/>
+		<Metadata name="DataProcessor.Рин1_РаботаСТиповымНаборомМатериалов.Form.ПодборМатериалов.Form" id="c35b6453-91f1-4323-997d-35a7b1a3ed8e.0" configVersion="213c6f06218308460c029b622fab21d4d2efa1fd"/>
+		<Metadata name="DataProcessor.Рин1_РаботаСТиповымНаборомМатериалов.Form.СопоставлениеМатериалов" id="a3897a1d-5fbe-4bef-84cc-43d10685e91c" configVersion="1a02ecc491a8eb9f32e07d5869ffc2cc458fc019"/>
+		<Metadata name="DataProcessor.Рин1_РаботаСТиповымНаборомМатериалов.Form.СопоставлениеМатериалов.Form" id="a3897a1d-5fbe-4bef-84cc-43d10685e91c.0" configVersion="e29c32e5146e97fd3fd7088d6e9d0ec0b9666011"/>
+		<Metadata name="DataProcessor.Рин1_РаботаСТиповымНаборомМатериалов.Form.ФормаВыборТиповыхНаборовПередПечатью" id="701268df-f0e0-4760-9919-133ce2d82e40" configVersion="9c485acdd782a5ef94edbfb0dcf93e530fa43daa"/>
+		<Metadata name="DataProcessor.Рин1_РаботаСТиповымНаборомМатериалов.Form.ФормаВыборТиповыхНаборовПередПечатью.Form" id="701268df-f0e0-4760-9919-133ce2d82e40.0" configVersion="34041566dedebb3439e25aef51b3a24e12f28d40"/>
+		<Metadata name="DataProcessor.Рин1_РаботаСТиповымНаборомМатериалов.Template.СписокТиповыхМатериалов" id="f367bfc9-5940-475f-8117-7cf7e00444e1" configVersion="e09c75e3e5197dc5a7e5affd8d03a5bccd9da935"/>
+		<Metadata name="DataProcessor.Рин1_РаботаСТиповымНаборомМатериалов.Template.СписокТиповыхМатериалов.Template" id="f367bfc9-5940-475f-8117-7cf7e00444e1.0" configVersion="909b841004453f3a6f3000d868d3be40dbc8c786"/>
+>>>>>>> parent of 7be3d8f (Задача 00000 (в коммите много задач))
 		<Metadata name="DataProcessor.Рин1_РедакторHTML" id="229bedc7-8d04-47cf-8b8d-631cefefb09c" configVersion="046c4e7325dfe5d55f3ffc2f5cdd5e9cc48ab649">
 			<Metadata name="DataProcessor.Рин1_РедакторHTML.Attribute.ТекстHTML" id="1fab53aa-550e-4102-ac33-ceaa691bc64a"/>
 		</Metadata>
@@ -2536,7 +2571,11 @@
 		<Metadata name="DataProcessor.ФормированиеСменныхЗаданий.Form.РабочееМесто.Form" id="0aef7cd1-f61e-4ba5-9606-e537394d6b22.0" configVersion="8cb3a8f219c8a99b6156a3a2318cbd464bb63505"/>
 		<Metadata name="DataProcessor.гиг_АРМ_НачальникаПроизводства" id="0602ffd0-656e-4402-a066-3caa297425f4" configVersion="4b6a0b5ac42b0051cc01af2431c70f4d6f7bc855"/>
 		<Metadata name="DataProcessor.гиг_АРМ_НачальникаПроизводства.Form.АРМНачальникаПроизводства" id="c1e056af-0443-42e6-bbe2-6afec9f37bcd" configVersion="5d882d9502a865fa8e14404492b3b32edd0e7147"/>
+<<<<<<< HEAD
 		<Metadata name="DataProcessor.гиг_АРМ_НачальникаПроизводства.Form.АРМНачальникаПроизводства.Form" id="c1e056af-0443-42e6-bbe2-6afec9f37bcd.0" configVersion="49d70407480b400b112df54dd5274245a0df226d"/>
+=======
+		<Metadata name="DataProcessor.гиг_АРМ_НачальникаПроизводства.Form.АРМНачальникаПроизводства.Form" id="c1e056af-0443-42e6-bbe2-6afec9f37bcd.0" configVersion="0c7034bed91586db7ab2cdf6d0507870489bc226"/>
+>>>>>>> parent of 7be3d8f (Задача 00000 (в коммите много задач))
 		<Metadata name="DataProcessor.гиг_АРМ_НачальникаПроизводства.Form.АРМНачальникаПроизводства.Help" id="c1e056af-0443-42e6-bbe2-6afec9f37bcd.1" configVersion="850e5a0694fa594125e1209f4cd516d956d00c28"/>
 		<Metadata name="DataProcessor.гиг_АРМ_НачальникаПроизводства.Form.ФормаВыбораСтатусаЭтапа" id="0d531164-9b41-4450-ae7c-9bf2e46936cb" configVersion="6d5d8be8ee81d64854b8356bf68fbc1cb21a51b5"/>
 		<Metadata name="DataProcessor.гиг_АРМ_НачальникаПроизводства.Form.ФормаВыбораСтатусаЭтапа.Form" id="0d531164-9b41-4450-ae7c-9bf2e46936cb.0" configVersion="16147910ff263ceec0db9e3c44b4e157c2ff4b5e"/>
@@ -3717,7 +3756,11 @@
 			<Metadata name="Document.ПриобретениеТоваровУслуг.Attribute.СуммаДокумента" id="ffc3de97-ce5c-42a8-8c3e-2db581a4b7f1"/>
 		</Metadata>
 		<Metadata name="Document.ПриобретениеТоваровУслуг.Form.ФормаДокумента" id="3a561716-7ea5-4193-9765-3347cc7ec542" configVersion="c158fc582dcc5bf10a7ed43e0c3cde3384ed8cad"/>
+<<<<<<< HEAD
 		<Metadata name="Document.ПриобретениеТоваровУслуг.Form.ФормаДокумента.Form" id="3a561716-7ea5-4193-9765-3347cc7ec542.0" configVersion="3cfe01588adfa5c374344a0b112461f2b9ef91a7"/>
+=======
+		<Metadata name="Document.ПриобретениеТоваровУслуг.Form.ФормаДокумента.Form" id="3a561716-7ea5-4193-9765-3347cc7ec542.0" configVersion="6381b7aecc3387bba6c1a17ba32e1f9a62c709a6"/>
+>>>>>>> parent of 7be3d8f (Задача 00000 (в коммите много задач))
 		<Metadata name="Document.ПриобретениеТоваровУслуг.Form.ФормаСписка" id="5222dff8-8b24-4f2a-a6ca-5570ccd16d7b" configVersion="d3fcf5297c9f09cf4436e07e4cc41ea60552b0cf"/>
 		<Metadata name="Document.ПриобретениеТоваровУслуг.Form.ФормаСписка.Form" id="5222dff8-8b24-4f2a-a6ca-5570ccd16d7b.0" configVersion="9fc440ac8e77e111754471589d753a03a19c4e4d"/>
 		<Metadata name="Document.ПриобретениеТоваровУслуг.ManagerModule" id="6b8d098b-abf5-409d-9848-afdb3a343218.2" configVersion="7ba7ae31c4b6ab1e45f1a36bad1abbc01e0d6c95"/>
@@ -3955,7 +3998,11 @@
 			<Metadata name="Document.Рин1_КорректировкаРезервовТоваров.TabularSection.Товары.Attribute.Номенклатура" id="f0264a78-6020-4d71-98b3-f162af64c35c"/>
 		</Metadata>
 		<Metadata name="Document.Рин1_КорректировкаРезервовТоваров.Form.ФормаДокумента" id="d6483380-bd55-4fe5-a812-e7efda168cc0" configVersion="11021267c19f98134be112bc667192cb2513bf4c"/>
+<<<<<<< HEAD
 		<Metadata name="Document.Рин1_КорректировкаРезервовТоваров.Form.ФормаДокумента.Form" id="d6483380-bd55-4fe5-a812-e7efda168cc0.0" configVersion="17d9f5c2cd84a0b148a8e4babe94911ebe30d82e"/>
+=======
+		<Metadata name="Document.Рин1_КорректировкаРезервовТоваров.Form.ФормаДокумента.Form" id="d6483380-bd55-4fe5-a812-e7efda168cc0.0" configVersion="3cc7a3f92f5dddb623dadc4f986cfc020abc713c"/>
+>>>>>>> parent of 7be3d8f (Задача 00000 (в коммите много задач))
 		<Metadata name="Document.Рин1_КорректировкаРезервовТоваров.Help" id="d1742686-62c1-4879-86ec-98a047ef1cba.1" configVersion="f4b91963af1b88553ab9982306591b25befa2013"/>
 		<Metadata name="Document.Рин1_КорректировкаРезервовТоваров.ManagerModule" id="d1742686-62c1-4879-86ec-98a047ef1cba.2" configVersion="f26d67bb62ebd369cc0397b77cceba642241e5b3"/>
 		<Metadata name="Document.Рин1_КорректировкаРезервовТоваров.ObjectModule" id="d1742686-62c1-4879-86ec-98a047ef1cba.0" configVersion="371fd57e0668df4e9a5a5977b3aba93a24fe8324"/>
@@ -4115,7 +4162,11 @@
 		<Metadata name="Document.УведомлениеОЗачисленииВалюты" id="372ccc7e-96a0-4c62-aa0b-e7c6fae11384" configVersion="bec8a1c8654a3377281ac6d044ea2195cc528fc8"/>
 		<Metadata name="Document.УпаковочныйЛист" id="50381926-b462-4ab3-bbc6-be14835251e4" configVersion="c475dea89f518644a1a0e6f58918249bc5f050ce"/>
 		<Metadata name="Document.ЧекККМ" id="f45ce972-ba84-4690-bfe4-8a40f331684e" configVersion="70028cc4f4507a241f955ccf34dab1e3245031a8"/>
+<<<<<<< HEAD
 		<Metadata name="Document.ЭтапПроизводства2_2" id="79d4df6e-d423-4845-8a17-6d9f831075cf" configVersion="35c25af3a05432b9a96d5e58ad021f65b2c34247">
+=======
+		<Metadata name="Document.ЭтапПроизводства2_2" id="79d4df6e-d423-4845-8a17-6d9f831075cf" configVersion="e781936610bb9cc0be3adcd72fbe8a16d2a2f214">
+>>>>>>> parent of 7be3d8f (Задача 00000 (в коммите много задач))
 			<Metadata name="Document.ЭтапПроизводства2_2.TabularSection.РасходМатериаловИРабот.Attribute.Номенклатура" id="0118b6fe-8e8a-4233-93e1-904c8216d6c9"/>
 			<Metadata name="Document.ЭтапПроизводства2_2.TabularSection.ПобочныеИзделия.Attribute.СтатьяРасходов" id="03aeede4-2961-40be-a0e2-6d59057a989f"/>
 			<Metadata name="Document.ЭтапПроизводства2_2.Attribute.СтатьяКалькуляции" id="0ad41c73-9520-46c3-9881-c74190b63286"/>
@@ -4263,6 +4314,7 @@
 			<Metadata name="Document.ЭтапПроизводства2_2.Attribute.Подразделение" id="ffcaada9-1fa8-402b-bd83-1010274ea06d"/>
 		</Metadata>
 		<Metadata name="Document.ЭтапПроизводства2_2.Form.Диспетчирование" id="39fda9ee-d3f1-4ef4-ba2b-6acc3807664a" configVersion="980a75760d132a7bbf68e5bc731b723041060d5e"/>
+<<<<<<< HEAD
 		<Metadata name="Document.ЭтапПроизводства2_2.Form.Диспетчирование.Form" id="39fda9ee-d3f1-4ef4-ba2b-6acc3807664a.0" configVersion="86f958ab685749c81a0cad15aa9b689e645433bd"/>
 		<Metadata name="Document.ЭтапПроизводства2_2.Form.Рин1_ФормаАнализа" id="4b7c141f-4aaa-4b46-8021-b48ec490228f" configVersion="416a696511f3786ae08fc2ca67b9a17ef1e663a2"/>
 		<Metadata name="Document.ЭтапПроизводства2_2.Form.Рин1_ФормаАнализа.Form" id="4b7c141f-4aaa-4b46-8021-b48ec490228f.0" configVersion="af17629138ae7683a2f330b7577ad27edfb46f74"/>
@@ -4270,12 +4322,18 @@
 		<Metadata name="Document.ЭтапПроизводства2_2.Form.Рин1_ФормаВыбораСтатейКалькуляции.Form" id="ed74995c-45ba-474c-9be8-1922530454c8.0" configVersion="333790ca5dd0de61b8e0f5aded91411f869a92de"/>
 		<Metadata name="Document.ЭтапПроизводства2_2.Form.Рин1_ФормаСводногоЗадания" id="7bee5d9f-06d4-4b26-9c75-27fe2bd0f6ed" configVersion="ad7923b8dc64e6edb9712358101ecc944cbbe53e"/>
 		<Metadata name="Document.ЭтапПроизводства2_2.Form.Рин1_ФормаСводногоЗадания.Form" id="7bee5d9f-06d4-4b26-9c75-27fe2bd0f6ed.0" configVersion="a19287208745a86f3b019ceda353da6aace98b43"/>
+=======
+		<Metadata name="Document.ЭтапПроизводства2_2.Form.Диспетчирование.Form" id="39fda9ee-d3f1-4ef4-ba2b-6acc3807664a.0" configVersion="e40e53424f0467cdb7ca173f8f5443a6deb9b95c"/>
+>>>>>>> parent of 7be3d8f (Задача 00000 (в коммите много задач))
 		<Metadata name="Document.ЭтапПроизводства2_2.Form.ФормаДокумента" id="afadb61d-fd29-4f58-bfa5-fa19133cfc81" configVersion="8822eee4553da9d2a59b9dede6f5edc31e537f3e"/>
 		<Metadata name="Document.ЭтапПроизводства2_2.Form.ФормаДокумента.Form" id="afadb61d-fd29-4f58-bfa5-fa19133cfc81.0" configVersion="4dd73d9c6d0a6bf50d14d5bba57fbea2bfabaa46"/>
 		<Metadata name="Document.ЭтапПроизводства2_2.ManagerModule" id="79d4df6e-d423-4845-8a17-6d9f831075cf.2" configVersion="e17604ca4e989aa4abdb514bb9ab3e3282154011"/>
 		<Metadata name="Document.ЭтапПроизводства2_2.ObjectModule" id="79d4df6e-d423-4845-8a17-6d9f831075cf.0" configVersion="8ad8a92e8753a3bf70136b660912d5498892b7a7"/>
+<<<<<<< HEAD
 		<Metadata name="Document.ЭтапПроизводства2_2.Template.Рин1_ПФ_СводноеЗадание" id="0203de1a-a036-4f94-ac3c-7e830c7aff92" configVersion="55f834c6a63013c5034f052134503c7b99f2a42a"/>
 		<Metadata name="Document.ЭтапПроизводства2_2.Template.Рин1_ПФ_СводноеЗадание.Template" id="0203de1a-a036-4f94-ac3c-7e830c7aff92.0" configVersion="019d695cd8461a52f6743ea2d4cbad7fef6d06f6"/>
+=======
+>>>>>>> parent of 7be3d8f (Задача 00000 (в коммите много задач))
 		<Metadata name="Enum.ВариантыАнализаНоменклатурыПродаваемойСовместно" id="52bb2e35-6333-41da-b7c8-36966a422e87" configVersion="44db679ae90586fb88b14e042ef6e7467d92a351"/>
 		<Metadata name="Enum.ВариантыДействийПоРасхождениямВАктеПослеОтгрузки" id="5ee2b68c-6ec5-451f-8269-cb3b84fbcc90" configVersion="5c17b38562ff4bfd6f197caac4a4e4cf68f0ee93"/>
 		<Metadata name="Enum.ВариантыДействийПоРасхождениямВАктеПослеПриемки" id="d876c621-3060-4ea6-b5a3-264ef120f148" configVersion="75cb589a37c4bc89abcf143bc9540a9cb9c634a3">

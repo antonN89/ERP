@@ -167,6 +167,7 @@
 					<DataHistory>Use</DataHistory>
 				</Properties>
 			</Attribute>
+<<<<<<< HEAD
 			<Attribute uuid="6e2e792f-7ce3-4243-9a51-fd7616c95046">
 				<Properties>
 					<Name>СтатьяКалькуляции</Name>
@@ -207,6 +208,8 @@
 					<DataHistory>Use</DataHistory>
 				</Properties>
 			</Attribute>
+=======
+>>>>>>> parent of 7be3d8f (Задача 00000 (в коммите много задач))
 		</ChildObjects>
 	</Catalog>
 </MetaDataObject>
