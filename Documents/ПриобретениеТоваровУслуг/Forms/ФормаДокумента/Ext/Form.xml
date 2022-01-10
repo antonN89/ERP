@@ -1122,12 +1122,9 @@
 							<Hiperlink>true</Hiperlink>
 							<ContextMenu name="НадписьВалютыКонтекстноеМеню" id="1771"/>
 							<ExtendedTooltip name="НадписьВалютыРасширеннаяПодсказка" id="1772"/>
-<<<<<<< HEAD
 							<Events>
 								<Event name="Click" callType="Override">Рин1_НадписьВалютыНажатиеВместо</Event>
 							</Events>
-=======
->>>>>>> parent of 7be3d8f (Задача 00000 (в коммите много задач))
 						</LabelField>
 						<UsualGroup name="ГруппаОплата" id="1526">
 							<Title>

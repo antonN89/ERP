@@ -2238,7 +2238,6 @@ type</v8:content>
 							<ShowTitle>false</ShowTitle>
 							<ExtendedTooltip name="ГруппаРасчетыПраваяРасширеннаяПодсказка" id="735"/>
 							<ChildItems>
-<<<<<<< HEAD
 								<CheckBoxField name="Рин1_ЭДО" id="1036">
 									<DataPath>Объект.Рин1_ЭДО</DataPath>
 									<ToolTip>
@@ -2251,8 +2250,6 @@ type</v8:content>
 									<ContextMenu name="Рин1_ЭДОКонтекстноеМеню" id="1037"/>
 									<ExtendedTooltip name="Рин1_ЭДОРасширеннаяПодсказка" id="1038"/>
 								</CheckBoxField>
-=======
->>>>>>> parent of 7be3d8f (Задача 00000 (в коммите много задач))
 								<UsualGroup name="ГруппаОформлениеЗакупок" id="736">
 									<Title>
 										<v8:item>

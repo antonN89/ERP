@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.10">
+	<Catalog uuid="a49b2667-80e0-4344-aa93-ee7501c6ee2c">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.РесурсныеСпецификацииПрисоединенныеФайлы" category="Object">
+				<xr:TypeId>a8be6020-0f82-4834-9a82-99902226bbe1</xr:TypeId>
+				<xr:ValueId>873b9677-f23e-4030-8b04-ea6f5b224624</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.РесурсныеСпецификацииПрисоединенныеФайлы" category="Ref">
+				<xr:TypeId>813d3ad0-4efe-409d-8749-a80e3ad6661c</xr:TypeId>
+				<xr:ValueId>979a64a9-0677-4479-8a00-56cdbb899f98</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.РесурсныеСпецификацииПрисоединенныеФайлы" category="Selection">
+				<xr:TypeId>3189c542-f825-4b1b-a094-72496f2d8eee</xr:TypeId>
+				<xr:ValueId>043873a3-2d4b-48c7-9c3f-4185fe4e966e</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.РесурсныеСпецификацииПрисоединенныеФайлы" category="List">
+				<xr:TypeId>bde62ef4-4949-4b1d-a8b5-6f09af416c2a</xr:TypeId>
+				<xr:ValueId>33d7696d-a8af-4e24-9d20-16b1180ae7f9</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.РесурсныеСпецификацииПрисоединенныеФайлы" category="Manager">
+				<xr:TypeId>330da0b4-131b-4732-98be-648d4273add3</xr:TypeId>
+				<xr:ValueId>f04f6e35-e791-4a4f-b373-88d959be1ea2</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>РесурсныеСпецификацииПрисоединенныеФайлы</Name>
+			<Comment/>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<ExtendedConfigurationObject>6d00f991-0ab7-4018-bf80-e990d7552c02</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="4095b974-f60c-4461-9e72-14d7e834f15b">
+				<Properties>
+					<Name>Рин1_ВидФайла</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Вид файла</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Рин1_ТиповойНаборМатериалов</v8:Type>
+					</Type>
+					<PasswordMode>false</PasswordMode>
+					<Format/>
+					<EditFormat/>
+					<ToolTip/>
+					<MarkNegatives>false</MarkNegatives>
+					<Mask/>
+					<MultiLine>false</MultiLine>
+					<ExtendedEdit>false</ExtendedEdit>
+					<MinValue xsi:nil="true"/>
+					<MaxValue xsi:nil="true"/>
+					<FillFromFillingValue>false</FillFromFillingValue>
+					<FillValue xsi:nil="true"/>
+					<FillChecking>DontCheck</FillChecking>
+					<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
+					<ChoiceParameterLinks/>
+					<ChoiceParameters/>
+					<QuickChoice>Auto</QuickChoice>
+					<CreateOnInput>Auto</CreateOnInput>
+					<ChoiceForm/>
+					<LinkByType/>
+					<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
+					<Use>ForItem</Use>
+					<Indexing>DontIndex</Indexing>
+					<FullTextSearch>Use</FullTextSearch>
+					<DataHistory>Use</DataHistory>
+				</Properties>
+			</Attribute>
+			<Form>Рин1_ФормаСписка</Form>
+		</ChildObjects>
+	</Catalog>
+</MetaDataObject>
